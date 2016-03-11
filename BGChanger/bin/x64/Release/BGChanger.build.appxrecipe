@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>VLAD-SB</Machine>
+    <WindowsUser>vlad</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>0fc025b0-a5c0-4a6c-bd15-347db335f0f0</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\obj\x64\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\af\Humanizer.resources.dll">
+      <PackagePath>af\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\ApplicationInsights.config">
+      <PackagePath>ApplicationInsights.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\ar\Humanizer.resources.dll">
+      <PackagePath>ar\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\BGChanger.dll">
+      <PackagePath>BGChanger.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\BGChanger.exe">
+      <PackagePath>BGChanger.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\bg\Humanizer.resources.dll">
+      <PackagePath>bg\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\bn-BD\Humanizer.resources.dll">
+      <PackagePath>bn-BD\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\ClrCompression.dll">
+      <PackagePath>ClrCompression.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\cs\Humanizer.resources.dll">
+      <PackagePath>cs\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\da\Humanizer.resources.dll">
+      <PackagePath>da\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\de\Humanizer.resources.dll">
+      <PackagePath>de\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\el\Humanizer.resources.dll">
+      <PackagePath>el\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\es\Humanizer.resources.dll">
+      <PackagePath>es\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\fa\Humanizer.resources.dll">
+      <PackagePath>fa\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\fi-FI\Humanizer.resources.dll">
+      <PackagePath>fi-FI\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\fr-BE\Humanizer.resources.dll">
+      <PackagePath>fr-BE\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\fr\Humanizer.resources.dll">
+      <PackagePath>fr\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\he\Humanizer.resources.dll">
+      <PackagePath>he\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\hr\Humanizer.resources.dll">
+      <PackagePath>hr\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\hu\Humanizer.resources.dll">
+      <PackagePath>hu\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\id\Humanizer.resources.dll">
+      <PackagePath>id\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\it\Humanizer.resources.dll">
+      <PackagePath>it\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\ja\Humanizer.resources.dll">
+      <PackagePath>ja\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\nb-NO\Humanizer.resources.dll">
+      <PackagePath>nb-NO\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\nb\Humanizer.resources.dll">
+      <PackagePath>nb\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\nl\Humanizer.resources.dll">
+      <PackagePath>nl\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\pl\Humanizer.resources.dll">
+      <PackagePath>pl\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\pt\Humanizer.resources.dll">
+      <PackagePath>pt\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\ro\Humanizer.resources.dll">
+      <PackagePath>ro\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\ru\Humanizer.resources.dll">
+      <PackagePath>ru\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\sk\Humanizer.resources.dll">
+      <PackagePath>sk\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\sl\Humanizer.resources.dll">
+      <PackagePath>sl\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\sr-Latn\Humanizer.resources.dll">
+      <PackagePath>sr-Latn\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\sr\Humanizer.resources.dll">
+      <PackagePath>sr\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\sv\Humanizer.resources.dll">
+      <PackagePath>sv\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\tr\Humanizer.resources.dll">
+      <PackagePath>tr\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\uk\Humanizer.resources.dll">
+      <PackagePath>uk\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\uz-Cyrl-UZ\Humanizer.resources.dll">
+      <PackagePath>uz-Cyrl-UZ\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\uz-Latn-UZ\Humanizer.resources.dll">
+      <PackagePath>uz-Latn-UZ\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\vi\Humanizer.resources.dll">
+      <PackagePath>vi\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\zh-CN\Humanizer.resources.dll">
+      <PackagePath>zh-CN\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\zh-Hans\Humanizer.resources.dll">
+      <PackagePath>zh-Hans\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\zh-Hant\Humanizer.resources.dll">
+      <PackagePath>zh-Hant\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\_Resources\0.rsrc">
+      <PackagePath>_Resources\0.rsrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\_Resources\index.txt">
+      <PackagePath>_Resources\index.txt</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\">
+      <Name>Microsoft.NET.Native.Framework.1.2</Name>
+      <Version>1.2.23231.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.2, MinVersion = 1.2.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\.\arm\ret\Native\Microsoft.NET.Native.Framework.1.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\">
+      <Name>Microsoft.NET.Native.Framework.1.2</Name>
+      <Version>1.2.23231.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.2, MinVersion = 1.2.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\.\x64\ret\Native\Microsoft.NET.Native.Framework.1.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\">
+      <Name>Microsoft.NET.Native.Framework.1.2</Name>
+      <Version>1.2.23231.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.2, MinVersion = 1.2.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\.\x86\ret\Native\Microsoft.NET.Native.Framework.1.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
+      <Name>Microsoft.NET.Native.Runtime.1.1</Name>
+      <Version>1.1.23406.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23406.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\ARM\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
+      <Name>Microsoft.NET.Native.Runtime.1.1</Name>
+      <Version>1.1.23406.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23406.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\x64\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
+      <Name>Microsoft.NET.Native.Runtime.1.1</Name>
+      <Version>1.1.23406.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23406.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\x86\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
