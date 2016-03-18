@@ -99,9 +99,6 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Client\ServiceClient.cs" />
-    <Compile Include="Client\FileHelper.cs" />
-    <Compile Include="Client\SettingsHelper.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -133,9 +130,21 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\BGChanger-Background\BGChanger-Background.csproj">
+      <Project>{0974f3e1-79c6-41f9-939c-d7d3db42e801}</Project>
+      <Name>BGChanger-Background</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BGChanger-Client\BGChanger-Client.csproj">
+      <Project>{6bebf846-cd1a-4b3e-bcb9-2b1681a1cb5e}</Project>
+      <Name>BGChanger-Client</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

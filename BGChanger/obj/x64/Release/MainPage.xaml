@@ -11,14 +11,14 @@
                CompactPaneLength="50" OpenPaneLength="400">
         <SplitView.Pane>
             <StackPanel Background="#16171C" VerticalAlignment="Stretch" Height="Auto">
-                <Button x:ConnectionId='2' x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
+                <Button x:ConnectionId='2' x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE713;"
                     Width="50" Height="50" Background="Transparent"                              />
 
                 <StackPanel Orientation="Vertical">
                     <StackPanel Orientation="Horizontal">
                         <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE753;"
                         Width="50" Height="50" Padding="18" />
-                        <TextBlock x:Uid="ServerInfoSection" Text="" FontWeight="SemiBold" FontSize="18" VerticalAlignment="Center" />
+                        <TextBlock x:Uid="ServerAddressInfoSection" Text="" FontWeight="SemiBold" FontSize="18" VerticalAlignment="Center" />
                     </StackPanel>
                     <Grid>
                         <Grid.ColumnDefinitions>
@@ -31,7 +31,7 @@
                             <RowDefinition Height="*"></RowDefinition>
                         </Grid.RowDefinitions>
 
-                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Server URL" FontWeight="SemiBold" Margin="50,0,0,0" />
+                        <TextBlock Grid.Row="0" Grid.Column="0" Text="ServerAddress URL" FontWeight="SemiBold" Margin="50,0,0,0" />
                         <TextBlock x:ConnectionId='5' Grid.Row="0" Grid.Column="1" Name="ServerUrl" />
                         <TextBlock Grid.Row="1" Grid.Column="0" Text="API Key" FontWeight="SemiBold" Margin="50,0,0,0" />
                         <TextBlock x:ConnectionId='6' Grid.Row="1" Grid.Column="1" Name="ApiKey" />

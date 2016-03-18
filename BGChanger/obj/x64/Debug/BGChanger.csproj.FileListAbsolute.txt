@@ -155,7 +155,6 @@ C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\
 C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Debug\System.Xml.XDocument.dll
 C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Debug\System.Xml.XmlDocument.dll
 C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Debug\System.Xml.XmlSerializer.dll
-C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\obj\x64\Debug\BGChanger.csprojResolveAssemblyReference.cache
 C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\obj\x64\Debug\App.g.i.cs
 C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\obj\x64\Debug\App.g.cs
 C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\obj\x64\Debug\MainPage.g.i.cs
@@ -236,3 +235,10 @@ C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\obj\x64\
 C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\obj\x64\Debug\qualifiers.txt.intermediate
 C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\obj\x64\Debug\BGChanger.csprojResolveAssemblyReference.cache
+C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Debug\BGChanger-Client.dll
+C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Debug\BGChanger.Client.BackgroundTasks.winmd
+C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Debug\BGChanger.Client.BackgroundTasks.pdb
+C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Debug\BGChanger.Client.BackgroundTasks.pri
+C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Debug\BGChanger-Client.pdb
+C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Debug\BGChanger-Client.pri

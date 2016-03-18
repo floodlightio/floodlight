@@ -114,7 +114,7 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_Foundation__EventHandler_A_Windows_ApplicationModel_SuspendingEventArgs_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget60>(global::System.EventHandler_A_Windows_ApplicationModel_SuspendingEventArgs_V___Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_Foundation__EventHandler_A_Windows_ApplicationModel_SuspendingEventArgs_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget63>(global::System.EventHandler_A_Windows_ApplicationModel_SuspendingEventArgs_V___Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -235,10 +235,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Metadata_AttributeTargets_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget117>(global::System.Nullable_A_System_AttributeTargets_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Metadata_AttributeTargets_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget120>(global::System.Nullable_A_System_AttributeTargets_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -330,10 +330,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Color_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget118>(global::System.Nullable_A_Windows_UI_Color_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Color_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget121>(global::System.Nullable_A_Windows_UI_Color_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -425,10 +425,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Point_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget119>(global::System.Nullable_A_Windows_Foundation_Point_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Point_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget122>(global::System.Nullable_A_Windows_Foundation_Point_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -520,10 +520,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Rect_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget120>(global::System.Nullable_A_Windows_Foundation_Rect_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Rect_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget123>(global::System.Nullable_A_Windows_Foundation_Rect_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -615,10 +615,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Size_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget121>(global::System.Nullable_A_Windows_Foundation_Size_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Size_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget124>(global::System.Nullable_A_Windows_Foundation_Size_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -710,10 +710,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_CornerRadius_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget122>(global::System.Nullable_A_Windows_UI_Xaml_CornerRadius_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_CornerRadius_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget125>(global::System.Nullable_A_Windows_UI_Xaml_CornerRadius_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -805,10 +805,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Duration_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget123>(global::System.Nullable_A_Windows_UI_Xaml_Duration_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Duration_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget126>(global::System.Nullable_A_Windows_UI_Xaml_Duration_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -900,10 +900,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_DurationType_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget124>(global::System.Nullable_A_Windows_UI_Xaml_DurationType_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_DurationType_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget127>(global::System.Nullable_A_Windows_UI_Xaml_DurationType_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -995,10 +995,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_GridLength_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget125>(global::System.Nullable_A_Windows_UI_Xaml_GridLength_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_GridLength_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget128>(global::System.Nullable_A_Windows_UI_Xaml_GridLength_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -1090,10 +1090,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_GridUnitType_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget126>(global::System.Nullable_A_Windows_UI_Xaml_GridUnitType_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_GridUnitType_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget129>(global::System.Nullable_A_Windows_UI_Xaml_GridUnitType_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -1185,10 +1185,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Thickness_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget127>(global::System.Nullable_A_Windows_UI_Xaml_Thickness_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Thickness_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget130>(global::System.Nullable_A_Windows_UI_Xaml_Thickness_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -1280,10 +1280,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Controls_Primitives_GeneratorPosition_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget128>(global::System.Nullable_A_Windows_UI_Xaml_Controls_Primitives_GeneratorPosition_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Controls_Primitives_GeneratorPosition_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget131>(global::System.Nullable_A_Windows_UI_Xaml_Controls_Primitives_GeneratorPosition_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -1375,10 +1375,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Media_Matrix_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget129>(global::System.Nullable_A_Windows_UI_Xaml_Media_Matrix_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Media_Matrix_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget132>(global::System.Nullable_A_Windows_UI_Xaml_Media_Matrix_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -1470,10 +1470,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Media_Animation_KeyTime_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget130>(global::System.Nullable_A_Windows_UI_Xaml_Media_Animation_KeyTime_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Media_Animation_KeyTime_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget133>(global::System.Nullable_A_Windows_UI_Xaml_Media_Animation_KeyTime_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -1565,10 +1565,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Media_Animation_RepeatBehavior_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget131>(global::System.Nullable_A_Windows_UI_Xaml_Media_Animation_RepeatBehavior_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Media_Animation_RepeatBehavior_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget134>(global::System.Nullable_A_Windows_UI_Xaml_Media_Animation_RepeatBehavior_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -1660,10 +1660,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Media_Animation_RepeatBehaviorType_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget132>(global::System.Nullable_A_Windows_UI_Xaml_Media_Animation_RepeatBehaviorType_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Media_Animation_RepeatBehaviorType_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget135>(global::System.Nullable_A_Windows_UI_Xaml_Media_Animation_RepeatBehaviorType_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -1755,10 +1755,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Media_Media3D_Matrix3D_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget133>(global::System.Nullable_A_Windows_UI_Xaml_Media_Media3D_Matrix3D_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Media_Media3D_Matrix3D_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget136>(global::System.Nullable_A_Windows_UI_Xaml_Media_Media3D_Matrix3D_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -1850,10 +1850,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Numerics_Vector2_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget134>(global::System.Nullable_A_System_Numerics_Vector2_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Numerics_Vector2_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget137>(global::System.Nullable_A_System_Numerics_Vector2_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -1945,10 +1945,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Numerics_Vector3_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget135>(global::System.Nullable_A_System_Numerics_Vector3_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Numerics_Vector3_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget138>(global::System.Nullable_A_System_Numerics_Vector3_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -2040,10 +2040,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Numerics_Vector4_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget136>(global::System.Nullable_A_System_Numerics_Vector4_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Numerics_Vector4_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget139>(global::System.Nullable_A_System_Numerics_Vector4_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -2135,10 +2135,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Numerics_Matrix3x2_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget137>(global::System.Nullable_A_System_Numerics_Matrix3x2_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Numerics_Matrix3x2_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget140>(global::System.Nullable_A_System_Numerics_Matrix3x2_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -2230,10 +2230,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Numerics_Matrix4x4_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget138>(global::System.Nullable_A_System_Numerics_Matrix4x4_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Numerics_Matrix4x4_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget141>(global::System.Nullable_A_System_Numerics_Matrix4x4_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -2325,10 +2325,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Numerics_Plane_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget139>(global::System.Nullable_A_System_Numerics_Plane_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Numerics_Plane_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget142>(global::System.Nullable_A_System_Numerics_Plane_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -2420,10 +2420,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Numerics_Quaternion_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget140>(global::System.Nullable_A_System_Numerics_Quaternion_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Numerics_Quaternion_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget143>(global::System.Nullable_A_System_Numerics_Quaternion_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -2515,10 +2515,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_ApplicationTheme_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget144>(global::System.Nullable_A_Windows_UI_Xaml_ApplicationTheme_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_ApplicationTheme_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget147>(global::System.Nullable_A_Windows_UI_Xaml_ApplicationTheme_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -2610,10 +2610,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Controls_SplitViewDisplayMode_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget145>(global::System.Nullable_A_Windows_UI_Xaml_Controls_SplitViewDisplayMode_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Controls_SplitViewDisplayMode_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget148>(global::System.Nullable_A_Windows_UI_Xaml_Controls_SplitViewDisplayMode_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -2705,10 +2705,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_VerticalAlignment_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget146>(global::System.Nullable_A_Windows_UI_Xaml_VerticalAlignment_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_VerticalAlignment_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget149>(global::System.Nullable_A_Windows_UI_Xaml_VerticalAlignment_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -2800,10 +2800,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Controls_Orientation_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget147>(global::System.Nullable_A_Windows_UI_Xaml_Controls_Orientation_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Controls_Orientation_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget150>(global::System.Nullable_A_Windows_UI_Xaml_Controls_Orientation_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -2895,10 +2895,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_RoutedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget148>(global::System.Nullable_A_Windows_UI_Xaml_RoutedEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_RoutedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget151>(global::System.Nullable_A_Windows_UI_Xaml_RoutedEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -2999,10 +2999,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Text_FontWeight_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget149>(global::System.Nullable_A_Windows_UI_Text_FontWeight_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Text_FontWeight_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget152>(global::System.Nullable_A_Windows_UI_Text_FontWeight_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -3094,10 +3094,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Markup_XmlnsDefinition_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget150>(global::System.Nullable_A_Windows_UI_Xaml_Markup_XmlnsDefinition_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Markup_XmlnsDefinition_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget153>(global::System.Nullable_A_Windows_UI_Xaml_Markup_XmlnsDefinition_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -3195,10 +3195,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_EventHandler_A_Windows_ApplicationModel_Core_UnhandledErrorDetectedEventArgs_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget154>(global::System.Nullable_A_System_EventHandler_A_Windows_ApplicationModel_Core_UnhandledErrorDetectedEventArgs_V__V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_EventHandler_A_Windows_ApplicationModel_Core_UnhandledErrorDetectedEventArgs_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget157>(global::System.Nullable_A_System_EventHandler_A_Windows_ApplicationModel_Core_UnhandledErrorDetectedEventArgs_V__V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -3223,7 +3223,7 @@ namespace System
 						(*(unsafe___value__retval)) = (global::System.EventHandler_A_Windows_ApplicationModel_Core_UnhandledErrorDetectedEventArgs_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 											__value__retval, 
 											typeof(global::System.EventHandler<global::Windows.ApplicationModel.Core.UnhandledErrorDetectedEventArgs>).TypeHandle, 
-											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget36>(global::System.EventHandler_A_Windows_ApplicationModel_Core_UnhandledErrorDetectedEventArgs_V___Impl.Invoke)
+											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget37>(global::System.EventHandler_A_Windows_ApplicationModel_Core_UnhandledErrorDetectedEventArgs_V___Impl.Invoke)
 										);
 					// Return
 					return global::McgInterop.Helpers.S_OK;
@@ -3300,10 +3300,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_EventHandler_A_Windows_ApplicationModel_SuspendingEventArgs_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget155>(global::System.Nullable_A_System_EventHandler_A_Windows_ApplicationModel_SuspendingEventArgs_V__V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_EventHandler_A_Windows_ApplicationModel_SuspendingEventArgs_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget158>(global::System.Nullable_A_System_EventHandler_A_Windows_ApplicationModel_SuspendingEventArgs_V__V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -3404,10 +3404,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_FoundationContract_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget156>(global::System.Nullable_A_Windows_Foundation_FoundationContract_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_FoundationContract_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget159>(global::System.Nullable_A_Windows_Foundation_FoundationContract_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -3499,10 +3499,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_UniversalApiContract_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget157>(global::System.Nullable_A_Windows_Foundation_UniversalApiContract_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_UniversalApiContract_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget160>(global::System.Nullable_A_Windows_Foundation_UniversalApiContract_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -3594,10 +3594,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_SuspendingEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget158>(global::System.Nullable_A_Windows_UI_Xaml_SuspendingEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_SuspendingEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget161>(global::System.Nullable_A_Windows_UI_Xaml_SuspendingEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -3698,10 +3698,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_UnhandledExceptionEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget159>(global::System.Nullable_A_Windows_UI_Xaml_UnhandledExceptionEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_UnhandledExceptionEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget162>(global::System.Nullable_A_Windows_UI_Xaml_UnhandledExceptionEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -3802,10 +3802,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Input_DoubleTappedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget160>(global::System.Nullable_A_Windows_UI_Xaml_Input_DoubleTappedEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Input_DoubleTappedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget163>(global::System.Nullable_A_Windows_UI_Xaml_Input_DoubleTappedEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -3906,10 +3906,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_DragEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget161>(global::System.Nullable_A_Windows_UI_Xaml_DragEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_DragEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget164>(global::System.Nullable_A_Windows_UI_Xaml_DragEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -4010,10 +4010,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Input_HoldingEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget162>(global::System.Nullable_A_Windows_UI_Xaml_Input_HoldingEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Input_HoldingEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget165>(global::System.Nullable_A_Windows_UI_Xaml_Input_HoldingEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -4114,10 +4114,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Input_KeyEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget163>(global::System.Nullable_A_Windows_UI_Xaml_Input_KeyEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Input_KeyEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget166>(global::System.Nullable_A_Windows_UI_Xaml_Input_KeyEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -4218,10 +4218,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Input_ManipulationCompletedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget164>(global::System.Nullable_A_Windows_UI_Xaml_Input_ManipulationCompletedEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Input_ManipulationCompletedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget167>(global::System.Nullable_A_Windows_UI_Xaml_Input_ManipulationCompletedEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -4322,10 +4322,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Input_ManipulationDeltaEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget165>(global::System.Nullable_A_Windows_UI_Xaml_Input_ManipulationDeltaEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Input_ManipulationDeltaEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget168>(global::System.Nullable_A_Windows_UI_Xaml_Input_ManipulationDeltaEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -4427,10 +4427,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Input_ManipulationInertiaStartingEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget166>(global::System.Nullable_A_Windows_UI_Xaml_Input_ManipulationInertiaStartingEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Input_ManipulationInertiaStartingEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget169>(global::System.Nullable_A_Windows_UI_Xaml_Input_ManipulationInertiaStartingEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -4531,10 +4531,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Input_ManipulationStartedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget167>(global::System.Nullable_A_Windows_UI_Xaml_Input_ManipulationStartedEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Input_ManipulationStartedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget170>(global::System.Nullable_A_Windows_UI_Xaml_Input_ManipulationStartedEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -4635,10 +4635,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Input_ManipulationStartingEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget168>(global::System.Nullable_A_Windows_UI_Xaml_Input_ManipulationStartingEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Input_ManipulationStartingEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget171>(global::System.Nullable_A_Windows_UI_Xaml_Input_ManipulationStartingEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -4739,10 +4739,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Input_PointerEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget169>(global::System.Nullable_A_Windows_UI_Xaml_Input_PointerEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Input_PointerEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget172>(global::System.Nullable_A_Windows_UI_Xaml_Input_PointerEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -4843,10 +4843,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Input_RightTappedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget170>(global::System.Nullable_A_Windows_UI_Xaml_Input_RightTappedEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Input_RightTappedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget173>(global::System.Nullable_A_Windows_UI_Xaml_Input_RightTappedEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -4947,10 +4947,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Input_TappedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget171>(global::System.Nullable_A_Windows_UI_Xaml_Input_TappedEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Input_TappedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget174>(global::System.Nullable_A_Windows_UI_Xaml_Input_TappedEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -5052,10 +5052,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_UIElement_j_Windows_UI_Xaml_DragStartingEventArgs_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget172>(global::System.Nullable_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_UIElement_j_Windows_UI_Xaml_DragStartingEventArgs_V__V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_UIElement_j_Windows_UI_Xaml_DragStartingEventArgs_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget175>(global::System.Nullable_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_UIElement_j_Windows_UI_Xaml_DragStartingEventArgs_V__V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -5157,10 +5157,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_UIElement_j_Windows_UI_Xaml_DropCompletedEventArgs_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget173>(global::System.Nullable_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_UIElement_j_Windows_UI_Xaml_DropCompletedEventArgs_V__V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_UIElement_j_Windows_UI_Xaml_DropCompletedEventArgs_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget176>(global::System.Nullable_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_UIElement_j_Windows_UI_Xaml_DropCompletedEventArgs_V__V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -5261,10 +5261,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_DependencyPropertyChangedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget174>(global::System.Nullable_A_Windows_UI_Xaml_DependencyPropertyChangedEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_DependencyPropertyChangedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget177>(global::System.Nullable_A_Windows_UI_Xaml_DependencyPropertyChangedEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -5365,10 +5365,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_SizeChangedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget175>(global::System.Nullable_A_Windows_UI_Xaml_SizeChangedEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_SizeChangedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget178>(global::System.Nullable_A_Windows_UI_Xaml_SizeChangedEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -5470,10 +5470,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_FrameworkElement_j_Windows_UI_Xaml_DataContextChangedEventArgs_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget176>(global::System.Nullable_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_FrameworkElement_j_Windows_UI_Xaml_DataContextChangedEventArgs_V__V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_FrameworkElement_j_Windows_UI_Xaml_DataContextChangedEventArgs_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget179>(global::System.Nullable_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_FrameworkElement_j_Windows_UI_Xaml_DataContextChangedEventArgs_V__V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -5575,10 +5575,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_FrameworkElement_j_object_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget177>(global::System.Nullable_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_FrameworkElement_j_System_Object_V__V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_FrameworkElement_j_object_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget180>(global::System.Nullable_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_FrameworkElement_j_System_Object_V__V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -5680,10 +5680,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_Controls_SplitView_j_object_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget178>(global::System.Nullable_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_Controls_SplitView_j_System_Object_V__V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_Controls_SplitView_j_object_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget181>(global::System.Nullable_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_Controls_SplitView_j_System_Object_V__V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -5785,10 +5785,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_Controls_SplitView_j_Windows_UI_Xaml_Controls_SplitViewPaneClosingEventArgs_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget179>(global::System.Nullable_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_Controls_SplitView_j_Windows_UI_Xaml_Controls_SplitViewPaneClosingEventArgs_V__V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_Controls_SplitView_j_Windows_UI_Xaml_Controls_SplitViewPaneClosingEventArgs_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget182>(global::System.Nullable_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_Controls_SplitView_j_Windows_UI_Xaml_Controls_SplitViewPaneClosingEventArgs_V__V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -5889,10 +5889,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Controls_ContextMenuOpeningEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget180>(global::System.Nullable_A_Windows_UI_Xaml_Controls_ContextMenuOpeningEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Controls_ContextMenuOpeningEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget183>(global::System.Nullable_A_Windows_UI_Xaml_Controls_ContextMenuOpeningEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -5993,10 +5993,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Controls_DragItemsStartingEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget181>(global::System.Nullable_A_Windows_UI_Xaml_Controls_DragItemsStartingEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Controls_DragItemsStartingEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget184>(global::System.Nullable_A_Windows_UI_Xaml_Controls_DragItemsStartingEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -6097,10 +6097,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Controls_ItemClickEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget182>(global::System.Nullable_A_Windows_UI_Xaml_Controls_ItemClickEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Controls_ItemClickEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget185>(global::System.Nullable_A_Windows_UI_Xaml_Controls_ItemClickEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -6202,10 +6202,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_ContainerContentChangingEventArgs_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget183>(global::System.Nullable_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_ContainerContentChangingEventArgs_V__V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_ContainerContentChangingEventArgs_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget186>(global::System.Nullable_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_ContainerContentChangingEventArgs_V__V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -6307,10 +6307,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_ChoosingGroupHeaderContainerEventArgs_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget184>(global::System.Nullable_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_ChoosingGroupHeaderContainerEventArgs_V__V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_ChoosingGroupHeaderContainerEventArgs_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget187>(global::System.Nullable_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_ChoosingGroupHeaderContainerEventArgs_V__V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -6412,10 +6412,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_ChoosingItemContainerEventArgs_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget185>(global::System.Nullable_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_ChoosingItemContainerEventArgs_V__V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_ChoosingItemContainerEventArgs_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget188>(global::System.Nullable_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_ChoosingItemContainerEventArgs_V__V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -6517,10 +6517,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_DragItemsCompletedEventArgs_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget186>(global::System.Nullable_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_DragItemsCompletedEventArgs_V__V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_DragItemsCompletedEventArgs_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget189>(global::System.Nullable_A_Windows_Foundation_TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_DragItemsCompletedEventArgs_V__V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -6621,10 +6621,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Controls_SelectionChangedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget187>(global::System.Nullable_A_Windows_UI_Xaml_Controls_SelectionChangedEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Controls_SelectionChangedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget190>(global::System.Nullable_A_Windows_UI_Xaml_Controls_SelectionChangedEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -6725,10 +6725,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_ExceptionRoutedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget188>(global::System.Nullable_A_Windows_UI_Xaml_ExceptionRoutedEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_ExceptionRoutedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget191>(global::System.Nullable_A_Windows_UI_Xaml_ExceptionRoutedEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -6829,10 +6829,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Navigation_NavigatedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget189>(global::System.Nullable_A_Windows_UI_Xaml_Navigation_NavigatedEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Navigation_NavigatedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget192>(global::System.Nullable_A_Windows_UI_Xaml_Navigation_NavigatedEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -6857,7 +6857,7 @@ namespace System
 						(*(unsafe___value__retval)) = (global::Windows.UI.Xaml.Navigation.NavigatedEventHandler__Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 											__value__retval, 
 											typeof(global::Windows.UI.Xaml.Navigation.NavigatedEventHandler).TypeHandle, 
-											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget37>(global::Windows.UI.Xaml.Navigation.NavigatedEventHandler__Impl.Invoke)
+											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget38>(global::Windows.UI.Xaml.Navigation.NavigatedEventHandler__Impl.Invoke)
 										);
 					// Return
 					return global::McgInterop.Helpers.S_OK;
@@ -6933,10 +6933,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Navigation_NavigatingCancelEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget190>(global::System.Nullable_A_Windows_UI_Xaml_Navigation_NavigatingCancelEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Navigation_NavigatingCancelEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget193>(global::System.Nullable_A_Windows_UI_Xaml_Navigation_NavigatingCancelEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -6961,7 +6961,7 @@ namespace System
 						(*(unsafe___value__retval)) = (global::Windows.UI.Xaml.Navigation.NavigatingCancelEventHandler__Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 											__value__retval, 
 											typeof(global::Windows.UI.Xaml.Navigation.NavigatingCancelEventHandler).TypeHandle, 
-											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget38>(global::Windows.UI.Xaml.Navigation.NavigatingCancelEventHandler__Impl.Invoke)
+											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget39>(global::Windows.UI.Xaml.Navigation.NavigatingCancelEventHandler__Impl.Invoke)
 										);
 					// Return
 					return global::McgInterop.Helpers.S_OK;
@@ -7037,10 +7037,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Navigation_NavigationFailedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget191>(global::System.Nullable_A_Windows_UI_Xaml_Navigation_NavigationFailedEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Navigation_NavigationFailedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget194>(global::System.Nullable_A_Windows_UI_Xaml_Navigation_NavigationFailedEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -7065,7 +7065,7 @@ namespace System
 						(*(unsafe___value__retval)) = (global::Windows.UI.Xaml.Navigation.NavigationFailedEventHandler__Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 											__value__retval, 
 											typeof(global::Windows.UI.Xaml.Navigation.NavigationFailedEventHandler).TypeHandle, 
-											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget39>(global::Windows.UI.Xaml.Navigation.NavigationFailedEventHandler__Impl.Invoke)
+											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget40>(global::Windows.UI.Xaml.Navigation.NavigationFailedEventHandler__Impl.Invoke)
 										);
 					// Return
 					return global::McgInterop.Helpers.S_OK;
@@ -7141,10 +7141,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Navigation_NavigationStoppedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget192>(global::System.Nullable_A_Windows_UI_Xaml_Navigation_NavigationStoppedEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Navigation_NavigationStoppedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget195>(global::System.Nullable_A_Windows_UI_Xaml_Navigation_NavigationStoppedEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -7169,7 +7169,7 @@ namespace System
 						(*(unsafe___value__retval)) = (global::Windows.UI.Xaml.Navigation.NavigationStoppedEventHandler__Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 											__value__retval, 
 											typeof(global::Windows.UI.Xaml.Navigation.NavigationStoppedEventHandler).TypeHandle, 
-											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget37>(global::Windows.UI.Xaml.Navigation.NavigationStoppedEventHandler__Impl.Invoke)
+											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget38>(global::Windows.UI.Xaml.Navigation.NavigationStoppedEventHandler__Impl.Invoke)
 										);
 					// Return
 					return global::McgInterop.Helpers.S_OK;
@@ -7242,7 +7242,7 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_Foundation__EventHandler_A_Windows_Foundation_Diagnostics_TracingStatusChangedEventArgs_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget196>(global::System.EventHandler_A_Windows_Foundation_Diagnostics_TracingStatusChangedEventArgs_V___Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_Foundation__EventHandler_A_Windows_Foundation_Diagnostics_TracingStatusChangedEventArgs_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget199>(global::System.EventHandler_A_Windows_Foundation_Diagnostics_TracingStatusChangedEventArgs_V___Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -7336,10 +7336,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_ApplicationInitializationCallback_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget201>(global::System.Nullable_A_Windows_UI_Xaml_ApplicationInitializationCallback_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_ApplicationInitializationCallback_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget208>(global::System.Nullable_A_Windows_UI_Xaml_ApplicationInitializationCallback_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -7440,10 +7440,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_System_Threading_WorkItemHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget202>(global::System.Nullable_A_Windows_System_Threading_WorkItemHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_System_Threading_WorkItemHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget209>(global::System.Nullable_A_Windows_System_Threading_WorkItemHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -7468,7 +7468,7 @@ namespace System
 						(*(unsafe___value__retval)) = (global::Windows.System.Threading.WorkItemHandler__Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 											__value__retval, 
 											typeof(global::Windows.System.Threading.WorkItemHandler).TypeHandle, 
-											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget43>(global::Windows.System.Threading.WorkItemHandler__Impl.Invoke)
+											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget50>(global::Windows.System.Threading.WorkItemHandler__Impl.Invoke)
 										);
 					// Return
 					return global::McgInterop.Helpers.S_OK;
@@ -7497,6 +7497,196 @@ namespace System
 				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::System.Nullable_A_Windows_System_Threading_WorkItemHandler_V___Impl.Vtbl), "get_Value__STUB")]
 				[global::System.Runtime.CompilerServices.NonArray]
 				static readonly byte[] RVA_System_Nullable_A_Windows_System_Threading_WorkItemHandler_V___Impl_Vtbl_s_theCcwVtable = new byte[] {
+						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+						0, 0, 0, 0, 0, 0};
+			}
+		}
+	}
+
+	// System.Nullable<Windows.ApplicationModel.Background.BackgroundAccessStatus>
+	public unsafe static class Nullable_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V___Impl
+	{
+		// StubClass for 'System.Nullable<Windows.ApplicationModel.Background.BackgroundAccessStatus>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::Windows.ApplicationModel.Background.BackgroundAccessStatus get_Value(global::System.__ComObject __this)
+			{
+				global::Windows.ApplicationModel.Background.BackgroundAccessStatus __ret = global::McgInterop.ForwardComSharedStubs.Func_ApplicationModel_Background_BackgroundAccessStatus__(
+									__this, 
+									typeof(global::Windows.Foundation.IReference<global::Windows.ApplicationModel.Background.BackgroundAccessStatus>).TypeHandle, 
+									global::System.Nullable_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V___Impl.Vtbl.idx_get_Value
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// v-table for 'System.Nullable<Windows.ApplicationModel.Background.BackgroundAccessStatus>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IReference<global::Windows.ApplicationModel.Background.BackgroundAccessStatus>))]
+		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Foundation.IReference<global::Windows.ApplicationModel.Background.BackgroundAccessStatus>))]
+		public unsafe partial struct Vtbl
+		{
+			global::System.IntPtr pfnQueryInterface;
+			global::System.IntPtr pfnAddRef;
+			global::System.IntPtr pfnRelease;
+			global::System.IntPtr pfnGetIids;
+			global::System.IntPtr pfnGetRuntimeClassName;
+			global::System.IntPtr pfnGetTrustLevel;
+			// Windows_Foundation__IReference_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V_
+			global::System.IntPtr pfnget_Value_Windows_Foundation__IReference_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V_;
+			internal const int idx_get_Value = 6;
+			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::System.Nullable_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V___Impl.Vtbl.System_Nullable_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V___Impl_Vtbl_McgRvaContainer), "RVA_System_Nullable_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V___Impl_Vtbl_s_theCcwVtable")]
+			public static global::System.Nullable_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V___Impl.Vtbl s_theCcwVtable
+			#if false
+			 = new global::System.Nullable_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V___Impl.Vtbl() {
+				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
+				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
+				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget210>(global::System.Nullable_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V___Impl.Vtbl.get_Value__STUB),
+			}
+			#endif
+			;
+			// Signature, System.Nullable<Windows.ApplicationModel.Background.BackgroundAccessStatus>.get_Value, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.EnumMarshaller] Windows_ApplicationModel_Background_BackgroundAccessStatus__Windows_ApplicationModel_Background__BackgroundAccessStatus, 
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int get_Value__STUB(
+						global::System.IntPtr pComThis, 
+						global::Windows.ApplicationModel.Background.BackgroundAccessStatus* unsafe___value__retval)
+			{
+				// Setup
+				global::Windows.ApplicationModel.Background.BackgroundAccessStatus __value__retval;
+				try
+				{
+					// Marshalling
+					// Call to managed method
+					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.IReference<global::Windows.ApplicationModel.Background.BackgroundAccessStatus>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).get_Value();
+					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+					if (unsafe___value__retval != null)
+						(*(unsafe___value__retval)) = __value__retval;
+					// Return
+					return global::McgInterop.Helpers.S_OK;
+				}
+				catch (global::System.Exception hrExcep)
+				{
+					// ExceptionCleanup
+					if (unsafe___value__retval != null)
+						(*(unsafe___value__retval)) = default(global::Windows.ApplicationModel.Background.BackgroundAccessStatus);
+					// ExceptionReturn
+					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+				}
+			}
+
+			private static class System_Nullable_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V___Impl_Vtbl_McgRvaContainer
+			{
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(32, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::System.Nullable_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V___Impl.Vtbl), "get_Value__STUB")]
+				[global::System.Runtime.CompilerServices.NonArray]
+				static readonly byte[] RVA_System_Nullable_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V___Impl_Vtbl_s_theCcwVtable = new byte[] {
+						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+						0, 0, 0, 0, 0, 0};
+			}
+		}
+	}
+
+	// System.Nullable<Windows.ApplicationModel.Background.ApplicationTriggerResult>
+	public unsafe static class Nullable_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V___Impl
+	{
+		// StubClass for 'System.Nullable<Windows.ApplicationModel.Background.ApplicationTriggerResult>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::Windows.ApplicationModel.Background.ApplicationTriggerResult get_Value(global::System.__ComObject __this)
+			{
+				global::Windows.ApplicationModel.Background.ApplicationTriggerResult __ret = global::McgInterop.ForwardComSharedStubs.Func_ApplicationModel_Background_ApplicationTriggerResult__(
+									__this, 
+									typeof(global::Windows.Foundation.IReference<global::Windows.ApplicationModel.Background.ApplicationTriggerResult>).TypeHandle, 
+									global::System.Nullable_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V___Impl.Vtbl.idx_get_Value
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// v-table for 'System.Nullable<Windows.ApplicationModel.Background.ApplicationTriggerResult>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IReference<global::Windows.ApplicationModel.Background.ApplicationTriggerResult>))]
+		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Foundation.IReference<global::Windows.ApplicationModel.Background.ApplicationTriggerResult>))]
+		public unsafe partial struct Vtbl
+		{
+			global::System.IntPtr pfnQueryInterface;
+			global::System.IntPtr pfnAddRef;
+			global::System.IntPtr pfnRelease;
+			global::System.IntPtr pfnGetIids;
+			global::System.IntPtr pfnGetRuntimeClassName;
+			global::System.IntPtr pfnGetTrustLevel;
+			// Windows_Foundation__IReference_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V_
+			global::System.IntPtr pfnget_Value_Windows_Foundation__IReference_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V_;
+			internal const int idx_get_Value = 6;
+			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::System.Nullable_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V___Impl.Vtbl.System_Nullable_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V___Impl_Vtbl_McgRvaContainer), "RVA_System_Nullable_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V___Impl_Vtbl_s_theCcwVtable")]
+			public static global::System.Nullable_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V___Impl.Vtbl s_theCcwVtable
+			#if false
+			 = new global::System.Nullable_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V___Impl.Vtbl() {
+				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
+				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
+				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget211>(global::System.Nullable_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V___Impl.Vtbl.get_Value__STUB),
+			}
+			#endif
+			;
+			// Signature, System.Nullable<Windows.ApplicationModel.Background.ApplicationTriggerResult>.get_Value, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.EnumMarshaller] Windows_ApplicationModel_Background_ApplicationTriggerResult__Windows_ApplicationModel_Background__ApplicationTriggerResult, 
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int get_Value__STUB(
+						global::System.IntPtr pComThis, 
+						global::Windows.ApplicationModel.Background.ApplicationTriggerResult* unsafe___value__retval)
+			{
+				// Setup
+				global::Windows.ApplicationModel.Background.ApplicationTriggerResult __value__retval;
+				try
+				{
+					// Marshalling
+					// Call to managed method
+					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.IReference<global::Windows.ApplicationModel.Background.ApplicationTriggerResult>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).get_Value();
+					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+					if (unsafe___value__retval != null)
+						(*(unsafe___value__retval)) = __value__retval;
+					// Return
+					return global::McgInterop.Helpers.S_OK;
+				}
+				catch (global::System.Exception hrExcep)
+				{
+					// ExceptionCleanup
+					if (unsafe___value__retval != null)
+						(*(unsafe___value__retval)) = default(global::Windows.ApplicationModel.Background.ApplicationTriggerResult);
+					// ExceptionReturn
+					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+				}
+			}
+
+			private static class System_Nullable_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V___Impl_Vtbl_McgRvaContainer
+			{
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(32, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::System.Nullable_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V___Impl.Vtbl), "get_Value__STUB")]
+				[global::System.Runtime.CompilerServices.NonArray]
+				static readonly byte[] RVA_System_Nullable_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V___Impl_Vtbl_s_theCcwVtable = new byte[] {
 						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 						0, 0, 0, 0, 0, 0};
 			}
@@ -7545,10 +7735,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Collections_MapChangedEventHandler_A_string_j_string_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget203>(global::System.Nullable_A_Windows_Foundation_Collections_MapChangedEventHandler_A_string_j_string_V__V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Collections_MapChangedEventHandler_A_string_j_string_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget212>(global::System.Nullable_A_Windows_Foundation_Collections_MapChangedEventHandler_A_string_j_string_V__V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -7573,7 +7763,7 @@ namespace System
 						(*(unsafe___value__retval)) = (global::Windows.Foundation.Collections.MapChangedEventHandler_A_string_j_string_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 											__value__retval, 
 											typeof(global::Windows.Foundation.Collections.MapChangedEventHandler<string, string>).TypeHandle, 
-											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget41>(global::Windows.Foundation.Collections.MapChangedEventHandler_A_string_j_string_V___Impl.Invoke)
+											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget42>(global::Windows.Foundation.Collections.MapChangedEventHandler_A_string_j_string_V___Impl.Invoke)
 										);
 					// Return
 					return global::McgInterop.Helpers.S_OK;
@@ -7649,10 +7839,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_System_Threading_TimerElapsedHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget204>(global::System.Nullable_A_Windows_System_Threading_TimerElapsedHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_System_Threading_TimerElapsedHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget213>(global::System.Nullable_A_Windows_System_Threading_TimerElapsedHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -7677,7 +7867,7 @@ namespace System
 						(*(unsafe___value__retval)) = (global::Windows.System.Threading.TimerElapsedHandler__Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 											__value__retval, 
 											typeof(global::Windows.System.Threading.TimerElapsedHandler).TypeHandle, 
-											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget42>(global::Windows.System.Threading.TimerElapsedHandler__Impl.Invoke)
+											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget43>(global::Windows.System.Threading.TimerElapsedHandler__Impl.Invoke)
 										);
 					// Return
 					return global::McgInterop.Helpers.S_OK;
@@ -7753,10 +7943,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Core_DispatchedHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget205>(global::System.Nullable_A_Windows_UI_Core_DispatchedHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Core_DispatchedHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget214>(global::System.Nullable_A_Windows_UI_Core_DispatchedHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -7858,10 +8048,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_EventHandler_A_Windows_Foundation_Diagnostics_TracingStatusChangedEventArgs_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget206>(global::System.Nullable_A_System_EventHandler_A_Windows_Foundation_Diagnostics_TracingStatusChangedEventArgs_V__V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_EventHandler_A_Windows_Foundation_Diagnostics_TracingStatusChangedEventArgs_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget215>(global::System.Nullable_A_System_EventHandler_A_Windows_Foundation_Diagnostics_TracingStatusChangedEventArgs_V__V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -7886,7 +8076,7 @@ namespace System
 						(*(unsafe___value__retval)) = (global::System.EventHandler_A_Windows_Foundation_Diagnostics_TracingStatusChangedEventArgs_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 											__value__retval, 
 											typeof(global::System.EventHandler<global::Windows.Foundation.Diagnostics.TracingStatusChangedEventArgs>).TypeHandle, 
-											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget44>(global::System.EventHandler_A_Windows_Foundation_Diagnostics_TracingStatusChangedEventArgs_V___Impl.Invoke)
+											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget51>(global::System.EventHandler_A_Windows_Foundation_Diagnostics_TracingStatusChangedEventArgs_V___Impl.Invoke)
 										);
 					// Return
 					return global::McgInterop.Helpers.S_OK;
@@ -7963,10 +8153,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_TypedEventHandler_A_Windows_ApplicationModel_Core_CoreApplicationView_j_Windows_ApplicationModel_Activation_IActivatedEventArgs_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget208>(global::System.Nullable_A_Windows_Foundation_TypedEventHandler_A_Windows_ApplicationModel_Core_CoreApplicationView_j_Windows_ApplicationModel_Activation_IActivatedEventArgs_V__V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_TypedEventHandler_A_Windows_ApplicationModel_Core_CoreApplicationView_j_Windows_ApplicationModel_Activation_IActivatedEventArgs_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget217>(global::System.Nullable_A_Windows_Foundation_TypedEventHandler_A_Windows_ApplicationModel_Core_CoreApplicationView_j_Windows_ApplicationModel_Activation_IActivatedEventArgs_V__V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -8026,6 +8216,216 @@ namespace System
 		}
 	}
 
+	// System.Nullable<Windows.Foundation.AsyncOperationCompletedHandler<Windows.ApplicationModel.Background.BackgroundAccessStatus>>
+	public unsafe static class Nullable_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V__V___Impl
+	{
+		// StubClass for 'System.Nullable<Windows.Foundation.AsyncOperationCompletedHandler<Windows.ApplicationModel.Background.BackgroundAccessStatus>>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.BackgroundAccessStatus> get_Value(global::System.__ComObject __this)
+			{
+				global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.BackgroundAccessStatus> __ret = global::McgInterop.ForwardComSharedStubs.Func__AsyncOperationCompletedHandler_1_ApplicationModel_Background_BackgroundAccessStatus___(
+									__this, 
+									typeof(global::Windows.Foundation.IReference<global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.BackgroundAccessStatus>>).TypeHandle, 
+									global::System.Nullable_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V__V___Impl.Vtbl.idx_get_Value
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// v-table for 'System.Nullable<Windows.Foundation.AsyncOperationCompletedHandler<Windows.ApplicationModel.Background.BackgroundAccessStatus>>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IReference<global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.BackgroundAccessStatus>>))]
+		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Foundation.IReference<global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.BackgroundAccessStatus>>))]
+		public unsafe partial struct Vtbl
+		{
+			global::System.IntPtr pfnQueryInterface;
+			global::System.IntPtr pfnAddRef;
+			global::System.IntPtr pfnRelease;
+			global::System.IntPtr pfnGetIids;
+			global::System.IntPtr pfnGetRuntimeClassName;
+			global::System.IntPtr pfnGetTrustLevel;
+			// Windows_Foundation__IReference_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V__V_
+			global::System.IntPtr pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V__V_;
+			internal const int idx_get_Value = 6;
+			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::System.Nullable_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V__V___Impl.Vtbl.System_Nullable_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V__V___Impl_Vtbl_McgRvaContainer), "RVA_System_Nullable_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_Ba" +
+				"ckgroundAccessStatus_V__V___Impl_Vtbl_s_theCcwVtable")]
+			public static global::System.Nullable_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V__V___Impl.Vtbl s_theCcwVtable
+			#if false
+			 = new global::System.Nullable_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V__V___Impl.Vtbl() {
+				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
+				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
+				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget218>(global::System.Nullable_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V__V___Impl.Vtbl.get_Value__STUB),
+			}
+			#endif
+			;
+			// Signature, System.Nullable<Windows.Foundation.AsyncOperationCompletedHandler<Windows.ApplicationModel.Background.BackgroundAccessStatus>>.get_Value, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.WinRTDelegateMarshaller] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_ApplicationModel_Background_BackgroundAccessStatus___Windows_Foundation__AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V_ *, 
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int get_Value__STUB(
+						global::System.IntPtr pComThis, 
+						global::Windows.Foundation.AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V___Impl.Vtbl*** unsafe___value__retval)
+			{
+				// Setup
+				if (unsafe___value__retval != null)
+					(*(unsafe___value__retval)) = null;
+				global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.BackgroundAccessStatus> __value__retval = default(global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.BackgroundAccessStatus>);
+				try
+				{
+					// Marshalling
+					// Call to managed method
+					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.IReference<global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.BackgroundAccessStatus>>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).get_Value();
+					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+					if (unsafe___value__retval != null)
+						(*(unsafe___value__retval)) = (global::Windows.Foundation.AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
+											__value__retval, 
+											typeof(global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.BackgroundAccessStatus>).TypeHandle, 
+											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget45>(global::Windows.Foundation.AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V___Impl.Invoke)
+										);
+					// Return
+					return global::McgInterop.Helpers.S_OK;
+				}
+				catch (global::System.Exception hrExcep)
+				{
+					// ExceptionCleanup
+					if (unsafe___value__retval != null)
+					{
+						global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe___value__retval)))));
+						(*(unsafe___value__retval)) = null;
+					}
+					// ExceptionReturn
+					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+				}
+			}
+
+			private static class System_Nullable_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V__V___Impl_Vtbl_McgRvaContainer
+			{
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(32, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::System.Nullable_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V__V___Impl.Vtbl), "get_Value__STUB")]
+				[global::System.Runtime.CompilerServices.NonArray]
+				static readonly byte[] RVA_System_Nullable_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V__V___Impl_Vtbl_s_theCcwVtable = new byte[] {
+						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+						0, 0, 0, 0, 0, 0};
+			}
+		}
+	}
+
+	// System.Nullable<Windows.Foundation.AsyncOperationCompletedHandler<Windows.ApplicationModel.Background.ApplicationTriggerResult>>
+	public unsafe static class Nullable_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V__V___Impl
+	{
+		// StubClass for 'System.Nullable<Windows.Foundation.AsyncOperationCompletedHandler<Windows.ApplicationModel.Background.ApplicationTriggerResult>>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.ApplicationTriggerResult> get_Value(global::System.__ComObject __this)
+			{
+				global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.ApplicationTriggerResult> __ret = global::McgInterop.ForwardComSharedStubs.Func__AsyncOperationCompletedHandler_1_ApplicationModel_Background_ApplicationTriggerResult___(
+									__this, 
+									typeof(global::Windows.Foundation.IReference<global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.ApplicationTriggerResult>>).TypeHandle, 
+									global::System.Nullable_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V__V___Impl.Vtbl.idx_get_Value
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// v-table for 'System.Nullable<Windows.Foundation.AsyncOperationCompletedHandler<Windows.ApplicationModel.Background.ApplicationTriggerResult>>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IReference<global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.ApplicationTriggerResult>>))]
+		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Foundation.IReference<global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.ApplicationTriggerResult>>))]
+		public unsafe partial struct Vtbl
+		{
+			global::System.IntPtr pfnQueryInterface;
+			global::System.IntPtr pfnAddRef;
+			global::System.IntPtr pfnRelease;
+			global::System.IntPtr pfnGetIids;
+			global::System.IntPtr pfnGetRuntimeClassName;
+			global::System.IntPtr pfnGetTrustLevel;
+			// Windows_Foundation__IReference_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V__V_
+			global::System.IntPtr pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V__V_;
+			internal const int idx_get_Value = 6;
+			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::System.Nullable_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V__V___Impl.Vtbl.System_Nullable_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V__V___Impl_Vtbl_McgRvaContainer), "RVA_System_Nullable_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_Ap" +
+				"plicationTriggerResult_V__V___Impl_Vtbl_s_theCcwVtable")]
+			public static global::System.Nullable_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V__V___Impl.Vtbl s_theCcwVtable
+			#if false
+			 = new global::System.Nullable_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V__V___Impl.Vtbl() {
+				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
+				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
+				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget219>(global::System.Nullable_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V__V___Impl.Vtbl.get_Value__STUB),
+			}
+			#endif
+			;
+			// Signature, System.Nullable<Windows.Foundation.AsyncOperationCompletedHandler<Windows.ApplicationModel.Background.ApplicationTriggerResult>>.get_Value, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.WinRTDelegateMarshaller] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_ApplicationModel_Background_ApplicationTriggerResult___Windows_Foundation__AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V_ *, 
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int get_Value__STUB(
+						global::System.IntPtr pComThis, 
+						global::Windows.Foundation.AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V___Impl.Vtbl*** unsafe___value__retval)
+			{
+				// Setup
+				if (unsafe___value__retval != null)
+					(*(unsafe___value__retval)) = null;
+				global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.ApplicationTriggerResult> __value__retval = default(global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.ApplicationTriggerResult>);
+				try
+				{
+					// Marshalling
+					// Call to managed method
+					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.IReference<global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.ApplicationTriggerResult>>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).get_Value();
+					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+					if (unsafe___value__retval != null)
+						(*(unsafe___value__retval)) = (global::Windows.Foundation.AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
+											__value__retval, 
+											typeof(global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.ApplicationTriggerResult>).TypeHandle, 
+											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget44>(global::Windows.Foundation.AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V___Impl.Invoke)
+										);
+					// Return
+					return global::McgInterop.Helpers.S_OK;
+				}
+				catch (global::System.Exception hrExcep)
+				{
+					// ExceptionCleanup
+					if (unsafe___value__retval != null)
+					{
+						global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe___value__retval)))));
+						(*(unsafe___value__retval)) = null;
+					}
+					// ExceptionReturn
+					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+				}
+			}
+
+			private static class System_Nullable_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V__V___Impl_Vtbl_McgRvaContainer
+			{
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(32, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::System.Nullable_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V__V___Impl.Vtbl), "get_Value__STUB")]
+				[global::System.Runtime.CompilerServices.NonArray]
+				static readonly byte[] RVA_System_Nullable_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V__V___Impl_Vtbl_s_theCcwVtable = new byte[] {
+						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+						0, 0, 0, 0, 0, 0};
+			}
+		}
+	}
+
 	// System.Nullable<Windows.Foundation.AsyncOperationCompletedHandler<Windows.Devices.Enumeration.Pnp.PnpObjectCollection>>
 	public unsafe static class Nullable_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_Devices_Enumeration_Pnp_PnpObjectCollection_V__V___Impl
 	{
@@ -8068,10 +8468,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_Devices_Enumeration_Pnp_PnpObjectCollection_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget209>(global::System.Nullable_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_Devices_Enumeration_Pnp_PnpObjectCollection_V__V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_Devices_Enumeration_Pnp_PnpObjectCollection_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget220>(global::System.Nullable_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_Devices_Enumeration_Pnp_PnpObjectCollection_V__V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -8096,7 +8496,7 @@ namespace System
 						(*(unsafe___value__retval)) = (global::Windows.Foundation.AsyncOperationCompletedHandler_A_Windows_Devices_Enumeration_Pnp_PnpObjectCollection_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 											__value__retval, 
 											typeof(global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Devices.Enumeration.Pnp.PnpObjectCollection>).TypeHandle, 
-											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget40>(global::Windows.Foundation.AsyncOperationCompletedHandler_A_Windows_Devices_Enumeration_Pnp_PnpObjectCollection_V___Impl.Invoke)
+											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget41>(global::Windows.Foundation.AsyncOperationCompletedHandler_A_Windows_Devices_Enumeration_Pnp_PnpObjectCollection_V___Impl.Invoke)
 										);
 					// Return
 					return global::McgInterop.Helpers.S_OK;
@@ -8172,10 +8572,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_System_Threading_WorkItemPriority_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget210>(global::System.Nullable_A_Windows_System_Threading_WorkItemPriority_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_System_Threading_WorkItemPriority_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget221>(global::System.Nullable_A_Windows_System_Threading_WorkItemPriority_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -8267,10 +8667,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_System_Threading_WorkItemOptions_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget211>(global::System.Nullable_A_Windows_System_Threading_WorkItemOptions_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_System_Threading_WorkItemOptions_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget222>(global::System.Nullable_A_Windows_System_Threading_WorkItemOptions_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -8362,10 +8762,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Core_CoreDispatcherPriority_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget212>(global::System.Nullable_A_Windows_UI_Core_CoreDispatcherPriority_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Core_CoreDispatcherPriority_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget223>(global::System.Nullable_A_Windows_UI_Core_CoreDispatcherPriority_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -8457,10 +8857,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Diagnostics_CausalityTraceLevel_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget213>(global::System.Nullable_A_Windows_Foundation_Diagnostics_CausalityTraceLevel_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Diagnostics_CausalityTraceLevel_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget224>(global::System.Nullable_A_Windows_Foundation_Diagnostics_CausalityTraceLevel_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -8552,10 +8952,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Diagnostics_CausalitySource_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget214>(global::System.Nullable_A_Windows_Foundation_Diagnostics_CausalitySource_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Diagnostics_CausalitySource_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget225>(global::System.Nullable_A_Windows_Foundation_Diagnostics_CausalitySource_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -8647,10 +9047,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Diagnostics_CausalityRelation_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget215>(global::System.Nullable_A_Windows_Foundation_Diagnostics_CausalityRelation_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Diagnostics_CausalityRelation_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget226>(global::System.Nullable_A_Windows_Foundation_Diagnostics_CausalityRelation_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -8742,10 +9142,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Diagnostics_CausalitySynchronousWork_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget216>(global::System.Nullable_A_Windows_Foundation_Diagnostics_CausalitySynchronousWork_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Diagnostics_CausalitySynchronousWork_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget227>(global::System.Nullable_A_Windows_Foundation_Diagnostics_CausalitySynchronousWork_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -8838,10 +9238,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_ApplicationModel_Activation_ApplicationExecutionState_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget217>(global::System.Nullable_A_Windows_ApplicationModel_Activation_ApplicationExecutionState_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_ApplicationModel_Activation_ApplicationExecutionState_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget228>(global::System.Nullable_A_Windows_ApplicationModel_Activation_ApplicationExecutionState_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -8934,10 +9334,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Controls_Primitives_ComponentResourceLocation_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget218>(global::System.Nullable_A_Windows_UI_Xaml_Controls_Primitives_ComponentResourceLocation_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Controls_Primitives_ComponentResourceLocation_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget229>(global::System.Nullable_A_Windows_UI_Xaml_Controls_Primitives_ComponentResourceLocation_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -9029,10 +9429,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_ApplicationModel_PackageVersion_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget219>(global::System.Nullable_A_Windows_ApplicationModel_PackageVersion_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_ApplicationModel_PackageVersion_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget231>(global::System.Nullable_A_Windows_ApplicationModel_PackageVersion_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -9124,10 +9524,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Graphics_Display_DisplayOrientations_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget220>(global::System.Nullable_A_Windows_Graphics_Display_DisplayOrientations_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Graphics_Display_DisplayOrientations_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget232>(global::System.Nullable_A_Windows_Graphics_Display_DisplayOrientations_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -9219,10 +9619,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Graphics_Display_ResolutionScale_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget221>(global::System.Nullable_A_Windows_Graphics_Display_ResolutionScale_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Graphics_Display_ResolutionScale_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget233>(global::System.Nullable_A_Windows_Graphics_Display_ResolutionScale_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -9314,10 +9714,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Security_Cryptography_BinaryStringEncoding_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget222>(global::System.Nullable_A_Windows_Security_Cryptography_BinaryStringEncoding_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Security_Cryptography_BinaryStringEncoding_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget234>(global::System.Nullable_A_Windows_Security_Cryptography_BinaryStringEncoding_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -9409,10 +9809,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Networking_Connectivity_NetworkConnectivityLevel_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget223>(global::System.Nullable_A_Windows_Networking_Connectivity_NetworkConnectivityLevel_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Networking_Connectivity_NetworkConnectivityLevel_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget235>(global::System.Nullable_A_Windows_Networking_Connectivity_NetworkConnectivityLevel_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -9504,10 +9904,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Devices_Enumeration_Pnp_PnpObjectType_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget224>(global::System.Nullable_A_Windows_Devices_Enumeration_Pnp_PnpObjectType_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Devices_Enumeration_Pnp_PnpObjectType_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget236>(global::System.Nullable_A_Windows_Devices_Enumeration_Pnp_PnpObjectType_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -9558,6 +9958,101 @@ namespace System
 		}
 	}
 
+	// System.Nullable<Windows.Web.Http.Filters.HttpCacheReadBehavior>
+	public unsafe static class Nullable_A_Windows_Web_Http_Filters_HttpCacheReadBehavior_V___Impl
+	{
+		// StubClass for 'System.Nullable<Windows.Web.Http.Filters.HttpCacheReadBehavior>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::Windows.Web.Http.Filters.HttpCacheReadBehavior get_Value(global::System.__ComObject __this)
+			{
+				global::Windows.Web.Http.Filters.HttpCacheReadBehavior __ret = global::McgInterop.ForwardComSharedStubs.Func_Web_Http_Filters_HttpCacheReadBehavior__(
+									__this, 
+									typeof(global::Windows.Foundation.IReference<global::Windows.Web.Http.Filters.HttpCacheReadBehavior>).TypeHandle, 
+									global::System.Nullable_A_Windows_Web_Http_Filters_HttpCacheReadBehavior_V___Impl.Vtbl.idx_get_Value
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// v-table for 'System.Nullable<Windows.Web.Http.Filters.HttpCacheReadBehavior>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IReference<global::Windows.Web.Http.Filters.HttpCacheReadBehavior>))]
+		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Foundation.IReference<global::Windows.Web.Http.Filters.HttpCacheReadBehavior>))]
+		public unsafe partial struct Vtbl
+		{
+			global::System.IntPtr pfnQueryInterface;
+			global::System.IntPtr pfnAddRef;
+			global::System.IntPtr pfnRelease;
+			global::System.IntPtr pfnGetIids;
+			global::System.IntPtr pfnGetRuntimeClassName;
+			global::System.IntPtr pfnGetTrustLevel;
+			// Windows_Foundation__IReference_A_Windows_Web_Http_Filters_HttpCacheReadBehavior_V_
+			global::System.IntPtr pfnget_Value_Windows_Foundation__IReference_A_Windows_Web_Http_Filters_HttpCacheReadBehavior_V_;
+			internal const int idx_get_Value = 6;
+			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::System.Nullable_A_Windows_Web_Http_Filters_HttpCacheReadBehavior_V___Impl.Vtbl.System_Nullable_A_Windows_Web_Http_Filters_HttpCacheReadBehavior_V___Impl_Vtbl_McgRvaContainer), "RVA_System_Nullable_A_Windows_Web_Http_Filters_HttpCacheReadBehavior_V___Impl_Vtbl_s_theCcwVtable")]
+			public static global::System.Nullable_A_Windows_Web_Http_Filters_HttpCacheReadBehavior_V___Impl.Vtbl s_theCcwVtable
+			#if false
+			 = new global::System.Nullable_A_Windows_Web_Http_Filters_HttpCacheReadBehavior_V___Impl.Vtbl() {
+				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
+				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
+				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Web_Http_Filters_HttpCacheReadBehavior_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget237>(global::System.Nullable_A_Windows_Web_Http_Filters_HttpCacheReadBehavior_V___Impl.Vtbl.get_Value__STUB),
+			}
+			#endif
+			;
+			// Signature, System.Nullable<Windows.Web.Http.Filters.HttpCacheReadBehavior>.get_Value, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.EnumMarshaller] Windows_Web_Http_Filters_HttpCacheReadBehavior__Windows_Web_Http_Filters__HttpCacheReadBehavior, 
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int get_Value__STUB(
+						global::System.IntPtr pComThis, 
+						global::Windows.Web.Http.Filters.HttpCacheReadBehavior* unsafe___value__retval)
+			{
+				// Setup
+				global::Windows.Web.Http.Filters.HttpCacheReadBehavior __value__retval;
+				try
+				{
+					// Marshalling
+					// Call to managed method
+					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.IReference<global::Windows.Web.Http.Filters.HttpCacheReadBehavior>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).get_Value();
+					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+					if (unsafe___value__retval != null)
+						(*(unsafe___value__retval)) = __value__retval;
+					// Return
+					return global::McgInterop.Helpers.S_OK;
+				}
+				catch (global::System.Exception hrExcep)
+				{
+					// ExceptionCleanup
+					if (unsafe___value__retval != null)
+						(*(unsafe___value__retval)) = default(global::Windows.Web.Http.Filters.HttpCacheReadBehavior);
+					// ExceptionReturn
+					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+				}
+			}
+
+			private static class System_Nullable_A_Windows_Web_Http_Filters_HttpCacheReadBehavior_V___Impl_Vtbl_McgRvaContainer
+			{
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(32, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::System.Nullable_A_Windows_Web_Http_Filters_HttpCacheReadBehavior_V___Impl.Vtbl), "get_Value__STUB")]
+				[global::System.Runtime.CompilerServices.NonArray]
+				static readonly byte[] RVA_System_Nullable_A_Windows_Web_Http_Filters_HttpCacheReadBehavior_V___Impl_Vtbl_s_theCcwVtable = new byte[] {
+						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+						0, 0, 0, 0, 0, 0};
+			}
+		}
+	}
+
 	// System.Nullable<Windows.System.Profile.ProfileHardwareTokenContract>
 	public unsafe static class Nullable_A_Windows_System_Profile_ProfileHardwareTokenContract_V___Impl
 	{
@@ -9599,10 +10094,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_System_Profile_ProfileHardwareTokenContract_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget225>(global::System.Nullable_A_Windows_System_Profile_ProfileHardwareTokenContract_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_System_Profile_ProfileHardwareTokenContract_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget239>(global::System.Nullable_A_Windows_System_Profile_ProfileHardwareTokenContract_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -9694,10 +10189,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_WindowActivatedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget226>(global::System.Nullable_A_Windows_UI_Xaml_WindowActivatedEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_WindowActivatedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget240>(global::System.Nullable_A_Windows_UI_Xaml_WindowActivatedEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -9722,7 +10217,7 @@ namespace System
 						(*(unsafe___value__retval)) = (global::Windows.UI.Xaml.WindowActivatedEventHandler__Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 											__value__retval, 
 											typeof(global::Windows.UI.Xaml.WindowActivatedEventHandler).TypeHandle, 
-											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget45>(global::Windows.UI.Xaml.WindowActivatedEventHandler__Impl.Invoke)
+											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget52>(global::Windows.UI.Xaml.WindowActivatedEventHandler__Impl.Invoke)
 										);
 					// Return
 					return global::McgInterop.Helpers.S_OK;
@@ -9798,10 +10293,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_WindowClosedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget227>(global::System.Nullable_A_Windows_UI_Xaml_WindowClosedEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_WindowClosedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget241>(global::System.Nullable_A_Windows_UI_Xaml_WindowClosedEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -9826,7 +10321,7 @@ namespace System
 						(*(unsafe___value__retval)) = (global::Windows.UI.Xaml.WindowClosedEventHandler__Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 											__value__retval, 
 											typeof(global::Windows.UI.Xaml.WindowClosedEventHandler).TypeHandle, 
-											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget46>(global::Windows.UI.Xaml.WindowClosedEventHandler__Impl.Invoke)
+											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget53>(global::Windows.UI.Xaml.WindowClosedEventHandler__Impl.Invoke)
 										);
 					// Return
 					return global::McgInterop.Helpers.S_OK;
@@ -9902,10 +10397,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_WindowSizeChangedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget228>(global::System.Nullable_A_Windows_UI_Xaml_WindowSizeChangedEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_WindowSizeChangedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget242>(global::System.Nullable_A_Windows_UI_Xaml_WindowSizeChangedEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -9930,7 +10425,7 @@ namespace System
 						(*(unsafe___value__retval)) = (global::Windows.UI.Xaml.WindowSizeChangedEventHandler__Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 											__value__retval, 
 											typeof(global::Windows.UI.Xaml.WindowSizeChangedEventHandler).TypeHandle, 
-											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget47>(global::Windows.UI.Xaml.WindowSizeChangedEventHandler__Impl.Invoke)
+											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(global::Windows.UI.Xaml.WindowSizeChangedEventHandler__Impl.Invoke)
 										);
 					// Return
 					return global::McgInterop.Helpers.S_OK;
@@ -10006,10 +10501,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_WindowVisibilityChangedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget229>(global::System.Nullable_A_Windows_UI_Xaml_WindowVisibilityChangedEventHandler_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_WindowVisibilityChangedEventHandler_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget243>(global::System.Nullable_A_Windows_UI_Xaml_WindowVisibilityChangedEventHandler_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -10034,7 +10529,7 @@ namespace System
 						(*(unsafe___value__retval)) = (global::Windows.UI.Xaml.WindowVisibilityChangedEventHandler__Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 											__value__retval, 
 											typeof(global::Windows.UI.Xaml.WindowVisibilityChangedEventHandler).TypeHandle, 
-											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget48>(global::Windows.UI.Xaml.WindowVisibilityChangedEventHandler__Impl.Invoke)
+											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(global::Windows.UI.Xaml.WindowVisibilityChangedEventHandler__Impl.Invoke)
 										);
 					// Return
 					return global::McgInterop.Helpers.S_OK;
@@ -10063,6 +10558,111 @@ namespace System
 				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::System.Nullable_A_Windows_UI_Xaml_WindowVisibilityChangedEventHandler_V___Impl.Vtbl), "get_Value__STUB")]
 				[global::System.Runtime.CompilerServices.NonArray]
 				static readonly byte[] RVA_System_Nullable_A_Windows_UI_Xaml_WindowVisibilityChangedEventHandler_V___Impl_Vtbl_s_theCcwVtable = new byte[] {
+						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+						0, 0, 0, 0, 0, 0};
+			}
+		}
+	}
+
+	// System.Nullable<Windows.Foundation.Collections.MapChangedEventHandler<string,System.Object>>
+	public unsafe static class Nullable_A_Windows_Foundation_Collections_MapChangedEventHandler_A_string_j_System_Object_V__V___Impl
+	{
+		// StubClass for 'System.Nullable<Windows.Foundation.Collections.MapChangedEventHandler<string,System.Object>>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::Windows.Foundation.Collections.MapChangedEventHandler<string, object> get_Value(global::System.__ComObject __this)
+			{
+				global::Windows.Foundation.Collections.MapChangedEventHandler<string, object> __ret = global::McgInterop.ForwardComSharedStubs.Func__Collections_MapChangedEventHandler_2_string__object___(
+									__this, 
+									typeof(global::Windows.Foundation.IReference<global::Windows.Foundation.Collections.MapChangedEventHandler<string, object>>).TypeHandle, 
+									global::System.Nullable_A_Windows_Foundation_Collections_MapChangedEventHandler_A_string_j_System_Object_V__V___Impl.Vtbl.idx_get_Value
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// v-table for 'System.Nullable<Windows.Foundation.Collections.MapChangedEventHandler<string,System.Object>>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IReference<global::Windows.Foundation.Collections.MapChangedEventHandler<string, object>>))]
+		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Foundation.IReference<global::Windows.Foundation.Collections.MapChangedEventHandler<string, object>>))]
+		public unsafe partial struct Vtbl
+		{
+			global::System.IntPtr pfnQueryInterface;
+			global::System.IntPtr pfnAddRef;
+			global::System.IntPtr pfnRelease;
+			global::System.IntPtr pfnGetIids;
+			global::System.IntPtr pfnGetRuntimeClassName;
+			global::System.IntPtr pfnGetTrustLevel;
+			// Windows_Foundation__IReference_A_Windows_Foundation_Collections_MapChangedEventHandler_A_string_j_object_V__V_
+			global::System.IntPtr pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Collections_MapChangedEventHandler_A_string_j_object_V__V_;
+			internal const int idx_get_Value = 6;
+			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::System.Nullable_A_Windows_Foundation_Collections_MapChangedEventHandler_A_string_j_System_Object_V__V___Impl.Vtbl.System_Nullable_A_Windows_Foundation_Collections_MapChangedEventHandler_A_string_j_System_Object_V__V___Impl_Vtbl_McgRvaContainer), "RVA_System_Nullable_A_Windows_Foundation_Collections_MapChangedEventHandler_A_string_j_System_Object_V__V___Impl" +
+				"_Vtbl_s_theCcwVtable")]
+			public static global::System.Nullable_A_Windows_Foundation_Collections_MapChangedEventHandler_A_string_j_System_Object_V__V___Impl.Vtbl s_theCcwVtable
+			#if false
+			 = new global::System.Nullable_A_Windows_Foundation_Collections_MapChangedEventHandler_A_string_j_System_Object_V__V___Impl.Vtbl() {
+				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
+				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
+				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_Collections_MapChangedEventHandler_A_string_j_object_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget247>(global::System.Nullable_A_Windows_Foundation_Collections_MapChangedEventHandler_A_string_j_System_Object_V__V___Impl.Vtbl.get_Value__STUB),
+			}
+			#endif
+			;
+			// Signature, System.Nullable<Windows.Foundation.Collections.MapChangedEventHandler<string,System.Object>>.get_Value, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.WinRTDelegateMarshaller] Windows_Foundation_Collections_MapChangedEventHandler_2_string__object___Windows_Foundation_Collections__MapChangedEventHandler_A_string_j_object_V_ *, 
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int get_Value__STUB(
+						global::System.IntPtr pComThis, 
+						global::Windows.Foundation.Collections.MapChangedEventHandler_A_string_j_System_Object_V___Impl.Vtbl*** unsafe___value__retval)
+			{
+				// Setup
+				if (unsafe___value__retval != null)
+					(*(unsafe___value__retval)) = null;
+				global::Windows.Foundation.Collections.MapChangedEventHandler<string, object> __value__retval = default(global::Windows.Foundation.Collections.MapChangedEventHandler<string, object>);
+				try
+				{
+					// Marshalling
+					// Call to managed method
+					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.IReference<global::Windows.Foundation.Collections.MapChangedEventHandler<string, object>>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).get_Value();
+					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+					if (unsafe___value__retval != null)
+						(*(unsafe___value__retval)) = (global::Windows.Foundation.Collections.MapChangedEventHandler_A_string_j_System_Object_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
+											__value__retval, 
+											typeof(global::Windows.Foundation.Collections.MapChangedEventHandler<string, object>).TypeHandle, 
+											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget36>(global::Windows.Foundation.Collections.MapChangedEventHandler_A_string_j_System_Object_V___Impl.Invoke)
+										);
+					// Return
+					return global::McgInterop.Helpers.S_OK;
+				}
+				catch (global::System.Exception hrExcep)
+				{
+					// ExceptionCleanup
+					if (unsafe___value__retval != null)
+					{
+						global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe___value__retval)))));
+						(*(unsafe___value__retval)) = null;
+					}
+					// ExceptionReturn
+					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+				}
+			}
+
+			private static class System_Nullable_A_Windows_Foundation_Collections_MapChangedEventHandler_A_string_j_System_Object_V__V___Impl_Vtbl_McgRvaContainer
+			{
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(32, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::System.Nullable_A_Windows_Foundation_Collections_MapChangedEventHandler_A_string_j_System_Object_V__V___Impl.Vtbl), "get_Value__STUB")]
+				[global::System.Runtime.CompilerServices.NonArray]
+				static readonly byte[] RVA_System_Nullable_A_Windows_Foundation_Collections_MapChangedEventHandler_A_string_j_System_Object_V__V___Impl_Vtbl_s_theCcwVtable = new byte[] {
 						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 						0, 0, 0, 0, 0, 0};
 			}
@@ -10110,10 +10710,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Automation_Peers_PatternInterface_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget233>(global::System.Nullable_A_Windows_UI_Xaml_Automation_Peers_PatternInterface_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Automation_Peers_PatternInterface_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget248>(global::System.Nullable_A_Windows_UI_Xaml_Automation_Peers_PatternInterface_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -10205,10 +10805,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Automation_Peers_AutomationControlType_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget234>(global::System.Nullable_A_Windows_UI_Xaml_Automation_Peers_AutomationControlType_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Automation_Peers_AutomationControlType_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget249>(global::System.Nullable_A_Windows_UI_Xaml_Automation_Peers_AutomationControlType_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -10300,10 +10900,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Automation_Peers_AutomationOrientation_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget235>(global::System.Nullable_A_Windows_UI_Xaml_Automation_Peers_AutomationOrientation_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Automation_Peers_AutomationOrientation_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget250>(global::System.Nullable_A_Windows_UI_Xaml_Automation_Peers_AutomationOrientation_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -10395,10 +10995,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Automation_Peers_AutomationLiveSetting_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget236>(global::System.Nullable_A_Windows_UI_Xaml_Automation_Peers_AutomationLiveSetting_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Automation_Peers_AutomationLiveSetting_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget251>(global::System.Nullable_A_Windows_UI_Xaml_Automation_Peers_AutomationLiveSetting_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -10491,10 +11091,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Automation_Peers_AutomationNavigationDirection_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget237>(global::System.Nullable_A_Windows_UI_Xaml_Automation_Peers_AutomationNavigationDirection_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Automation_Peers_AutomationNavigationDirection_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget252>(global::System.Nullable_A_Windows_UI_Xaml_Automation_Peers_AutomationNavigationDirection_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -10586,10 +11186,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Automation_Peers_AutomationLandmarkType_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget238>(global::System.Nullable_A_Windows_UI_Xaml_Automation_Peers_AutomationLandmarkType_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_UI_Xaml_Automation_Peers_AutomationLandmarkType_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget253>(global::System.Nullable_A_Windows_UI_Xaml_Automation_Peers_AutomationLandmarkType_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -10640,101 +11240,6 @@ namespace System
 		}
 	}
 
-	// System.Nullable<Windows.Web.Http.Filters.HttpCacheReadBehavior>
-	public unsafe static class Nullable_A_Windows_Web_Http_Filters_HttpCacheReadBehavior_V___Impl
-	{
-		// StubClass for 'System.Nullable<Windows.Web.Http.Filters.HttpCacheReadBehavior>'
-		public static partial class StubClass
-		{
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-			public static global::Windows.Web.Http.Filters.HttpCacheReadBehavior get_Value(global::System.__ComObject __this)
-			{
-				global::Windows.Web.Http.Filters.HttpCacheReadBehavior __ret = global::McgInterop.ForwardComSharedStubs.Func_Web_Http_Filters_HttpCacheReadBehavior__(
-									__this, 
-									typeof(global::Windows.Foundation.IReference<global::Windows.Web.Http.Filters.HttpCacheReadBehavior>).TypeHandle, 
-									global::System.Nullable_A_Windows_Web_Http_Filters_HttpCacheReadBehavior_V___Impl.Vtbl.idx_get_Value
-								);
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-				return __ret;
-			}
-		}
-
-		// v-table for 'System.Nullable<Windows.Web.Http.Filters.HttpCacheReadBehavior>'
-		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IReference<global::Windows.Web.Http.Filters.HttpCacheReadBehavior>))]
-		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Foundation.IReference<global::Windows.Web.Http.Filters.HttpCacheReadBehavior>))]
-		public unsafe partial struct Vtbl
-		{
-			global::System.IntPtr pfnQueryInterface;
-			global::System.IntPtr pfnAddRef;
-			global::System.IntPtr pfnRelease;
-			global::System.IntPtr pfnGetIids;
-			global::System.IntPtr pfnGetRuntimeClassName;
-			global::System.IntPtr pfnGetTrustLevel;
-			// Windows_Foundation__IReference_A_Windows_Web_Http_Filters_HttpCacheReadBehavior_V_
-			global::System.IntPtr pfnget_Value_Windows_Foundation__IReference_A_Windows_Web_Http_Filters_HttpCacheReadBehavior_V_;
-			internal const int idx_get_Value = 6;
-			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::System.Nullable_A_Windows_Web_Http_Filters_HttpCacheReadBehavior_V___Impl.Vtbl.System_Nullable_A_Windows_Web_Http_Filters_HttpCacheReadBehavior_V___Impl_Vtbl_McgRvaContainer), "RVA_System_Nullable_A_Windows_Web_Http_Filters_HttpCacheReadBehavior_V___Impl_Vtbl_s_theCcwVtable")]
-			public static global::System.Nullable_A_Windows_Web_Http_Filters_HttpCacheReadBehavior_V___Impl.Vtbl s_theCcwVtable
-			#if false
-			 = new global::System.Nullable_A_Windows_Web_Http_Filters_HttpCacheReadBehavior_V___Impl.Vtbl() {
-				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
-				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
-				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Web_Http_Filters_HttpCacheReadBehavior_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget245>(global::System.Nullable_A_Windows_Web_Http_Filters_HttpCacheReadBehavior_V___Impl.Vtbl.get_Value__STUB),
-			}
-			#endif
-			;
-			// Signature, System.Nullable<Windows.Web.Http.Filters.HttpCacheReadBehavior>.get_Value, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.EnumMarshaller] Windows_Web_Http_Filters_HttpCacheReadBehavior__Windows_Web_Http_Filters__HttpCacheReadBehavior, 
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			[global::System.Runtime.InteropServices.NativeCallable]
-			static int get_Value__STUB(
-						global::System.IntPtr pComThis, 
-						global::Windows.Web.Http.Filters.HttpCacheReadBehavior* unsafe___value__retval)
-			{
-				// Setup
-				global::Windows.Web.Http.Filters.HttpCacheReadBehavior __value__retval;
-				try
-				{
-					// Marshalling
-					// Call to managed method
-					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.IReference<global::Windows.Web.Http.Filters.HttpCacheReadBehavior>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).get_Value();
-					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-					if (unsafe___value__retval != null)
-						(*(unsafe___value__retval)) = __value__retval;
-					// Return
-					return global::McgInterop.Helpers.S_OK;
-				}
-				catch (global::System.Exception hrExcep)
-				{
-					// ExceptionCleanup
-					if (unsafe___value__retval != null)
-						(*(unsafe___value__retval)) = default(global::Windows.Web.Http.Filters.HttpCacheReadBehavior);
-					// ExceptionReturn
-					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-				}
-			}
-
-			private static class System_Nullable_A_Windows_Web_Http_Filters_HttpCacheReadBehavior_V___Impl_Vtbl_McgRvaContainer
-			{
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(32, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::System.Nullable_A_Windows_Web_Http_Filters_HttpCacheReadBehavior_V___Impl.Vtbl), "get_Value__STUB")]
-				[global::System.Runtime.CompilerServices.NonArray]
-				static readonly byte[] RVA_System_Nullable_A_Windows_Web_Http_Filters_HttpCacheReadBehavior_V___Impl_Vtbl_s_theCcwVtable = new byte[] {
-						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-						0, 0, 0, 0, 0, 0};
-			}
-		}
-	}
-
 	// System.Nullable<Windows.Networking.HostNameType>
 	public unsafe static class Nullable_A_Windows_Networking_HostNameType_V___Impl
 	{
@@ -10776,10 +11281,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Networking_HostNameType_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget248>(global::System.Nullable_A_Windows_Networking_HostNameType_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Networking_HostNameType_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget256>(global::System.Nullable_A_Windows_Networking_HostNameType_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -10872,10 +11377,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_AsyncOperationProgressHandler_A_Windows_Web_Http_HttpResponseMessage_j_Windows_Web_Http_HttpProgress_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget249>(global::System.Nullable_A_Windows_Foundation_AsyncOperationProgressHandler_A_Windows_Web_Http_HttpResponseMessage_j_Windows_Web_Http_HttpProgress_V__V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_AsyncOperationProgressHandler_A_Windows_Web_Http_HttpResponseMessage_j_Windows_Web_Http_HttpProgress_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget259>(global::System.Nullable_A_Windows_Foundation_AsyncOperationProgressHandler_A_Windows_Web_Http_HttpResponseMessage_j_Windows_Web_Http_HttpProgress_V__V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -10900,7 +11405,7 @@ namespace System
 						(*(unsafe___value__retval)) = (global::Windows.Foundation.AsyncOperationProgressHandler_A_Windows_Web_Http_HttpResponseMessage_j_Windows_Web_Http_HttpProgress_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 											__value__retval, 
 											typeof(global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Web.Http.HttpResponseMessage, global::Windows.Web.Http.HttpProgress>).TypeHandle, 
-											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget51>(global::Windows.Foundation.AsyncOperationProgressHandler_A_Windows_Web_Http_HttpResponseMessage_j_Windows_Web_Http_HttpProgress_V___Impl.Invoke)
+											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget48>(global::Windows.Foundation.AsyncOperationProgressHandler_A_Windows_Web_Http_HttpResponseMessage_j_Windows_Web_Http_HttpProgress_V___Impl.Invoke)
 										);
 					// Return
 					return global::McgInterop.Helpers.S_OK;
@@ -10977,10 +11482,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_AsyncOperationWithProgressCompletedHandler_A_Windows_Web_Http_HttpResponseMessage_j_Windows_Web_Http_HttpProgress_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget250>(global::System.Nullable_A_Windows_Foundation_AsyncOperationWithProgressCompletedHandler_A_Windows_Web_Http_HttpResponseMessage_j_Windows_Web_Http_HttpProgress_V__V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_AsyncOperationWithProgressCompletedHandler_A_Windows_Web_Http_HttpResponseMessage_j_Windows_Web_Http_HttpProgress_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget260>(global::System.Nullable_A_Windows_Foundation_AsyncOperationWithProgressCompletedHandler_A_Windows_Web_Http_HttpResponseMessage_j_Windows_Web_Http_HttpProgress_V__V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -11005,7 +11510,7 @@ namespace System
 						(*(unsafe___value__retval)) = (global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler_A_Windows_Web_Http_HttpResponseMessage_j_Windows_Web_Http_HttpProgress_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 											__value__retval, 
 											typeof(global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler<global::Windows.Web.Http.HttpResponseMessage, global::Windows.Web.Http.HttpProgress>).TypeHandle, 
-											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget52>(global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler_A_Windows_Web_Http_HttpResponseMessage_j_Windows_Web_Http_HttpProgress_V___Impl.Invoke)
+											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget49>(global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler_A_Windows_Web_Http_HttpResponseMessage_j_Windows_Web_Http_HttpProgress_V___Impl.Invoke)
 										);
 					// Return
 					return global::McgInterop.Helpers.S_OK;
@@ -11081,10 +11586,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Web_Http_HttpStatusCode_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget251>(global::System.Nullable_A_Windows_Web_Http_HttpStatusCode_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Web_Http_HttpStatusCode_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget261>(global::System.Nullable_A_Windows_Web_Http_HttpStatusCode_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -11176,10 +11681,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Web_Http_HttpProgress_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget252>(global::System.Nullable_A_Windows_Web_Http_HttpProgress_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Web_Http_HttpProgress_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget262>(global::System.Nullable_A_Windows_Web_Http_HttpProgress_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -11280,10 +11785,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_AsyncOperationProgressHandler_A_Windows_Storage_Streams_IInputStream_j_ulong_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget253>(global::System.Nullable_A_Windows_Foundation_AsyncOperationProgressHandler_A_Windows_Storage_Streams_IInputStream_j_ulong_V__V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_AsyncOperationProgressHandler_A_Windows_Storage_Streams_IInputStream_j_ulong_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget263>(global::System.Nullable_A_Windows_Foundation_AsyncOperationProgressHandler_A_Windows_Storage_Streams_IInputStream_j_ulong_V__V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -11308,7 +11813,7 @@ namespace System
 						(*(unsafe___value__retval)) = (global::Windows.Foundation.AsyncOperationProgressHandler_A_Windows_Storage_Streams_IInputStream_j_ulong_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 											__value__retval, 
 											typeof(global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IInputStream, ulong>).TypeHandle, 
-											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget49>(global::Windows.Foundation.AsyncOperationProgressHandler_A_Windows_Storage_Streams_IInputStream_j_ulong_V___Impl.Invoke)
+											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget46>(global::Windows.Foundation.AsyncOperationProgressHandler_A_Windows_Storage_Streams_IInputStream_j_ulong_V___Impl.Invoke)
 										);
 					// Return
 					return global::McgInterop.Helpers.S_OK;
@@ -11385,10 +11890,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_AsyncOperationWithProgressCompletedHandler_A_Windows_Storage_Streams_IInputStream_j_ulong_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget254>(global::System.Nullable_A_Windows_Foundation_AsyncOperationWithProgressCompletedHandler_A_Windows_Storage_Streams_IInputStream_j_ulong_V__V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_AsyncOperationWithProgressCompletedHandler_A_Windows_Storage_Streams_IInputStream_j_ulong_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget264>(global::System.Nullable_A_Windows_Foundation_AsyncOperationWithProgressCompletedHandler_A_Windows_Storage_Streams_IInputStream_j_ulong_V__V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -11413,7 +11918,7 @@ namespace System
 						(*(unsafe___value__retval)) = (global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler_A_Windows_Storage_Streams_IInputStream_j_ulong_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 											__value__retval, 
 											typeof(global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler<global::Windows.Storage.Streams.IInputStream, ulong>).TypeHandle, 
-											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget50>(global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler_A_Windows_Storage_Streams_IInputStream_j_ulong_V___Impl.Invoke)
+											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget47>(global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler_A_Windows_Storage_Streams_IInputStream_j_ulong_V___Impl.Invoke)
 										);
 					// Return
 					return global::McgInterop.Helpers.S_OK;
@@ -11489,10 +11994,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Web_Http_HttpVersion_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget255>(global::System.Nullable_A_Windows_Web_Http_HttpVersion_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Web_Http_HttpVersion_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget265>(global::System.Nullable_A_Windows_Web_Http_HttpVersion_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -11584,10 +12089,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Web_Http_HttpProgressStage_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget256>(global::System.Nullable_A_Windows_Web_Http_HttpProgressStage_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Web_Http_HttpProgressStage_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget266>(global::System.Nullable_A_Windows_Web_Http_HttpProgressStage_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -11680,10 +12185,10 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_Foundation_Collections_IVectorView_A_Windows_Security_Cryptography_Certificates_Certificate_V__V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget257>(global::System.Nullable_A_Windows_Foundation_AsyncOperationCompletedHandler_A_System_Collections_Generic_IReadOnlyList_A_Windows_Security_Cryptography_Certificates_Certificate_V__V__V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReference_A_Windows_Foundation_AsyncOperationCompletedHandler_A_Windows_Foundation_Collections_IVectorView_A_Windows_Security_Cryptography_Certificates_Certificate_V__V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget267>(global::System.Nullable_A_Windows_Foundation_AsyncOperationCompletedHandler_A_System_Collections_Generic_IReadOnlyList_A_Windows_Security_Cryptography_Certificates_Certificate_V__V__V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -11708,7 +12213,7 @@ namespace System
 						(*(unsafe___value__retval)) = (global::Windows.Foundation.AsyncOperationCompletedHandler_A_System_Collections_Generic_IReadOnlyList_A_Windows_Security_Cryptography_Certificates_Certificate_V__V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 											__value__retval, 
 											typeof(global::Windows.Foundation.AsyncOperationCompletedHandler<global::System.Collections.Generic.IReadOnlyList<global::Windows.Security.Cryptography.Certificates.Certificate>>).TypeHandle, 
-											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget53>(global::Windows.Foundation.AsyncOperationCompletedHandler_A_System_Collections_Generic_IReadOnlyList_A_Windows_Security_Cryptography_Certificates_Certificate_V__V___Impl.Invoke)
+											global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget56>(global::Windows.Foundation.AsyncOperationCompletedHandler_A_System_Collections_Generic_IReadOnlyList_A_Windows_Security_Cryptography_Certificates_Certificate_V__V___Impl.Invoke)
 										);
 					// Return
 					return global::McgInterop.Helpers.S_OK;
@@ -18609,6 +19114,873 @@ namespace System.Collections.Generic
 		}
 	}
 
+	// System.Collections.Generic.IDictionary<string,Windows.Data.Json.IJsonValue>
+	public unsafe static class IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl
+	{
+		// StubClass for 'System.Collections.Generic.IDictionary<string,Windows.Data.Json.IJsonValue>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::Windows.Data.Json.IJsonValue Lookup(
+						global::System.__ComObject __this, 
+						string key)
+			{
+				global::Windows.Data.Json.IJsonValue __ret = global::McgInterop.ForwardComSharedStubs.Func_string__Data_Json_IJsonValue__(
+									__this, 
+									key, 
+									typeof(global::System.Collections.Generic.IDictionary<string, global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_Lookup
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static uint get_Size(global::System.__ComObject __this)
+			{
+				uint __ret = global::McgInterop.ForwardComSharedStubs.Func_uint__(
+									__this, 
+									typeof(global::System.Collections.Generic.IDictionary<string, global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_get_Size
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static bool HasKey(
+						global::System.__ComObject __this, 
+						string key)
+			{
+				bool __ret = global::McgInterop.ForwardComSharedStubs.Func_string__bool__(
+									__this, 
+									key, 
+									typeof(global::System.Collections.Generic.IDictionary<string, global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_HasKey
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::System.Collections.Generic.IReadOnlyDictionary<string, global::Windows.Data.Json.IJsonValue> GetView(global::System.__ComObject __this)
+			{
+				global::System.Collections.Generic.IReadOnlyDictionary<string, global::Windows.Data.Json.IJsonValue> __ret = global::McgInterop.ForwardComSharedStubs.Func__IReadOnlyDictionary_2_string__Data_Json_IJsonValue___(
+									__this, 
+									typeof(global::System.Collections.Generic.IDictionary<string, global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_GetView
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static bool Insert(
+						global::System.__ComObject __this, 
+						string key, 
+						global::Windows.Data.Json.IJsonValue value)
+			{
+				bool __ret = global::McgInterop.ForwardComSharedStubs.Func_string__Data_Json_IJsonValue__bool__(
+									__this, 
+									key, 
+									value, 
+									typeof(global::System.Collections.Generic.IDictionary<string, global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_Insert
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static void Remove(
+						global::System.__ComObject __this, 
+						string key)
+			{
+				global::McgInterop.ForwardComSharedStubs.Proc_string__(
+									__this, 
+									key, 
+									typeof(global::System.Collections.Generic.IDictionary<string, global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_Remove
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static void Clear(global::System.__ComObject __this)
+			{
+				global::McgInterop.ForwardComSharedStubs.Proc_(
+									__this, 
+									typeof(global::System.Collections.Generic.IDictionary<string, global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_Clear
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+		}
+
+		// DispatchClass for 'System.Collections.Generic.IDictionary<string,Windows.Data.Json.IJsonValue>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IDictionary<string, global::Windows.Data.Json.IJsonValue>))]
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.ICollection<string>))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::System.Collections.Generic.IDictionary<string, global::Windows.Data.Json.IJsonValue>, global::System.Collections.Generic.ICollection<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>
+		{
+			global::System.Collections.Generic.IEnumerator<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>> global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>.GetEnumerator()
+			{
+				return (global::System.Collections.Generic.IEnumerator<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>)global::McgInterop.McgHelpers.GetGenericEnumerator(
+									this, 
+									typeof(global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>).TypeHandle
+								);
+			}
+
+			global::System.Collections.IEnumerator global::System.Collections.IEnumerable.GetEnumerator()
+			{
+				return global::McgInterop.McgHelpers.GetNonGenericEnumerator(this);
+			}
+
+			int global::System.Collections.Generic.ICollection<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>.Count
+			{
+				get
+				{
+					return global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.ICollectionRCWAdapterClass.Count(this);
+				}
+			}
+
+			bool global::System.Collections.Generic.ICollection<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>.IsReadOnly
+			{
+				get
+				{
+					return global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.ICollectionRCWAdapterClass.IsReadOnly(this);
+				}
+			}
+
+			void global::System.Collections.Generic.ICollection<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>.Add(global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue> item)
+			{
+				global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.ICollectionRCWAdapterClass.Add(
+									this, 
+									item
+								);
+			}
+
+			void global::System.Collections.Generic.ICollection<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>.Clear()
+			{
+				global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.ICollectionRCWAdapterClass.Clear(this);
+			}
+
+			bool global::System.Collections.Generic.ICollection<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>.Contains(global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue> item)
+			{
+				return global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.ICollectionRCWAdapterClass.Contains(
+									this, 
+									item
+								);
+			}
+
+			void global::System.Collections.Generic.ICollection<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>.CopyTo(
+						global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>[] array, 
+						int arrayindex)
+			{
+				global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.ICollectionRCWAdapterClass.CopyTo(
+									this, 
+									array, 
+									arrayindex
+								);
+			}
+
+			bool global::System.Collections.Generic.ICollection<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>.Remove(global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue> item)
+			{
+				return global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.ICollectionRCWAdapterClass.Remove(
+									this, 
+									item
+								);
+			}
+
+			global::Windows.Data.Json.IJsonValue global::System.Collections.Generic.IDictionary<string, global::Windows.Data.Json.IJsonValue>.this[string index]
+			{
+				get
+				{
+					return global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.RCWAdapterClass.Indexer_Get(
+										this, 
+										index
+									);
+				}
+				set
+				{
+					global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.RCWAdapterClass.Indexer_Set(
+										this, 
+										index, 
+										value
+									);
+				}
+			}
+
+			global::System.Collections.Generic.ICollection<string> global::System.Collections.Generic.IDictionary<string, global::Windows.Data.Json.IJsonValue>.Keys
+			{
+				get
+				{
+					return global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.RCWAdapterClass.Keys(this);
+				}
+			}
+
+			global::System.Collections.Generic.ICollection<global::Windows.Data.Json.IJsonValue> global::System.Collections.Generic.IDictionary<string, global::Windows.Data.Json.IJsonValue>.Values
+			{
+				get
+				{
+					return global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.RCWAdapterClass.Values(this);
+				}
+			}
+
+			void global::System.Collections.Generic.IDictionary<string, global::Windows.Data.Json.IJsonValue>.Add(
+						string key, 
+						global::Windows.Data.Json.IJsonValue value)
+			{
+				global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.RCWAdapterClass.Add(
+									this, 
+									key, 
+									value
+								);
+			}
+
+			bool global::System.Collections.Generic.IDictionary<string, global::Windows.Data.Json.IJsonValue>.ContainsKey(string key)
+			{
+				return global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.RCWAdapterClass.ContainsKey(
+									this, 
+									key
+								);
+			}
+
+			bool global::System.Collections.Generic.IDictionary<string, global::Windows.Data.Json.IJsonValue>.Remove(string key)
+			{
+				return global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.RCWAdapterClass.Remove(
+									this, 
+									key
+								);
+			}
+
+			bool global::System.Collections.Generic.IDictionary<string, global::Windows.Data.Json.IJsonValue>.TryGetValue(
+						string key, 
+						out global::Windows.Data.Json.IJsonValue value)
+			{
+				return global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.RCWAdapterClass.TryGetValue(
+									this, 
+									key, 
+									out value
+								);
+			}
+		}
+
+		public static class RCWAdapterClass 
+		{
+		    // global::Windows.Data.Json.IJsonValue this[string key] { get }
+		    public static global::Windows.Data.Json.IJsonValue Indexer_Get(
+		        /*Windows.Foundation.Collections.IMap<string, global::Windows.Data.Json.IJsonValue>*/ global::System.__ComObject _this,
+		        string key)
+		    {
+		        if ((object) key == null)
+		            throw global::McgInterop.Helpers.NewException_ArgumentNullException_key();
+
+		        //Contract.EndContractBlock();
+		        return Lookup(_this, key);
+		    }
+
+		    // global::Windows.Data.Json.IJsonValue this[string key] { set }
+		    public static void Indexer_Set(
+		        /*Windows.Foundation.Collections.IMap<string, global::Windows.Data.Json.IJsonValue>*/ global::System.__ComObject _this, 
+		        string key, 
+		        global::Windows.Data.Json.IJsonValue value)
+		    {
+		        if ((object) key == null)
+		            throw global::McgInterop.Helpers.NewException_ArgumentNullException_key();
+
+		        //Contract.EndContractBlock();
+
+		        Insert(_this, key, value);
+		    }
+
+		    // ICollection<string> Keys { get }
+		    public static global::System.Collections.Generic.ICollection<string> Keys(
+		        /*Windows.Foundation.Collections.IMap<string, global::Windows.Data.Json.IJsonValue>*/ global::System.__ComObject _this
+		        )
+		    {
+		        global::System.Collections.Generic.IDictionary<string, global::Windows.Data.Json.IJsonValue> dictionary = (System.Collections.Generic.IDictionary<string, global::Windows.Data.Json.IJsonValue>)_this;
+		        return new DictionaryKeyCollection<string, global::Windows.Data.Json.IJsonValue>(dictionary);
+		    }
+
+		    // ICollection<global::Windows.Data.Json.IJsonValue> Values { get }
+		   public static global::System.Collections.Generic.ICollection<global::Windows.Data.Json.IJsonValue> Values(
+		        /*Windows.Foundation.Collections.IMap<string, global::Windows.Data.Json.IJsonValue>*/ global::System.__ComObject _this
+		       )
+		    {
+		        global::System.Collections.Generic.IDictionary<string, global::Windows.Data.Json.IJsonValue> dictionary = (System.Collections.Generic.IDictionary<string, global::Windows.Data.Json.IJsonValue>)_this;
+		        return new DictionaryValueCollection<string, global::Windows.Data.Json.IJsonValue>(dictionary);
+		    }
+
+		    // bool ContainsKey(string key)
+		   public static bool ContainsKey( /*Windows.Foundation.Collections.IMap<string, global::Windows.Data.Json.IJsonValue>*/ global::System.__ComObject _this,
+		       string key)
+		    {
+		        if ((object) key == null)
+		            throw global::McgInterop.Helpers.NewException_ArgumentNullException_key();
+
+		       return global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.StubClass.HasKey(_this, key);
+		    }
+
+		    // void Add(string key, global::Windows.Data.Json.IJsonValue value)
+		    public static void Add(
+		         /*Windows.Foundation.Collections.IMap<string, global::Windows.Data.Json.IJsonValue>*/ global::System.__ComObject _this,
+		        string key, 
+		        global::Windows.Data.Json.IJsonValue value)
+		    {
+		        if ((object) key == null)
+		            throw global::McgInterop.Helpers.NewException_ArgumentNullException_key();
+
+		        if (ContainsKey(_this, key))
+		            throw new ArgumentException(global::Mcg.System.SR.GetString(global::Mcg.System.SR.Excep_AddingDuplicate));
+
+		        //Contract.EndContractBlock();
+
+		        Insert(_this, key, value);
+		    }
+
+		    // bool Remove(string key)
+		    public static bool Remove(/*Windows.Foundation.Collections.IMap<string, global::Windows.Data.Json.IJsonValue>*/ global::System.__ComObject _this,
+		        string key)
+		    {
+		        if ((object) key == null)
+		            throw global::McgInterop.Helpers.NewException_ArgumentNullException_key();
+
+		        if (!global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.StubClass.HasKey(_this, key))
+		            return false;
+
+		        try
+		        {
+		            global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.StubClass.Remove(_this, key);
+		            return true;
+		        }
+		        catch (System.Exception ex)
+		        {
+		            if (global::McgInterop.McgHelpers.__HResults.E_BOUNDS == ex.HResult)
+		                return false;
+
+		            throw;
+		        }
+		    }
+
+		    // bool TryGetValue(string key, out global::Windows.Data.Json.IJsonValue value)
+		    public static bool TryGetValue(/*Windows.Foundation.Collections.IMap<string, global::Windows.Data.Json.IJsonValue>*/ global::System.__ComObject _this, 
+		        string key, 
+		        out global::Windows.Data.Json.IJsonValue value)
+		    {
+		        if ((object) key == null)
+		            throw global::McgInterop.Helpers.NewException_ArgumentNullException_key();
+
+		        if (!global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.StubClass.HasKey(_this, key))
+		        {
+		            value = default(global::Windows.Data.Json.IJsonValue);
+		            return false;
+		        }
+
+		        try
+		        {
+		            value = Lookup(_this, key);
+		            return true;
+		        }
+		        catch (System.Collections.Generic.KeyNotFoundException)
+		        {
+		            value = default(global::Windows.Data.Json.IJsonValue);
+		            return false;
+		        }
+		    }
+
+		    // Helpers:
+
+		    private static global::Windows.Data.Json.IJsonValue Lookup(/*Windows.Foundation.Collections.IMap<string, global::Windows.Data.Json.IJsonValue>*/global::System.__ComObject _this, string key)
+		    {
+		        //Contract.Requires(null != key);
+
+		        try
+		        {
+		            return global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.StubClass.Lookup(_this, key);
+		        }
+		        catch (System.Exception ex)
+		        {
+		            if (global::McgInterop.McgHelpers.__HResults.E_BOUNDS == ex.HResult)
+		                throw global::McgInterop.Helpers.NewException_KeyNotFoundException_Key();
+		            throw;
+		        }
+		    }
+
+		    private static bool Insert(/*Windows.Foundation.Collections.IMap<string, global::Windows.Data.Json.IJsonValue>*/global::System.__ComObject _this, string key, global::Windows.Data.Json.IJsonValue value)
+		    {
+		        //Contract.Requires(null != key);
+
+		        bool replaced = global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.StubClass.Insert(_this, key, value);
+		        return replaced;
+		    }
+		}
+
+		public static class ICollectionRCWAdapterClass 
+		{
+		    // int Count { get }
+		    public static int Count(/*Windows.Foundation.Collecitons.IMap*/ global::System.__ComObject _this)
+		    {
+		        uint size = global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.StubClass.get_Size(_this);
+
+		        if (((uint)System.Int32.MaxValue) < size)
+		        {
+		            throw new InvalidOperationException(global::Mcg.System.SR.GetString(global::Mcg.System.SR.Excep_CollectionBackingListTooLarge));
+		        }
+
+		        return (int)size;
+		    }
+
+		    // bool IsReadOnly { get }
+		    public static bool IsReadOnly(global::System.__ComObject _this)
+		    {
+		        return false;
+		    }
+
+		    // void Add(T item)
+		    public static void Add(/*Windows.Foundation.Collecitons.IMap*/ global::System.__ComObject _this,
+		        global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue> item)
+		    {
+		        global::System.Collections.Generic.IDictionary<string, global::Windows.Data.Json.IJsonValue> _this_dictionary = _this as global::System.Collections.Generic.IDictionary<string, global::Windows.Data.Json.IJsonValue>;
+		        // we called the dispatch method and now we can call the add on it.
+		        _this_dictionary.Add(item.Key, item.Value);        
+		    }
+
+		    // void Clear()
+		    public static void Clear(/*Windows.Foundation.Collecitons.IMap*/ global::System.__ComObject _this)
+		    {
+		        global::System.Collections.Generic.IDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.StubClass.Clear(_this);
+		    }
+
+		    // bool Contains(T item)
+		    public static bool Contains(/*Windows.Foundation.Collecitons.IMap*/ global::System.__ComObject _this,
+		        global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue> item)
+		    {
+		        return global::McgInterop.McgHelpers.MapContains(_this, item);
+		    }
+
+		    // void CopyTo(T[] array, int arrayIndex)
+		    public static void CopyTo(/*Windows.Foundation.Collecitons.IMap*/ global::System.__ComObject _this, 
+		        global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>[] array, 
+		        int arrayIndex)
+		    {
+		        global::McgInterop.McgHelpers.CopyMapTo(_this, Count(_this), array, arrayIndex);
+		    }
+
+		    // bool Remove(T item)
+		    public static bool Remove(/*Windows.Foundation.Collecitons.IMap*/ global::System.__ComObject _this, 
+		        global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue> item)
+		    {
+		        global::System.Collections.Generic.IDictionary<string, global::Windows.Data.Json.IJsonValue> _this_dictionary = _this as global::System.Collections.Generic.IDictionary<string, global::Windows.Data.Json.IJsonValue>;
+		        return _this_dictionary.Remove(item.Key);
+		    }
+		}
+
+
+		// v-table for 'System.Collections.Generic.IDictionary<string,Windows.Data.Json.IJsonValue>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IDictionary<string, global::Windows.Data.Json.IJsonValue>))]
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.ICollection<string>))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_Lookup = 6;
+			internal const int idx_get_Size = 7;
+			internal const int idx_HasKey = 8;
+			internal const int idx_GetView = 9;
+			internal const int idx_Insert = 10;
+			internal const int idx_Remove = 11;
+			internal const int idx_Clear = 12;
+		}
+	}
+
+	// System.Collections.Generic.KeyValuePair<string,Windows.Data.Json.IJsonValue>
+	public unsafe static class KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V___Impl
+	{
+		// StubClass for 'System.Collections.Generic.KeyValuePair<string,Windows.Data.Json.IJsonValue>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static string get_Key(global::System.__ComObject __this)
+			{
+				string __ret = global::McgInterop.ForwardComSharedStubs.Func_string__(
+									__this, 
+									typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_get_Key
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::Windows.Data.Json.IJsonValue get_Value(global::System.__ComObject __this)
+			{
+				global::Windows.Data.Json.IJsonValue __ret = global::McgInterop.ForwardComSharedStubs.Func_Data_Json_IJsonValue__(
+									__this, 
+									typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_get_Value
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// DispatchClass for 'System.Collections.Generic.KeyValuePair<string,Windows.Data.Json.IJsonValue>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::Windows.Data.Json.IJsonValue>))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.Foundation.Collections.IKeyValuePair<string, global::Windows.Data.Json.IJsonValue>
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.Collections.IKeyValuePair`2.Key")]
+			string global::Windows.Foundation.Collections.IKeyValuePair<string, global::Windows.Data.Json.IJsonValue>.get_Key()
+			{
+				string __retVal = global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.StubClass.get_Key(this);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.Collections.IKeyValuePair`2.Value")]
+			global::Windows.Data.Json.IJsonValue global::Windows.Foundation.Collections.IKeyValuePair<string, global::Windows.Data.Json.IJsonValue>.get_Value()
+			{
+				global::Windows.Data.Json.IJsonValue __retVal = global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.StubClass.get_Value(this);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+		}
+
+		// v-table for 'System.Collections.Generic.KeyValuePair<string,Windows.Data.Json.IJsonValue>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::Windows.Data.Json.IJsonValue>))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_get_Key = 6;
+			internal const int idx_get_Value = 7;
+		}
+	}
+
+	// System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string,Windows.Data.Json.IJsonValue>>
+	public unsafe static class IEnumerable_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V__V___Impl
+	{
+		// StubClass for 'System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string,Windows.Data.Json.IJsonValue>>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>> First(global::System.__ComObject __this)
+			{
+				global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>> __ret = global::McgInterop.ForwardComSharedStubs.Func__Collections_IIterator_1__KeyValuePair_2_string__Data_Json_IJsonValue__(
+									__this, 
+									typeof(global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>).TypeHandle, 
+									global::System.Collections.Generic.IEnumerable_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V__V___Impl.Vtbl.idx_First
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// DispatchClass for 'System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string,Windows.Data.Json.IJsonValue>>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>
+		{
+			global::System.Collections.Generic.IEnumerator<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>> global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>.GetEnumerator()
+			{
+				return (global::System.Collections.Generic.IEnumerator<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>)global::McgInterop.McgHelpers.GetGenericEnumerator(
+									this, 
+									typeof(global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>).TypeHandle
+								);
+			}
+
+			global::System.Collections.IEnumerator global::System.Collections.IEnumerable.GetEnumerator()
+			{
+				return global::McgInterop.McgHelpers.GetNonGenericEnumerator(this);
+			}
+		}
+
+		[System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string,global::Windows.Data.Json.IJsonValue>>))]
+		public class RCWAdapterClass : global::System.Runtime.InteropServices.ComInterfaceDynamicAdapter, global::System.Collections.IEnumerable
+		{
+		    public global::System.Collections.IEnumerator GetEnumerator()
+		    {
+		        return new IteratorToEnumeratorAdapter<global::System.Collections.Generic.KeyValuePair<string,global::Windows.Data.Json.IJsonValue>>(global::System.Collections.Generic.IEnumerable_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V__V___Impl.StubClass.First(ComObject));
+		    }
+		}
+
+		// v-table for 'System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string,Windows.Data.Json.IJsonValue>>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_First = 6;
+		}
+	}
+
+	// System.Collections.Generic.IReadOnlyDictionary<string,Windows.Data.Json.IJsonValue>
+	public unsafe static class IReadOnlyDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl
+	{
+		// StubClass for 'System.Collections.Generic.IReadOnlyDictionary<string,Windows.Data.Json.IJsonValue>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::Windows.Data.Json.IJsonValue Lookup(
+						global::System.__ComObject __this, 
+						string key)
+			{
+				global::Windows.Data.Json.IJsonValue __ret = global::McgInterop.ForwardComSharedStubs.Func_string__Data_Json_IJsonValue__(
+									__this, 
+									key, 
+									typeof(global::System.Collections.Generic.IReadOnlyDictionary<string, global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.IReadOnlyDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_Lookup
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static uint get_Size(global::System.__ComObject __this)
+			{
+				uint __ret = global::McgInterop.ForwardComSharedStubs.Func_uint__(
+									__this, 
+									typeof(global::System.Collections.Generic.IReadOnlyDictionary<string, global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.IReadOnlyDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_get_Size
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static bool HasKey(
+						global::System.__ComObject __this, 
+						string key)
+			{
+				bool __ret = global::McgInterop.ForwardComSharedStubs.Func_string__bool__(
+									__this, 
+									key, 
+									typeof(global::System.Collections.Generic.IReadOnlyDictionary<string, global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.IReadOnlyDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_HasKey
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static void Split(
+						global::System.__ComObject __this, 
+						out global::System.Collections.Generic.IReadOnlyDictionary<string, global::Windows.Data.Json.IJsonValue> first, 
+						out global::System.Collections.Generic.IReadOnlyDictionary<string, global::Windows.Data.Json.IJsonValue> second)
+			{
+				global::McgInterop.ForwardComSharedStubs.Proc_out__IReadOnlyDictionary_2_string__Data_Json_IJsonValue___out__IReadOnlyDictionary_2_string__Data_Json_IJsonValue___(
+									__this, 
+									out first, 
+									out second, 
+									typeof(global::System.Collections.Generic.IReadOnlyDictionary<string, global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.IReadOnlyDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_Split
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+		}
+
+		// DispatchClass for 'System.Collections.Generic.IReadOnlyDictionary<string,Windows.Data.Json.IJsonValue>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IReadOnlyDictionary<string, global::Windows.Data.Json.IJsonValue>))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::System.Collections.Generic.IReadOnlyDictionary<string, global::Windows.Data.Json.IJsonValue>, global::System.Collections.Generic.IReadOnlyCollection<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>
+		{
+			global::System.Collections.Generic.IEnumerator<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>> global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>.GetEnumerator()
+			{
+				return (global::System.Collections.Generic.IEnumerator<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>)global::McgInterop.McgHelpers.GetGenericEnumerator(
+									this, 
+									typeof(global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>).TypeHandle
+								);
+			}
+
+			global::System.Collections.IEnumerator global::System.Collections.IEnumerable.GetEnumerator()
+			{
+				return global::McgInterop.McgHelpers.GetNonGenericEnumerator(this);
+			}
+
+			int global::System.Collections.Generic.IReadOnlyCollection<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>.Count
+			{
+				get
+				{
+					return global::System.Collections.Generic.IReadOnlyDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.RCWAdapterClass.Count_Get(this);
+				}
+			}
+
+			global::Windows.Data.Json.IJsonValue global::System.Collections.Generic.IReadOnlyDictionary<string, global::Windows.Data.Json.IJsonValue>.this[string index]
+			{
+				get
+				{
+					return global::System.Collections.Generic.IReadOnlyDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.RCWAdapterClass.Indexer_Get(
+										this, 
+										index
+									);
+				}
+			}
+
+			global::System.Collections.Generic.IEnumerable<string> global::System.Collections.Generic.IReadOnlyDictionary<string, global::Windows.Data.Json.IJsonValue>.Keys
+			{
+				get
+				{
+					return global::System.Collections.Generic.IReadOnlyDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.RCWAdapterClass.Keys(this);
+				}
+			}
+
+			global::System.Collections.Generic.IEnumerable<global::Windows.Data.Json.IJsonValue> global::System.Collections.Generic.IReadOnlyDictionary<string, global::Windows.Data.Json.IJsonValue>.Values
+			{
+				get
+				{
+					return global::System.Collections.Generic.IReadOnlyDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.RCWAdapterClass.Values(this);
+				}
+			}
+
+			bool global::System.Collections.Generic.IReadOnlyDictionary<string, global::Windows.Data.Json.IJsonValue>.ContainsKey(string key)
+			{
+				return global::System.Collections.Generic.IReadOnlyDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.RCWAdapterClass.ContainsKey(
+									this, 
+									key
+								);
+			}
+
+			bool global::System.Collections.Generic.IReadOnlyDictionary<string, global::Windows.Data.Json.IJsonValue>.TryGetValue(
+						string key, 
+						out global::Windows.Data.Json.IJsonValue value)
+			{
+				return global::System.Collections.Generic.IReadOnlyDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.RCWAdapterClass.TryGetValue(
+									this, 
+									key, 
+									out value
+								);
+			}
+		}
+
+		public static class RCWAdapterClass 
+		{
+		    // int Count { get }
+		    public static int Count_Get(/*Windows.Foundation.Collections.IMapView<string, global::Windows.Data.Json.IJsonValue>*/ global::System.__ComObject _this)
+		    {
+		        uint size = global::System.Collections.Generic.IReadOnlyDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.StubClass.get_Size(_this);
+
+		        if (((uint)System.Int32.MaxValue) < size)
+		        {
+		            throw new InvalidOperationException(global::Mcg.System.SR.GetString(global::Mcg.System.SR.Excep_CollectionBackingListTooLarge));
+		        }
+
+		        return (int)size;
+		    }
+
+		    // global::Windows.Data.Json.IJsonValue this[K key] { get }
+		    public static global::Windows.Data.Json.IJsonValue Indexer_Get(
+		        /*Windows.Foundation.Collections.IMapView<>*/ global::System.__ComObject _this,
+		        string key)
+		    {
+		        if ((object)key == null)
+		            throw global::McgInterop.Helpers.NewException_ArgumentNullException_key();
+
+		        //Contract.EndContractBlock();
+
+		        return Lookup(_this, key);
+		    }
+
+		    // IEnumerable<string> Keys { get }
+		    public static global::System.Collections.Generic.IEnumerable<string> Keys(
+		        /*Windows.Foundation.Collections.IMapView<>*/ global::System.__ComObject _this
+		        )
+		    {
+		        global::System.Collections.Generic.IReadOnlyDictionary<string, global::Windows.Data.Json.IJsonValue> roDictionary = (System.Collections.Generic.IReadOnlyDictionary<string, global::Windows.Data.Json.IJsonValue>)_this;
+		        return new ReadOnlyDictionaryKeyCollection<string, global::Windows.Data.Json.IJsonValue>(roDictionary);
+		    }
+
+		    // IEnumerable<global::Windows.Data.Json.IJsonValue> Values { get }
+		    public static global::System.Collections.Generic.IEnumerable<global::Windows.Data.Json.IJsonValue> Values(
+		        /*Windows.Foundation.Collections.IMapView<>*/ global::System.__ComObject _this
+		        )
+		    {
+		        global::System.Collections.Generic.IReadOnlyDictionary<string, global::Windows.Data.Json.IJsonValue> roDictionary = (System.Collections.Generic.IReadOnlyDictionary<string, global::Windows.Data.Json.IJsonValue>)_this;
+		        return new ReadOnlyDictionaryValueCollection<string, global::Windows.Data.Json.IJsonValue>(roDictionary);
+		    }
+
+		    // bool ContainsKey(K key)
+		    public static bool ContainsKey(
+		        /*Windows.Foundation.Collections.IMapView<>*/ global::System.__ComObject _this,
+		        string key)
+		    {
+		        if ((object)key == null)
+		            throw global::McgInterop.Helpers.NewException_ArgumentNullException_key();
+
+		        return global::System.Collections.Generic.IReadOnlyDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.StubClass.HasKey(_this, key);
+		    }
+
+		    // bool TryGetValue(TKey key, out TValue value)
+		    public static bool TryGetValue(
+		        /*Windows.Foundation.Collections.IMapView<>*/ global::System.__ComObject _this,
+		        string key, 
+		        out global::Windows.Data.Json.IJsonValue value)
+		    {
+		        if ((object)key == null)
+		            throw global::McgInterop.Helpers.NewException_ArgumentNullException_key();
+
+		        // It may be faster to call HasKey then Lookup.  On failure, we would otherwise
+		        // throw an exception from Lookup.
+		        if (!global::System.Collections.Generic.IReadOnlyDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.StubClass.HasKey(_this, key))
+		        {
+		            value = default(global::Windows.Data.Json.IJsonValue);
+		            return false;
+		        }
+
+		        try
+		        {
+		            value = global::System.Collections.Generic.IReadOnlyDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.StubClass.Lookup(_this, key);
+		            return true;
+		        }
+		        catch (System.Exception ex)  // Still may hit this case due to a race, or a potential bug.
+		        {
+		            if (global::McgInterop.McgHelpers.__HResults.E_BOUNDS == ex.HResult)
+		            {
+		                value = default(global::Windows.Data.Json.IJsonValue);
+		                return false;
+		            }
+		            throw;
+		        }
+		    }
+
+		    #region Helpers
+
+		    private static global::Windows.Data.Json.IJsonValue Lookup(/*Windows.Foundation.Collections.IMapView<string, global::Windows.Data.Json.IJsonValue>*/ global::System.__ComObject _this, string key)
+		    {
+		        //Contract.Requires(null != key);
+
+		        try
+		        {
+		            return global::System.Collections.Generic.IReadOnlyDictionary_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.StubClass.Lookup(_this, key);
+		        }
+		        catch (System.Exception ex)
+		        {
+		            if (global::McgInterop.McgHelpers.__HResults.E_BOUNDS == ex.HResult)
+		                throw global::McgInterop.Helpers.NewException_KeyNotFoundException_Key();
+		            throw;
+		        }
+		    }
+
+		    #endregion Helpers
+		}
+
+		// v-table for 'System.Collections.Generic.IReadOnlyDictionary<string,Windows.Data.Json.IJsonValue>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IReadOnlyDictionary<string, global::Windows.Data.Json.IJsonValue>))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_Lookup = 6;
+			internal const int idx_get_Size = 7;
+			internal const int idx_HasKey = 8;
+			internal const int idx_Split = 9;
+		}
+	}
+
 	// System.Collections.Generic.IReadOnlyList<Windows.Devices.Enumeration.Pnp.PnpObject>
 	public unsafe static class IReadOnlyList_A_Windows_Devices_Enumeration_Pnp_PnpObject_V___Impl
 	{
@@ -19261,6 +20633,389 @@ namespace System.Collections.Generic
 		}
 	}
 
+	// System.Collections.Generic.IReadOnlyDictionary<System.Guid,Windows.ApplicationModel.Background.IBackgroundTaskRegistration>
+	public unsafe static class IReadOnlyDictionary_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V___Impl
+	{
+		// StubClass for 'System.Collections.Generic.IReadOnlyDictionary<System.Guid,Windows.ApplicationModel.Background.IBackgroundTaskRegistration>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration Lookup(
+						global::System.__ComObject __this, 
+						global::System.Guid key)
+			{
+				global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration __ret = global::McgInterop.ForwardComSharedStubs.Func_Guid__ApplicationModel_Background_IBackgroundTaskRegistration__(
+									__this, 
+									key, 
+									typeof(global::System.Collections.Generic.IReadOnlyDictionary<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>).TypeHandle, 
+									global::System.Collections.Generic.IReadOnlyDictionary_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V___Impl.Vtbl.idx_Lookup
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static uint get_Size(global::System.__ComObject __this)
+			{
+				uint __ret = global::McgInterop.ForwardComSharedStubs.Func_uint__(
+									__this, 
+									typeof(global::System.Collections.Generic.IReadOnlyDictionary<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>).TypeHandle, 
+									global::System.Collections.Generic.IReadOnlyDictionary_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V___Impl.Vtbl.idx_get_Size
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static bool HasKey(
+						global::System.__ComObject __this, 
+						global::System.Guid key)
+			{
+				bool __ret = global::McgInterop.ForwardComSharedStubs.Func_Guid__bool__(
+									__this, 
+									key, 
+									typeof(global::System.Collections.Generic.IReadOnlyDictionary<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>).TypeHandle, 
+									global::System.Collections.Generic.IReadOnlyDictionary_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V___Impl.Vtbl.idx_HasKey
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static void Split(
+						global::System.__ComObject __this, 
+						out global::System.Collections.Generic.IReadOnlyDictionary<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration> first, 
+						out global::System.Collections.Generic.IReadOnlyDictionary<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration> second)
+			{
+				global::McgInterop.ForwardComSharedStubs.Proc_out__IReadOnlyDictionary_2_Guid__ApplicationModel_Background_IBackgroundTaskRegistration___out__IReadOnlyDictionary_2_Guid__ApplicationModel_Background_IBackgroundTaskRegistration___(
+									__this, 
+									out first, 
+									out second, 
+									typeof(global::System.Collections.Generic.IReadOnlyDictionary<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>).TypeHandle, 
+									global::System.Collections.Generic.IReadOnlyDictionary_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V___Impl.Vtbl.idx_Split
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+		}
+
+		// DispatchClass for 'System.Collections.Generic.IReadOnlyDictionary<System.Guid,Windows.ApplicationModel.Background.IBackgroundTaskRegistration>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IReadOnlyDictionary<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::System.Collections.Generic.IReadOnlyDictionary<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>, global::System.Collections.Generic.IReadOnlyCollection<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>
+		{
+			global::System.Collections.Generic.IEnumerator<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>> global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>.GetEnumerator()
+			{
+				return (global::System.Collections.Generic.IEnumerator<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>)global::McgInterop.McgHelpers.GetGenericEnumerator(
+									this, 
+									typeof(global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>).TypeHandle
+								);
+			}
+
+			global::System.Collections.IEnumerator global::System.Collections.IEnumerable.GetEnumerator()
+			{
+				return global::McgInterop.McgHelpers.GetNonGenericEnumerator(this);
+			}
+
+			int global::System.Collections.Generic.IReadOnlyCollection<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>.Count
+			{
+				get
+				{
+					return global::System.Collections.Generic.IReadOnlyDictionary_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V___Impl.RCWAdapterClass.Count_Get(this);
+				}
+			}
+
+			global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration global::System.Collections.Generic.IReadOnlyDictionary<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>.this[global::System.Guid index]
+			{
+				get
+				{
+					return global::System.Collections.Generic.IReadOnlyDictionary_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V___Impl.RCWAdapterClass.Indexer_Get(
+										this, 
+										index
+									);
+				}
+			}
+
+			global::System.Collections.Generic.IEnumerable<global::System.Guid> global::System.Collections.Generic.IReadOnlyDictionary<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>.Keys
+			{
+				get
+				{
+					return global::System.Collections.Generic.IReadOnlyDictionary_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V___Impl.RCWAdapterClass.Keys(this);
+				}
+			}
+
+			global::System.Collections.Generic.IEnumerable<global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration> global::System.Collections.Generic.IReadOnlyDictionary<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>.Values
+			{
+				get
+				{
+					return global::System.Collections.Generic.IReadOnlyDictionary_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V___Impl.RCWAdapterClass.Values(this);
+				}
+			}
+
+			bool global::System.Collections.Generic.IReadOnlyDictionary<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>.ContainsKey(global::System.Guid key)
+			{
+				return global::System.Collections.Generic.IReadOnlyDictionary_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V___Impl.RCWAdapterClass.ContainsKey(
+									this, 
+									key
+								);
+			}
+
+			bool global::System.Collections.Generic.IReadOnlyDictionary<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>.TryGetValue(
+						global::System.Guid key, 
+						out global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration value)
+			{
+				return global::System.Collections.Generic.IReadOnlyDictionary_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V___Impl.RCWAdapterClass.TryGetValue(
+									this, 
+									key, 
+									out value
+								);
+			}
+		}
+
+		public static class RCWAdapterClass 
+		{
+		    // int Count { get }
+		    public static int Count_Get(/*Windows.Foundation.Collections.IMapView<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>*/ global::System.__ComObject _this)
+		    {
+		        uint size = global::System.Collections.Generic.IReadOnlyDictionary_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V___Impl.StubClass.get_Size(_this);
+
+		        if (((uint)System.Int32.MaxValue) < size)
+		        {
+		            throw new InvalidOperationException(global::Mcg.System.SR.GetString(global::Mcg.System.SR.Excep_CollectionBackingListTooLarge));
+		        }
+
+		        return (int)size;
+		    }
+
+		    // global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration this[K key] { get }
+		    public static global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration Indexer_Get(
+		        /*Windows.Foundation.Collections.IMapView<>*/ global::System.__ComObject _this,
+		        global::System.Guid key)
+		    {
+		        if ((object)key == null)
+		            throw global::McgInterop.Helpers.NewException_ArgumentNullException_key();
+
+		        //Contract.EndContractBlock();
+
+		        return Lookup(_this, key);
+		    }
+
+		    // IEnumerable<global::System.Guid> Keys { get }
+		    public static global::System.Collections.Generic.IEnumerable<global::System.Guid> Keys(
+		        /*Windows.Foundation.Collections.IMapView<>*/ global::System.__ComObject _this
+		        )
+		    {
+		        global::System.Collections.Generic.IReadOnlyDictionary<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration> roDictionary = (System.Collections.Generic.IReadOnlyDictionary<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>)_this;
+		        return new ReadOnlyDictionaryKeyCollection<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>(roDictionary);
+		    }
+
+		    // IEnumerable<global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration> Values { get }
+		    public static global::System.Collections.Generic.IEnumerable<global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration> Values(
+		        /*Windows.Foundation.Collections.IMapView<>*/ global::System.__ComObject _this
+		        )
+		    {
+		        global::System.Collections.Generic.IReadOnlyDictionary<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration> roDictionary = (System.Collections.Generic.IReadOnlyDictionary<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>)_this;
+		        return new ReadOnlyDictionaryValueCollection<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>(roDictionary);
+		    }
+
+		    // bool ContainsKey(K key)
+		    public static bool ContainsKey(
+		        /*Windows.Foundation.Collections.IMapView<>*/ global::System.__ComObject _this,
+		        global::System.Guid key)
+		    {
+		        if ((object)key == null)
+		            throw global::McgInterop.Helpers.NewException_ArgumentNullException_key();
+
+		        return global::System.Collections.Generic.IReadOnlyDictionary_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V___Impl.StubClass.HasKey(_this, key);
+		    }
+
+		    // bool TryGetValue(TKey key, out TValue value)
+		    public static bool TryGetValue(
+		        /*Windows.Foundation.Collections.IMapView<>*/ global::System.__ComObject _this,
+		        global::System.Guid key, 
+		        out global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration value)
+		    {
+		        if ((object)key == null)
+		            throw global::McgInterop.Helpers.NewException_ArgumentNullException_key();
+
+		        // It may be faster to call HasKey then Lookup.  On failure, we would otherwise
+		        // throw an exception from Lookup.
+		        if (!global::System.Collections.Generic.IReadOnlyDictionary_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V___Impl.StubClass.HasKey(_this, key))
+		        {
+		            value = default(global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration);
+		            return false;
+		        }
+
+		        try
+		        {
+		            value = global::System.Collections.Generic.IReadOnlyDictionary_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V___Impl.StubClass.Lookup(_this, key);
+		            return true;
+		        }
+		        catch (System.Exception ex)  // Still may hit this case due to a race, or a potential bug.
+		        {
+		            if (global::McgInterop.McgHelpers.__HResults.E_BOUNDS == ex.HResult)
+		            {
+		                value = default(global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration);
+		                return false;
+		            }
+		            throw;
+		        }
+		    }
+
+		    #region Helpers
+
+		    private static global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration Lookup(/*Windows.Foundation.Collections.IMapView<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>*/ global::System.__ComObject _this, global::System.Guid key)
+		    {
+		        //Contract.Requires(null != key);
+
+		        try
+		        {
+		            return global::System.Collections.Generic.IReadOnlyDictionary_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V___Impl.StubClass.Lookup(_this, key);
+		        }
+		        catch (System.Exception ex)
+		        {
+		            if (global::McgInterop.McgHelpers.__HResults.E_BOUNDS == ex.HResult)
+		                throw global::McgInterop.Helpers.NewException_KeyNotFoundException_Key();
+		            throw;
+		        }
+		    }
+
+		    #endregion Helpers
+		}
+
+		// v-table for 'System.Collections.Generic.IReadOnlyDictionary<System.Guid,Windows.ApplicationModel.Background.IBackgroundTaskRegistration>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IReadOnlyDictionary<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_Lookup = 6;
+			internal const int idx_get_Size = 7;
+			internal const int idx_HasKey = 8;
+			internal const int idx_Split = 9;
+		}
+	}
+
+	// System.Collections.Generic.KeyValuePair<System.Guid,Windows.ApplicationModel.Background.IBackgroundTaskRegistration>
+	public unsafe static class KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V___Impl
+	{
+		// StubClass for 'System.Collections.Generic.KeyValuePair<System.Guid,Windows.ApplicationModel.Background.IBackgroundTaskRegistration>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::System.Guid get_Key(global::System.__ComObject __this)
+			{
+				global::System.Guid __ret = global::McgInterop.ForwardComSharedStubs.Func_Guid__(
+									__this, 
+									typeof(global::Windows.Foundation.Collections.IKeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>).TypeHandle, 
+									global::System.Collections.Generic.KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V___Impl.Vtbl.idx_get_Key
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration get_Value(global::System.__ComObject __this)
+			{
+				global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration __ret = global::McgInterop.ForwardComSharedStubs.Func_ApplicationModel_Background_IBackgroundTaskRegistration__(
+									__this, 
+									typeof(global::Windows.Foundation.Collections.IKeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>).TypeHandle, 
+									global::System.Collections.Generic.KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V___Impl.Vtbl.idx_get_Value
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// DispatchClass for 'System.Collections.Generic.KeyValuePair<System.Guid,Windows.ApplicationModel.Background.IBackgroundTaskRegistration>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.Collections.IKeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.Foundation.Collections.IKeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.Collections.IKeyValuePair`2.Key")]
+			global::System.Guid global::Windows.Foundation.Collections.IKeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>.get_Key()
+			{
+				global::System.Guid __retVal = global::System.Collections.Generic.KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V___Impl.StubClass.get_Key(this);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.Collections.IKeyValuePair`2.Value")]
+			global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration global::Windows.Foundation.Collections.IKeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>.get_Value()
+			{
+				global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration __retVal = global::System.Collections.Generic.KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V___Impl.StubClass.get_Value(this);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+		}
+
+		// v-table for 'System.Collections.Generic.KeyValuePair<System.Guid,Windows.ApplicationModel.Background.IBackgroundTaskRegistration>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.Collections.IKeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_get_Key = 6;
+			internal const int idx_get_Value = 7;
+		}
+	}
+
+	// System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.Guid,Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>
+	public unsafe static class IEnumerable_A_System_Collections_Generic_KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V__V___Impl
+	{
+		// StubClass for 'System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.Guid,Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>> First(global::System.__ComObject __this)
+			{
+				global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>> __ret = global::McgInterop.ForwardComSharedStubs.Func__Collections_IIterator_1__KeyValuePair_2_Guid__ApplicationModel_Background_IBackgroundTaskRegistration__(
+									__this, 
+									typeof(global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>).TypeHandle, 
+									global::System.Collections.Generic.IEnumerable_A_System_Collections_Generic_KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V__V___Impl.Vtbl.idx_First
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// DispatchClass for 'System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.Guid,Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>
+		{
+			global::System.Collections.Generic.IEnumerator<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>> global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>.GetEnumerator()
+			{
+				return (global::System.Collections.Generic.IEnumerator<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>)global::McgInterop.McgHelpers.GetGenericEnumerator(
+									this, 
+									typeof(global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>).TypeHandle
+								);
+			}
+
+			global::System.Collections.IEnumerator global::System.Collections.IEnumerable.GetEnumerator()
+			{
+				return global::McgInterop.McgHelpers.GetNonGenericEnumerator(this);
+			}
+		}
+
+		[System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<global::System.Guid,global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>))]
+		public class RCWAdapterClass : global::System.Runtime.InteropServices.ComInterfaceDynamicAdapter, global::System.Collections.IEnumerable
+		{
+		    public global::System.Collections.IEnumerator GetEnumerator()
+		    {
+		        return new IteratorToEnumeratorAdapter<global::System.Collections.Generic.KeyValuePair<global::System.Guid,global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>(global::System.Collections.Generic.IEnumerable_A_System_Collections_Generic_KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V__V___Impl.StubClass.First(ComObject));
+		    }
+		}
+
+		// v-table for 'System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.Guid,Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_First = 6;
+		}
+	}
+
 	// System.Collections.Generic.IReadOnlyList<Windows.Networking.HostName>
 	public unsafe static class IReadOnlyList_A_Windows_Networking_HostName_V___Impl
 	{
@@ -19479,6 +21234,782 @@ namespace System.Collections.Generic
 		public unsafe partial struct Vtbl
 		{
 			internal const int idx_First = 6;
+		}
+	}
+
+	// System.Collections.Generic.IList<Windows.Data.Json.IJsonValue>
+	public unsafe static class IList_A_Windows_Data_Json_IJsonValue_V___Impl
+	{
+		// StubClass for 'System.Collections.Generic.IList<Windows.Data.Json.IJsonValue>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::Windows.Data.Json.IJsonValue GetAt(
+						global::System.__ComObject __this, 
+						uint index)
+			{
+				global::Windows.Data.Json.IJsonValue __ret = global::McgInterop.ForwardComSharedStubs.Func_uint__Data_Json_IJsonValue__(
+									__this, 
+									index, 
+									typeof(global::System.Collections.Generic.IList<global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_GetAt
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static uint get_Size(global::System.__ComObject __this)
+			{
+				uint __ret = global::McgInterop.ForwardComSharedStubs.Func_uint__(
+									__this, 
+									typeof(global::System.Collections.Generic.IList<global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_get_Size
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::System.Collections.Generic.IReadOnlyList<global::Windows.Data.Json.IJsonValue> GetView(global::System.__ComObject __this)
+			{
+				global::System.Collections.Generic.IReadOnlyList<global::Windows.Data.Json.IJsonValue> __ret = global::McgInterop.ForwardComSharedStubs.Func__IReadOnlyList_1_Data_Json_IJsonValue___(
+									__this, 
+									typeof(global::System.Collections.Generic.IList<global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_GetView
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static bool IndexOf(
+						global::System.__ComObject __this, 
+						global::Windows.Data.Json.IJsonValue value, 
+						out uint index)
+			{
+				bool __ret = global::McgInterop.ForwardComSharedStubs.Func_Data_Json_IJsonValue__out_uint__bool__(
+									__this, 
+									value, 
+									out index, 
+									typeof(global::System.Collections.Generic.IList<global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_IndexOf
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static void SetAt(
+						global::System.__ComObject __this, 
+						uint index, 
+						global::Windows.Data.Json.IJsonValue value)
+			{
+				global::McgInterop.ForwardComSharedStubs.Proc_uint__Data_Json_IJsonValue__(
+									__this, 
+									index, 
+									value, 
+									typeof(global::System.Collections.Generic.IList<global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_SetAt
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static void InsertAt(
+						global::System.__ComObject __this, 
+						uint index, 
+						global::Windows.Data.Json.IJsonValue value)
+			{
+				global::McgInterop.ForwardComSharedStubs.Proc_uint__Data_Json_IJsonValue__(
+									__this, 
+									index, 
+									value, 
+									typeof(global::System.Collections.Generic.IList<global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_InsertAt
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static void RemoveAt(
+						global::System.__ComObject __this, 
+						uint index)
+			{
+				global::McgInterop.ForwardComSharedStubs.Proc_uint__(
+									__this, 
+									index, 
+									typeof(global::System.Collections.Generic.IList<global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_RemoveAt
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static void Append(
+						global::System.__ComObject __this, 
+						global::Windows.Data.Json.IJsonValue value)
+			{
+				global::McgInterop.ForwardComSharedStubs.Proc_Data_Json_IJsonValue__(
+									__this, 
+									value, 
+									typeof(global::System.Collections.Generic.IList<global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_Append
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static void RemoveAtEnd(global::System.__ComObject __this)
+			{
+				global::McgInterop.ForwardComSharedStubs.Proc_(
+									__this, 
+									typeof(global::System.Collections.Generic.IList<global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_RemoveAtEnd
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static void Clear(global::System.__ComObject __this)
+			{
+				global::McgInterop.ForwardComSharedStubs.Proc_(
+									__this, 
+									typeof(global::System.Collections.Generic.IList<global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_Clear
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static uint GetMany(
+						global::System.__ComObject __this, 
+						uint startIndex, 
+						global::Windows.Data.Json.IJsonValue[] items)
+			{
+				uint __ret = global::McgInterop.ForwardComSharedStubs.Func_uint__out_rg_Data_Json_IJsonValue__uint__(
+									__this, 
+									startIndex, 
+									items, 
+									typeof(global::System.Collections.Generic.IList<global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_GetMany
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static void ReplaceAll(
+						global::System.__ComObject __this, 
+						global::Windows.Data.Json.IJsonValue[] items)
+			{
+				global::McgInterop.ForwardComSharedStubs.Proc_rg_Data_Json_IJsonValue__(
+									__this, 
+									items, 
+									typeof(global::System.Collections.Generic.IList<global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_ReplaceAll
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+		}
+
+		// DispatchClass for 'System.Collections.Generic.IList<Windows.Data.Json.IJsonValue>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IList<global::Windows.Data.Json.IJsonValue>))]
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.ICollection<global::Windows.Data.Json.IJsonValue>))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::System.Collections.Generic.IList<global::Windows.Data.Json.IJsonValue>, global::System.Collections.Generic.ICollection<global::Windows.Data.Json.IJsonValue>
+		{
+			global::System.Collections.Generic.IEnumerator<global::Windows.Data.Json.IJsonValue> global::System.Collections.Generic.IEnumerable<global::Windows.Data.Json.IJsonValue>.GetEnumerator()
+			{
+				return (global::System.Collections.Generic.IEnumerator<global::Windows.Data.Json.IJsonValue>)global::McgInterop.McgHelpers.GetGenericEnumerator(
+									this, 
+									typeof(global::System.Collections.Generic.IEnumerable<global::Windows.Data.Json.IJsonValue>).TypeHandle
+								);
+			}
+
+			global::System.Collections.IEnumerator global::System.Collections.IEnumerable.GetEnumerator()
+			{
+				return global::McgInterop.McgHelpers.GetNonGenericEnumerator(this);
+			}
+
+			int global::System.Collections.Generic.ICollection<global::Windows.Data.Json.IJsonValue>.Count
+			{
+				get
+				{
+					return global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.ICollectionRCWAdapterClass.Count(this);
+				}
+			}
+
+			bool global::System.Collections.Generic.ICollection<global::Windows.Data.Json.IJsonValue>.IsReadOnly
+			{
+				get
+				{
+					return global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.ICollectionRCWAdapterClass.IsReadOnly(this);
+				}
+			}
+
+			void global::System.Collections.Generic.ICollection<global::Windows.Data.Json.IJsonValue>.Add(global::Windows.Data.Json.IJsonValue item)
+			{
+				global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.ICollectionRCWAdapterClass.Add(
+									this, 
+									item
+								);
+			}
+
+			void global::System.Collections.Generic.ICollection<global::Windows.Data.Json.IJsonValue>.Clear()
+			{
+				global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.ICollectionRCWAdapterClass.Clear(this);
+			}
+
+			bool global::System.Collections.Generic.ICollection<global::Windows.Data.Json.IJsonValue>.Contains(global::Windows.Data.Json.IJsonValue item)
+			{
+				return global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.ICollectionRCWAdapterClass.Contains(
+									this, 
+									item
+								);
+			}
+
+			void global::System.Collections.Generic.ICollection<global::Windows.Data.Json.IJsonValue>.CopyTo(
+						global::Windows.Data.Json.IJsonValue[] array, 
+						int arrayindex)
+			{
+				global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.ICollectionRCWAdapterClass.CopyTo(
+									this, 
+									array, 
+									arrayindex
+								);
+			}
+
+			bool global::System.Collections.Generic.ICollection<global::Windows.Data.Json.IJsonValue>.Remove(global::Windows.Data.Json.IJsonValue item)
+			{
+				return global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.ICollectionRCWAdapterClass.Remove(
+									this, 
+									item
+								);
+			}
+
+			global::Windows.Data.Json.IJsonValue global::System.Collections.Generic.IList<global::Windows.Data.Json.IJsonValue>.this[int index]
+			{
+				get
+				{
+					return global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.RCWAdapterClass.Indexer_Get(
+										this, 
+										index
+									);
+				}
+				set
+				{
+					global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.RCWAdapterClass.Indexer_Set(
+										this, 
+										index, 
+										value
+									);
+				}
+			}
+
+			int global::System.Collections.Generic.IList<global::Windows.Data.Json.IJsonValue>.IndexOf(global::Windows.Data.Json.IJsonValue item)
+			{
+				return global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.RCWAdapterClass.IndexOf(
+									this, 
+									item
+								);
+			}
+
+			void global::System.Collections.Generic.IList<global::Windows.Data.Json.IJsonValue>.Insert(
+						int index, 
+						global::Windows.Data.Json.IJsonValue item)
+			{
+				global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.RCWAdapterClass.Insert(
+									this, 
+									index, 
+									item
+								);
+			}
+
+			void global::System.Collections.Generic.IList<global::Windows.Data.Json.IJsonValue>.RemoveAt(int index)
+			{
+				global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.RCWAdapterClass.RemoveAt(
+									this, 
+									index
+								);
+			}
+		}
+
+		public static class RCWAdapterClass 
+		{
+		    // global::Windows.Data.Json.IJsonValue this[int index] { get }
+		    public static global::Windows.Data.Json.IJsonValue Indexer_Get(
+		        /* global::Windows.Foundation.Collections.IVector`1 */ __ComObject _this, 
+		        int index)
+		    {
+		        if (index < 0)
+		            throw global::McgInterop.Helpers.NewException_ArgumentOutOfRangeException_index();
+
+		        return GetAt(_this, (uint)index);
+		    }
+
+		    // global::Windows.Data.Json.IJsonValue this[int index] { set }
+		    public static void Indexer_Set(
+		        /* global::Windows.Foundation.Collections.IVector`1 */ __ComObject _this, 
+		        int index, 
+		        global::Windows.Data.Json.IJsonValue value)
+		    {
+		        if (index < 0)
+		            throw global::McgInterop.Helpers.NewException_ArgumentOutOfRangeException_index();
+
+		        SetAt(_this, (uint)index, value);
+		    }
+
+		    // int IndexOf(T item)
+		    public static int IndexOf(/* global::Windows.Foundation.Collections.IVector`1 */ __ComObject _this, 
+		        global::Windows.Data.Json.IJsonValue item)
+		    {
+		        uint index;
+		        bool exists = global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.StubClass.IndexOf(_this, item, out index);
+
+		        if (!exists)
+		            return -1;
+
+		        if (((uint)System.Int32.MaxValue) < index)
+		        {
+		            throw new InvalidOperationException(global::Mcg.System.SR.GetString(global::Mcg.System.SR.Excep_CollectionBackingListTooLarge));
+		        }
+
+		        return (int)index;
+		    }
+
+		    // void Insert(int index, global::Windows.Data.Json.IJsonValue item)
+		    public static void Insert(
+		        /* global::Windows.Foundation.Collections.IVector`1 */ __ComObject _this, 
+		        int index, 
+		        global::Windows.Data.Json.IJsonValue item)
+		    {
+		        if (index < 0)
+		            throw global::McgInterop.Helpers.NewException_ArgumentOutOfRangeException_index();
+
+		        InsertAtHelper(_this, (uint)index, item);
+		    }
+
+		    // void RemoveAt(int index)
+		    public static void RemoveAt(
+		        /* global::Windows.Foundation.Collections.IVector`1 */ __ComObject _this, 
+		        int index)
+		    {
+		        if (index < 0)
+		            throw global::McgInterop.Helpers.NewException_ArgumentOutOfRangeException_index();
+
+		        RemoveAtHelper(_this, (uint)index);
+		    }
+
+		    // Helpers:
+
+		    internal static global::Windows.Data.Json.IJsonValue GetAt(
+		        /* global::Windows.Foundation.Collections.IVector`1 */ __ComObject _this, uint index)
+		    {
+		        try
+		        {
+		            return global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.StubClass.GetAt(_this, index);
+
+		            // We delegate bounds checking to the underlying collection and if it detected a fault,
+		            // we translate it to the right exception:
+		        }
+		        catch (System.Exception ex)
+		        {
+		            if (global::McgInterop.McgHelpers.__HResults.E_BOUNDS == ex.HResult)
+		                throw global::McgInterop.Helpers.NewException_ArgumentOutOfRangeException_index();
+
+		            throw;
+		        }
+		    }
+
+		    private static void SetAt( /* global::Windows.Foundation.Collections.IVector`1 */ __ComObject _this, uint index, global::Windows.Data.Json.IJsonValue value)
+		    {
+		        try
+		        {
+		            global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.StubClass.SetAt(_this, index, value);
+
+		            // We deligate bounds checking to the underlying collection and if it detected a fault,
+		            // we translate it to the right exception:
+		        }
+		        catch (System.Exception ex)
+		        {
+		            if (global::McgInterop.McgHelpers.__HResults.E_BOUNDS == ex.HResult)
+		                throw global::McgInterop.Helpers.NewException_ArgumentOutOfRangeException_index();
+
+		            throw;
+		        }
+		    }
+
+		    private static void InsertAtHelper( /* global::Windows.Foundation.Collections.IVector`1 */ __ComObject _this, uint index, global::Windows.Data.Json.IJsonValue item)
+		    {
+		        try
+		        {
+		            global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.StubClass.InsertAt(_this, index, item);
+
+		            // We delegate bounds checking to the underlying collection and if it detected a fault,
+		            // we translate it to the right exception:
+		        }
+		        catch (System.Exception  ex)
+		        {
+		            if (global::McgInterop.McgHelpers.__HResults.E_BOUNDS == ex.HResult)
+		                throw global::McgInterop.Helpers.NewException_ArgumentOutOfRangeException_index();
+
+		            throw;
+		        }
+		    }
+
+		    internal static void RemoveAtHelper( /* global::Windows.Foundation.Collections.IVector`1 */ __ComObject _this, uint index)
+		    {
+		        try
+		        {
+		            global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.StubClass.RemoveAt(_this, index);
+
+		            // We delegate bounds checking to the underlying collection and if it detected a fault,
+		            // we translate it to the right exception:
+		        }
+		        catch (System.Exception ex)
+		        {
+		            if (global::McgInterop.McgHelpers.__HResults.E_BOUNDS == ex.HResult)
+		                throw global::McgInterop.Helpers.NewException_ArgumentOutOfRangeException_index();
+
+		            throw;
+		        }
+		    }
+		}
+
+		public static class ICollectionRCWAdapterClass 
+		{
+		    // int Count { get }
+		    public static int Count(__ComObject _this) // global::Windows.Foundation.Collections.IVector`1
+		    {
+		        uint size = global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.StubClass.get_Size(_this);
+		        if (((uint)System.Int32.MaxValue) < size)
+		        {
+		            throw new InvalidOperationException(global::Mcg.System.SR.GetString(global::Mcg.System.SR.Excep_CollectionBackingListTooLarge));
+		        }
+
+		        return (int)size;
+		    }
+
+		    // bool IsReadOnly { get }
+		    public static bool IsReadOnly(__ComObject _this) // global::Windows.Foundation.Collections.IVector`1
+		    {
+		        return false;
+		    }
+
+		    // void Add(T item)
+		    public static void Add(
+		        /* global::Windows.Foundation.Collections.IVector`1 */ __ComObject _this, 
+		        global::Windows.Data.Json.IJsonValue item)
+		    {
+		        global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.StubClass.Append(_this, item);
+		    }
+
+		    // void Clear()
+		    public static void Clear(__ComObject _this) // global::Windows.Foundation.Collections.IVector`1 
+		    {
+		        global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.StubClass.Clear(_this);
+		    }
+
+		    // bool Contains(T item)
+		    public static bool Contains(
+		        /* global::Windows.Foundation.Collections.IVector`1 */ __ComObject _this, 
+		        global::Windows.Data.Json.IJsonValue item)
+		    {
+		        uint index;
+		        return global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.StubClass.IndexOf(_this, item, out index);
+		    }
+
+		    // void CopyTo(T[] array, int arrayIndex)
+		    public static void CopyTo( /* global::Windows.Foundation.Collections.IVector`1 */ __ComObject _this, 
+		        global::Windows.Data.Json.IJsonValue[] array, 
+		        int arrayIndex)
+		    {
+		        int count = Count(_this);
+		        
+		        global::System.Exception error = global::McgInterop.McgHelpers.CheckCopyTo(count, array, arrayIndex);
+
+		        if (error != null)
+		        {
+		            throw error;
+		        }
+
+		        for (int i = 0; i < count; i++)
+		        {
+		            array[i + arrayIndex] = /*global::McgInterop.VectorToListAdapter_For_Windows_Foundation_Collections__IVector_A_Windows_Data_Json_IJsonValue_V_*/RCWAdapterClass.GetAt(_this, (uint)i);
+		        }
+		    }
+
+		    // bool Remove(T item)
+		    public static bool Remove(
+		        /* global::Windows.Foundation.Collections.IVector`1 */ __ComObject _this, 
+		        global::Windows.Data.Json.IJsonValue item)
+		    {
+		        uint index;
+		        bool exists = global::System.Collections.Generic.IList_A_Windows_Data_Json_IJsonValue_V___Impl.StubClass.IndexOf(_this, item, out index);
+
+		        if (!exists)
+		            return false;
+
+		        if (((uint)System.Int32.MaxValue) < index)
+		        {
+		            throw new InvalidOperationException(global::Mcg.System.SR.GetString(global::Mcg.System.SR.Excep_CollectionBackingListTooLarge));
+		        }
+
+		        /*global::McgInterop.VectorToListAdapter_For_Windows_Foundation_Collections__IVector_A_Windows_Data_Json_IJsonValue_V_*/RCWAdapterClass.RemoveAtHelper(_this, index);
+		        return true;
+		    }
+		}
+
+		// v-table for 'System.Collections.Generic.IList<Windows.Data.Json.IJsonValue>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IList<global::Windows.Data.Json.IJsonValue>))]
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.ICollection<global::Windows.Data.Json.IJsonValue>))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_GetAt = 6;
+			internal const int idx_get_Size = 7;
+			internal const int idx_GetView = 8;
+			internal const int idx_IndexOf = 9;
+			internal const int idx_SetAt = 10;
+			internal const int idx_InsertAt = 11;
+			internal const int idx_RemoveAt = 12;
+			internal const int idx_Append = 13;
+			internal const int idx_RemoveAtEnd = 14;
+			internal const int idx_Clear = 15;
+			internal const int idx_GetMany = 16;
+			internal const int idx_ReplaceAll = 17;
+		}
+	}
+
+	// System.Collections.Generic.IEnumerable<Windows.Data.Json.IJsonValue>
+	public unsafe static class IEnumerable_A_Windows_Data_Json_IJsonValue_V___Impl
+	{
+		// StubClass for 'System.Collections.Generic.IEnumerable<Windows.Data.Json.IJsonValue>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::Windows.Foundation.Collections.IIterator<global::Windows.Data.Json.IJsonValue> First(global::System.__ComObject __this)
+			{
+				global::Windows.Foundation.Collections.IIterator<global::Windows.Data.Json.IJsonValue> __ret = global::McgInterop.ForwardComSharedStubs.Func__Collections_IIterator_1_Data_Json_IJsonValue___(
+									__this, 
+									typeof(global::System.Collections.Generic.IEnumerable<global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.IEnumerable_A_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_First
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// DispatchClass for 'System.Collections.Generic.IEnumerable<Windows.Data.Json.IJsonValue>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IEnumerable<global::Windows.Data.Json.IJsonValue>))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::System.Collections.Generic.IEnumerable<global::Windows.Data.Json.IJsonValue>
+		{
+			global::System.Collections.Generic.IEnumerator<global::Windows.Data.Json.IJsonValue> global::System.Collections.Generic.IEnumerable<global::Windows.Data.Json.IJsonValue>.GetEnumerator()
+			{
+				return (global::System.Collections.Generic.IEnumerator<global::Windows.Data.Json.IJsonValue>)global::McgInterop.McgHelpers.GetGenericEnumerator(
+									this, 
+									typeof(global::System.Collections.Generic.IEnumerable<global::Windows.Data.Json.IJsonValue>).TypeHandle
+								);
+			}
+
+			global::System.Collections.IEnumerator global::System.Collections.IEnumerable.GetEnumerator()
+			{
+				return global::McgInterop.McgHelpers.GetNonGenericEnumerator(this);
+			}
+		}
+
+		[System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IEnumerable<global::Windows.Data.Json.IJsonValue>))]
+		public class RCWAdapterClass : global::System.Runtime.InteropServices.ComInterfaceDynamicAdapter, global::System.Collections.IEnumerable
+		{
+		    public global::System.Collections.IEnumerator GetEnumerator()
+		    {
+		        return new IteratorToEnumeratorAdapter<global::Windows.Data.Json.IJsonValue>(global::System.Collections.Generic.IEnumerable_A_Windows_Data_Json_IJsonValue_V___Impl.StubClass.First(ComObject));
+		    }
+		}
+
+		// v-table for 'System.Collections.Generic.IEnumerable<Windows.Data.Json.IJsonValue>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IEnumerable<global::Windows.Data.Json.IJsonValue>))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_First = 6;
+		}
+	}
+
+	// System.Collections.Generic.IReadOnlyList<Windows.Data.Json.IJsonValue>
+	public unsafe static class IReadOnlyList_A_Windows_Data_Json_IJsonValue_V___Impl
+	{
+		// StubClass for 'System.Collections.Generic.IReadOnlyList<Windows.Data.Json.IJsonValue>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::Windows.Data.Json.IJsonValue GetAt(
+						global::System.__ComObject __this, 
+						uint index)
+			{
+				global::Windows.Data.Json.IJsonValue __ret = global::McgInterop.ForwardComSharedStubs.Func_uint__Data_Json_IJsonValue__(
+									__this, 
+									index, 
+									typeof(global::System.Collections.Generic.IReadOnlyList<global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.IReadOnlyList_A_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_GetAt
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static uint get_Size(global::System.__ComObject __this)
+			{
+				uint __ret = global::McgInterop.ForwardComSharedStubs.Func_uint__(
+									__this, 
+									typeof(global::System.Collections.Generic.IReadOnlyList<global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.IReadOnlyList_A_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_get_Size
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static bool IndexOf(
+						global::System.__ComObject __this, 
+						global::Windows.Data.Json.IJsonValue value, 
+						out uint index)
+			{
+				bool __ret = global::McgInterop.ForwardComSharedStubs.Func_Data_Json_IJsonValue__out_uint__bool__(
+									__this, 
+									value, 
+									out index, 
+									typeof(global::System.Collections.Generic.IReadOnlyList<global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.IReadOnlyList_A_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_IndexOf
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static uint GetMany(
+						global::System.__ComObject __this, 
+						uint startIndex, 
+						global::Windows.Data.Json.IJsonValue[] items)
+			{
+				uint __ret = global::McgInterop.ForwardComSharedStubs.Func_uint__out_rg_Data_Json_IJsonValue__uint__(
+									__this, 
+									startIndex, 
+									items, 
+									typeof(global::System.Collections.Generic.IReadOnlyList<global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::System.Collections.Generic.IReadOnlyList_A_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_GetMany
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// DispatchClass for 'System.Collections.Generic.IReadOnlyList<Windows.Data.Json.IJsonValue>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IReadOnlyList<global::Windows.Data.Json.IJsonValue>))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::System.Collections.Generic.IReadOnlyList<global::Windows.Data.Json.IJsonValue>, global::System.Collections.Generic.IReadOnlyCollection<global::Windows.Data.Json.IJsonValue>
+		{
+			global::System.Collections.Generic.IEnumerator<global::Windows.Data.Json.IJsonValue> global::System.Collections.Generic.IEnumerable<global::Windows.Data.Json.IJsonValue>.GetEnumerator()
+			{
+				return (global::System.Collections.Generic.IEnumerator<global::Windows.Data.Json.IJsonValue>)global::McgInterop.McgHelpers.GetGenericEnumerator(
+									this, 
+									typeof(global::System.Collections.Generic.IEnumerable<global::Windows.Data.Json.IJsonValue>).TypeHandle
+								);
+			}
+
+			global::System.Collections.IEnumerator global::System.Collections.IEnumerable.GetEnumerator()
+			{
+				return global::McgInterop.McgHelpers.GetNonGenericEnumerator(this);
+			}
+
+			int global::System.Collections.Generic.IReadOnlyCollection<global::Windows.Data.Json.IJsonValue>.Count
+			{
+				get
+				{
+					return global::McgInterop.McgHelpers.GetReadOnlyCollectionCount(
+										this, 
+										typeof(global::System.Collections.Generic.IReadOnlyList<global::Windows.Data.Json.IJsonValue>).TypeHandle
+									);
+				}
+			}
+
+			global::Windows.Data.Json.IJsonValue global::System.Collections.Generic.IReadOnlyList<global::Windows.Data.Json.IJsonValue>.this[int index]
+			{
+				get
+				{
+					return global::System.Runtime.InteropServices.McgMarshal.FastCast<global::System.Runtime.InteropServices.WindowsRuntime.IReadOnlyListAdapter<global::Windows.Data.Json.IJsonValue>>(global::System.Runtime.InteropServices.McgModuleManager.GetDynamicAdapter(
+											this, 
+											typeof(global::System.Collections.Generic.IReadOnlyList<global::Windows.Data.Json.IJsonValue>).TypeHandle
+										))[index];
+				}
+			}
+		}
+
+		[System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IReadOnlyList<global::Windows.Data.Json.IJsonValue>))]
+		public class RCWAdapterClass  : global::System.Collections.Generic.IEnumerable_A_Windows_Data_Json_IJsonValue_V___Impl.RCWAdapterClass, global::System.Runtime.InteropServices.WindowsRuntime.IReadOnlyListAdapter<global::Windows.Data.Json.IJsonValue>
+		{
+		    // int Count { get }
+		    public int Count
+		    {
+		        get
+		        {
+		            uint size = global::System.Collections.Generic.IReadOnlyList_A_Windows_Data_Json_IJsonValue_V___Impl.StubClass.get_Size(ComObject);
+		            if (((uint)System.Int32.MaxValue) < size)
+		            {
+		                throw new InvalidOperationException(global::Mcg.System.SR.GetString(global::Mcg.System.SR.Excep_CollectionBackingListTooLarge));
+		            }
+
+		            return (int)size;
+		        }
+		    }
+
+		    // global::Windows.Data.Json.IJsonValue this[int index] { get }
+		    public global::Windows.Data.Json.IJsonValue this[int index]
+		    {
+		        get
+		        {
+		            if (index < 0)
+		                throw global::McgInterop.Helpers.NewException_ArgumentOutOfRangeException_index();
+
+		            try
+		            {
+		                return global::System.Collections.Generic.IReadOnlyList_A_Windows_Data_Json_IJsonValue_V___Impl.StubClass.GetAt(ComObject, (uint)index);
+
+		                // We delegate bounds checking to the underlying collection and if it detected a fault,
+		                // we translate it to the right exception:
+		            }
+		            catch (System.Exception ex)
+		            {
+		                if (global::McgInterop.McgHelpers.__HResults.E_BOUNDS == ex.HResult)
+		                    throw global::McgInterop.Helpers.NewException_ArgumentOutOfRangeException_index();
+		                throw;
+		            }
+		        }
+		    }
+		}
+
+		// v-table for 'System.Collections.Generic.IReadOnlyList<Windows.Data.Json.IJsonValue>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IReadOnlyList<global::Windows.Data.Json.IJsonValue>))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_GetAt = 6;
+			internal const int idx_get_Size = 7;
+			internal const int idx_IndexOf = 8;
+			internal const int idx_GetMany = 9;
 		}
 	}
 
@@ -21952,82 +24483,6 @@ namespace System.Collections.Generic
 		}
 	}
 
-	// System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IEnumerable<string>>
-	public unsafe static class KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V___Impl
-	{
-		// StubClass for 'System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IEnumerable<string>>'
-		public static partial class StubClass
-		{
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-			public static string get_Key(global::System.__ComObject __this)
-			{
-				string __ret = global::McgInterop.ForwardComSharedStubs.Func_string__(
-									__this, 
-									typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>).TypeHandle, 
-									global::System.Collections.Generic.KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V___Impl.Vtbl.idx_get_Key
-								);
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-				return __ret;
-			}
-
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-			public static global::System.Collections.Generic.IEnumerable<string> get_Value(global::System.__ComObject __this)
-			{
-				global::System.Collections.Generic.IEnumerable<string> __ret = global::McgInterop.ForwardComSharedStubs.Func__IEnumerable_1_string___(
-									__this, 
-									typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>).TypeHandle, 
-									global::System.Collections.Generic.KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V___Impl.Vtbl.idx_get_Value
-								);
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-				return __ret;
-			}
-		}
-
-		// DispatchClass for 'System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IEnumerable<string>>'
-		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>))]
-		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>
-		{
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.Collections.IKeyValuePair`2.Key")]
-			string global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>.get_Key()
-			{
-				string __retVal = global::System.Collections.Generic.KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V___Impl.StubClass.get_Key(this);
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-				return __retVal;
-			}
-
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.Collections.IKeyValuePair`2.Value")]
-			global::System.Collections.Generic.IEnumerable<string> global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>.get_Value()
-			{
-				global::System.Collections.Generic.IEnumerable<string> __retVal = global::System.Collections.Generic.KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V___Impl.StubClass.get_Value(this);
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-				return __retVal;
-			}
-		}
-
-		// v-table for 'System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IEnumerable<string>>'
-		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>))]
-		public unsafe partial struct Vtbl
-		{
-			internal const int idx_get_Key = 6;
-			internal const int idx_get_Value = 7;
-		}
-	}
-
-	// System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IEnumerable<string>>>
-	public unsafe static class IEnumerable_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl
-	{
-		// v-table for 'System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IEnumerable<string>>>'
-		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>))]
-		public unsafe partial struct Vtbl
-		{
-			internal const int idx_First = 6;
-		}
-	}
-
 	// System.Collections.Generic.IEnumerable<Windows.Networking.IHostName>
 	public unsafe static class IEnumerable_A_Windows_Networking_IHostName_V___Impl
 	{
@@ -22467,6 +24922,82 @@ namespace System.Collections.Generic
 			internal const int idx_get_Size = 7;
 			internal const int idx_IndexOf = 8;
 			internal const int idx_GetMany = 9;
+		}
+	}
+
+	// System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IEnumerable<string>>
+	public unsafe static class KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V___Impl
+	{
+		// StubClass for 'System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IEnumerable<string>>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static string get_Key(global::System.__ComObject __this)
+			{
+				string __ret = global::McgInterop.ForwardComSharedStubs.Func_string__(
+									__this, 
+									typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>).TypeHandle, 
+									global::System.Collections.Generic.KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V___Impl.Vtbl.idx_get_Key
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::System.Collections.Generic.IEnumerable<string> get_Value(global::System.__ComObject __this)
+			{
+				global::System.Collections.Generic.IEnumerable<string> __ret = global::McgInterop.ForwardComSharedStubs.Func__IEnumerable_1_string___(
+									__this, 
+									typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>).TypeHandle, 
+									global::System.Collections.Generic.KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V___Impl.Vtbl.idx_get_Value
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// DispatchClass for 'System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IEnumerable<string>>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.Collections.IKeyValuePair`2.Key")]
+			string global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>.get_Key()
+			{
+				string __retVal = global::System.Collections.Generic.KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V___Impl.StubClass.get_Key(this);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.Collections.IKeyValuePair`2.Value")]
+			global::System.Collections.Generic.IEnumerable<string> global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>.get_Value()
+			{
+				global::System.Collections.Generic.IEnumerable<string> __retVal = global::System.Collections.Generic.KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V___Impl.StubClass.get_Value(this);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+		}
+
+		// v-table for 'System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IEnumerable<string>>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_get_Key = 6;
+			internal const int idx_get_Value = 7;
+		}
+	}
+
+	// System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IEnumerable<string>>>
+	public unsafe static class IEnumerable_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl
+	{
+		// v-table for 'System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IEnumerable<string>>>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_First = 6;
 		}
 	}
 
@@ -24828,6 +27359,463 @@ namespace Windows.ApplicationModel.Activation
 	}
 }
 
+namespace Windows.ApplicationModel.Background
+{
+	// Windows.ApplicationModel.Background.IBackgroundTaskBuilder
+	public unsafe static class IBackgroundTaskBuilder__Impl
+	{
+		// StubClass for 'Windows.ApplicationModel.Background.IBackgroundTaskBuilder'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static void put_TaskEntryPoint(
+						global::System.__ComObject __this, 
+						string value)
+			{
+				global::McgInterop.ForwardComSharedStubs.Proc_string__(
+									__this, 
+									value, 
+									typeof(global::Windows.ApplicationModel.Background.IBackgroundTaskBuilder).TypeHandle, 
+									global::Windows.ApplicationModel.Background.IBackgroundTaskBuilder__Impl.Vtbl.idx_put_TaskEntryPoint
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static void SetTrigger(
+						global::System.__ComObject __this, 
+						global::Windows.ApplicationModel.Background.IBackgroundTrigger trigger)
+			{
+				global::McgInterop.ForwardComSharedStubs.Proc_ApplicationModel_Background_IBackgroundTrigger__(
+									__this, 
+									trigger, 
+									typeof(global::Windows.ApplicationModel.Background.IBackgroundTaskBuilder).TypeHandle, 
+									global::Windows.ApplicationModel.Background.IBackgroundTaskBuilder__Impl.Vtbl.idx_SetTrigger
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static void put_Name(
+						global::System.__ComObject __this, 
+						string value)
+			{
+				global::McgInterop.ForwardComSharedStubs.Proc_string__(
+									__this, 
+									value, 
+									typeof(global::Windows.ApplicationModel.Background.IBackgroundTaskBuilder).TypeHandle, 
+									global::Windows.ApplicationModel.Background.IBackgroundTaskBuilder__Impl.Vtbl.idx_put_Name
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::Windows.ApplicationModel.Background.BackgroundTaskRegistration Register(global::System.__ComObject __this)
+			{
+				global::Windows.ApplicationModel.Background.BackgroundTaskRegistration __ret = global::McgInterop.ForwardComSharedStubs.Func_ApplicationModel_Background_BackgroundTaskRegistration__(
+									__this, 
+									typeof(global::Windows.ApplicationModel.Background.IBackgroundTaskBuilder).TypeHandle, 
+									global::Windows.ApplicationModel.Background.IBackgroundTaskBuilder__Impl.Vtbl.idx_Register
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// DispatchClass for 'Windows.ApplicationModel.Background.IBackgroundTaskBuilder'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.ApplicationModel.Background.IBackgroundTaskBuilder))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.ApplicationModel.Background.IBackgroundTaskBuilder
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Windows.ApplicationModel.Background.IBackgroundTaskBuilder.TaskEntryPoint")]
+			void global::Windows.ApplicationModel.Background.IBackgroundTaskBuilder.put_TaskEntryPoint(string value)
+			{
+				global::Windows.ApplicationModel.Background.IBackgroundTaskBuilder__Impl.StubClass.put_TaskEntryPoint(
+									this, 
+									value
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			void global::Windows.ApplicationModel.Background.IBackgroundTaskBuilder.SetTrigger(global::Windows.ApplicationModel.Background.IBackgroundTrigger trigger)
+			{
+				global::Windows.ApplicationModel.Background.IBackgroundTaskBuilder__Impl.StubClass.SetTrigger(
+									this, 
+									trigger
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Windows.ApplicationModel.Background.IBackgroundTaskBuilder.Name")]
+			void global::Windows.ApplicationModel.Background.IBackgroundTaskBuilder.put_Name(string value)
+			{
+				global::Windows.ApplicationModel.Background.IBackgroundTaskBuilder__Impl.StubClass.put_Name(
+									this, 
+									value
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			global::Windows.ApplicationModel.Background.BackgroundTaskRegistration global::Windows.ApplicationModel.Background.IBackgroundTaskBuilder.Register()
+			{
+				global::Windows.ApplicationModel.Background.BackgroundTaskRegistration __retVal = global::Windows.ApplicationModel.Background.IBackgroundTaskBuilder__Impl.StubClass.Register(this);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+		}
+
+		// v-table for 'Windows.ApplicationModel.Background.IBackgroundTaskBuilder'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.ApplicationModel.Background.IBackgroundTaskBuilder))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_put_TaskEntryPoint = 6;
+			internal const int idx_SetTrigger = 8;
+			internal const int idx_put_Name = 10;
+			internal const int idx_Register = 12;
+		}
+	}
+
+	// Windows.ApplicationModel.Background.IBackgroundTrigger
+	public unsafe static class IBackgroundTrigger__Impl
+	{
+		// v-table for 'Windows.ApplicationModel.Background.IBackgroundTrigger'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.ApplicationModel.Background.IBackgroundTrigger))]
+		public unsafe partial struct Vtbl
+		{
+		}
+	}
+
+	// Windows.ApplicationModel.Background.IBackgroundTaskRegistrationStatics
+	public unsafe static class IBackgroundTaskRegistrationStatics__Impl
+	{
+		// StubClass for 'Windows.ApplicationModel.Background.IBackgroundTaskRegistrationStatics'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::System.Collections.Generic.IReadOnlyDictionary<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration> get_AllTasks(global::System.__ComObject __this)
+			{
+				global::System.Collections.Generic.IReadOnlyDictionary<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration> __ret = global::McgInterop.ForwardComSharedStubs.Func__IReadOnlyDictionary_2_Guid__ApplicationModel_Background_IBackgroundTaskRegistration___(
+									__this, 
+									typeof(global::Windows.ApplicationModel.Background.IBackgroundTaskRegistrationStatics).TypeHandle, 
+									global::Windows.ApplicationModel.Background.IBackgroundTaskRegistrationStatics__Impl.Vtbl.idx_get_AllTasks
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// DispatchClass for 'Windows.ApplicationModel.Background.IBackgroundTaskRegistrationStatics'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.ApplicationModel.Background.IBackgroundTaskRegistrationStatics))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistrationStatics
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.ApplicationModel.Background.IBackgroundTaskRegistrationStatics.AllTasks")]
+			global::System.Collections.Generic.IReadOnlyDictionary<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration> global::Windows.ApplicationModel.Background.IBackgroundTaskRegistrationStatics.get_AllTasks()
+			{
+				global::System.Collections.Generic.IReadOnlyDictionary<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration> __retVal = global::Windows.ApplicationModel.Background.IBackgroundTaskRegistrationStatics__Impl.StubClass.get_AllTasks(this);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+		}
+
+		// v-table for 'Windows.ApplicationModel.Background.IBackgroundTaskRegistrationStatics'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.ApplicationModel.Background.IBackgroundTaskRegistrationStatics))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_get_AllTasks = 6;
+		}
+	}
+
+	// Windows.ApplicationModel.Background.IBackgroundTaskRegistration
+	public unsafe static class IBackgroundTaskRegistration__Impl
+	{
+		// StubClass for 'Windows.ApplicationModel.Background.IBackgroundTaskRegistration'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static void Unregister(
+						global::System.__ComObject __this, 
+						bool cancelTask)
+			{
+				global::McgInterop.ForwardComSharedStubs.Proc_bool__(
+									__this, 
+									cancelTask, 
+									typeof(global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration).TypeHandle, 
+									global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration__Impl.Vtbl.idx_Unregister
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+		}
+
+		// DispatchClass for 'Windows.ApplicationModel.Background.IBackgroundTaskRegistration'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			void global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration.Unregister(bool cancelTask)
+			{
+				global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration__Impl.StubClass.Unregister(
+									this, 
+									cancelTask
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+		}
+
+		// v-table for 'Windows.ApplicationModel.Background.IBackgroundTaskRegistration'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_Unregister = 12;
+		}
+	}
+
+	// Windows.ApplicationModel.Background.IBackgroundTaskRegistration2
+	public unsafe static class IBackgroundTaskRegistration2__Impl
+	{
+		// v-table for 'Windows.ApplicationModel.Background.IBackgroundTaskRegistration2'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration2))]
+		public unsafe partial struct Vtbl
+		{
+		}
+	}
+
+	// Windows.ApplicationModel.Background.IBackgroundTaskBuilder2
+	public unsafe static class IBackgroundTaskBuilder2__Impl
+	{
+		// v-table for 'Windows.ApplicationModel.Background.IBackgroundTaskBuilder2'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.ApplicationModel.Background.IBackgroundTaskBuilder2))]
+		public unsafe partial struct Vtbl
+		{
+		}
+	}
+
+	// Windows.ApplicationModel.Background.IBackgroundTaskBuilder3
+	public unsafe static class IBackgroundTaskBuilder3__Impl
+	{
+		// v-table for 'Windows.ApplicationModel.Background.IBackgroundTaskBuilder3'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.ApplicationModel.Background.IBackgroundTaskBuilder3))]
+		public unsafe partial struct Vtbl
+		{
+		}
+	}
+
+	// Windows.ApplicationModel.Background.IApplicationTrigger
+	public unsafe static class IApplicationTrigger__Impl
+	{
+		// StubClass for 'Windows.ApplicationModel.Background.IApplicationTrigger'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::Windows.Foundation.IAsyncOperation<global::Windows.ApplicationModel.Background.ApplicationTriggerResult> RequestAsync(global::System.__ComObject __this)
+			{
+				global::Windows.Foundation.IAsyncOperation<global::Windows.ApplicationModel.Background.ApplicationTriggerResult> __ret = global::McgInterop.ForwardComSharedStubs.Func__IAsyncOperation_1_ApplicationModel_Background_ApplicationTriggerResult___(
+									__this, 
+									typeof(global::Windows.ApplicationModel.Background.IApplicationTrigger).TypeHandle, 
+									global::Windows.ApplicationModel.Background.IApplicationTrigger__Impl.Vtbl.idx_RequestAsync
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// DispatchClass for 'Windows.ApplicationModel.Background.IApplicationTrigger'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.ApplicationModel.Background.IApplicationTrigger))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.ApplicationModel.Background.IApplicationTrigger
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			global::Windows.Foundation.IAsyncOperation<global::Windows.ApplicationModel.Background.ApplicationTriggerResult> global::Windows.ApplicationModel.Background.IApplicationTrigger.RequestAsync()
+			{
+				global::Windows.Foundation.IAsyncOperation<global::Windows.ApplicationModel.Background.ApplicationTriggerResult> __retVal = global::Windows.ApplicationModel.Background.IApplicationTrigger__Impl.StubClass.RequestAsync(this);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+		}
+
+		// v-table for 'Windows.ApplicationModel.Background.IApplicationTrigger'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.ApplicationModel.Background.IApplicationTrigger))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_RequestAsync = 6;
+		}
+	}
+
+	// Windows.ApplicationModel.Background.ITimeTriggerFactory
+	public unsafe static class ITimeTriggerFactory__Impl
+	{
+		// StubClass for 'Windows.ApplicationModel.Background.ITimeTriggerFactory'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::System.IntPtr Create(
+						global::System.__ComObject __this, 
+						uint freshnessTime, 
+						bool oneShot)
+			{
+				global::System.IntPtr __ret = global::McgInterop.ForwardComSharedStubs.Func_uint__bool__IntPtr__(
+									__this, 
+									freshnessTime, 
+									oneShot, 
+									typeof(global::Windows.ApplicationModel.Background.ITimeTriggerFactory).TypeHandle, 
+									global::Windows.ApplicationModel.Background.ITimeTriggerFactory__Impl.Vtbl.idx_Create
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// DispatchClass for 'Windows.ApplicationModel.Background.ITimeTriggerFactory'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.ApplicationModel.Background.ITimeTriggerFactory))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.ApplicationModel.Background.ITimeTriggerFactory
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			global::System.IntPtr global::Windows.ApplicationModel.Background.ITimeTriggerFactory.Create(
+						uint freshnessTime, 
+						bool oneShot)
+			{
+				global::System.IntPtr __retVal = global::Windows.ApplicationModel.Background.ITimeTriggerFactory__Impl.StubClass.Create(
+									this, 
+									freshnessTime, 
+									oneShot
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+		}
+
+		// v-table for 'Windows.ApplicationModel.Background.ITimeTriggerFactory'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.ApplicationModel.Background.ITimeTriggerFactory))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_Create = 6;
+		}
+	}
+
+	// Windows.ApplicationModel.Background.ITimeTrigger
+	public unsafe static class ITimeTrigger__Impl
+	{
+		// v-table for 'Windows.ApplicationModel.Background.ITimeTrigger'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.ApplicationModel.Background.ITimeTrigger))]
+		public unsafe partial struct Vtbl
+		{
+		}
+	}
+
+	// Windows.ApplicationModel.Background.IMaintenanceTriggerFactory
+	public unsafe static class IMaintenanceTriggerFactory__Impl
+	{
+		// StubClass for 'Windows.ApplicationModel.Background.IMaintenanceTriggerFactory'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::System.IntPtr Create(
+						global::System.__ComObject __this, 
+						uint freshnessTime, 
+						bool oneShot)
+			{
+				global::System.IntPtr __ret = global::McgInterop.ForwardComSharedStubs.Func_uint__bool__IntPtr__(
+									__this, 
+									freshnessTime, 
+									oneShot, 
+									typeof(global::Windows.ApplicationModel.Background.IMaintenanceTriggerFactory).TypeHandle, 
+									global::Windows.ApplicationModel.Background.IMaintenanceTriggerFactory__Impl.Vtbl.idx_Create
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// DispatchClass for 'Windows.ApplicationModel.Background.IMaintenanceTriggerFactory'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.ApplicationModel.Background.IMaintenanceTriggerFactory))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.ApplicationModel.Background.IMaintenanceTriggerFactory
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			global::System.IntPtr global::Windows.ApplicationModel.Background.IMaintenanceTriggerFactory.Create(
+						uint freshnessTime, 
+						bool oneShot)
+			{
+				global::System.IntPtr __retVal = global::Windows.ApplicationModel.Background.IMaintenanceTriggerFactory__Impl.StubClass.Create(
+									this, 
+									freshnessTime, 
+									oneShot
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+		}
+
+		// v-table for 'Windows.ApplicationModel.Background.IMaintenanceTriggerFactory'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.ApplicationModel.Background.IMaintenanceTriggerFactory))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_Create = 6;
+		}
+	}
+
+	// Windows.ApplicationModel.Background.IMaintenanceTrigger
+	public unsafe static class IMaintenanceTrigger__Impl
+	{
+		// v-table for 'Windows.ApplicationModel.Background.IMaintenanceTrigger'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.ApplicationModel.Background.IMaintenanceTrigger))]
+		public unsafe partial struct Vtbl
+		{
+		}
+	}
+
+	// Windows.ApplicationModel.Background.IBackgroundExecutionManagerStatics
+	public unsafe static class IBackgroundExecutionManagerStatics__Impl
+	{
+		// StubClass for 'Windows.ApplicationModel.Background.IBackgroundExecutionManagerStatics'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::Windows.Foundation.IAsyncOperation<global::Windows.ApplicationModel.Background.BackgroundAccessStatus> RequestAccessAsync(global::System.__ComObject __this)
+			{
+				global::Windows.Foundation.IAsyncOperation<global::Windows.ApplicationModel.Background.BackgroundAccessStatus> __ret = global::McgInterop.ForwardComSharedStubs.Func__IAsyncOperation_1_ApplicationModel_Background_BackgroundAccessStatus___(
+									__this, 
+									typeof(global::Windows.ApplicationModel.Background.IBackgroundExecutionManagerStatics).TypeHandle, 
+									global::Windows.ApplicationModel.Background.IBackgroundExecutionManagerStatics__Impl.Vtbl.idx_RequestAccessAsync
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// DispatchClass for 'Windows.ApplicationModel.Background.IBackgroundExecutionManagerStatics'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.ApplicationModel.Background.IBackgroundExecutionManagerStatics))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.ApplicationModel.Background.IBackgroundExecutionManagerStatics
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			global::Windows.Foundation.IAsyncOperation<global::Windows.ApplicationModel.Background.BackgroundAccessStatus> global::Windows.ApplicationModel.Background.IBackgroundExecutionManagerStatics.RequestAccessAsync()
+			{
+				global::Windows.Foundation.IAsyncOperation<global::Windows.ApplicationModel.Background.BackgroundAccessStatus> __retVal = global::Windows.ApplicationModel.Background.IBackgroundExecutionManagerStatics__Impl.StubClass.RequestAccessAsync(this);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+		}
+
+		// v-table for 'Windows.ApplicationModel.Background.IBackgroundExecutionManagerStatics'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.ApplicationModel.Background.IBackgroundExecutionManagerStatics))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_RequestAccessAsync = 6;
+		}
+	}
+}
+
 namespace Windows.ApplicationModel.Core
 {
 	// Windows.ApplicationModel.Core.ICoreApplicationView
@@ -26106,6 +29094,294 @@ namespace Windows.ApplicationModel.Resources.Core
 	}
 }
 
+namespace Windows.Data.Json
+{
+	// Windows.Data.Json.IJsonObjectStatics
+	public unsafe static class IJsonObjectStatics__Impl
+	{
+		// StubClass for 'Windows.Data.Json.IJsonObjectStatics'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::Windows.Data.Json.JsonObject Parse(
+						global::System.__ComObject __this, 
+						string input)
+			{
+				global::Windows.Data.Json.JsonObject __ret = global::McgInterop.ForwardComSharedStubs.Func_string__Data_Json_JsonObject__(
+									__this, 
+									input, 
+									typeof(global::Windows.Data.Json.IJsonObjectStatics).TypeHandle, 
+									global::Windows.Data.Json.IJsonObjectStatics__Impl.Vtbl.idx_Parse
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// DispatchClass for 'Windows.Data.Json.IJsonObjectStatics'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Data.Json.IJsonObjectStatics))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.Data.Json.IJsonObjectStatics
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			global::Windows.Data.Json.JsonObject global::Windows.Data.Json.IJsonObjectStatics.Parse(string input)
+			{
+				global::Windows.Data.Json.JsonObject __retVal = global::Windows.Data.Json.IJsonObjectStatics__Impl.StubClass.Parse(
+									this, 
+									input
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+		}
+
+		// v-table for 'Windows.Data.Json.IJsonObjectStatics'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Data.Json.IJsonObjectStatics))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_Parse = 6;
+		}
+	}
+
+	// Windows.Data.Json.IJsonObject
+	public unsafe static class IJsonObject__Impl
+	{
+		// StubClass for 'Windows.Data.Json.IJsonObject'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static string GetNamedString(
+						global::System.__ComObject __this, 
+						string name)
+			{
+				string __ret = global::McgInterop.ForwardComSharedStubs.Func_string__string__(
+									__this, 
+									name, 
+									typeof(global::Windows.Data.Json.IJsonObject).TypeHandle, 
+									global::Windows.Data.Json.IJsonObject__Impl.Vtbl.idx_GetNamedString
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// DispatchClass for 'Windows.Data.Json.IJsonObject'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Data.Json.IJsonObject))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.Data.Json.IJsonObject
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			string global::Windows.Data.Json.IJsonValue.Stringify()
+			{
+				global::McgInterop.McgHelpers.FailFastForReducedMethod();
+				return default(string);
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			global::Windows.Data.Json.JsonObject global::Windows.Data.Json.IJsonValue.GetObject()
+			{
+				global::McgInterop.McgHelpers.FailFastForReducedMethod();
+				return default(global::Windows.Data.Json.JsonObject);
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			string global::Windows.Data.Json.IJsonObject.GetNamedString(string name)
+			{
+				string __retVal = global::Windows.Data.Json.IJsonObject__Impl.StubClass.GetNamedString(
+									this, 
+									name
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+		}
+
+		// v-table for 'Windows.Data.Json.IJsonObject'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Data.Json.IJsonObject))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_GetNamedString = 10;
+		}
+	}
+
+	// Windows.Data.Json.IJsonValue
+	public unsafe static class IJsonValue__Impl
+	{
+		// StubClass for 'Windows.Data.Json.IJsonValue'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static string Stringify(global::System.__ComObject __this)
+			{
+				string __ret = global::McgInterop.ForwardComSharedStubs.Func_string__(
+									__this, 
+									typeof(global::Windows.Data.Json.IJsonValue).TypeHandle, 
+									global::Windows.Data.Json.IJsonValue__Impl.Vtbl.idx_Stringify
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::Windows.Data.Json.JsonObject GetObject(global::System.__ComObject __this)
+			{
+				global::Windows.Data.Json.JsonObject __ret = global::McgInterop.ForwardComSharedStubs.Func_Data_Json_JsonObject__(
+									__this, 
+									typeof(global::Windows.Data.Json.IJsonValue).TypeHandle, 
+									global::Windows.Data.Json.IJsonValue__Impl.Vtbl.idx_GetObject
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// DispatchClass for 'Windows.Data.Json.IJsonValue'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Data.Json.IJsonValue))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.Data.Json.IJsonValue
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			string global::Windows.Data.Json.IJsonValue.Stringify()
+			{
+				string __retVal = global::Windows.Data.Json.IJsonValue__Impl.StubClass.Stringify(this);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			global::Windows.Data.Json.JsonObject global::Windows.Data.Json.IJsonValue.GetObject()
+			{
+				global::Windows.Data.Json.JsonObject __retVal = global::Windows.Data.Json.IJsonValue__Impl.StubClass.GetObject(this);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+		}
+
+		// v-table for 'Windows.Data.Json.IJsonValue'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Data.Json.IJsonValue))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_Stringify = 7;
+			internal const int idx_GetObject = 12;
+		}
+	}
+
+	// Windows.Data.Json.IJsonObjectWithDefaultValues
+	public unsafe static class IJsonObjectWithDefaultValues__Impl
+	{
+		// v-table for 'Windows.Data.Json.IJsonObjectWithDefaultValues'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Data.Json.IJsonObjectWithDefaultValues))]
+		public unsafe partial struct Vtbl
+		{
+		}
+	}
+
+	// Windows.Data.Json.IJsonValueStatics
+	public unsafe static class IJsonValueStatics__Impl
+	{
+		// StubClass for 'Windows.Data.Json.IJsonValueStatics'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::Windows.Data.Json.JsonValue CreateStringValue(
+						global::System.__ComObject __this, 
+						string input)
+			{
+				global::Windows.Data.Json.JsonValue __ret = global::McgInterop.ForwardComSharedStubs.Func_string__Data_Json_JsonValue__(
+									__this, 
+									input, 
+									typeof(global::Windows.Data.Json.IJsonValueStatics).TypeHandle, 
+									global::Windows.Data.Json.IJsonValueStatics__Impl.Vtbl.idx_CreateStringValue
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// DispatchClass for 'Windows.Data.Json.IJsonValueStatics'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Data.Json.IJsonValueStatics))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.Data.Json.IJsonValueStatics
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			global::Windows.Data.Json.JsonValue global::Windows.Data.Json.IJsonValueStatics.CreateStringValue(string input)
+			{
+				global::Windows.Data.Json.JsonValue __retVal = global::Windows.Data.Json.IJsonValueStatics__Impl.StubClass.CreateStringValue(
+									this, 
+									input
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+		}
+
+		// v-table for 'Windows.Data.Json.IJsonValueStatics'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Data.Json.IJsonValueStatics))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_CreateStringValue = 10;
+		}
+	}
+
+	// Windows.Data.Json.IJsonArrayStatics
+	public unsafe static class IJsonArrayStatics__Impl
+	{
+		// StubClass for 'Windows.Data.Json.IJsonArrayStatics'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::Windows.Data.Json.JsonArray Parse(
+						global::System.__ComObject __this, 
+						string input)
+			{
+				global::Windows.Data.Json.JsonArray __ret = global::McgInterop.ForwardComSharedStubs.Func_string__Data_Json_JsonArray__(
+									__this, 
+									input, 
+									typeof(global::Windows.Data.Json.IJsonArrayStatics).TypeHandle, 
+									global::Windows.Data.Json.IJsonArrayStatics__Impl.Vtbl.idx_Parse
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// DispatchClass for 'Windows.Data.Json.IJsonArrayStatics'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Data.Json.IJsonArrayStatics))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.Data.Json.IJsonArrayStatics
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			global::Windows.Data.Json.JsonArray global::Windows.Data.Json.IJsonArrayStatics.Parse(string input)
+			{
+				global::Windows.Data.Json.JsonArray __retVal = global::Windows.Data.Json.IJsonArrayStatics__Impl.StubClass.Parse(
+									this, 
+									input
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+		}
+
+		// v-table for 'Windows.Data.Json.IJsonArrayStatics'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Data.Json.IJsonArrayStatics))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_Parse = 6;
+		}
+	}
+
+	// Windows.Data.Json.IJsonArray
+	public unsafe static class IJsonArray__Impl
+	{
+		// v-table for 'Windows.Data.Json.IJsonArray'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Data.Json.IJsonArray))]
+		public unsafe partial struct Vtbl
+		{
+		}
+	}
+}
+
 namespace Windows.Devices.Enumeration.Pnp
 {
 	// Windows.Devices.Enumeration.Pnp.IPnpObjectStatics
@@ -26403,10 +29679,10 @@ namespace Windows.Foundation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnToString_Windows_Foundation__IStringable = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget56>(global::Windows.Foundation.IStringable__Impl.Vtbl.ToString__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnToString_Windows_Foundation__IStringable = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget59>(global::Windows.Foundation.IStringable__Impl.Vtbl.ToString__STUB),
 			}
 			#endif
 			;
@@ -26500,7 +29776,7 @@ namespace Windows.Foundation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_Foundation__TypedEventHandler_A_Windows_UI_Xaml_UIElement_j_Windows_UI_Xaml_DragStartingEventArgs_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget83>(global::Windows.Foundation.TypedEventHandler_A_Windows_UI_Xaml_UIElement_j_Windows_UI_Xaml_DragStartingEventArgs_V___Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_Foundation__TypedEventHandler_A_Windows_UI_Xaml_UIElement_j_Windows_UI_Xaml_DragStartingEventArgs_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget86>(global::Windows.Foundation.TypedEventHandler_A_Windows_UI_Xaml_UIElement_j_Windows_UI_Xaml_DragStartingEventArgs_V___Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -26595,7 +29871,7 @@ namespace Windows.Foundation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_Foundation__TypedEventHandler_A_Windows_UI_Xaml_UIElement_j_Windows_UI_Xaml_DropCompletedEventArgs_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget84>(global::Windows.Foundation.TypedEventHandler_A_Windows_UI_Xaml_UIElement_j_Windows_UI_Xaml_DropCompletedEventArgs_V___Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_Foundation__TypedEventHandler_A_Windows_UI_Xaml_UIElement_j_Windows_UI_Xaml_DropCompletedEventArgs_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget87>(global::Windows.Foundation.TypedEventHandler_A_Windows_UI_Xaml_UIElement_j_Windows_UI_Xaml_DropCompletedEventArgs_V___Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -26690,7 +29966,7 @@ namespace Windows.Foundation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_Foundation__TypedEventHandler_A_Windows_UI_Xaml_FrameworkElement_j_Windows_UI_Xaml_DataContextChangedEventArgs_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget86>(global::Windows.Foundation.TypedEventHandler_A_Windows_UI_Xaml_FrameworkElement_j_Windows_UI_Xaml_DataContextChangedEventArgs_V___Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_Foundation__TypedEventHandler_A_Windows_UI_Xaml_FrameworkElement_j_Windows_UI_Xaml_DataContextChangedEventArgs_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget89>(global::Windows.Foundation.TypedEventHandler_A_Windows_UI_Xaml_FrameworkElement_j_Windows_UI_Xaml_DataContextChangedEventArgs_V___Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -26785,7 +30061,7 @@ namespace Windows.Foundation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_Foundation__TypedEventHandler_A_Windows_UI_Xaml_FrameworkElement_j_object_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget87>(global::Windows.Foundation.TypedEventHandler_A_Windows_UI_Xaml_FrameworkElement_j_System_Object_V___Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_Foundation__TypedEventHandler_A_Windows_UI_Xaml_FrameworkElement_j_object_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget90>(global::Windows.Foundation.TypedEventHandler_A_Windows_UI_Xaml_FrameworkElement_j_System_Object_V___Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -26876,7 +30152,7 @@ namespace Windows.Foundation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_Foundation__TypedEventHandler_A_Windows_UI_Xaml_Controls_SplitView_j_Windows_UI_Xaml_Controls_SplitViewPaneClosingEventArgs_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget89>(global::Windows.Foundation.TypedEventHandler_A_Windows_UI_Xaml_Controls_SplitView_j_Windows_UI_Xaml_Controls_SplitViewPaneClosingEventArgs_V___Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_Foundation__TypedEventHandler_A_Windows_UI_Xaml_Controls_SplitView_j_Windows_UI_Xaml_Controls_SplitViewPaneClosingEventArgs_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget92>(global::Windows.Foundation.TypedEventHandler_A_Windows_UI_Xaml_Controls_SplitView_j_Windows_UI_Xaml_Controls_SplitViewPaneClosingEventArgs_V___Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -26971,7 +30247,7 @@ namespace Windows.Foundation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_Foundation__TypedEventHandler_A_Windows_UI_Xaml_Controls_SplitView_j_object_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget90>(global::Windows.Foundation.TypedEventHandler_A_Windows_UI_Xaml_Controls_SplitView_j_System_Object_V___Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_Foundation__TypedEventHandler_A_Windows_UI_Xaml_Controls_SplitView_j_object_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget93>(global::Windows.Foundation.TypedEventHandler_A_Windows_UI_Xaml_Controls_SplitView_j_System_Object_V___Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -27062,7 +30338,7 @@ namespace Windows.Foundation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_Foundation__TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_ContainerContentChangingEventArgs_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget95>(global::Windows.Foundation.TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_ContainerContentChangingEventArgs_V___Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_Foundation__TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_ContainerContentChangingEventArgs_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget98>(global::Windows.Foundation.TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_ContainerContentChangingEventArgs_V___Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -27157,7 +30433,7 @@ namespace Windows.Foundation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_Foundation__TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_DragItemsCompletedEventArgs_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget96>(global::Windows.Foundation.TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_DragItemsCompletedEventArgs_V___Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_Foundation__TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_DragItemsCompletedEventArgs_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget99>(global::Windows.Foundation.TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_DragItemsCompletedEventArgs_V___Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -27252,7 +30528,7 @@ namespace Windows.Foundation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_Foundation__TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_ChoosingItemContainerEventArgs_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget97>(global::Windows.Foundation.TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_ChoosingItemContainerEventArgs_V___Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_Foundation__TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_ChoosingItemContainerEventArgs_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget100>(global::Windows.Foundation.TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_ChoosingItemContainerEventArgs_V___Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -27347,7 +30623,7 @@ namespace Windows.Foundation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_Foundation__TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_ChoosingGroupHeaderContainerEventArgs_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget98>(global::Windows.Foundation.TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_ChoosingGroupHeaderContainerEventArgs_V___Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_Foundation__TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_ChoosingGroupHeaderContainerEventArgs_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget101>(global::Windows.Foundation.TypedEventHandler_A_Windows_UI_Xaml_Controls_ListViewBase_j_Windows_UI_Xaml_Controls_ChoosingGroupHeaderContainerEventArgs_V___Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -27442,7 +30718,7 @@ namespace Windows.Foundation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_Foundation__TypedEventHandler_A_Windows_ApplicationModel_Core_CoreApplicationView_j_Windows_ApplicationModel_Activation_IActivatedEventArgs_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget116>(global::Windows.Foundation.TypedEventHandler_A_Windows_ApplicationModel_Core_CoreApplicationView_j_Windows_ApplicationModel_Activation_IActivatedEventArgs_V___Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_Foundation__TypedEventHandler_A_Windows_ApplicationModel_Core_CoreApplicationView_j_Windows_ApplicationModel_Activation_IActivatedEventArgs_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget119>(global::Windows.Foundation.TypedEventHandler_A_Windows_ApplicationModel_Core_CoreApplicationView_j_Windows_ApplicationModel_Activation_IActivatedEventArgs_V___Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -27549,10 +30825,10 @@ namespace Windows.Foundation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Point_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget141>(global::Windows.Foundation.IReferenceArray_A_Windows_Foundation_Point_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Point_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget144>(global::Windows.Foundation.IReferenceArray_A_Windows_Foundation_Point_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -27663,10 +30939,10 @@ namespace Windows.Foundation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Size_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget142>(global::Windows.Foundation.IReferenceArray_A_Windows_Foundation_Size_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Size_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget145>(global::Windows.Foundation.IReferenceArray_A_Windows_Foundation_Size_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -27777,10 +31053,10 @@ namespace Windows.Foundation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Rect_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget143>(global::Windows.Foundation.IReferenceArray_A_Windows_Foundation_Rect_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Rect_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget146>(global::Windows.Foundation.IReferenceArray_A_Windows_Foundation_Rect_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -27891,10 +31167,10 @@ namespace Windows.Foundation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_UI_Xaml_Markup_XmlnsDefinition_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget102>(global::Windows.Foundation.IReferenceArray_A_Windows_UI_Xaml_Markup_XmlnsDefinition_V___Impl.Vtbl.get_Value__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_UI_Xaml_Markup_XmlnsDefinition_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget105>(global::Windows.Foundation.IReferenceArray_A_Windows_UI_Xaml_Markup_XmlnsDefinition_V___Impl.Vtbl.get_Value__STUB),
 			}
 			#endif
 			;
@@ -28113,753 +31389,295 @@ namespace Windows.Foundation
 		}
 	}
 
-	// Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,double>>
-	public unsafe static class IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_double_V__V___Impl
+	// Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.Background.ApplicationTriggerResult>
+	public unsafe static class IAsyncOperation_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V___Impl
 	{
-		// StubClass for 'Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,double>>'
+		// StubClass for 'Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.Background.ApplicationTriggerResult>'
 		public static partial class StubClass
 		{
 			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
 			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-			public static global::System.Collections.Generic.KeyValuePair<string, double>[] get_Value(global::System.__ComObject __this)
+			public static void put_Completed(
+						global::System.__ComObject __this, 
+						global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.ApplicationTriggerResult> handler)
 			{
-				global::System.Collections.Generic.KeyValuePair<string, double>[] __ret = global::McgInterop.ForwardComSharedStubs.Func_rg__KeyValuePair_2_string__double___(
+				global::McgInterop.ForwardComSharedStubs.Proc__AsyncOperationCompletedHandler_1_ApplicationModel_Background_ApplicationTriggerResult___(
 									__this, 
-									typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, double>>).TypeHandle, 
-									global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_double_V__V___Impl.Vtbl.idx_get_Value
+									handler, 
+									typeof(global::Windows.Foundation.IAsyncOperation<global::Windows.ApplicationModel.Background.ApplicationTriggerResult>).TypeHandle, 
+									global::Windows.Foundation.IAsyncOperation_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V___Impl.Vtbl.idx_put_Completed
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			public static global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.ApplicationTriggerResult> get_Completed(global::System.__ComObject __this)
+			{
+				global::McgInterop.McgHelpers.FailFastForReducedMethod();
+				return default(global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.ApplicationTriggerResult>);
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::Windows.ApplicationModel.Background.ApplicationTriggerResult GetResults(global::System.__ComObject __this)
+			{
+				global::Windows.ApplicationModel.Background.ApplicationTriggerResult __ret = global::McgInterop.ForwardComSharedStubs.Func_ApplicationModel_Background_ApplicationTriggerResult__(
+									__this, 
+									typeof(global::Windows.Foundation.IAsyncOperation<global::Windows.ApplicationModel.Background.ApplicationTriggerResult>).TypeHandle, 
+									global::Windows.Foundation.IAsyncOperation_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V___Impl.Vtbl.idx_GetResults
 								);
 				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
 				return __ret;
 			}
 		}
 
-		// v-table for 'Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,double>>'
-		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, double>>))]
-		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, double>>))]
-		public unsafe partial struct Vtbl
+		// DispatchClass for 'Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.Background.ApplicationTriggerResult>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IAsyncOperation<global::Windows.ApplicationModel.Background.ApplicationTriggerResult>))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.Foundation.IAsyncOperation<global::Windows.ApplicationModel.Background.ApplicationTriggerResult>
 		{
-			global::System.IntPtr pfnQueryInterface;
-			global::System.IntPtr pfnAddRef;
-			global::System.IntPtr pfnRelease;
-			global::System.IntPtr pfnGetIids;
-			global::System.IntPtr pfnGetRuntimeClassName;
-			global::System.IntPtr pfnGetTrustLevel;
-			// Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_double_V__V_
-			global::System.IntPtr pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_double_V__V_;
-			internal const int idx_get_Value = 6;
-			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_double_V__V___Impl.Vtbl.Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_double_V__V___Impl_Vtbl_McgRvaContainer), "RVA_Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_double_V__V___Impl_V" +
-				"tbl_s_theCcwVtable")]
-			public static global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_double_V__V___Impl.Vtbl s_theCcwVtable
-			#if false
-			 = new global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_double_V__V___Impl.Vtbl() {
-				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
-				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
-				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_double_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget207>(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_double_V__V___Impl.Vtbl.get_Value__STUB),
-			}
-			#endif
-			;
-			// Signature, Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,double>>.get_Value, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.ArrayMarshaller] rg_System_Collections_Generic_KeyValuePair_2_string__double___Windows_Foundation_Collections__IKeyValuePair_A_string_j_double_V_ * *, 
 			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			[global::System.Runtime.InteropServices.NativeCallable]
-			static int get_Value__STUB(
-						global::System.IntPtr pComThis, 
-						uint* unsafe___value__retval_mcgLength, 
-						global::System.Collections.Generic.KeyValuePair_A_string_j_double_V___Impl.Vtbl**** unsafe___value__retval)
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.IAsyncInfo.Id")]
+			uint global::Windows.Foundation.IAsyncInfo.get_Id()
 			{
-				// Setup
-				if (unsafe___value__retval != null)
-					(*(unsafe___value__retval)) = null;
-				global::System.Collections.Generic.KeyValuePair<string, double>[] __value__retval = default(global::System.Collections.Generic.KeyValuePair<string, double>[]);
-				try
-				{
-					// Marshalling
-					// Call to managed method
-					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, double>>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).get_Value();
-					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-					if (unsafe___value__retval != null)
-						if (__value__retval == null)
-							(*(unsafe___value__retval)) = null;
-						else
-						{
-							if (__value__retval != null)
-								(*(unsafe___value__retval_mcgLength)) = (uint)__value__retval.Length;
-							if (__value__retval != null)
-								(*(unsafe___value__retval)) = (global::System.Collections.Generic.KeyValuePair_A_string_j_double_V___Impl.Vtbl***)global::McgInterop.McgHelpers.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked((*(unsafe___value__retval_mcgLength)) * sizeof(global::System.Collections.Generic.KeyValuePair_A_string_j_double_V___Impl.Vtbl**))));
-							for (uint mcgIdx = 0; (mcgIdx < (*(unsafe___value__retval_mcgLength))); mcgIdx++)
-							{
-								// [rev] [out] [retval] [nativebyref] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_string__double___Windows_Foundation_Collections__IKeyValuePair_A_string_j_double_V_ * __value__retval
-								global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<string, double> pair_unsafe___value__retval = new global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<string, double>(ref __value__retval[mcgIdx]);
-								(*(unsafe___value__retval))[mcgIdx] = (global::System.Collections.Generic.KeyValuePair_A_string_j_double_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.ManagedObjectToComInterface(
-													pair_unsafe___value__retval, 
-													typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, double>).TypeHandle
-												);
-							}
-						}
-					// Return
-					return global::McgInterop.Helpers.S_OK;
-				}
-				catch (global::System.Exception hrExcep)
-				{
-					// ExceptionCleanup
-					if (unsafe___value__retval != null)
-					{
-						if ((*(unsafe___value__retval)) != null)
-							for (uint mcgIdx_1 = 0; (mcgIdx_1 < (*(unsafe___value__retval_mcgLength))); mcgIdx_1++)
-							{
-								// [fwd] [in] [out] [retval] [nativebyref] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_string__double___Windows_Foundation_Collections__IKeyValuePair_A_string_j_double_V_ * __value__retval
-								global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe___value__retval))[mcgIdx_1])));
-							}
-						global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree((*(unsafe___value__retval)));
-						(*(unsafe___value__retval)) = null;
-					}
-					// ExceptionReturn
-					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-				}
+				global::McgInterop.McgHelpers.FailFastForReducedMethod();
+				return 0;
 			}
 
-			private static class Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_double_V__V___Impl_Vtbl_McgRvaContainer
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.IAsyncInfo.Status")]
+			global::Windows.Foundation.AsyncStatus global::Windows.Foundation.IAsyncInfo.get_Status()
 			{
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(32, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_double_V__V___Impl.Vtbl), "get_Value__STUB")]
-				[global::System.Runtime.CompilerServices.NonArray]
-				static readonly byte[] RVA_Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_double_V__V___Impl_Vtbl_s_theCcwVtable = new byte[] {
-						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-						0, 0, 0, 0, 0, 0};
+				global::McgInterop.McgHelpers.FailFastForReducedMethod();
+				return default(global::Windows.Foundation.AsyncStatus);
 			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.IAsyncInfo.ErrorCode")]
+			global::System.Exception global::Windows.Foundation.IAsyncInfo.get_ErrorCode()
+			{
+				global::McgInterop.McgHelpers.FailFastForReducedMethod();
+				return default(global::System.Exception);
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			void global::Windows.Foundation.IAsyncInfo.Cancel()
+			{
+				global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			void global::Windows.Foundation.IAsyncInfo.Close()
+			{
+				global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Windows.Foundation.IAsyncOperation`1.Completed")]
+			void global::Windows.Foundation.IAsyncOperation<global::Windows.ApplicationModel.Background.ApplicationTriggerResult>.put_Completed(global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.ApplicationTriggerResult> handler)
+			{
+				global::Windows.Foundation.IAsyncOperation_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V___Impl.StubClass.put_Completed(
+									this, 
+									handler
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.ApplicationTriggerResult> global::Windows.Foundation.IAsyncOperation<global::Windows.ApplicationModel.Background.ApplicationTriggerResult>.get_Completed()
+			{
+				global::McgInterop.McgHelpers.FailFastForReducedMethod();
+				return default(global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.ApplicationTriggerResult>);
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			global::Windows.ApplicationModel.Background.ApplicationTriggerResult global::Windows.Foundation.IAsyncOperation<global::Windows.ApplicationModel.Background.ApplicationTriggerResult>.GetResults()
+			{
+				global::Windows.ApplicationModel.Background.ApplicationTriggerResult __retVal = global::Windows.Foundation.IAsyncOperation_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V___Impl.StubClass.GetResults(this);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+		}
+
+		// v-table for 'Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.Background.ApplicationTriggerResult>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IAsyncOperation<global::Windows.ApplicationModel.Background.ApplicationTriggerResult>))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_put_Completed = 6;
+			internal const int idx_get_Completed = 7;
+			internal const int idx_GetResults = 8;
 		}
 	}
 
-	// Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.UI.Xaml.Markup.IXamlType>>
-	public unsafe static class IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl
+	// Windows.Foundation.AsyncOperationCompletedHandler<Windows.ApplicationModel.Background.ApplicationTriggerResult>
+	public unsafe static class AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V___Impl
 	{
-		// StubClass for 'Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.UI.Xaml.Markup.IXamlType>>'
-		public static partial class StubClass
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+		public static void Invoke(
+					this global::System.__ComObject __this, 
+					global::Windows.Foundation.IAsyncOperation<global::Windows.ApplicationModel.Background.ApplicationTriggerResult> asyncInfo, 
+					global::Windows.Foundation.AsyncStatus asyncStatus)
 		{
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-			public static global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlType>[] get_Value(global::System.__ComObject __this)
-			{
-				global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlType>[] __ret = global::McgInterop.ForwardComSharedStubs.Func_rg__KeyValuePair_2_string__UI_Xaml_Markup_IXamlType___(
-									__this, 
-									typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlType>>).TypeHandle, 
-									global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl.Vtbl.idx_get_Value
-								);
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-				return __ret;
-			}
+			global::McgInterop.ForwardComSharedStubs.Proc__IAsyncOperation_1_ApplicationModel_Background_ApplicationTriggerResult___int(
+								__this, 
+								asyncInfo, 
+								((int)asyncStatus), 
+								typeof(global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.ApplicationTriggerResult>).TypeHandle, 
+								global::Windows.Foundation.AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_ApplicationTriggerResult_V___Impl.Vtbl.idx_Invoke
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
 		}
 
-		// v-table for 'Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.UI.Xaml.Markup.IXamlType>>'
-		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlType>>))]
-		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlType>>))]
+		// v-table for 'Windows.Foundation.AsyncOperationCompletedHandler<Windows.ApplicationModel.Background.ApplicationTriggerResult>'
 		public unsafe partial struct Vtbl
 		{
-			global::System.IntPtr pfnQueryInterface;
-			global::System.IntPtr pfnAddRef;
-			global::System.IntPtr pfnRelease;
-			global::System.IntPtr pfnGetIids;
-			global::System.IntPtr pfnGetRuntimeClassName;
-			global::System.IntPtr pfnGetTrustLevel;
-			// Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V__V_
-			global::System.IntPtr pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V__V_;
-			internal const int idx_get_Value = 6;
-			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl.Vtbl.Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl_Vtbl_McgRvaContainer), "RVA_Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Mark" +
-				"up_IXamlType_V__V___Impl_Vtbl_s_theCcwVtable")]
-			public static global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl.Vtbl s_theCcwVtable
-			#if false
-			 = new global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl.Vtbl() {
-				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
-				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
-				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget230>(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl.Vtbl.get_Value__STUB),
-			}
-			#endif
-			;
-			// Signature, Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.UI.Xaml.Markup.IXamlType>>.get_Value, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.ArrayMarshaller] rg_System_Collections_Generic_KeyValuePair_2_string__Windows_UI_Xaml_Markup_IXamlType___Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V_ * *, 
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			[global::System.Runtime.InteropServices.NativeCallable]
-			static int get_Value__STUB(
-						global::System.IntPtr pComThis, 
-						uint* unsafe___value__retval_mcgLength, 
-						global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V___Impl.Vtbl**** unsafe___value__retval)
-			{
-				// Setup
-				if (unsafe___value__retval != null)
-					(*(unsafe___value__retval)) = null;
-				global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlType>[] __value__retval = default(global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlType>[]);
-				try
-				{
-					// Marshalling
-					// Call to managed method
-					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlType>>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).get_Value();
-					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-					if (unsafe___value__retval != null)
-						if (__value__retval == null)
-							(*(unsafe___value__retval)) = null;
-						else
-						{
-							if (__value__retval != null)
-								(*(unsafe___value__retval_mcgLength)) = (uint)__value__retval.Length;
-							if (__value__retval != null)
-								(*(unsafe___value__retval)) = (global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V___Impl.Vtbl***)global::McgInterop.McgHelpers.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked((*(unsafe___value__retval_mcgLength)) * sizeof(global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V___Impl.Vtbl**))));
-							for (uint mcgIdx = 0; (mcgIdx < (*(unsafe___value__retval_mcgLength))); mcgIdx++)
-							{
-								// [rev] [out] [retval] [nativebyref] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_string__Windows_UI_Xaml_Markup_IXamlType___Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V_ * __value__retval
-								global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<string, global::Windows.UI.Xaml.Markup.IXamlType> pair_unsafe___value__retval = new global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<string, global::Windows.UI.Xaml.Markup.IXamlType>(ref __value__retval[mcgIdx]);
-								(*(unsafe___value__retval))[mcgIdx] = (global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.ManagedObjectToComInterface(
-													pair_unsafe___value__retval, 
-													typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlType>).TypeHandle
-												);
-							}
-						}
-					// Return
-					return global::McgInterop.Helpers.S_OK;
-				}
-				catch (global::System.Exception hrExcep)
-				{
-					// ExceptionCleanup
-					if (unsafe___value__retval != null)
-					{
-						if ((*(unsafe___value__retval)) != null)
-							for (uint mcgIdx_1 = 0; (mcgIdx_1 < (*(unsafe___value__retval_mcgLength))); mcgIdx_1++)
-							{
-								// [fwd] [in] [out] [retval] [nativebyref] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_string__Windows_UI_Xaml_Markup_IXamlType___Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V_ * __value__retval
-								global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe___value__retval))[mcgIdx_1])));
-							}
-						global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree((*(unsafe___value__retval)));
-						(*(unsafe___value__retval)) = null;
-					}
-					// ExceptionReturn
-					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-				}
-			}
-
-			private static class Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl_Vtbl_McgRvaContainer
-			{
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(32, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl.Vtbl), "get_Value__STUB")]
-				[global::System.Runtime.CompilerServices.NonArray]
-				static readonly byte[] RVA_Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl_Vtbl_s_theCcwVtable = new byte[] {
-						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-						0, 0, 0, 0, 0, 0};
-			}
+			internal const int idx_Invoke = 3;
 		}
 	}
 
-	// Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<System.Type,Windows.UI.Xaml.Markup.IXamlType>>
-	public unsafe static class IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Type_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl
+	// Windows.Foundation.AsyncOperationCompletedHandler<Windows.ApplicationModel.Background.BackgroundAccessStatus>
+	public unsafe static class AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V___Impl
 	{
-		// StubClass for 'Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<System.Type,Windows.UI.Xaml.Markup.IXamlType>>'
-		public static partial class StubClass
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+		public static void Invoke(
+					this global::System.__ComObject __this, 
+					global::Windows.Foundation.IAsyncOperation<global::Windows.ApplicationModel.Background.BackgroundAccessStatus> asyncInfo, 
+					global::Windows.Foundation.AsyncStatus asyncStatus)
 		{
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-			public static global::System.Collections.Generic.KeyValuePair<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType>[] get_Value(global::System.__ComObject __this)
-			{
-				global::System.Collections.Generic.KeyValuePair<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType>[] __ret = global::McgInterop.ForwardComSharedStubs.Func_rg__KeyValuePair_2_Type__UI_Xaml_Markup_IXamlType___(
-									__this, 
-									typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType>>).TypeHandle, 
-									global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Type_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl.Vtbl.idx_get_Value
-								);
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-				return __ret;
-			}
+			global::McgInterop.ForwardComSharedStubs.Proc__IAsyncOperation_1_ApplicationModel_Background_BackgroundAccessStatus___int(
+								__this, 
+								asyncInfo, 
+								((int)asyncStatus), 
+								typeof(global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.BackgroundAccessStatus>).TypeHandle, 
+								global::Windows.Foundation.AsyncOperationCompletedHandler_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V___Impl.Vtbl.idx_Invoke
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
 		}
 
-		// v-table for 'Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<System.Type,Windows.UI.Xaml.Markup.IXamlType>>'
-		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType>>))]
-		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType>>))]
+		// v-table for 'Windows.Foundation.AsyncOperationCompletedHandler<Windows.ApplicationModel.Background.BackgroundAccessStatus>'
 		public unsafe partial struct Vtbl
 		{
-			global::System.IntPtr pfnQueryInterface;
-			global::System.IntPtr pfnAddRef;
-			global::System.IntPtr pfnRelease;
-			global::System.IntPtr pfnGetIids;
-			global::System.IntPtr pfnGetRuntimeClassName;
-			global::System.IntPtr pfnGetTrustLevel;
-			// Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_Windows_UI_Xaml_Interop_TypeName_j_Windows_UI_Xaml_Markup_IXamlType_V__V_
-			global::System.IntPtr pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_Windows_UI_Xaml_Interop_TypeName_j_Windows_UI_Xaml_Markup_IXamlType_V__V_;
-			internal const int idx_get_Value = 6;
-			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Type_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl.Vtbl.Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Type_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl_Vtbl_McgRvaContainer), "RVA_Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Type_j_Windows_UI_Xaml" +
-				"_Markup_IXamlType_V__V___Impl_Vtbl_s_theCcwVtable")]
-			public static global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Type_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl.Vtbl s_theCcwVtable
-			#if false
-			 = new global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Type_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl.Vtbl() {
-				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
-				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
-				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_Windows_UI_Xaml_Interop_TypeName_j_Windows_UI_Xaml_Markup_IXamlType_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget231>(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Type_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl.Vtbl.get_Value__STUB),
-			}
-			#endif
-			;
-			// Signature, Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<System.Type,Windows.UI.Xaml.Markup.IXamlType>>.get_Value, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.ArrayMarshaller] rg_System_Collections_Generic_KeyValuePair_2_System_Type__Windows_UI_Xaml_Markup_IXamlType___Windows_Foundation_Collections__IKeyValuePair_A_Windows_UI_Xaml_Interop_TypeName_j_Windows_UI_Xaml_Markup_IXamlType_V_ * *, 
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			[global::System.Runtime.InteropServices.NativeCallable]
-			static int get_Value__STUB(
-						global::System.IntPtr pComThis, 
-						uint* unsafe___value__retval_mcgLength, 
-						global::System.Collections.Generic.KeyValuePair_A_System_Type_j_Windows_UI_Xaml_Markup_IXamlType_V___Impl.Vtbl**** unsafe___value__retval)
-			{
-				// Setup
-				if (unsafe___value__retval != null)
-					(*(unsafe___value__retval)) = null;
-				global::System.Collections.Generic.KeyValuePair<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType>[] __value__retval = default(global::System.Collections.Generic.KeyValuePair<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType>[]);
-				try
-				{
-					// Marshalling
-					// Call to managed method
-					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType>>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).get_Value();
-					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-					if (unsafe___value__retval != null)
-						if (__value__retval == null)
-							(*(unsafe___value__retval)) = null;
-						else
-						{
-							if (__value__retval != null)
-								(*(unsafe___value__retval_mcgLength)) = (uint)__value__retval.Length;
-							if (__value__retval != null)
-								(*(unsafe___value__retval)) = (global::System.Collections.Generic.KeyValuePair_A_System_Type_j_Windows_UI_Xaml_Markup_IXamlType_V___Impl.Vtbl***)global::McgInterop.McgHelpers.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked((*(unsafe___value__retval_mcgLength)) * sizeof(global::System.Collections.Generic.KeyValuePair_A_System_Type_j_Windows_UI_Xaml_Markup_IXamlType_V___Impl.Vtbl**))));
-							for (uint mcgIdx = 0; (mcgIdx < (*(unsafe___value__retval_mcgLength))); mcgIdx++)
-							{
-								// [rev] [out] [retval] [nativebyref] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_System_Type__Windows_UI_Xaml_Markup_IXamlType___Windows_Foundation_Collections__IKeyValuePair_A_Windows_UI_Xaml_Interop_TypeName_j_Windows_UI_Xaml_Markup_IXamlType_V_ * __value__retval
-								global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType> pair_unsafe___value__retval = new global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType>(ref __value__retval[mcgIdx]);
-								(*(unsafe___value__retval))[mcgIdx] = (global::System.Collections.Generic.KeyValuePair_A_System_Type_j_Windows_UI_Xaml_Markup_IXamlType_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.ManagedObjectToComInterface(
-													pair_unsafe___value__retval, 
-													typeof(global::Windows.Foundation.Collections.IKeyValuePair<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType>).TypeHandle
-												);
-							}
-						}
-					// Return
-					return global::McgInterop.Helpers.S_OK;
-				}
-				catch (global::System.Exception hrExcep)
-				{
-					// ExceptionCleanup
-					if (unsafe___value__retval != null)
-					{
-						if ((*(unsafe___value__retval)) != null)
-							for (uint mcgIdx_1 = 0; (mcgIdx_1 < (*(unsafe___value__retval_mcgLength))); mcgIdx_1++)
-							{
-								// [fwd] [in] [out] [retval] [nativebyref] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_System_Type__Windows_UI_Xaml_Markup_IXamlType___Windows_Foundation_Collections__IKeyValuePair_A_Windows_UI_Xaml_Interop_TypeName_j_Windows_UI_Xaml_Markup_IXamlType_V_ * __value__retval
-								global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe___value__retval))[mcgIdx_1])));
-							}
-						global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree((*(unsafe___value__retval)));
-						(*(unsafe___value__retval)) = null;
-					}
-					// ExceptionReturn
-					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-				}
-			}
-
-			private static class Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Type_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl_Vtbl_McgRvaContainer
-			{
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(32, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Type_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl.Vtbl), "get_Value__STUB")]
-				[global::System.Runtime.CompilerServices.NonArray]
-				static readonly byte[] RVA_Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Type_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl_Vtbl_s_theCcwVtable = new byte[] {
-						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-						0, 0, 0, 0, 0, 0};
-			}
+			internal const int idx_Invoke = 3;
 		}
 	}
 
-	// Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.UI.Xaml.Markup.IXamlMember>>
-	public unsafe static class IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V__V___Impl
+	// Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.Background.BackgroundAccessStatus>
+	public unsafe static class IAsyncOperation_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V___Impl
 	{
-		// StubClass for 'Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.UI.Xaml.Markup.IXamlMember>>'
+		// StubClass for 'Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.Background.BackgroundAccessStatus>'
 		public static partial class StubClass
 		{
 			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
 			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-			public static global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlMember>[] get_Value(global::System.__ComObject __this)
+			public static void put_Completed(
+						global::System.__ComObject __this, 
+						global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.BackgroundAccessStatus> handler)
 			{
-				global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlMember>[] __ret = global::McgInterop.ForwardComSharedStubs.Func_rg__KeyValuePair_2_string__UI_Xaml_Markup_IXamlMember___(
+				global::McgInterop.ForwardComSharedStubs.Proc__AsyncOperationCompletedHandler_1_ApplicationModel_Background_BackgroundAccessStatus___(
 									__this, 
-									typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlMember>>).TypeHandle, 
-									global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V__V___Impl.Vtbl.idx_get_Value
+									handler, 
+									typeof(global::Windows.Foundation.IAsyncOperation<global::Windows.ApplicationModel.Background.BackgroundAccessStatus>).TypeHandle, 
+									global::Windows.Foundation.IAsyncOperation_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V___Impl.Vtbl.idx_put_Completed
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			public static global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.BackgroundAccessStatus> get_Completed(global::System.__ComObject __this)
+			{
+				global::McgInterop.McgHelpers.FailFastForReducedMethod();
+				return default(global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.BackgroundAccessStatus>);
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::Windows.ApplicationModel.Background.BackgroundAccessStatus GetResults(global::System.__ComObject __this)
+			{
+				global::Windows.ApplicationModel.Background.BackgroundAccessStatus __ret = global::McgInterop.ForwardComSharedStubs.Func_ApplicationModel_Background_BackgroundAccessStatus__(
+									__this, 
+									typeof(global::Windows.Foundation.IAsyncOperation<global::Windows.ApplicationModel.Background.BackgroundAccessStatus>).TypeHandle, 
+									global::Windows.Foundation.IAsyncOperation_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V___Impl.Vtbl.idx_GetResults
 								);
 				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
 				return __ret;
 			}
 		}
 
-		// v-table for 'Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.UI.Xaml.Markup.IXamlMember>>'
-		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlMember>>))]
-		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlMember>>))]
-		public unsafe partial struct Vtbl
-		{
-			global::System.IntPtr pfnQueryInterface;
-			global::System.IntPtr pfnAddRef;
-			global::System.IntPtr pfnRelease;
-			global::System.IntPtr pfnGetIids;
-			global::System.IntPtr pfnGetRuntimeClassName;
-			global::System.IntPtr pfnGetTrustLevel;
-			// Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V__V_
-			global::System.IntPtr pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V__V_;
-			internal const int idx_get_Value = 6;
-			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V__V___Impl.Vtbl.Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V__V___Impl_Vtbl_McgRvaContainer), "RVA_Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Mark" +
-				"up_IXamlMember_V__V___Impl_Vtbl_s_theCcwVtable")]
-			public static global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V__V___Impl.Vtbl s_theCcwVtable
-			#if false
-			 = new global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V__V___Impl.Vtbl() {
-				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
-				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
-				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget232>(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V__V___Impl.Vtbl.get_Value__STUB),
-			}
-			#endif
-			;
-			// Signature, Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.UI.Xaml.Markup.IXamlMember>>.get_Value, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.ArrayMarshaller] rg_System_Collections_Generic_KeyValuePair_2_string__Windows_UI_Xaml_Markup_IXamlMember___Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V_ * *, 
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			[global::System.Runtime.InteropServices.NativeCallable]
-			static int get_Value__STUB(
-						global::System.IntPtr pComThis, 
-						uint* unsafe___value__retval_mcgLength, 
-						global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V___Impl.Vtbl**** unsafe___value__retval)
-			{
-				// Setup
-				if (unsafe___value__retval != null)
-					(*(unsafe___value__retval)) = null;
-				global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlMember>[] __value__retval = default(global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlMember>[]);
-				try
-				{
-					// Marshalling
-					// Call to managed method
-					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlMember>>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).get_Value();
-					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-					if (unsafe___value__retval != null)
-						if (__value__retval == null)
-							(*(unsafe___value__retval)) = null;
-						else
-						{
-							if (__value__retval != null)
-								(*(unsafe___value__retval_mcgLength)) = (uint)__value__retval.Length;
-							if (__value__retval != null)
-								(*(unsafe___value__retval)) = (global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V___Impl.Vtbl***)global::McgInterop.McgHelpers.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked((*(unsafe___value__retval_mcgLength)) * sizeof(global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V___Impl.Vtbl**))));
-							for (uint mcgIdx = 0; (mcgIdx < (*(unsafe___value__retval_mcgLength))); mcgIdx++)
-							{
-								// [rev] [out] [retval] [nativebyref] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_string__Windows_UI_Xaml_Markup_IXamlMember___Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V_ * __value__retval
-								global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<string, global::Windows.UI.Xaml.Markup.IXamlMember> pair_unsafe___value__retval = new global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<string, global::Windows.UI.Xaml.Markup.IXamlMember>(ref __value__retval[mcgIdx]);
-								(*(unsafe___value__retval))[mcgIdx] = (global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.ManagedObjectToComInterface(
-													pair_unsafe___value__retval, 
-													typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlMember>).TypeHandle
-												);
-							}
-						}
-					// Return
-					return global::McgInterop.Helpers.S_OK;
-				}
-				catch (global::System.Exception hrExcep)
-				{
-					// ExceptionCleanup
-					if (unsafe___value__retval != null)
-					{
-						if ((*(unsafe___value__retval)) != null)
-							for (uint mcgIdx_1 = 0; (mcgIdx_1 < (*(unsafe___value__retval_mcgLength))); mcgIdx_1++)
-							{
-								// [fwd] [in] [out] [retval] [nativebyref] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_string__Windows_UI_Xaml_Markup_IXamlMember___Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V_ * __value__retval
-								global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe___value__retval))[mcgIdx_1])));
-							}
-						global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree((*(unsafe___value__retval)));
-						(*(unsafe___value__retval)) = null;
-					}
-					// ExceptionReturn
-					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-				}
-			}
-
-			private static class Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V__V___Impl_Vtbl_McgRvaContainer
-			{
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(32, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V__V___Impl.Vtbl), "get_Value__STUB")]
-				[global::System.Runtime.CompilerServices.NonArray]
-				static readonly byte[] RVA_Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V__V___Impl_Vtbl_s_theCcwVtable = new byte[] {
-						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-						0, 0, 0, 0, 0, 0};
-			}
-		}
-	}
-
-	// Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<System.Object,System.Object>>
-	public unsafe static class IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Object_j_System_Object_V__V___Impl
-	{
-		// StubClass for 'Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<System.Object,System.Object>>'
-		public static partial class StubClass
+		// DispatchClass for 'Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.Background.BackgroundAccessStatus>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IAsyncOperation<global::Windows.ApplicationModel.Background.BackgroundAccessStatus>))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.Foundation.IAsyncOperation<global::Windows.ApplicationModel.Background.BackgroundAccessStatus>
 		{
 			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-			public static global::System.Collections.Generic.KeyValuePair<object, object>[] get_Value(global::System.__ComObject __this)
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.IAsyncInfo.Id")]
+			uint global::Windows.Foundation.IAsyncInfo.get_Id()
 			{
-				global::System.Collections.Generic.KeyValuePair<object, object>[] __ret = global::McgInterop.ForwardComSharedStubs.Func_rg__KeyValuePair_2_object__object___(
-									__this, 
-									typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<object, object>>).TypeHandle, 
-									global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Object_j_System_Object_V__V___Impl.Vtbl.idx_get_Value
+				global::McgInterop.McgHelpers.FailFastForReducedMethod();
+				return 0;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.IAsyncInfo.Status")]
+			global::Windows.Foundation.AsyncStatus global::Windows.Foundation.IAsyncInfo.get_Status()
+			{
+				global::McgInterop.McgHelpers.FailFastForReducedMethod();
+				return default(global::Windows.Foundation.AsyncStatus);
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.IAsyncInfo.ErrorCode")]
+			global::System.Exception global::Windows.Foundation.IAsyncInfo.get_ErrorCode()
+			{
+				global::McgInterop.McgHelpers.FailFastForReducedMethod();
+				return default(global::System.Exception);
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			void global::Windows.Foundation.IAsyncInfo.Cancel()
+			{
+				global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			void global::Windows.Foundation.IAsyncInfo.Close()
+			{
+				global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Windows.Foundation.IAsyncOperation`1.Completed")]
+			void global::Windows.Foundation.IAsyncOperation<global::Windows.ApplicationModel.Background.BackgroundAccessStatus>.put_Completed(global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.BackgroundAccessStatus> handler)
+			{
+				global::Windows.Foundation.IAsyncOperation_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V___Impl.StubClass.put_Completed(
+									this, 
+									handler
 								);
 				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-				return __ret;
 			}
-		}
 
-		// v-table for 'Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<System.Object,System.Object>>'
-		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<object, object>>))]
-		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<object, object>>))]
-		public unsafe partial struct Vtbl
-		{
-			global::System.IntPtr pfnQueryInterface;
-			global::System.IntPtr pfnAddRef;
-			global::System.IntPtr pfnRelease;
-			global::System.IntPtr pfnGetIids;
-			global::System.IntPtr pfnGetRuntimeClassName;
-			global::System.IntPtr pfnGetTrustLevel;
-			// Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_object_j_object_V__V_
-			global::System.IntPtr pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_object_j_object_V__V_;
-			internal const int idx_get_Value = 6;
-			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Object_j_System_Object_V__V___Impl.Vtbl.Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Object_j_System_Object_V__V___Impl_Vtbl_McgRvaContainer), "RVA_Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Object_j_System_Object" +
-				"_V__V___Impl_Vtbl_s_theCcwVtable")]
-			public static global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Object_j_System_Object_V__V___Impl.Vtbl s_theCcwVtable
-			#if false
-			 = new global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Object_j_System_Object_V__V___Impl.Vtbl() {
-				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
-				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
-				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_object_j_object_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget239>(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Object_j_System_Object_V__V___Impl.Vtbl.get_Value__STUB),
-			}
-			#endif
-			;
-			// Signature, Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<System.Object,System.Object>>.get_Value, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.ArrayMarshaller] rg_System_Collections_Generic_KeyValuePair_2_object__object___Windows_Foundation_Collections__IKeyValuePair_A_object_j_object_V_ * *, 
 			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			[global::System.Runtime.InteropServices.NativeCallable]
-			static int get_Value__STUB(
-						global::System.IntPtr pComThis, 
-						uint* unsafe___value__retval_mcgLength, 
-						global::System.Collections.Generic.KeyValuePair_A_System_Object_j_System_Object_V___Impl.Vtbl**** unsafe___value__retval)
+			global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.BackgroundAccessStatus> global::Windows.Foundation.IAsyncOperation<global::Windows.ApplicationModel.Background.BackgroundAccessStatus>.get_Completed()
 			{
-				// Setup
-				if (unsafe___value__retval != null)
-					(*(unsafe___value__retval)) = null;
-				global::System.Collections.Generic.KeyValuePair<object, object>[] __value__retval = default(global::System.Collections.Generic.KeyValuePair<object, object>[]);
-				try
-				{
-					// Marshalling
-					// Call to managed method
-					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<object, object>>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).get_Value();
-					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-					if (unsafe___value__retval != null)
-						if (__value__retval == null)
-							(*(unsafe___value__retval)) = null;
-						else
-						{
-							if (__value__retval != null)
-								(*(unsafe___value__retval_mcgLength)) = (uint)__value__retval.Length;
-							if (__value__retval != null)
-								(*(unsafe___value__retval)) = (global::System.Collections.Generic.KeyValuePair_A_System_Object_j_System_Object_V___Impl.Vtbl***)global::McgInterop.McgHelpers.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked((*(unsafe___value__retval_mcgLength)) * sizeof(global::System.Collections.Generic.KeyValuePair_A_System_Object_j_System_Object_V___Impl.Vtbl**))));
-							for (uint mcgIdx = 0; (mcgIdx < (*(unsafe___value__retval_mcgLength))); mcgIdx++)
-							{
-								// [rev] [out] [retval] [nativebyref] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_object__object___Windows_Foundation_Collections__IKeyValuePair_A_object_j_object_V_ * __value__retval
-								global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<object, object> pair_unsafe___value__retval = new global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<object, object>(ref __value__retval[mcgIdx]);
-								(*(unsafe___value__retval))[mcgIdx] = (global::System.Collections.Generic.KeyValuePair_A_System_Object_j_System_Object_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.ManagedObjectToComInterface(
-													pair_unsafe___value__retval, 
-													typeof(global::Windows.Foundation.Collections.IKeyValuePair<object, object>).TypeHandle
-												);
-							}
-						}
-					// Return
-					return global::McgInterop.Helpers.S_OK;
-				}
-				catch (global::System.Exception hrExcep)
-				{
-					// ExceptionCleanup
-					if (unsafe___value__retval != null)
-					{
-						if ((*(unsafe___value__retval)) != null)
-							for (uint mcgIdx_1 = 0; (mcgIdx_1 < (*(unsafe___value__retval_mcgLength))); mcgIdx_1++)
-							{
-								// [fwd] [in] [out] [retval] [nativebyref] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_object__object___Windows_Foundation_Collections__IKeyValuePair_A_object_j_object_V_ * __value__retval
-								global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe___value__retval))[mcgIdx_1])));
-							}
-						global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree((*(unsafe___value__retval)));
-						(*(unsafe___value__retval)) = null;
-					}
-					// ExceptionReturn
-					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-				}
+				global::McgInterop.McgHelpers.FailFastForReducedMethod();
+				return default(global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.ApplicationModel.Background.BackgroundAccessStatus>);
 			}
 
-			private static class Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Object_j_System_Object_V__V___Impl_Vtbl_McgRvaContainer
-			{
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(32, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Object_j_System_Object_V__V___Impl.Vtbl), "get_Value__STUB")]
-				[global::System.Runtime.CompilerServices.NonArray]
-				static readonly byte[] RVA_Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Object_j_System_Object_V__V___Impl_Vtbl_s_theCcwVtable = new byte[] {
-						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-						0, 0, 0, 0, 0, 0};
-			}
-		}
-	}
-
-	// Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.ApplicationModel.Resources.Core.NamedResource>>
-	public unsafe static class IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V__V___Impl
-	{
-		// StubClass for 'Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.ApplicationModel.Resources.Core.NamedResource>>'
-		public static partial class StubClass
-		{
 			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-			public static global::System.Collections.Generic.KeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>[] get_Value(global::System.__ComObject __this)
+			global::Windows.ApplicationModel.Background.BackgroundAccessStatus global::Windows.Foundation.IAsyncOperation<global::Windows.ApplicationModel.Background.BackgroundAccessStatus>.GetResults()
 			{
-				global::System.Collections.Generic.KeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>[] __ret = global::McgInterop.ForwardComSharedStubs.Func_rg__KeyValuePair_2_string__ApplicationModel_Resources_Core_NamedResource___(
-									__this, 
-									typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>>).TypeHandle, 
-									global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V__V___Impl.Vtbl.idx_get_Value
-								);
+				global::Windows.ApplicationModel.Background.BackgroundAccessStatus __retVal = global::Windows.Foundation.IAsyncOperation_A_Windows_ApplicationModel_Background_BackgroundAccessStatus_V___Impl.StubClass.GetResults(this);
 				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-				return __ret;
+				return __retVal;
 			}
 		}
 
-		// v-table for 'Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.ApplicationModel.Resources.Core.NamedResource>>'
-		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>>))]
-		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>>))]
+		// v-table for 'Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.Background.BackgroundAccessStatus>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IAsyncOperation<global::Windows.ApplicationModel.Background.BackgroundAccessStatus>))]
 		public unsafe partial struct Vtbl
 		{
-			global::System.IntPtr pfnQueryInterface;
-			global::System.IntPtr pfnAddRef;
-			global::System.IntPtr pfnRelease;
-			global::System.IntPtr pfnGetIids;
-			global::System.IntPtr pfnGetRuntimeClassName;
-			global::System.IntPtr pfnGetTrustLevel;
-			// Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V__V_
-			global::System.IntPtr pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V__V_;
-			internal const int idx_get_Value = 6;
-			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V__V___Impl.Vtbl.Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V__V___Impl_Vtbl_McgRvaContainer), "RVA_Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_ApplicationM" +
-				"odel_Resources_Core_NamedResource_V__V___Impl_Vtbl_s_theCcwVtable")]
-			public static global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V__V___Impl.Vtbl s_theCcwVtable
-			#if false
-			 = new global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V__V___Impl.Vtbl() {
-				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
-				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
-				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget240>(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V__V___Impl.Vtbl.get_Value__STUB),
-			}
-			#endif
-			;
-			// Signature, Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.ApplicationModel.Resources.Core.NamedResource>>.get_Value, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.ArrayMarshaller] rg_System_Collections_Generic_KeyValuePair_2_string__Windows_ApplicationModel_Resources_Core_NamedResource___Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V_ * *, 
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			[global::System.Runtime.InteropServices.NativeCallable]
-			static int get_Value__STUB(
-						global::System.IntPtr pComThis, 
-						uint* unsafe___value__retval_mcgLength, 
-						global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V___Impl.Vtbl**** unsafe___value__retval)
-			{
-				// Setup
-				if (unsafe___value__retval != null)
-					(*(unsafe___value__retval)) = null;
-				global::System.Collections.Generic.KeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>[] __value__retval = default(global::System.Collections.Generic.KeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>[]);
-				try
-				{
-					// Marshalling
-					// Call to managed method
-					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).get_Value();
-					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-					if (unsafe___value__retval != null)
-						if (__value__retval == null)
-							(*(unsafe___value__retval)) = null;
-						else
-						{
-							if (__value__retval != null)
-								(*(unsafe___value__retval_mcgLength)) = (uint)__value__retval.Length;
-							if (__value__retval != null)
-								(*(unsafe___value__retval)) = (global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V___Impl.Vtbl***)global::McgInterop.McgHelpers.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked((*(unsafe___value__retval_mcgLength)) * sizeof(global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V___Impl.Vtbl**))));
-							for (uint mcgIdx = 0; (mcgIdx < (*(unsafe___value__retval_mcgLength))); mcgIdx++)
-							{
-								// [rev] [out] [retval] [nativebyref] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_string__Windows_ApplicationModel_Resources_Core_NamedResource___Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V_ * __value__retval
-								global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<string, global::Windows.ApplicationModel.Resources.Core.NamedResource> pair_unsafe___value__retval = new global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>(ref __value__retval[mcgIdx]);
-								(*(unsafe___value__retval))[mcgIdx] = (global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.ManagedObjectToComInterface(
-													pair_unsafe___value__retval, 
-													typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>).TypeHandle
-												);
-							}
-						}
-					// Return
-					return global::McgInterop.Helpers.S_OK;
-				}
-				catch (global::System.Exception hrExcep)
-				{
-					// ExceptionCleanup
-					if (unsafe___value__retval != null)
-					{
-						if ((*(unsafe___value__retval)) != null)
-							for (uint mcgIdx_1 = 0; (mcgIdx_1 < (*(unsafe___value__retval_mcgLength))); mcgIdx_1++)
-							{
-								// [fwd] [in] [out] [retval] [nativebyref] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_string__Windows_ApplicationModel_Resources_Core_NamedResource___Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V_ * __value__retval
-								global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe___value__retval))[mcgIdx_1])));
-							}
-						global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree((*(unsafe___value__retval)));
-						(*(unsafe___value__retval)) = null;
-					}
-					// ExceptionReturn
-					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-				}
-			}
-
-			private static class Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V__V___Impl_Vtbl_McgRvaContainer
-			{
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(32, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V__V___Impl.Vtbl), "get_Value__STUB")]
-				[global::System.Runtime.CompilerServices.NonArray]
-				static readonly byte[] RVA_Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V__V___Impl_Vtbl_s_theCcwVtable = new byte[] {
-						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-						0, 0, 0, 0, 0, 0};
-			}
+			internal const int idx_put_Completed = 6;
+			internal const int idx_get_Completed = 7;
+			internal const int idx_GetResults = 8;
 		}
 	}
 
@@ -29070,7 +31888,7 @@ namespace Windows.Foundation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_Foundation__AsyncOperationProgressHandler_A_Windows_Storage_Streams_IInputStream_j_ulong_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget241>(global::Windows.Foundation.AsyncOperationProgressHandler_A_Windows_Storage_Streams_IInputStream_j_ulong_V___Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_Foundation__AsyncOperationProgressHandler_A_Windows_Storage_Streams_IInputStream_j_ulong_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget200>(global::Windows.Foundation.AsyncOperationProgressHandler_A_Windows_Storage_Streams_IInputStream_j_ulong_V___Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -29158,7 +31976,7 @@ namespace Windows.Foundation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_Foundation__AsyncOperationWithProgressCompletedHandler_A_Windows_Storage_Streams_IInputStream_j_ulong_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget242>(global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler_A_Windows_Storage_Streams_IInputStream_j_ulong_V___Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_Foundation__AsyncOperationWithProgressCompletedHandler_A_Windows_Storage_Streams_IInputStream_j_ulong_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget201>(global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler_A_Windows_Storage_Streams_IInputStream_j_ulong_V___Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -29415,7 +32233,7 @@ namespace Windows.Foundation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_Foundation__AsyncOperationProgressHandler_A_Windows_Web_Http_HttpResponseMessage_j_Windows_Web_Http_HttpProgress_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget243>(global::Windows.Foundation.AsyncOperationProgressHandler_A_Windows_Web_Http_HttpResponseMessage_j_Windows_Web_Http_HttpProgress_V___Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_Foundation__AsyncOperationProgressHandler_A_Windows_Web_Http_HttpResponseMessage_j_Windows_Web_Http_HttpProgress_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget202>(global::Windows.Foundation.AsyncOperationProgressHandler_A_Windows_Web_Http_HttpResponseMessage_j_Windows_Web_Http_HttpProgress_V___Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -29508,7 +32326,7 @@ namespace Windows.Foundation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_Foundation__AsyncOperationWithProgressCompletedHandler_A_Windows_Web_Http_HttpResponseMessage_j_Windows_Web_Http_HttpProgress_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget244>(global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler_A_Windows_Web_Http_HttpResponseMessage_j_Windows_Web_Http_HttpProgress_V___Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_Foundation__AsyncOperationWithProgressCompletedHandler_A_Windows_Web_Http_HttpResponseMessage_j_Windows_Web_Http_HttpProgress_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget203>(global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler_A_Windows_Web_Http_HttpResponseMessage_j_Windows_Web_Http_HttpProgress_V___Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -29554,6 +32372,1006 @@ namespace Windows.Foundation
 				[global::System.Runtime.CompilerServices.NonArray]
 				static readonly byte[] RVA_Windows_Foundation_AsyncOperationWithProgressCompletedHandler_A_Windows_Web_Http_HttpResponseMessage_j_Windows_Web_Http_HttpProgress_V___Impl_Vtbl_s_theCcwVtable = new byte[] {
 						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+			}
+		}
+	}
+
+	// Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,double>>
+	public unsafe static class IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_double_V__V___Impl
+	{
+		// StubClass for 'Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,double>>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::System.Collections.Generic.KeyValuePair<string, double>[] get_Value(global::System.__ComObject __this)
+			{
+				global::System.Collections.Generic.KeyValuePair<string, double>[] __ret = global::McgInterop.ForwardComSharedStubs.Func_rg__KeyValuePair_2_string__double___(
+									__this, 
+									typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, double>>).TypeHandle, 
+									global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_double_V__V___Impl.Vtbl.idx_get_Value
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// v-table for 'Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,double>>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, double>>))]
+		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, double>>))]
+		public unsafe partial struct Vtbl
+		{
+			global::System.IntPtr pfnQueryInterface;
+			global::System.IntPtr pfnAddRef;
+			global::System.IntPtr pfnRelease;
+			global::System.IntPtr pfnGetIids;
+			global::System.IntPtr pfnGetRuntimeClassName;
+			global::System.IntPtr pfnGetTrustLevel;
+			// Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_double_V__V_
+			global::System.IntPtr pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_double_V__V_;
+			internal const int idx_get_Value = 6;
+			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_double_V__V___Impl.Vtbl.Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_double_V__V___Impl_Vtbl_McgRvaContainer), "RVA_Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_double_V__V___Impl_V" +
+				"tbl_s_theCcwVtable")]
+			public static global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_double_V__V___Impl.Vtbl s_theCcwVtable
+			#if false
+			 = new global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_double_V__V___Impl.Vtbl() {
+				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
+				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
+				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_double_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget216>(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_double_V__V___Impl.Vtbl.get_Value__STUB),
+			}
+			#endif
+			;
+			// Signature, Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,double>>.get_Value, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.ArrayMarshaller] rg_System_Collections_Generic_KeyValuePair_2_string__double___Windows_Foundation_Collections__IKeyValuePair_A_string_j_double_V_ * *, 
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int get_Value__STUB(
+						global::System.IntPtr pComThis, 
+						uint* unsafe___value__retval_mcgLength, 
+						global::System.Collections.Generic.KeyValuePair_A_string_j_double_V___Impl.Vtbl**** unsafe___value__retval)
+			{
+				// Setup
+				if (unsafe___value__retval != null)
+					(*(unsafe___value__retval)) = null;
+				global::System.Collections.Generic.KeyValuePair<string, double>[] __value__retval = default(global::System.Collections.Generic.KeyValuePair<string, double>[]);
+				try
+				{
+					// Marshalling
+					// Call to managed method
+					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, double>>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).get_Value();
+					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+					if (unsafe___value__retval != null)
+						if (__value__retval == null)
+							(*(unsafe___value__retval)) = null;
+						else
+						{
+							if (__value__retval != null)
+								(*(unsafe___value__retval_mcgLength)) = (uint)__value__retval.Length;
+							if (__value__retval != null)
+								(*(unsafe___value__retval)) = (global::System.Collections.Generic.KeyValuePair_A_string_j_double_V___Impl.Vtbl***)global::McgInterop.McgHelpers.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked((*(unsafe___value__retval_mcgLength)) * sizeof(global::System.Collections.Generic.KeyValuePair_A_string_j_double_V___Impl.Vtbl**))));
+							for (uint mcgIdx = 0; (mcgIdx < (*(unsafe___value__retval_mcgLength))); mcgIdx++)
+							{
+								// [rev] [out] [retval] [nativebyref] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_string__double___Windows_Foundation_Collections__IKeyValuePair_A_string_j_double_V_ * __value__retval
+								global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<string, double> pair_unsafe___value__retval = new global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<string, double>(ref __value__retval[mcgIdx]);
+								(*(unsafe___value__retval))[mcgIdx] = (global::System.Collections.Generic.KeyValuePair_A_string_j_double_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.ManagedObjectToComInterface(
+													pair_unsafe___value__retval, 
+													typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, double>).TypeHandle
+												);
+							}
+						}
+					// Return
+					return global::McgInterop.Helpers.S_OK;
+				}
+				catch (global::System.Exception hrExcep)
+				{
+					// ExceptionCleanup
+					if (unsafe___value__retval != null)
+					{
+						if ((*(unsafe___value__retval)) != null)
+							for (uint mcgIdx_1 = 0; (mcgIdx_1 < (*(unsafe___value__retval_mcgLength))); mcgIdx_1++)
+							{
+								// [fwd] [in] [out] [retval] [nativebyref] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_string__double___Windows_Foundation_Collections__IKeyValuePair_A_string_j_double_V_ * __value__retval
+								global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe___value__retval))[mcgIdx_1])));
+							}
+						global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree((*(unsafe___value__retval)));
+						(*(unsafe___value__retval)) = null;
+					}
+					// ExceptionReturn
+					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+				}
+			}
+
+			private static class Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_double_V__V___Impl_Vtbl_McgRvaContainer
+			{
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(32, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_double_V__V___Impl.Vtbl), "get_Value__STUB")]
+				[global::System.Runtime.CompilerServices.NonArray]
+				static readonly byte[] RVA_Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_double_V__V___Impl_Vtbl_s_theCcwVtable = new byte[] {
+						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+						0, 0, 0, 0, 0, 0};
+			}
+		}
+	}
+
+	// Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.Data.Json.IJsonValue>>
+	public unsafe static class IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V__V___Impl
+	{
+		// StubClass for 'Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.Data.Json.IJsonValue>>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>[] get_Value(global::System.__ComObject __this)
+			{
+				global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>[] __ret = global::McgInterop.ForwardComSharedStubs.Func_rg__KeyValuePair_2_string__Data_Json_IJsonValue___(
+									__this, 
+									typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>).TypeHandle, 
+									global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V__V___Impl.Vtbl.idx_get_Value
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// v-table for 'Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.Data.Json.IJsonValue>>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>))]
+		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>))]
+		public unsafe partial struct Vtbl
+		{
+			global::System.IntPtr pfnQueryInterface;
+			global::System.IntPtr pfnAddRef;
+			global::System.IntPtr pfnRelease;
+			global::System.IntPtr pfnGetIids;
+			global::System.IntPtr pfnGetRuntimeClassName;
+			global::System.IntPtr pfnGetTrustLevel;
+			// Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V__V_
+			global::System.IntPtr pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V__V_;
+			internal const int idx_get_Value = 6;
+			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V__V___Impl.Vtbl.Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V__V___Impl_Vtbl_McgRvaContainer), "RVA_Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_Data_Json_IJ" +
+				"sonValue_V__V___Impl_Vtbl_s_theCcwVtable")]
+			public static global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V__V___Impl.Vtbl s_theCcwVtable
+			#if false
+			 = new global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V__V___Impl.Vtbl() {
+				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
+				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
+				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget230>(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V__V___Impl.Vtbl.get_Value__STUB),
+			}
+			#endif
+			;
+			// Signature, Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.Data.Json.IJsonValue>>.get_Value, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.ArrayMarshaller] rg_System_Collections_Generic_KeyValuePair_2_string__Windows_Data_Json_IJsonValue___Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V_ * *, 
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int get_Value__STUB(
+						global::System.IntPtr pComThis, 
+						uint* unsafe___value__retval_mcgLength, 
+						global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.Vtbl**** unsafe___value__retval)
+			{
+				// Setup
+				if (unsafe___value__retval != null)
+					(*(unsafe___value__retval)) = null;
+				global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>[] __value__retval = default(global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>[]);
+				try
+				{
+					// Marshalling
+					// Call to managed method
+					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).get_Value();
+					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+					if (unsafe___value__retval != null)
+						if (__value__retval == null)
+							(*(unsafe___value__retval)) = null;
+						else
+						{
+							if (__value__retval != null)
+								(*(unsafe___value__retval_mcgLength)) = (uint)__value__retval.Length;
+							if (__value__retval != null)
+								(*(unsafe___value__retval)) = (global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.Vtbl***)global::McgInterop.McgHelpers.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked((*(unsafe___value__retval_mcgLength)) * sizeof(global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.Vtbl**))));
+							for (uint mcgIdx = 0; (mcgIdx < (*(unsafe___value__retval_mcgLength))); mcgIdx++)
+							{
+								// [rev] [out] [retval] [nativebyref] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_string__Windows_Data_Json_IJsonValue___Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V_ * __value__retval
+								global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<string, global::Windows.Data.Json.IJsonValue> pair_unsafe___value__retval = new global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<string, global::Windows.Data.Json.IJsonValue>(ref __value__retval[mcgIdx]);
+								(*(unsafe___value__retval))[mcgIdx] = (global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.ManagedObjectToComInterface(
+													pair_unsafe___value__retval, 
+													typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::Windows.Data.Json.IJsonValue>).TypeHandle
+												);
+							}
+						}
+					// Return
+					return global::McgInterop.Helpers.S_OK;
+				}
+				catch (global::System.Exception hrExcep)
+				{
+					// ExceptionCleanup
+					if (unsafe___value__retval != null)
+					{
+						if ((*(unsafe___value__retval)) != null)
+							for (uint mcgIdx_1 = 0; (mcgIdx_1 < (*(unsafe___value__retval_mcgLength))); mcgIdx_1++)
+							{
+								// [fwd] [in] [out] [retval] [nativebyref] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_string__Windows_Data_Json_IJsonValue___Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V_ * __value__retval
+								global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe___value__retval))[mcgIdx_1])));
+							}
+						global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree((*(unsafe___value__retval)));
+						(*(unsafe___value__retval)) = null;
+					}
+					// ExceptionReturn
+					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+				}
+			}
+
+			private static class Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V__V___Impl_Vtbl_McgRvaContainer
+			{
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(32, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V__V___Impl.Vtbl), "get_Value__STUB")]
+				[global::System.Runtime.CompilerServices.NonArray]
+				static readonly byte[] RVA_Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V__V___Impl_Vtbl_s_theCcwVtable = new byte[] {
+						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+						0, 0, 0, 0, 0, 0};
+			}
+		}
+	}
+
+	// Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<System.Guid,Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>
+	public unsafe static class IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V__V___Impl
+	{
+		// StubClass for 'Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<System.Guid,Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>[] get_Value(global::System.__ComObject __this)
+			{
+				global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>[] __ret = global::McgInterop.ForwardComSharedStubs.Func_rg__KeyValuePair_2_Guid__ApplicationModel_Background_IBackgroundTaskRegistration___(
+									__this, 
+									typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>).TypeHandle, 
+									global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V__V___Impl.Vtbl.idx_get_Value
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// v-table for 'Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<System.Guid,Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>))]
+		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>))]
+		public unsafe partial struct Vtbl
+		{
+			global::System.IntPtr pfnQueryInterface;
+			global::System.IntPtr pfnAddRef;
+			global::System.IntPtr pfnRelease;
+			global::System.IntPtr pfnGetIids;
+			global::System.IntPtr pfnGetRuntimeClassName;
+			global::System.IntPtr pfnGetTrustLevel;
+			// Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V__V_
+			global::System.IntPtr pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V__V_;
+			internal const int idx_get_Value = 6;
+			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V__V___Impl.Vtbl.Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V__V___Impl_Vtbl_McgRvaContainer), "RVA_Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Guid_j_Windows_Applica" +
+				"tionModel_Background_IBackgroundTaskRegistration_V__V___Impl_Vtbl_s_theCcwVtable")]
+			public static global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V__V___Impl.Vtbl s_theCcwVtable
+			#if false
+			 = new global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V__V___Impl.Vtbl() {
+				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
+				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
+				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget238>(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V__V___Impl.Vtbl.get_Value__STUB),
+			}
+			#endif
+			;
+			// Signature, Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<System.Guid,Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>.get_Value, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.ArrayMarshaller] rg_System_Collections_Generic_KeyValuePair_2_System_Guid__Windows_ApplicationModel_Background_IBackgroundTaskRegistration___Windows_Foundation_Collections__IKeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V_ * *, 
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int get_Value__STUB(
+						global::System.IntPtr pComThis, 
+						uint* unsafe___value__retval_mcgLength, 
+						global::System.Collections.Generic.KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V___Impl.Vtbl**** unsafe___value__retval)
+			{
+				// Setup
+				if (unsafe___value__retval != null)
+					(*(unsafe___value__retval)) = null;
+				global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>[] __value__retval = default(global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>[]);
+				try
+				{
+					// Marshalling
+					// Call to managed method
+					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).get_Value();
+					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+					if (unsafe___value__retval != null)
+						if (__value__retval == null)
+							(*(unsafe___value__retval)) = null;
+						else
+						{
+							if (__value__retval != null)
+								(*(unsafe___value__retval_mcgLength)) = (uint)__value__retval.Length;
+							if (__value__retval != null)
+								(*(unsafe___value__retval)) = (global::System.Collections.Generic.KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V___Impl.Vtbl***)global::McgInterop.McgHelpers.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked((*(unsafe___value__retval_mcgLength)) * sizeof(global::System.Collections.Generic.KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V___Impl.Vtbl**))));
+							for (uint mcgIdx = 0; (mcgIdx < (*(unsafe___value__retval_mcgLength))); mcgIdx++)
+							{
+								// [rev] [out] [retval] [nativebyref] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_System_Guid__Windows_ApplicationModel_Background_IBackgroundTaskRegistration___Windows_Foundation_Collections__IKeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V_ * __value__retval
+								global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration> pair_unsafe___value__retval = new global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>(ref __value__retval[mcgIdx]);
+								(*(unsafe___value__retval))[mcgIdx] = (global::System.Collections.Generic.KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.ManagedObjectToComInterface(
+													pair_unsafe___value__retval, 
+													typeof(global::Windows.Foundation.Collections.IKeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>).TypeHandle
+												);
+							}
+						}
+					// Return
+					return global::McgInterop.Helpers.S_OK;
+				}
+				catch (global::System.Exception hrExcep)
+				{
+					// ExceptionCleanup
+					if (unsafe___value__retval != null)
+					{
+						if ((*(unsafe___value__retval)) != null)
+							for (uint mcgIdx_1 = 0; (mcgIdx_1 < (*(unsafe___value__retval_mcgLength))); mcgIdx_1++)
+							{
+								// [fwd] [in] [out] [retval] [nativebyref] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_System_Guid__Windows_ApplicationModel_Background_IBackgroundTaskRegistration___Windows_Foundation_Collections__IKeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V_ * __value__retval
+								global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe___value__retval))[mcgIdx_1])));
+							}
+						global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree((*(unsafe___value__retval)));
+						(*(unsafe___value__retval)) = null;
+					}
+					// ExceptionReturn
+					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+				}
+			}
+
+			private static class Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V__V___Impl_Vtbl_McgRvaContainer
+			{
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(32, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V__V___Impl.Vtbl), "get_Value__STUB")]
+				[global::System.Runtime.CompilerServices.NonArray]
+				static readonly byte[] RVA_Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V__V___Impl_Vtbl_s_theCcwVtable = new byte[] {
+						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+						0, 0, 0, 0, 0, 0};
+			}
+		}
+	}
+
+	// Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.UI.Xaml.Markup.IXamlType>>
+	public unsafe static class IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl
+	{
+		// StubClass for 'Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.UI.Xaml.Markup.IXamlType>>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlType>[] get_Value(global::System.__ComObject __this)
+			{
+				global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlType>[] __ret = global::McgInterop.ForwardComSharedStubs.Func_rg__KeyValuePair_2_string__UI_Xaml_Markup_IXamlType___(
+									__this, 
+									typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlType>>).TypeHandle, 
+									global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl.Vtbl.idx_get_Value
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// v-table for 'Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.UI.Xaml.Markup.IXamlType>>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlType>>))]
+		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlType>>))]
+		public unsafe partial struct Vtbl
+		{
+			global::System.IntPtr pfnQueryInterface;
+			global::System.IntPtr pfnAddRef;
+			global::System.IntPtr pfnRelease;
+			global::System.IntPtr pfnGetIids;
+			global::System.IntPtr pfnGetRuntimeClassName;
+			global::System.IntPtr pfnGetTrustLevel;
+			// Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V__V_
+			global::System.IntPtr pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V__V_;
+			internal const int idx_get_Value = 6;
+			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl.Vtbl.Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl_Vtbl_McgRvaContainer), "RVA_Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Mark" +
+				"up_IXamlType_V__V___Impl_Vtbl_s_theCcwVtable")]
+			public static global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl.Vtbl s_theCcwVtable
+			#if false
+			 = new global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl.Vtbl() {
+				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
+				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
+				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget244>(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl.Vtbl.get_Value__STUB),
+			}
+			#endif
+			;
+			// Signature, Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.UI.Xaml.Markup.IXamlType>>.get_Value, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.ArrayMarshaller] rg_System_Collections_Generic_KeyValuePair_2_string__Windows_UI_Xaml_Markup_IXamlType___Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V_ * *, 
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int get_Value__STUB(
+						global::System.IntPtr pComThis, 
+						uint* unsafe___value__retval_mcgLength, 
+						global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V___Impl.Vtbl**** unsafe___value__retval)
+			{
+				// Setup
+				if (unsafe___value__retval != null)
+					(*(unsafe___value__retval)) = null;
+				global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlType>[] __value__retval = default(global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlType>[]);
+				try
+				{
+					// Marshalling
+					// Call to managed method
+					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlType>>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).get_Value();
+					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+					if (unsafe___value__retval != null)
+						if (__value__retval == null)
+							(*(unsafe___value__retval)) = null;
+						else
+						{
+							if (__value__retval != null)
+								(*(unsafe___value__retval_mcgLength)) = (uint)__value__retval.Length;
+							if (__value__retval != null)
+								(*(unsafe___value__retval)) = (global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V___Impl.Vtbl***)global::McgInterop.McgHelpers.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked((*(unsafe___value__retval_mcgLength)) * sizeof(global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V___Impl.Vtbl**))));
+							for (uint mcgIdx = 0; (mcgIdx < (*(unsafe___value__retval_mcgLength))); mcgIdx++)
+							{
+								// [rev] [out] [retval] [nativebyref] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_string__Windows_UI_Xaml_Markup_IXamlType___Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V_ * __value__retval
+								global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<string, global::Windows.UI.Xaml.Markup.IXamlType> pair_unsafe___value__retval = new global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<string, global::Windows.UI.Xaml.Markup.IXamlType>(ref __value__retval[mcgIdx]);
+								(*(unsafe___value__retval))[mcgIdx] = (global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.ManagedObjectToComInterface(
+													pair_unsafe___value__retval, 
+													typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlType>).TypeHandle
+												);
+							}
+						}
+					// Return
+					return global::McgInterop.Helpers.S_OK;
+				}
+				catch (global::System.Exception hrExcep)
+				{
+					// ExceptionCleanup
+					if (unsafe___value__retval != null)
+					{
+						if ((*(unsafe___value__retval)) != null)
+							for (uint mcgIdx_1 = 0; (mcgIdx_1 < (*(unsafe___value__retval_mcgLength))); mcgIdx_1++)
+							{
+								// [fwd] [in] [out] [retval] [nativebyref] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_string__Windows_UI_Xaml_Markup_IXamlType___Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V_ * __value__retval
+								global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe___value__retval))[mcgIdx_1])));
+							}
+						global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree((*(unsafe___value__retval)));
+						(*(unsafe___value__retval)) = null;
+					}
+					// ExceptionReturn
+					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+				}
+			}
+
+			private static class Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl_Vtbl_McgRvaContainer
+			{
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(32, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl.Vtbl), "get_Value__STUB")]
+				[global::System.Runtime.CompilerServices.NonArray]
+				static readonly byte[] RVA_Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl_Vtbl_s_theCcwVtable = new byte[] {
+						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+						0, 0, 0, 0, 0, 0};
+			}
+		}
+	}
+
+	// Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<System.Type,Windows.UI.Xaml.Markup.IXamlType>>
+	public unsafe static class IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Type_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl
+	{
+		// StubClass for 'Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<System.Type,Windows.UI.Xaml.Markup.IXamlType>>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::System.Collections.Generic.KeyValuePair<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType>[] get_Value(global::System.__ComObject __this)
+			{
+				global::System.Collections.Generic.KeyValuePair<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType>[] __ret = global::McgInterop.ForwardComSharedStubs.Func_rg__KeyValuePair_2_Type__UI_Xaml_Markup_IXamlType___(
+									__this, 
+									typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType>>).TypeHandle, 
+									global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Type_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl.Vtbl.idx_get_Value
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// v-table for 'Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<System.Type,Windows.UI.Xaml.Markup.IXamlType>>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType>>))]
+		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType>>))]
+		public unsafe partial struct Vtbl
+		{
+			global::System.IntPtr pfnQueryInterface;
+			global::System.IntPtr pfnAddRef;
+			global::System.IntPtr pfnRelease;
+			global::System.IntPtr pfnGetIids;
+			global::System.IntPtr pfnGetRuntimeClassName;
+			global::System.IntPtr pfnGetTrustLevel;
+			// Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_Windows_UI_Xaml_Interop_TypeName_j_Windows_UI_Xaml_Markup_IXamlType_V__V_
+			global::System.IntPtr pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_Windows_UI_Xaml_Interop_TypeName_j_Windows_UI_Xaml_Markup_IXamlType_V__V_;
+			internal const int idx_get_Value = 6;
+			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Type_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl.Vtbl.Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Type_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl_Vtbl_McgRvaContainer), "RVA_Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Type_j_Windows_UI_Xaml" +
+				"_Markup_IXamlType_V__V___Impl_Vtbl_s_theCcwVtable")]
+			public static global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Type_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl.Vtbl s_theCcwVtable
+			#if false
+			 = new global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Type_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl.Vtbl() {
+				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
+				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
+				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_Windows_UI_Xaml_Interop_TypeName_j_Windows_UI_Xaml_Markup_IXamlType_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget245>(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Type_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl.Vtbl.get_Value__STUB),
+			}
+			#endif
+			;
+			// Signature, Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<System.Type,Windows.UI.Xaml.Markup.IXamlType>>.get_Value, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.ArrayMarshaller] rg_System_Collections_Generic_KeyValuePair_2_System_Type__Windows_UI_Xaml_Markup_IXamlType___Windows_Foundation_Collections__IKeyValuePair_A_Windows_UI_Xaml_Interop_TypeName_j_Windows_UI_Xaml_Markup_IXamlType_V_ * *, 
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int get_Value__STUB(
+						global::System.IntPtr pComThis, 
+						uint* unsafe___value__retval_mcgLength, 
+						global::System.Collections.Generic.KeyValuePair_A_System_Type_j_Windows_UI_Xaml_Markup_IXamlType_V___Impl.Vtbl**** unsafe___value__retval)
+			{
+				// Setup
+				if (unsafe___value__retval != null)
+					(*(unsafe___value__retval)) = null;
+				global::System.Collections.Generic.KeyValuePair<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType>[] __value__retval = default(global::System.Collections.Generic.KeyValuePair<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType>[]);
+				try
+				{
+					// Marshalling
+					// Call to managed method
+					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType>>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).get_Value();
+					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+					if (unsafe___value__retval != null)
+						if (__value__retval == null)
+							(*(unsafe___value__retval)) = null;
+						else
+						{
+							if (__value__retval != null)
+								(*(unsafe___value__retval_mcgLength)) = (uint)__value__retval.Length;
+							if (__value__retval != null)
+								(*(unsafe___value__retval)) = (global::System.Collections.Generic.KeyValuePair_A_System_Type_j_Windows_UI_Xaml_Markup_IXamlType_V___Impl.Vtbl***)global::McgInterop.McgHelpers.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked((*(unsafe___value__retval_mcgLength)) * sizeof(global::System.Collections.Generic.KeyValuePair_A_System_Type_j_Windows_UI_Xaml_Markup_IXamlType_V___Impl.Vtbl**))));
+							for (uint mcgIdx = 0; (mcgIdx < (*(unsafe___value__retval_mcgLength))); mcgIdx++)
+							{
+								// [rev] [out] [retval] [nativebyref] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_System_Type__Windows_UI_Xaml_Markup_IXamlType___Windows_Foundation_Collections__IKeyValuePair_A_Windows_UI_Xaml_Interop_TypeName_j_Windows_UI_Xaml_Markup_IXamlType_V_ * __value__retval
+								global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType> pair_unsafe___value__retval = new global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType>(ref __value__retval[mcgIdx]);
+								(*(unsafe___value__retval))[mcgIdx] = (global::System.Collections.Generic.KeyValuePair_A_System_Type_j_Windows_UI_Xaml_Markup_IXamlType_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.ManagedObjectToComInterface(
+													pair_unsafe___value__retval, 
+													typeof(global::Windows.Foundation.Collections.IKeyValuePair<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType>).TypeHandle
+												);
+							}
+						}
+					// Return
+					return global::McgInterop.Helpers.S_OK;
+				}
+				catch (global::System.Exception hrExcep)
+				{
+					// ExceptionCleanup
+					if (unsafe___value__retval != null)
+					{
+						if ((*(unsafe___value__retval)) != null)
+							for (uint mcgIdx_1 = 0; (mcgIdx_1 < (*(unsafe___value__retval_mcgLength))); mcgIdx_1++)
+							{
+								// [fwd] [in] [out] [retval] [nativebyref] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_System_Type__Windows_UI_Xaml_Markup_IXamlType___Windows_Foundation_Collections__IKeyValuePair_A_Windows_UI_Xaml_Interop_TypeName_j_Windows_UI_Xaml_Markup_IXamlType_V_ * __value__retval
+								global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe___value__retval))[mcgIdx_1])));
+							}
+						global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree((*(unsafe___value__retval)));
+						(*(unsafe___value__retval)) = null;
+					}
+					// ExceptionReturn
+					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+				}
+			}
+
+			private static class Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Type_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl_Vtbl_McgRvaContainer
+			{
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(32, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Type_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl.Vtbl), "get_Value__STUB")]
+				[global::System.Runtime.CompilerServices.NonArray]
+				static readonly byte[] RVA_Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Type_j_Windows_UI_Xaml_Markup_IXamlType_V__V___Impl_Vtbl_s_theCcwVtable = new byte[] {
+						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+						0, 0, 0, 0, 0, 0};
+			}
+		}
+	}
+
+	// Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.UI.Xaml.Markup.IXamlMember>>
+	public unsafe static class IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V__V___Impl
+	{
+		// StubClass for 'Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.UI.Xaml.Markup.IXamlMember>>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlMember>[] get_Value(global::System.__ComObject __this)
+			{
+				global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlMember>[] __ret = global::McgInterop.ForwardComSharedStubs.Func_rg__KeyValuePair_2_string__UI_Xaml_Markup_IXamlMember___(
+									__this, 
+									typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlMember>>).TypeHandle, 
+									global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V__V___Impl.Vtbl.idx_get_Value
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// v-table for 'Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.UI.Xaml.Markup.IXamlMember>>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlMember>>))]
+		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlMember>>))]
+		public unsafe partial struct Vtbl
+		{
+			global::System.IntPtr pfnQueryInterface;
+			global::System.IntPtr pfnAddRef;
+			global::System.IntPtr pfnRelease;
+			global::System.IntPtr pfnGetIids;
+			global::System.IntPtr pfnGetRuntimeClassName;
+			global::System.IntPtr pfnGetTrustLevel;
+			// Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V__V_
+			global::System.IntPtr pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V__V_;
+			internal const int idx_get_Value = 6;
+			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V__V___Impl.Vtbl.Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V__V___Impl_Vtbl_McgRvaContainer), "RVA_Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Mark" +
+				"up_IXamlMember_V__V___Impl_Vtbl_s_theCcwVtable")]
+			public static global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V__V___Impl.Vtbl s_theCcwVtable
+			#if false
+			 = new global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V__V___Impl.Vtbl() {
+				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
+				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
+				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget246>(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V__V___Impl.Vtbl.get_Value__STUB),
+			}
+			#endif
+			;
+			// Signature, Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.UI.Xaml.Markup.IXamlMember>>.get_Value, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.ArrayMarshaller] rg_System_Collections_Generic_KeyValuePair_2_string__Windows_UI_Xaml_Markup_IXamlMember___Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V_ * *, 
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int get_Value__STUB(
+						global::System.IntPtr pComThis, 
+						uint* unsafe___value__retval_mcgLength, 
+						global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V___Impl.Vtbl**** unsafe___value__retval)
+			{
+				// Setup
+				if (unsafe___value__retval != null)
+					(*(unsafe___value__retval)) = null;
+				global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlMember>[] __value__retval = default(global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlMember>[]);
+				try
+				{
+					// Marshalling
+					// Call to managed method
+					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlMember>>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).get_Value();
+					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+					if (unsafe___value__retval != null)
+						if (__value__retval == null)
+							(*(unsafe___value__retval)) = null;
+						else
+						{
+							if (__value__retval != null)
+								(*(unsafe___value__retval_mcgLength)) = (uint)__value__retval.Length;
+							if (__value__retval != null)
+								(*(unsafe___value__retval)) = (global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V___Impl.Vtbl***)global::McgInterop.McgHelpers.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked((*(unsafe___value__retval_mcgLength)) * sizeof(global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V___Impl.Vtbl**))));
+							for (uint mcgIdx = 0; (mcgIdx < (*(unsafe___value__retval_mcgLength))); mcgIdx++)
+							{
+								// [rev] [out] [retval] [nativebyref] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_string__Windows_UI_Xaml_Markup_IXamlMember___Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V_ * __value__retval
+								global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<string, global::Windows.UI.Xaml.Markup.IXamlMember> pair_unsafe___value__retval = new global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<string, global::Windows.UI.Xaml.Markup.IXamlMember>(ref __value__retval[mcgIdx]);
+								(*(unsafe___value__retval))[mcgIdx] = (global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.ManagedObjectToComInterface(
+													pair_unsafe___value__retval, 
+													typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlMember>).TypeHandle
+												);
+							}
+						}
+					// Return
+					return global::McgInterop.Helpers.S_OK;
+				}
+				catch (global::System.Exception hrExcep)
+				{
+					// ExceptionCleanup
+					if (unsafe___value__retval != null)
+					{
+						if ((*(unsafe___value__retval)) != null)
+							for (uint mcgIdx_1 = 0; (mcgIdx_1 < (*(unsafe___value__retval_mcgLength))); mcgIdx_1++)
+							{
+								// [fwd] [in] [out] [retval] [nativebyref] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_string__Windows_UI_Xaml_Markup_IXamlMember___Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V_ * __value__retval
+								global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe___value__retval))[mcgIdx_1])));
+							}
+						global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree((*(unsafe___value__retval)));
+						(*(unsafe___value__retval)) = null;
+					}
+					// ExceptionReturn
+					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+				}
+			}
+
+			private static class Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V__V___Impl_Vtbl_McgRvaContainer
+			{
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(32, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V__V___Impl.Vtbl), "get_Value__STUB")]
+				[global::System.Runtime.CompilerServices.NonArray]
+				static readonly byte[] RVA_Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_UI_Xaml_Markup_IXamlMember_V__V___Impl_Vtbl_s_theCcwVtable = new byte[] {
+						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+						0, 0, 0, 0, 0, 0};
+			}
+		}
+	}
+
+	// Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<System.Object,System.Object>>
+	public unsafe static class IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Object_j_System_Object_V__V___Impl
+	{
+		// StubClass for 'Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<System.Object,System.Object>>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::System.Collections.Generic.KeyValuePair<object, object>[] get_Value(global::System.__ComObject __this)
+			{
+				global::System.Collections.Generic.KeyValuePair<object, object>[] __ret = global::McgInterop.ForwardComSharedStubs.Func_rg__KeyValuePair_2_object__object___(
+									__this, 
+									typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<object, object>>).TypeHandle, 
+									global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Object_j_System_Object_V__V___Impl.Vtbl.idx_get_Value
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// v-table for 'Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<System.Object,System.Object>>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<object, object>>))]
+		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<object, object>>))]
+		public unsafe partial struct Vtbl
+		{
+			global::System.IntPtr pfnQueryInterface;
+			global::System.IntPtr pfnAddRef;
+			global::System.IntPtr pfnRelease;
+			global::System.IntPtr pfnGetIids;
+			global::System.IntPtr pfnGetRuntimeClassName;
+			global::System.IntPtr pfnGetTrustLevel;
+			// Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_object_j_object_V__V_
+			global::System.IntPtr pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_object_j_object_V__V_;
+			internal const int idx_get_Value = 6;
+			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Object_j_System_Object_V__V___Impl.Vtbl.Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Object_j_System_Object_V__V___Impl_Vtbl_McgRvaContainer), "RVA_Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Object_j_System_Object" +
+				"_V__V___Impl_Vtbl_s_theCcwVtable")]
+			public static global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Object_j_System_Object_V__V___Impl.Vtbl s_theCcwVtable
+			#if false
+			 = new global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Object_j_System_Object_V__V___Impl.Vtbl() {
+				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
+				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
+				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_object_j_object_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget254>(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Object_j_System_Object_V__V___Impl.Vtbl.get_Value__STUB),
+			}
+			#endif
+			;
+			// Signature, Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<System.Object,System.Object>>.get_Value, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.ArrayMarshaller] rg_System_Collections_Generic_KeyValuePair_2_object__object___Windows_Foundation_Collections__IKeyValuePair_A_object_j_object_V_ * *, 
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int get_Value__STUB(
+						global::System.IntPtr pComThis, 
+						uint* unsafe___value__retval_mcgLength, 
+						global::System.Collections.Generic.KeyValuePair_A_System_Object_j_System_Object_V___Impl.Vtbl**** unsafe___value__retval)
+			{
+				// Setup
+				if (unsafe___value__retval != null)
+					(*(unsafe___value__retval)) = null;
+				global::System.Collections.Generic.KeyValuePair<object, object>[] __value__retval = default(global::System.Collections.Generic.KeyValuePair<object, object>[]);
+				try
+				{
+					// Marshalling
+					// Call to managed method
+					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<object, object>>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).get_Value();
+					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+					if (unsafe___value__retval != null)
+						if (__value__retval == null)
+							(*(unsafe___value__retval)) = null;
+						else
+						{
+							if (__value__retval != null)
+								(*(unsafe___value__retval_mcgLength)) = (uint)__value__retval.Length;
+							if (__value__retval != null)
+								(*(unsafe___value__retval)) = (global::System.Collections.Generic.KeyValuePair_A_System_Object_j_System_Object_V___Impl.Vtbl***)global::McgInterop.McgHelpers.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked((*(unsafe___value__retval_mcgLength)) * sizeof(global::System.Collections.Generic.KeyValuePair_A_System_Object_j_System_Object_V___Impl.Vtbl**))));
+							for (uint mcgIdx = 0; (mcgIdx < (*(unsafe___value__retval_mcgLength))); mcgIdx++)
+							{
+								// [rev] [out] [retval] [nativebyref] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_object__object___Windows_Foundation_Collections__IKeyValuePair_A_object_j_object_V_ * __value__retval
+								global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<object, object> pair_unsafe___value__retval = new global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<object, object>(ref __value__retval[mcgIdx]);
+								(*(unsafe___value__retval))[mcgIdx] = (global::System.Collections.Generic.KeyValuePair_A_System_Object_j_System_Object_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.ManagedObjectToComInterface(
+													pair_unsafe___value__retval, 
+													typeof(global::Windows.Foundation.Collections.IKeyValuePair<object, object>).TypeHandle
+												);
+							}
+						}
+					// Return
+					return global::McgInterop.Helpers.S_OK;
+				}
+				catch (global::System.Exception hrExcep)
+				{
+					// ExceptionCleanup
+					if (unsafe___value__retval != null)
+					{
+						if ((*(unsafe___value__retval)) != null)
+							for (uint mcgIdx_1 = 0; (mcgIdx_1 < (*(unsafe___value__retval_mcgLength))); mcgIdx_1++)
+							{
+								// [fwd] [in] [out] [retval] [nativebyref] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_object__object___Windows_Foundation_Collections__IKeyValuePair_A_object_j_object_V_ * __value__retval
+								global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe___value__retval))[mcgIdx_1])));
+							}
+						global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree((*(unsafe___value__retval)));
+						(*(unsafe___value__retval)) = null;
+					}
+					// ExceptionReturn
+					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+				}
+			}
+
+			private static class Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Object_j_System_Object_V__V___Impl_Vtbl_McgRvaContainer
+			{
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(32, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Object_j_System_Object_V__V___Impl.Vtbl), "get_Value__STUB")]
+				[global::System.Runtime.CompilerServices.NonArray]
+				static readonly byte[] RVA_Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_System_Object_j_System_Object_V__V___Impl_Vtbl_s_theCcwVtable = new byte[] {
+						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+						0, 0, 0, 0, 0, 0};
+			}
+		}
+	}
+
+	// Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.ApplicationModel.Resources.Core.NamedResource>>
+	public unsafe static class IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V__V___Impl
+	{
+		// StubClass for 'Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.ApplicationModel.Resources.Core.NamedResource>>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::System.Collections.Generic.KeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>[] get_Value(global::System.__ComObject __this)
+			{
+				global::System.Collections.Generic.KeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>[] __ret = global::McgInterop.ForwardComSharedStubs.Func_rg__KeyValuePair_2_string__ApplicationModel_Resources_Core_NamedResource___(
+									__this, 
+									typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>>).TypeHandle, 
+									global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V__V___Impl.Vtbl.idx_get_Value
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// v-table for 'Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.ApplicationModel.Resources.Core.NamedResource>>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>>))]
+		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>>))]
+		public unsafe partial struct Vtbl
+		{
+			global::System.IntPtr pfnQueryInterface;
+			global::System.IntPtr pfnAddRef;
+			global::System.IntPtr pfnRelease;
+			global::System.IntPtr pfnGetIids;
+			global::System.IntPtr pfnGetRuntimeClassName;
+			global::System.IntPtr pfnGetTrustLevel;
+			// Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V__V_
+			global::System.IntPtr pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V__V_;
+			internal const int idx_get_Value = 6;
+			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V__V___Impl.Vtbl.Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V__V___Impl_Vtbl_McgRvaContainer), "RVA_Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_ApplicationM" +
+				"odel_Resources_Core_NamedResource_V__V___Impl_Vtbl_s_theCcwVtable")]
+			public static global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V__V___Impl.Vtbl s_theCcwVtable
+			#if false
+			 = new global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V__V___Impl.Vtbl() {
+				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
+				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
+				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Value_Windows_Foundation__IReferenceArray_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget255>(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V__V___Impl.Vtbl.get_Value__STUB),
+			}
+			#endif
+			;
+			// Signature, Windows.Foundation.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.ApplicationModel.Resources.Core.NamedResource>>.get_Value, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.ArrayMarshaller] rg_System_Collections_Generic_KeyValuePair_2_string__Windows_ApplicationModel_Resources_Core_NamedResource___Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V_ * *, 
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int get_Value__STUB(
+						global::System.IntPtr pComThis, 
+						uint* unsafe___value__retval_mcgLength, 
+						global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V___Impl.Vtbl**** unsafe___value__retval)
+			{
+				// Setup
+				if (unsafe___value__retval != null)
+					(*(unsafe___value__retval)) = null;
+				global::System.Collections.Generic.KeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>[] __value__retval = default(global::System.Collections.Generic.KeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>[]);
+				try
+				{
+					// Marshalling
+					// Call to managed method
+					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).get_Value();
+					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+					if (unsafe___value__retval != null)
+						if (__value__retval == null)
+							(*(unsafe___value__retval)) = null;
+						else
+						{
+							if (__value__retval != null)
+								(*(unsafe___value__retval_mcgLength)) = (uint)__value__retval.Length;
+							if (__value__retval != null)
+								(*(unsafe___value__retval)) = (global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V___Impl.Vtbl***)global::McgInterop.McgHelpers.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked((*(unsafe___value__retval_mcgLength)) * sizeof(global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V___Impl.Vtbl**))));
+							for (uint mcgIdx = 0; (mcgIdx < (*(unsafe___value__retval_mcgLength))); mcgIdx++)
+							{
+								// [rev] [out] [retval] [nativebyref] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_string__Windows_ApplicationModel_Resources_Core_NamedResource___Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V_ * __value__retval
+								global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<string, global::Windows.ApplicationModel.Resources.Core.NamedResource> pair_unsafe___value__retval = new global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>(ref __value__retval[mcgIdx]);
+								(*(unsafe___value__retval))[mcgIdx] = (global::System.Collections.Generic.KeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.ManagedObjectToComInterface(
+													pair_unsafe___value__retval, 
+													typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>).TypeHandle
+												);
+							}
+						}
+					// Return
+					return global::McgInterop.Helpers.S_OK;
+				}
+				catch (global::System.Exception hrExcep)
+				{
+					// ExceptionCleanup
+					if (unsafe___value__retval != null)
+					{
+						if ((*(unsafe___value__retval)) != null)
+							for (uint mcgIdx_1 = 0; (mcgIdx_1 < (*(unsafe___value__retval_mcgLength))); mcgIdx_1++)
+							{
+								// [fwd] [in] [out] [retval] [nativebyref] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_string__Windows_ApplicationModel_Resources_Core_NamedResource___Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V_ * __value__retval
+								global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe___value__retval))[mcgIdx_1])));
+							}
+						global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree((*(unsafe___value__retval)));
+						(*(unsafe___value__retval)) = null;
+					}
+					// ExceptionReturn
+					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+				}
+			}
+
+			private static class Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V__V___Impl_Vtbl_McgRvaContainer
+			{
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(32, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::Windows.Foundation.IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V__V___Impl.Vtbl), "get_Value__STUB")]
+				[global::System.Runtime.CompilerServices.NonArray]
+				static readonly byte[] RVA_Windows_Foundation_IReferenceArray_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_ApplicationModel_Resources_Core_NamedResource_V__V___Impl_Vtbl_s_theCcwVtable = new byte[] {
+						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+						0, 0, 0, 0, 0, 0};
 			}
 		}
 	}
@@ -31578,6 +35396,211 @@ namespace Windows.Foundation.Collections
 	// Windows.Foundation.Collections.IObservableMap<string,System.Object>
 	public unsafe static class IObservableMap_A_string_j_System_Object_V___Impl
 	{
+		// StubClass for 'Windows.Foundation.Collections.IObservableMap<string,System.Object>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_MapChanged(
+						global::System.__ComObject __this, 
+						global::Windows.Foundation.Collections.MapChangedEventHandler<string, object> vhnd)
+			{
+				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __ret = global::McgInterop.ForwardComSharedStubs.Func__Collections_MapChangedEventHandler_2_string__object__WindowsRuntime_EventRegistrationToken__(
+									__this, 
+									vhnd, 
+									typeof(global::Windows.Foundation.Collections.IObservableMap<string, object>).TypeHandle, 
+									global::Windows.Foundation.Collections.IObservableMap_A_string_j_System_Object_V___Impl.Vtbl.idx_add_MapChanged
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static void remove_MapChanged(
+						global::System.__ComObject __this, 
+						global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token)
+			{
+				global::McgInterop.ForwardComSharedStubs.Proc__WindowsRuntime_EventRegistrationToken__(
+									__this, 
+									token, 
+									typeof(global::Windows.Foundation.Collections.IObservableMap<string, object>).TypeHandle, 
+									global::Windows.Foundation.Collections.IObservableMap_A_string_j_System_Object_V___Impl.Vtbl.idx_remove_MapChanged
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+		}
+
+		// DispatchClass for 'Windows.Foundation.Collections.IObservableMap<string,System.Object>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.Collections.IObservableMap<string, object>))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.Foundation.Collections.IObservableMap<string, object>, global::System.Collections.Generic.ICollection<global::System.Collections.Generic.KeyValuePair<string, object>>
+		{
+			int global::System.Collections.Generic.ICollection<global::System.Collections.Generic.KeyValuePair<string, object>>.Count
+			{
+				get
+				{
+					return global::System.Collections.Generic.IDictionary_A_string_j_System_Object_V___Impl.ICollectionRCWAdapterClass.Count(this);
+				}
+			}
+
+			bool global::System.Collections.Generic.ICollection<global::System.Collections.Generic.KeyValuePair<string, object>>.IsReadOnly
+			{
+				get
+				{
+					return global::System.Collections.Generic.IDictionary_A_string_j_System_Object_V___Impl.ICollectionRCWAdapterClass.IsReadOnly(this);
+				}
+			}
+
+			void global::System.Collections.Generic.ICollection<global::System.Collections.Generic.KeyValuePair<string, object>>.Add(global::System.Collections.Generic.KeyValuePair<string, object> item)
+			{
+				global::System.Collections.Generic.IDictionary_A_string_j_System_Object_V___Impl.ICollectionRCWAdapterClass.Add(
+									this, 
+									item
+								);
+			}
+
+			void global::System.Collections.Generic.ICollection<global::System.Collections.Generic.KeyValuePair<string, object>>.Clear()
+			{
+				global::System.Collections.Generic.IDictionary_A_string_j_System_Object_V___Impl.ICollectionRCWAdapterClass.Clear(this);
+			}
+
+			bool global::System.Collections.Generic.ICollection<global::System.Collections.Generic.KeyValuePair<string, object>>.Contains(global::System.Collections.Generic.KeyValuePair<string, object> item)
+			{
+				return global::System.Collections.Generic.IDictionary_A_string_j_System_Object_V___Impl.ICollectionRCWAdapterClass.Contains(
+									this, 
+									item
+								);
+			}
+
+			void global::System.Collections.Generic.ICollection<global::System.Collections.Generic.KeyValuePair<string, object>>.CopyTo(
+						global::System.Collections.Generic.KeyValuePair<string, object>[] array, 
+						int arrayindex)
+			{
+				global::System.Collections.Generic.IDictionary_A_string_j_System_Object_V___Impl.ICollectionRCWAdapterClass.CopyTo(
+									this, 
+									array, 
+									arrayindex
+								);
+			}
+
+			bool global::System.Collections.Generic.ICollection<global::System.Collections.Generic.KeyValuePair<string, object>>.Remove(global::System.Collections.Generic.KeyValuePair<string, object> item)
+			{
+				return global::System.Collections.Generic.IDictionary_A_string_j_System_Object_V___Impl.ICollectionRCWAdapterClass.Remove(
+									this, 
+									item
+								);
+			}
+
+			object global::System.Collections.Generic.IDictionary<string, object>.this[string index]
+			{
+				get
+				{
+					return global::System.Collections.Generic.IDictionary_A_string_j_System_Object_V___Impl.RCWAdapterClass.Indexer_Get(
+										this, 
+										index
+									);
+				}
+				set
+				{
+					global::System.Collections.Generic.IDictionary_A_string_j_System_Object_V___Impl.RCWAdapterClass.Indexer_Set(
+										this, 
+										index, 
+										value
+									);
+				}
+			}
+
+			global::System.Collections.Generic.ICollection<string> global::System.Collections.Generic.IDictionary<string, object>.Keys
+			{
+				get
+				{
+					return global::System.Collections.Generic.IDictionary_A_string_j_System_Object_V___Impl.RCWAdapterClass.Keys(this);
+				}
+			}
+
+			global::System.Collections.Generic.ICollection<object> global::System.Collections.Generic.IDictionary<string, object>.Values
+			{
+				get
+				{
+					return global::System.Collections.Generic.IDictionary_A_string_j_System_Object_V___Impl.RCWAdapterClass.Values(this);
+				}
+			}
+
+			void global::System.Collections.Generic.IDictionary<string, object>.Add(
+						string key, 
+						object value)
+			{
+				global::System.Collections.Generic.IDictionary_A_string_j_System_Object_V___Impl.RCWAdapterClass.Add(
+									this, 
+									key, 
+									value
+								);
+			}
+
+			bool global::System.Collections.Generic.IDictionary<string, object>.ContainsKey(string key)
+			{
+				return global::System.Collections.Generic.IDictionary_A_string_j_System_Object_V___Impl.RCWAdapterClass.ContainsKey(
+									this, 
+									key
+								);
+			}
+
+			bool global::System.Collections.Generic.IDictionary<string, object>.Remove(string key)
+			{
+				return global::System.Collections.Generic.IDictionary_A_string_j_System_Object_V___Impl.RCWAdapterClass.Remove(
+									this, 
+									key
+								);
+			}
+
+			bool global::System.Collections.Generic.IDictionary<string, object>.TryGetValue(
+						string key, 
+						out object value)
+			{
+				return global::System.Collections.Generic.IDictionary_A_string_j_System_Object_V___Impl.RCWAdapterClass.TryGetValue(
+									this, 
+									key, 
+									out value
+								);
+			}
+
+			global::System.Collections.Generic.IEnumerator<global::System.Collections.Generic.KeyValuePair<string, object>> global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string, object>>.GetEnumerator()
+			{
+				return (global::System.Collections.Generic.IEnumerator<global::System.Collections.Generic.KeyValuePair<string, object>>)global::McgInterop.McgHelpers.GetGenericEnumerator(
+									this, 
+									typeof(global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string, object>>).TypeHandle
+								);
+			}
+
+			global::System.Collections.IEnumerator global::System.Collections.IEnumerable.GetEnumerator()
+			{
+				return global::McgInterop.McgHelpers.GetNonGenericEnumerator(this);
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Windows.Foundation.Collections.IObservableMap`2.MapChanged")]
+			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken global::Windows.Foundation.Collections.IObservableMap<string, object>.add_MapChanged(global::Windows.Foundation.Collections.MapChangedEventHandler<string, object> vhnd)
+			{
+				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __retVal = global::Windows.Foundation.Collections.IObservableMap_A_string_j_System_Object_V___Impl.StubClass.add_MapChanged(
+									this, 
+									vhnd
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Windows.Foundation.Collections.IObservableMap`2.MapChanged")]
+			void global::Windows.Foundation.Collections.IObservableMap<string, object>.remove_MapChanged(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token)
+			{
+				global::Windows.Foundation.Collections.IObservableMap_A_string_j_System_Object_V___Impl.StubClass.remove_MapChanged(
+									this, 
+									token
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+		}
+
 		// v-table for 'Windows.Foundation.Collections.IObservableMap<string,System.Object>'
 		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.Collections.IObservableMap<string, object>))]
 		public unsafe partial struct Vtbl
@@ -32084,6 +36107,121 @@ namespace Windows.Foundation.Collections
 		}
 	}
 
+	// Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,Windows.Data.Json.IJsonValue>>
+	public unsafe static class IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V__V___Impl
+	{
+		// StubClass for 'Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,Windows.Data.Json.IJsonValue>>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue> get_Current(global::System.__ComObject __this)
+			{
+				global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue> __ret = global::McgInterop.ForwardComSharedStubs.Func__KeyValuePair_2_string__Data_Json_IJsonValue___(
+									__this, 
+									typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>).TypeHandle, 
+									global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V__V___Impl.Vtbl.idx_get_Current
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static bool get_HasCurrent(global::System.__ComObject __this)
+			{
+				bool __ret = global::McgInterop.ForwardComSharedStubs.Func_bool__(
+									__this, 
+									typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>).TypeHandle, 
+									global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V__V___Impl.Vtbl.idx_get_HasCurrent
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static bool MoveNext(global::System.__ComObject __this)
+			{
+				bool __ret = global::McgInterop.ForwardComSharedStubs.Func_bool__(
+									__this, 
+									typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>).TypeHandle, 
+									global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V__V___Impl.Vtbl.idx_MoveNext
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static uint GetMany(
+						global::System.__ComObject __this, 
+						global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>[] items)
+			{
+				uint __ret = global::McgInterop.ForwardComSharedStubs.Func_out_rg__KeyValuePair_2_string__Data_Json_IJsonValue___uint__(
+									__this, 
+									items, 
+									typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>).TypeHandle, 
+									global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V__V___Impl.Vtbl.idx_GetMany
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// DispatchClass for 'Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,Windows.Data.Json.IJsonValue>>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.Collections.IIterator`1.Current")]
+			global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue> global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>.get_Current()
+			{
+				global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue> __retVal = global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V__V___Impl.StubClass.get_Current(this);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.Collections.IIterator`1.HasCurrent")]
+			bool global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>.get_HasCurrent()
+			{
+				bool __retVal = global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V__V___Impl.StubClass.get_HasCurrent(this);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			bool global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>.MoveNext()
+			{
+				bool __retVal = global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V__V___Impl.StubClass.MoveNext(this);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			uint global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>.GetMany(global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>[] items)
+			{
+				uint __retVal = global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_Windows_Data_Json_IJsonValue_V__V___Impl.StubClass.GetMany(
+									this, 
+									items
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+		}
+
+		// v-table for 'Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,Windows.Data.Json.IJsonValue>>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::Windows.Data.Json.IJsonValue>>))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_get_Current = 6;
+			internal const int idx_get_HasCurrent = 7;
+			internal const int idx_MoveNext = 8;
+			internal const int idx_GetMany = 9;
+		}
+	}
+
 	// Windows.Foundation.Collections.IIterator<Windows.Devices.Enumeration.Pnp.PnpObject>
 	public unsafe static class IIterator_A_Windows_Devices_Enumeration_Pnp_PnpObject_V___Impl
 	{
@@ -32236,7 +36374,7 @@ namespace Windows.Foundation.Collections
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_Foundation_Collections__MapChangedEventHandler_A_string_j_string_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget193>(global::Windows.Foundation.Collections.MapChangedEventHandler_A_string_j_string_V___Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_Foundation_Collections__MapChangedEventHandler_A_string_j_string_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget196>(global::Windows.Foundation.Collections.MapChangedEventHandler_A_string_j_string_V___Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -32738,6 +36876,121 @@ namespace Windows.Foundation.Collections
 		}
 	}
 
+	// Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<System.Guid,Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>
+	public unsafe static class IIterator_A_System_Collections_Generic_KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V__V___Impl
+	{
+		// StubClass for 'Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<System.Guid,Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration> get_Current(global::System.__ComObject __this)
+			{
+				global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration> __ret = global::McgInterop.ForwardComSharedStubs.Func__KeyValuePair_2_Guid__ApplicationModel_Background_IBackgroundTaskRegistration___(
+									__this, 
+									typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>).TypeHandle, 
+									global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V__V___Impl.Vtbl.idx_get_Current
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static bool get_HasCurrent(global::System.__ComObject __this)
+			{
+				bool __ret = global::McgInterop.ForwardComSharedStubs.Func_bool__(
+									__this, 
+									typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>).TypeHandle, 
+									global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V__V___Impl.Vtbl.idx_get_HasCurrent
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static bool MoveNext(global::System.__ComObject __this)
+			{
+				bool __ret = global::McgInterop.ForwardComSharedStubs.Func_bool__(
+									__this, 
+									typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>).TypeHandle, 
+									global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V__V___Impl.Vtbl.idx_MoveNext
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static uint GetMany(
+						global::System.__ComObject __this, 
+						global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>[] items)
+			{
+				uint __ret = global::McgInterop.ForwardComSharedStubs.Func_out_rg__KeyValuePair_2_Guid__ApplicationModel_Background_IBackgroundTaskRegistration___uint__(
+									__this, 
+									items, 
+									typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>).TypeHandle, 
+									global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V__V___Impl.Vtbl.idx_GetMany
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// DispatchClass for 'Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<System.Guid,Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.Collections.IIterator`1.Current")]
+			global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration> global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>.get_Current()
+			{
+				global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration> __retVal = global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V__V___Impl.StubClass.get_Current(this);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.Collections.IIterator`1.HasCurrent")]
+			bool global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>.get_HasCurrent()
+			{
+				bool __retVal = global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V__V___Impl.StubClass.get_HasCurrent(this);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			bool global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>.MoveNext()
+			{
+				bool __retVal = global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V__V___Impl.StubClass.MoveNext(this);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			uint global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>.GetMany(global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>[] items)
+			{
+				uint __retVal = global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_System_Guid_j_Windows_ApplicationModel_Background_IBackgroundTaskRegistration_V__V___Impl.StubClass.GetMany(
+									this, 
+									items
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+		}
+
+		// v-table for 'Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<System.Guid,Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<global::System.Guid, global::Windows.ApplicationModel.Background.IBackgroundTaskRegistration>>))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_get_Current = 6;
+			internal const int idx_get_HasCurrent = 7;
+			internal const int idx_MoveNext = 8;
+			internal const int idx_GetMany = 9;
+		}
+	}
+
 	// Windows.Foundation.Collections.IIterator<Windows.Networking.HostName>
 	public unsafe static class IIterator_A_Windows_Networking_HostName_V___Impl
 	{
@@ -32844,6 +37097,121 @@ namespace Windows.Foundation.Collections
 
 		// v-table for 'Windows.Foundation.Collections.IIterator<Windows.Networking.HostName>'
 		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.Collections.IIterator<global::Windows.Networking.HostName>))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_get_Current = 6;
+			internal const int idx_get_HasCurrent = 7;
+			internal const int idx_MoveNext = 8;
+			internal const int idx_GetMany = 9;
+		}
+	}
+
+	// Windows.Foundation.Collections.IIterator<Windows.Data.Json.IJsonValue>
+	public unsafe static class IIterator_A_Windows_Data_Json_IJsonValue_V___Impl
+	{
+		// StubClass for 'Windows.Foundation.Collections.IIterator<Windows.Data.Json.IJsonValue>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::Windows.Data.Json.IJsonValue get_Current(global::System.__ComObject __this)
+			{
+				global::Windows.Data.Json.IJsonValue __ret = global::McgInterop.ForwardComSharedStubs.Func_Data_Json_IJsonValue__(
+									__this, 
+									typeof(global::Windows.Foundation.Collections.IIterator<global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::Windows.Foundation.Collections.IIterator_A_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_get_Current
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static bool get_HasCurrent(global::System.__ComObject __this)
+			{
+				bool __ret = global::McgInterop.ForwardComSharedStubs.Func_bool__(
+									__this, 
+									typeof(global::Windows.Foundation.Collections.IIterator<global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::Windows.Foundation.Collections.IIterator_A_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_get_HasCurrent
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static bool MoveNext(global::System.__ComObject __this)
+			{
+				bool __ret = global::McgInterop.ForwardComSharedStubs.Func_bool__(
+									__this, 
+									typeof(global::Windows.Foundation.Collections.IIterator<global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::Windows.Foundation.Collections.IIterator_A_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_MoveNext
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static uint GetMany(
+						global::System.__ComObject __this, 
+						global::Windows.Data.Json.IJsonValue[] items)
+			{
+				uint __ret = global::McgInterop.ForwardComSharedStubs.Func_out_rg_Data_Json_IJsonValue__uint__(
+									__this, 
+									items, 
+									typeof(global::Windows.Foundation.Collections.IIterator<global::Windows.Data.Json.IJsonValue>).TypeHandle, 
+									global::Windows.Foundation.Collections.IIterator_A_Windows_Data_Json_IJsonValue_V___Impl.Vtbl.idx_GetMany
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// DispatchClass for 'Windows.Foundation.Collections.IIterator<Windows.Data.Json.IJsonValue>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.Collections.IIterator<global::Windows.Data.Json.IJsonValue>))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.Foundation.Collections.IIterator<global::Windows.Data.Json.IJsonValue>
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.Collections.IIterator`1.Current")]
+			global::Windows.Data.Json.IJsonValue global::Windows.Foundation.Collections.IIterator<global::Windows.Data.Json.IJsonValue>.get_Current()
+			{
+				global::Windows.Data.Json.IJsonValue __retVal = global::Windows.Foundation.Collections.IIterator_A_Windows_Data_Json_IJsonValue_V___Impl.StubClass.get_Current(this);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.Collections.IIterator`1.HasCurrent")]
+			bool global::Windows.Foundation.Collections.IIterator<global::Windows.Data.Json.IJsonValue>.get_HasCurrent()
+			{
+				bool __retVal = global::Windows.Foundation.Collections.IIterator_A_Windows_Data_Json_IJsonValue_V___Impl.StubClass.get_HasCurrent(this);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			bool global::Windows.Foundation.Collections.IIterator<global::Windows.Data.Json.IJsonValue>.MoveNext()
+			{
+				bool __retVal = global::Windows.Foundation.Collections.IIterator_A_Windows_Data_Json_IJsonValue_V___Impl.StubClass.MoveNext(this);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			uint global::Windows.Foundation.Collections.IIterator<global::Windows.Data.Json.IJsonValue>.GetMany(global::Windows.Data.Json.IJsonValue[] items)
+			{
+				uint __retVal = global::Windows.Foundation.Collections.IIterator_A_Windows_Data_Json_IJsonValue_V___Impl.StubClass.GetMany(
+									this, 
+									items
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+		}
+
+		// v-table for 'Windows.Foundation.Collections.IIterator<Windows.Data.Json.IJsonValue>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.Collections.IIterator<global::Windows.Data.Json.IJsonValue>))]
 		public unsafe partial struct Vtbl
 		{
 			internal const int idx_get_Current = 6;
@@ -34003,330 +38371,6 @@ namespace Windows.Foundation.Collections
 		}
 	}
 
-	// Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IEnumerable<string>>>
-	public unsafe static class IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl
-	{
-		// StubClass for 'Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IEnumerable<string>>>'
-		public static partial class StubClass
-		{
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-			public static global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>> get_Current(global::System.__ComObject __this)
-			{
-				global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>> __ret = global::McgInterop.ForwardComSharedStubs.Func__KeyValuePair_2_string___IEnumerable_1_string__(
-									__this, 
-									typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>).TypeHandle, 
-									global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl.idx_get_Current
-								);
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-				return __ret;
-			}
-
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-			public static bool get_HasCurrent(global::System.__ComObject __this)
-			{
-				bool __ret = global::McgInterop.ForwardComSharedStubs.Func_bool__(
-									__this, 
-									typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>).TypeHandle, 
-									global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl.idx_get_HasCurrent
-								);
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-				return __ret;
-			}
-
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-			public static bool MoveNext(global::System.__ComObject __this)
-			{
-				bool __ret = global::McgInterop.ForwardComSharedStubs.Func_bool__(
-									__this, 
-									typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>).TypeHandle, 
-									global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl.idx_MoveNext
-								);
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-				return __ret;
-			}
-
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-			public static uint GetMany(
-						global::System.__ComObject __this, 
-						global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>[] items)
-			{
-				uint __ret = global::McgInterop.ForwardComSharedStubs.Func_out_rg__KeyValuePair_2_string___IEnumerable_1_string__uint__(
-									__this, 
-									items, 
-									typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>).TypeHandle, 
-									global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl.idx_GetMany
-								);
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-				return __ret;
-			}
-		}
-
-		// DispatchClass for 'Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IEnumerable<string>>>'
-		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>))]
-		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>
-		{
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.Collections.IIterator`1.Current")]
-			global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>> global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>.get_Current()
-			{
-				global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>> __retVal = global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.StubClass.get_Current(this);
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-				return __retVal;
-			}
-
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.Collections.IIterator`1.HasCurrent")]
-			bool global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>.get_HasCurrent()
-			{
-				bool __retVal = global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.StubClass.get_HasCurrent(this);
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-				return __retVal;
-			}
-
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			bool global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>.MoveNext()
-			{
-				bool __retVal = global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.StubClass.MoveNext(this);
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-				return __retVal;
-			}
-
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			uint global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>.GetMany(global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>[] items)
-			{
-				uint __retVal = global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.StubClass.GetMany(
-									this, 
-									items
-								);
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-				return __retVal;
-			}
-		}
-
-		// v-table for 'Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IEnumerable<string>>>'
-		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>))]
-		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>))]
-		public unsafe partial struct Vtbl
-		{
-			global::System.IntPtr pfnQueryInterface;
-			global::System.IntPtr pfnAddRef;
-			global::System.IntPtr pfnRelease;
-			global::System.IntPtr pfnGetIids;
-			global::System.IntPtr pfnGetRuntimeClassName;
-			global::System.IntPtr pfnGetTrustLevel;
-			// Windows_Foundation_Collections__IIterator_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V__V_
-			global::System.IntPtr pfnget_Current_Windows_Foundation_Collections__IIterator_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V__V_;
-			global::System.IntPtr pfnget_HasCurrent_Windows_Foundation_Collections__IIterator_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V__V_;
-			global::System.IntPtr pfnMoveNext_Windows_Foundation_Collections__IIterator_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V__V_;
-			global::System.IntPtr pfnGetMany_Windows_Foundation_Collections__IIterator_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V__V_;
-			internal const int idx_get_Current = 6;
-			internal const int idx_get_HasCurrent = 7;
-			internal const int idx_MoveNext = 8;
-			internal const int idx_GetMany = 9;
-			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl.Windows_Foundation_Collections_IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl_Vtbl_McgRvaContainer), "RVA_Windows_Foundation_Collections_IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collect" +
-				"ions_Generic_IEnumerable_A_string_V__V__V___Impl_Vtbl_s_theCcwVtable")]
-			public static global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl s_theCcwVtable
-			#if false
-			 = new global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl() {
-				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
-				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
-				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Current_Windows_Foundation_Collections__IIterator_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget246>(global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl.get_Current__STUB),
-				pfnget_HasCurrent_Windows_Foundation_Collections__IIterator_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget105>(global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl.get_HasCurrent__STUB),
-				pfnMoveNext_Windows_Foundation_Collections__IIterator_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget105>(global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl.MoveNext__STUB),
-				pfnGetMany_Windows_Foundation_Collections__IIterator_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget247>(global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl.GetMany__STUB),
-			}
-			#endif
-			;
-			// Signature, Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IEnumerable<string>>>.get_Current, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_string__System_Collections_Generic_IEnumerable_1_string____Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V_ *, 
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			[global::System.Runtime.InteropServices.NativeCallable]
-			static int get_Current__STUB(
-						global::System.IntPtr pComThis, 
-						global::System.Collections.Generic.KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V___Impl.Vtbl*** unsafe___value__retval)
-			{
-				// Setup
-				if (unsafe___value__retval != null)
-					(*(unsafe___value__retval)) = null;
-				global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>> __value__retval = default(global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>);
-				try
-				{
-					// Marshalling
-					// Call to managed method
-					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).get_Current();
-					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-					if (unsafe___value__retval != null)
-					{
-						global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<string, global::System.Collections.Generic.IEnumerable<string>> pair_unsafe___value__retval = new global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<string, global::System.Collections.Generic.IEnumerable<string>>(ref __value__retval);
-						(*(unsafe___value__retval)) = (global::System.Collections.Generic.KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.ManagedObjectToComInterface(
-											pair_unsafe___value__retval, 
-											typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>).TypeHandle
-										);
-					}
-					// Return
-					return global::McgInterop.Helpers.S_OK;
-				}
-				catch (global::System.Exception hrExcep)
-				{
-					// ExceptionCleanup
-					if (unsafe___value__retval != null)
-					{
-						global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe___value__retval)))));
-						(*(unsafe___value__retval)) = null;
-					}
-					// ExceptionReturn
-					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-				}
-			}
-
-			// Signature, Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IEnumerable<string>>>.get_HasCurrent, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.CBoolMarshaller] bool__bool, 
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			[global::System.Runtime.InteropServices.NativeCallable]
-			static int get_HasCurrent__STUB(
-						global::System.IntPtr pComThis, 
-						sbyte* unsafe___value__retval)
-			{
-				// Setup
-				bool __value__retval;
-				try
-				{
-					// Marshalling
-					// Call to managed method
-					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).get_HasCurrent();
-					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-					if (unsafe___value__retval != null)
-						(*(unsafe___value__retval)) = (__value__retval ? ((sbyte)1) : ((sbyte)0));
-					// Return
-					return global::McgInterop.Helpers.S_OK;
-				}
-				catch (global::System.Exception hrExcep)
-				{
-					// ExceptionCleanup
-					if (unsafe___value__retval != null)
-						(*(unsafe___value__retval)) = 0;
-					// ExceptionReturn
-					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-				}
-			}
-
-			// Signature, Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IEnumerable<string>>>.MoveNext, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.CBoolMarshaller] bool__bool, 
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			[global::System.Runtime.InteropServices.NativeCallable]
-			static int MoveNext__STUB(
-						global::System.IntPtr pComThis, 
-						sbyte* unsafe___value__retval)
-			{
-				// Setup
-				bool __value__retval;
-				try
-				{
-					// Marshalling
-					// Call to managed method
-					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).MoveNext();
-					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-					if (unsafe___value__retval != null)
-						(*(unsafe___value__retval)) = (__value__retval ? ((sbyte)1) : ((sbyte)0));
-					// Return
-					return global::McgInterop.Helpers.S_OK;
-				}
-				catch (global::System.Exception hrExcep)
-				{
-					// ExceptionCleanup
-					if (unsafe___value__retval != null)
-						(*(unsafe___value__retval)) = 0;
-					// ExceptionReturn
-					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-				}
-			}
-
-			// Signature, Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IEnumerable<string>>>.GetMany, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [Mcg.CodeGen.ArrayMarshaller] rg_System_Collections_Generic_KeyValuePair_2_string__System_Collections_Generic_IEnumerable_1_string____Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V_ * *, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] uint__unsigned int, 
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			[global::System.Runtime.InteropServices.NativeCallable]
-			static int GetMany__STUB(
-						global::System.IntPtr pComThis, 
-						uint unsafe_items_mcgLength, 
-						global::System.Collections.Generic.KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V___Impl.Vtbl*** unsafe_items, 
-						uint* unsafe___value__retval)
-			{
-				// Setup
-				global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>[] items = default(global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>[]);
-				if (unsafe_items != null)
-					for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
-					{
-						// [fwd] [in] [out] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_string__System_Collections_Generic_IEnumerable_1_string____Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V_ * items
-						unsafe_items[mcgIdx_1] = null;
-					}
-				uint __value__retval;
-				try
-				{
-					// Marshalling
-					items = new global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>[unsafe_items_mcgLength];
-					// Call to managed method
-					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).GetMany(items);
-					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-					if (unsafe___value__retval != null)
-						(*(unsafe___value__retval)) = __value__retval;
-					for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
-					{
-						// [rev] [out] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_string__System_Collections_Generic_IEnumerable_1_string____Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V_ * items
-						global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<string, global::System.Collections.Generic.IEnumerable<string>> pair_unsafe_items = new global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<string, global::System.Collections.Generic.IEnumerable<string>>(ref items[mcgIdx]);
-						unsafe_items[mcgIdx] = (global::System.Collections.Generic.KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.ManagedObjectToComInterface(
-											pair_unsafe_items, 
-											typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>).TypeHandle
-										);
-					}
-					// Return
-					return global::McgInterop.Helpers.S_OK;
-				}
-				catch (global::System.Exception hrExcep)
-				{
-					// ExceptionCleanup
-					if (unsafe_items != null)
-						for (uint mcgIdx_2 = 0; (mcgIdx_2 < unsafe_items_mcgLength); mcgIdx_2++)
-						{
-							// [fwd] [in] [out] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_string__System_Collections_Generic_IEnumerable_1_string____Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V_ * items
-							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_2])));
-						}
-					if (unsafe_items != null)
-						for (uint mcgIdx_3 = 0; (mcgIdx_3 < unsafe_items_mcgLength); mcgIdx_3++)
-						{
-							// [fwd] [in] [out] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_string__System_Collections_Generic_IEnumerable_1_string____Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V_ * items
-							unsafe_items[mcgIdx_3] = null;
-						}
-					if (unsafe___value__retval != null)
-						(*(unsafe___value__retval)) = 0;
-					// ExceptionReturn
-					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
-				}
-			}
-
-			private static class Windows_Foundation_Collections_IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl_Vtbl_McgRvaContainer
-			{
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(32, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl), "get_Current__STUB")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(56, typeof(global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl), "get_HasCurrent__STUB")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(64, typeof(global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl), "MoveNext__STUB")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(72, typeof(global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl), "GetMany__STUB")]
-				[global::System.Runtime.CompilerServices.NonArray]
-				static readonly byte[] RVA_Windows_Foundation_Collections_IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl_Vtbl_s_theCcwVtable = new byte[] {
-						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-			}
-		}
-	}
-
 	// Windows.Foundation.Collections.IIterator<Windows.Networking.IHostName>
 	public unsafe static class IIterator_A_Windows_Networking_IHostName_V___Impl
 	{
@@ -34554,6 +38598,330 @@ namespace Windows.Foundation.Collections
 			internal const int idx_get_HasCurrent = 7;
 			internal const int idx_MoveNext = 8;
 			internal const int idx_GetMany = 9;
+		}
+	}
+
+	// Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IEnumerable<string>>>
+	public unsafe static class IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl
+	{
+		// StubClass for 'Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IEnumerable<string>>>'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>> get_Current(global::System.__ComObject __this)
+			{
+				global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>> __ret = global::McgInterop.ForwardComSharedStubs.Func__KeyValuePair_2_string___IEnumerable_1_string__(
+									__this, 
+									typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>).TypeHandle, 
+									global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl.idx_get_Current
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static bool get_HasCurrent(global::System.__ComObject __this)
+			{
+				bool __ret = global::McgInterop.ForwardComSharedStubs.Func_bool__(
+									__this, 
+									typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>).TypeHandle, 
+									global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl.idx_get_HasCurrent
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static bool MoveNext(global::System.__ComObject __this)
+			{
+				bool __ret = global::McgInterop.ForwardComSharedStubs.Func_bool__(
+									__this, 
+									typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>).TypeHandle, 
+									global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl.idx_MoveNext
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+			public static uint GetMany(
+						global::System.__ComObject __this, 
+						global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>[] items)
+			{
+				uint __ret = global::McgInterop.ForwardComSharedStubs.Func_out_rg__KeyValuePair_2_string___IEnumerable_1_string__uint__(
+									__this, 
+									items, 
+									typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>).TypeHandle, 
+									global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl.idx_GetMany
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// DispatchClass for 'Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IEnumerable<string>>>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.Collections.IIterator`1.Current")]
+			global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>> global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>.get_Current()
+			{
+				global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>> __retVal = global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.StubClass.get_Current(this);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.Collections.IIterator`1.HasCurrent")]
+			bool global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>.get_HasCurrent()
+			{
+				bool __retVal = global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.StubClass.get_HasCurrent(this);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			bool global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>.MoveNext()
+			{
+				bool __retVal = global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.StubClass.MoveNext(this);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			uint global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>.GetMany(global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>[] items)
+			{
+				uint __retVal = global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.StubClass.GetMany(
+									this, 
+									items
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+		}
+
+		// v-table for 'Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IEnumerable<string>>>'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>))]
+		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>))]
+		public unsafe partial struct Vtbl
+		{
+			global::System.IntPtr pfnQueryInterface;
+			global::System.IntPtr pfnAddRef;
+			global::System.IntPtr pfnRelease;
+			global::System.IntPtr pfnGetIids;
+			global::System.IntPtr pfnGetRuntimeClassName;
+			global::System.IntPtr pfnGetTrustLevel;
+			// Windows_Foundation_Collections__IIterator_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V__V_
+			global::System.IntPtr pfnget_Current_Windows_Foundation_Collections__IIterator_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V__V_;
+			global::System.IntPtr pfnget_HasCurrent_Windows_Foundation_Collections__IIterator_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V__V_;
+			global::System.IntPtr pfnMoveNext_Windows_Foundation_Collections__IIterator_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V__V_;
+			global::System.IntPtr pfnGetMany_Windows_Foundation_Collections__IIterator_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V__V_;
+			internal const int idx_get_Current = 6;
+			internal const int idx_get_HasCurrent = 7;
+			internal const int idx_MoveNext = 8;
+			internal const int idx_GetMany = 9;
+			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl.Windows_Foundation_Collections_IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl_Vtbl_McgRvaContainer), "RVA_Windows_Foundation_Collections_IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collect" +
+				"ions_Generic_IEnumerable_A_string_V__V__V___Impl_Vtbl_s_theCcwVtable")]
+			public static global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl s_theCcwVtable
+			#if false
+			 = new global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl() {
+				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
+				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
+				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_Current_Windows_Foundation_Collections__IIterator_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget257>(global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl.get_Current__STUB),
+				pfnget_HasCurrent_Windows_Foundation_Collections__IIterator_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget108>(global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl.get_HasCurrent__STUB),
+				pfnMoveNext_Windows_Foundation_Collections__IIterator_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget108>(global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl.MoveNext__STUB),
+				pfnGetMany_Windows_Foundation_Collections__IIterator_A_Windows_Foundation_Collections_IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V__V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget258>(global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl.GetMany__STUB),
+			}
+			#endif
+			;
+			// Signature, Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IEnumerable<string>>>.get_Current, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_string__System_Collections_Generic_IEnumerable_1_string____Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V_ *, 
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int get_Current__STUB(
+						global::System.IntPtr pComThis, 
+						global::System.Collections.Generic.KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V___Impl.Vtbl*** unsafe___value__retval)
+			{
+				// Setup
+				if (unsafe___value__retval != null)
+					(*(unsafe___value__retval)) = null;
+				global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>> __value__retval = default(global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>);
+				try
+				{
+					// Marshalling
+					// Call to managed method
+					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).get_Current();
+					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+					if (unsafe___value__retval != null)
+					{
+						global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<string, global::System.Collections.Generic.IEnumerable<string>> pair_unsafe___value__retval = new global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<string, global::System.Collections.Generic.IEnumerable<string>>(ref __value__retval);
+						(*(unsafe___value__retval)) = (global::System.Collections.Generic.KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.ManagedObjectToComInterface(
+											pair_unsafe___value__retval, 
+											typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>).TypeHandle
+										);
+					}
+					// Return
+					return global::McgInterop.Helpers.S_OK;
+				}
+				catch (global::System.Exception hrExcep)
+				{
+					// ExceptionCleanup
+					if (unsafe___value__retval != null)
+					{
+						global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)(*(unsafe___value__retval)))));
+						(*(unsafe___value__retval)) = null;
+					}
+					// ExceptionReturn
+					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+				}
+			}
+
+			// Signature, Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IEnumerable<string>>>.get_HasCurrent, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.CBoolMarshaller] bool__bool, 
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int get_HasCurrent__STUB(
+						global::System.IntPtr pComThis, 
+						sbyte* unsafe___value__retval)
+			{
+				// Setup
+				bool __value__retval;
+				try
+				{
+					// Marshalling
+					// Call to managed method
+					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).get_HasCurrent();
+					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+					if (unsafe___value__retval != null)
+						(*(unsafe___value__retval)) = (__value__retval ? ((sbyte)1) : ((sbyte)0));
+					// Return
+					return global::McgInterop.Helpers.S_OK;
+				}
+				catch (global::System.Exception hrExcep)
+				{
+					// ExceptionCleanup
+					if (unsafe___value__retval != null)
+						(*(unsafe___value__retval)) = 0;
+					// ExceptionReturn
+					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+				}
+			}
+
+			// Signature, Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IEnumerable<string>>>.MoveNext, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.CBoolMarshaller] bool__bool, 
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int MoveNext__STUB(
+						global::System.IntPtr pComThis, 
+						sbyte* unsafe___value__retval)
+			{
+				// Setup
+				bool __value__retval;
+				try
+				{
+					// Marshalling
+					// Call to managed method
+					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).MoveNext();
+					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+					if (unsafe___value__retval != null)
+						(*(unsafe___value__retval)) = (__value__retval ? ((sbyte)1) : ((sbyte)0));
+					// Return
+					return global::McgInterop.Helpers.S_OK;
+				}
+				catch (global::System.Exception hrExcep)
+				{
+					// ExceptionCleanup
+					if (unsafe___value__retval != null)
+						(*(unsafe___value__retval)) = 0;
+					// ExceptionReturn
+					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+				}
+			}
+
+			// Signature, Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,System.Collections.Generic.IEnumerable<string>>>.GetMany, [rev] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [rev] [out] [Mcg.CodeGen.ArrayMarshaller] rg_System_Collections_Generic_KeyValuePair_2_string__System_Collections_Generic_IEnumerable_1_string____Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V_ * *, [rev] [out] [retval] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] uint__unsigned int, 
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int GetMany__STUB(
+						global::System.IntPtr pComThis, 
+						uint unsafe_items_mcgLength, 
+						global::System.Collections.Generic.KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V___Impl.Vtbl*** unsafe_items, 
+						uint* unsafe___value__retval)
+			{
+				// Setup
+				global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>[] items = default(global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>[]);
+				if (unsafe_items != null)
+					for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
+					{
+						// [fwd] [in] [out] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_string__System_Collections_Generic_IEnumerable_1_string____Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V_ * items
+						unsafe_items[mcgIdx_1] = null;
+					}
+				uint __value__retval;
+				try
+				{
+					// Marshalling
+					items = new global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>[unsafe_items_mcgLength];
+					// Call to managed method
+					__value__retval = global::System.Runtime.InteropServices.McgMarshal.FastCast<global::Windows.Foundation.Collections.IIterator<global::System.Collections.Generic.KeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>>>(global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis)).GetMany(items);
+					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+					if (unsafe___value__retval != null)
+						(*(unsafe___value__retval)) = __value__retval;
+					for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
+					{
+						// [rev] [out] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_string__System_Collections_Generic_IEnumerable_1_string____Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V_ * items
+						global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<string, global::System.Collections.Generic.IEnumerable<string>> pair_unsafe_items = new global::System.Runtime.InteropServices.WindowsRuntime.CLRIKeyValuePairImpl<string, global::System.Collections.Generic.IEnumerable<string>>(ref items[mcgIdx]);
+						unsafe_items[mcgIdx] = (global::System.Collections.Generic.KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.ManagedObjectToComInterface(
+											pair_unsafe_items, 
+											typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::System.Collections.Generic.IEnumerable<string>>).TypeHandle
+										);
+					}
+					// Return
+					return global::McgInterop.Helpers.S_OK;
+				}
+				catch (global::System.Exception hrExcep)
+				{
+					// ExceptionCleanup
+					if (unsafe_items != null)
+						for (uint mcgIdx_2 = 0; (mcgIdx_2 < unsafe_items_mcgLength); mcgIdx_2++)
+						{
+							// [fwd] [in] [out] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_string__System_Collections_Generic_IEnumerable_1_string____Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V_ * items
+							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_2])));
+						}
+					if (unsafe_items != null)
+						for (uint mcgIdx_3 = 0; (mcgIdx_3 < unsafe_items_mcgLength); mcgIdx_3++)
+						{
+							// [fwd] [in] [out] [optional] [Mcg.CodeGen.WinRTKeyValuePairMarshaller] System_Collections_Generic_KeyValuePair_2_string__System_Collections_Generic_IEnumerable_1_string____Windows_Foundation_Collections__IKeyValuePair_A_string_j_Windows_Foundation_Collections_IIterable_A_string_V__V_ * items
+							unsafe_items[mcgIdx_3] = null;
+						}
+					if (unsafe___value__retval != null)
+						(*(unsafe___value__retval)) = 0;
+					// ExceptionReturn
+					return global::System.Runtime.InteropServices.McgMarshal.GetHRForExceptionWinRT(hrExcep);
+				}
+			}
+
+			private static class Windows_Foundation_Collections_IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl_Vtbl_McgRvaContainer
+			{
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(32, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(48, typeof(global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl), "get_Current__STUB")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(56, typeof(global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl), "get_HasCurrent__STUB")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(64, typeof(global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl), "MoveNext__STUB")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(72, typeof(global::Windows.Foundation.Collections.IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl.Vtbl), "GetMany__STUB")]
+				[global::System.Runtime.CompilerServices.NonArray]
+				static readonly byte[] RVA_Windows_Foundation_Collections_IIterator_A_System_Collections_Generic_KeyValuePair_A_string_j_System_Collections_Generic_IEnumerable_A_string_V__V__V___Impl_Vtbl_s_theCcwVtable = new byte[] {
+						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+			}
 		}
 	}
 
@@ -37500,7 +41868,7 @@ namespace Windows.System.Threading
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_System_Threading__WorkItemHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget194>(global::Windows.System.Threading.WorkItemHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_System_Threading__WorkItemHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget197>(global::Windows.System.Threading.WorkItemHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -37581,7 +41949,7 @@ namespace Windows.System.Threading
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_System_Threading__TimerElapsedHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget195>(global::Windows.System.Threading.TimerElapsedHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_System_Threading__TimerElapsedHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget198>(global::Windows.System.Threading.TimerElapsedHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -37978,7 +42346,7 @@ namespace Windows.UI.Core
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Core__DispatchedHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget112>(global::Windows.UI.Core.DispatchedHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Core__DispatchedHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget115>(global::Windows.UI.Core.DispatchedHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -38297,7 +42665,7 @@ namespace Windows.UI.Xaml
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml__ApplicationInitializationCallback = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(global::Windows.UI.Xaml.ApplicationInitializationCallback__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml__ApplicationInitializationCallback = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget61>(global::Windows.UI.Xaml.ApplicationInitializationCallback__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -38628,7 +42996,7 @@ namespace Windows.UI.Xaml
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml__UnhandledExceptionEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget59>(global::Windows.UI.Xaml.UnhandledExceptionEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml__UnhandledExceptionEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget62>(global::Windows.UI.Xaml.UnhandledExceptionEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -38760,7 +43128,7 @@ namespace Windows.UI.Xaml
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml__SuspendingEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget60>(global::Windows.UI.Xaml.SuspendingEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml__SuspendingEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget63>(global::Windows.UI.Xaml.SuspendingEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -39087,18 +43455,18 @@ namespace Windows.UI.Xaml
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnOnActivated_Windows_UI_Xaml__IApplicationOverrides = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget61>(global::Windows.UI.Xaml.IApplicationOverrides__Impl.Vtbl.OnActivated__STUB),
-				pfnOnLaunched_Windows_UI_Xaml__IApplicationOverrides = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget62>(global::Windows.UI.Xaml.IApplicationOverrides__Impl.Vtbl.OnLaunched__STUB),
-				pfnOnFileActivated_Windows_UI_Xaml__IApplicationOverrides = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget63>(global::Windows.UI.Xaml.IApplicationOverrides__Impl.Vtbl.OnFileActivated__STUB),
-				pfnOnSearchActivated_Windows_UI_Xaml__IApplicationOverrides = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget64>(global::Windows.UI.Xaml.IApplicationOverrides__Impl.Vtbl.OnSearchActivated__STUB),
-				pfnOnShareTargetActivated_Windows_UI_Xaml__IApplicationOverrides = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget65>(global::Windows.UI.Xaml.IApplicationOverrides__Impl.Vtbl.OnShareTargetActivated__STUB),
-				pfnOnFileOpenPickerActivated_Windows_UI_Xaml__IApplicationOverrides = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget66>(global::Windows.UI.Xaml.IApplicationOverrides__Impl.Vtbl.OnFileOpenPickerActivated__STUB),
-				pfnOnFileSavePickerActivated_Windows_UI_Xaml__IApplicationOverrides = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget67>(global::Windows.UI.Xaml.IApplicationOverrides__Impl.Vtbl.OnFileSavePickerActivated__STUB),
-				pfnOnCachedFileUpdaterActivated_Windows_UI_Xaml__IApplicationOverrides = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget68>(global::Windows.UI.Xaml.IApplicationOverrides__Impl.Vtbl.OnCachedFileUpdaterActivated__STUB),
-				pfnOnWindowCreated_Windows_UI_Xaml__IApplicationOverrides = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget69>(global::Windows.UI.Xaml.IApplicationOverrides__Impl.Vtbl.OnWindowCreated__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnOnActivated_Windows_UI_Xaml__IApplicationOverrides = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget64>(global::Windows.UI.Xaml.IApplicationOverrides__Impl.Vtbl.OnActivated__STUB),
+				pfnOnLaunched_Windows_UI_Xaml__IApplicationOverrides = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget65>(global::Windows.UI.Xaml.IApplicationOverrides__Impl.Vtbl.OnLaunched__STUB),
+				pfnOnFileActivated_Windows_UI_Xaml__IApplicationOverrides = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget66>(global::Windows.UI.Xaml.IApplicationOverrides__Impl.Vtbl.OnFileActivated__STUB),
+				pfnOnSearchActivated_Windows_UI_Xaml__IApplicationOverrides = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget67>(global::Windows.UI.Xaml.IApplicationOverrides__Impl.Vtbl.OnSearchActivated__STUB),
+				pfnOnShareTargetActivated_Windows_UI_Xaml__IApplicationOverrides = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget68>(global::Windows.UI.Xaml.IApplicationOverrides__Impl.Vtbl.OnShareTargetActivated__STUB),
+				pfnOnFileOpenPickerActivated_Windows_UI_Xaml__IApplicationOverrides = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget69>(global::Windows.UI.Xaml.IApplicationOverrides__Impl.Vtbl.OnFileOpenPickerActivated__STUB),
+				pfnOnFileSavePickerActivated_Windows_UI_Xaml__IApplicationOverrides = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget70>(global::Windows.UI.Xaml.IApplicationOverrides__Impl.Vtbl.OnFileSavePickerActivated__STUB),
+				pfnOnCachedFileUpdaterActivated_Windows_UI_Xaml__IApplicationOverrides = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget71>(global::Windows.UI.Xaml.IApplicationOverrides__Impl.Vtbl.OnCachedFileUpdaterActivated__STUB),
+				pfnOnWindowCreated_Windows_UI_Xaml__IApplicationOverrides = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget72>(global::Windows.UI.Xaml.IApplicationOverrides__Impl.Vtbl.OnWindowCreated__STUB),
 			}
 			#endif
 			;
@@ -40893,7 +45261,7 @@ namespace Windows.UI.Xaml
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml__RoutedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget71>(global::Windows.UI.Xaml.RoutedEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml__RoutedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget74>(global::Windows.UI.Xaml.RoutedEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -40983,7 +45351,7 @@ namespace Windows.UI.Xaml
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml__DragEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget72>(global::Windows.UI.Xaml.DragEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml__DragEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget75>(global::Windows.UI.Xaml.DragEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -41841,7 +46209,7 @@ namespace Windows.UI.Xaml
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml__SizeChangedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget85>(global::Windows.UI.Xaml.SizeChangedEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml__SizeChangedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget88>(global::Windows.UI.Xaml.SizeChangedEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -42248,7 +46616,7 @@ namespace Windows.UI.Xaml
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml__DependencyPropertyChangedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget88>(global::Windows.UI.Xaml.DependencyPropertyChangedEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml__DependencyPropertyChangedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget91>(global::Windows.UI.Xaml.DependencyPropertyChangedEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -42430,7 +46798,7 @@ namespace Windows.UI.Xaml
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml__ExceptionRoutedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget99>(global::Windows.UI.Xaml.ExceptionRoutedEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml__ExceptionRoutedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget102>(global::Windows.UI.Xaml.ExceptionRoutedEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -42885,7 +47253,7 @@ namespace Windows.UI.Xaml
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml__WindowActivatedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget197>(global::Windows.UI.Xaml.WindowActivatedEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml__WindowActivatedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget204>(global::Windows.UI.Xaml.WindowActivatedEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -42975,7 +47343,7 @@ namespace Windows.UI.Xaml
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml__WindowClosedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget198>(global::Windows.UI.Xaml.WindowClosedEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml__WindowClosedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget205>(global::Windows.UI.Xaml.WindowClosedEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -43065,7 +47433,7 @@ namespace Windows.UI.Xaml
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml__WindowSizeChangedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget199>(global::Windows.UI.Xaml.WindowSizeChangedEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml__WindowSizeChangedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget206>(global::Windows.UI.Xaml.WindowSizeChangedEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -43155,7 +47523,7 @@ namespace Windows.UI.Xaml
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml__WindowVisibilityChangedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget200>(global::Windows.UI.Xaml.WindowVisibilityChangedEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml__WindowVisibilityChangedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget207>(global::Windows.UI.Xaml.WindowVisibilityChangedEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -47581,7 +51949,7 @@ namespace Windows.UI.Xaml.Controls
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml_Controls__ContextMenuOpeningEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget91>(global::Windows.UI.Xaml.Controls.ContextMenuOpeningEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml_Controls__ContextMenuOpeningEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget94>(global::Windows.UI.Xaml.Controls.ContextMenuOpeningEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -48513,7 +52881,7 @@ namespace Windows.UI.Xaml.Controls
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml_Controls__SelectionChangedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget92>(global::Windows.UI.Xaml.Controls.SelectionChangedEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml_Controls__SelectionChangedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget95>(global::Windows.UI.Xaml.Controls.SelectionChangedEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -48744,7 +53112,7 @@ namespace Windows.UI.Xaml.Controls
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml_Controls__ItemClickEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget93>(global::Windows.UI.Xaml.Controls.ItemClickEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml_Controls__ItemClickEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget96>(global::Windows.UI.Xaml.Controls.ItemClickEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -48844,7 +53212,7 @@ namespace Windows.UI.Xaml.Controls
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml_Controls__DragItemsStartingEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget94>(global::Windows.UI.Xaml.Controls.DragItemsStartingEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml_Controls__DragItemsStartingEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget97>(global::Windows.UI.Xaml.Controls.DragItemsStartingEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -50242,11 +54610,11 @@ namespace Windows.UI.Xaml.Data
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnConvert_Windows_UI_Xaml_Data__IValueConverter = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(global::Windows.UI.Xaml.Data.IValueConverter__Impl.Vtbl.Convert__STUB),
-				pfnConvertBack_Windows_UI_Xaml_Data__IValueConverter = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(global::Windows.UI.Xaml.Data.IValueConverter__Impl.Vtbl.ConvertBack__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnConvert_Windows_UI_Xaml_Data__IValueConverter = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget60>(global::Windows.UI.Xaml.Data.IValueConverter__Impl.Vtbl.Convert__STUB),
+				pfnConvertBack_Windows_UI_Xaml_Data__IValueConverter = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget60>(global::Windows.UI.Xaml.Data.IValueConverter__Impl.Vtbl.ConvertBack__STUB),
 			}
 			#endif
 			;
@@ -50438,7 +54806,7 @@ namespace Windows.UI.Xaml.Input
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml_Input__KeyEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget70>(global::Windows.UI.Xaml.Input.KeyEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml_Input__KeyEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget73>(global::Windows.UI.Xaml.Input.KeyEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -50548,7 +54916,7 @@ namespace Windows.UI.Xaml.Input
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml_Input__PointerEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget73>(global::Windows.UI.Xaml.Input.PointerEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml_Input__PointerEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget76>(global::Windows.UI.Xaml.Input.PointerEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -50648,7 +55016,7 @@ namespace Windows.UI.Xaml.Input
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml_Input__TappedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget74>(global::Windows.UI.Xaml.Input.TappedEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml_Input__TappedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget77>(global::Windows.UI.Xaml.Input.TappedEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -50748,7 +55116,7 @@ namespace Windows.UI.Xaml.Input
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml_Input__DoubleTappedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget75>(global::Windows.UI.Xaml.Input.DoubleTappedEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml_Input__DoubleTappedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget78>(global::Windows.UI.Xaml.Input.DoubleTappedEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -50848,7 +55216,7 @@ namespace Windows.UI.Xaml.Input
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml_Input__HoldingEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget76>(global::Windows.UI.Xaml.Input.HoldingEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml_Input__HoldingEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget79>(global::Windows.UI.Xaml.Input.HoldingEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -50948,7 +55316,7 @@ namespace Windows.UI.Xaml.Input
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml_Input__RightTappedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget77>(global::Windows.UI.Xaml.Input.RightTappedEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml_Input__RightTappedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget80>(global::Windows.UI.Xaml.Input.RightTappedEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -51048,7 +55416,7 @@ namespace Windows.UI.Xaml.Input
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml_Input__ManipulationStartingEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget78>(global::Windows.UI.Xaml.Input.ManipulationStartingEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml_Input__ManipulationStartingEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget81>(global::Windows.UI.Xaml.Input.ManipulationStartingEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -51148,7 +55516,7 @@ namespace Windows.UI.Xaml.Input
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml_Input__ManipulationInertiaStartingEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget79>(global::Windows.UI.Xaml.Input.ManipulationInertiaStartingEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml_Input__ManipulationInertiaStartingEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget82>(global::Windows.UI.Xaml.Input.ManipulationInertiaStartingEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -51248,7 +55616,7 @@ namespace Windows.UI.Xaml.Input
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml_Input__ManipulationStartedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget80>(global::Windows.UI.Xaml.Input.ManipulationStartedEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml_Input__ManipulationStartedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget83>(global::Windows.UI.Xaml.Input.ManipulationStartedEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -51348,7 +55716,7 @@ namespace Windows.UI.Xaml.Input
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml_Input__ManipulationDeltaEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget81>(global::Windows.UI.Xaml.Input.ManipulationDeltaEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml_Input__ManipulationDeltaEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget84>(global::Windows.UI.Xaml.Input.ManipulationDeltaEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -51448,7 +55816,7 @@ namespace Windows.UI.Xaml.Input
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml_Input__ManipulationCompletedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget82>(global::Windows.UI.Xaml.Input.ManipulationCompletedEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml_Input__ManipulationCompletedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget85>(global::Windows.UI.Xaml.Input.ManipulationCompletedEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -51542,12 +55910,12 @@ namespace Windows.UI.Xaml.Markup
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnGetXamlType_Windows_UI_Xaml_Markup__IXamlMetadataProvider = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget100>(global::Windows.UI.Xaml.Markup.IXamlMetadataProvider__Impl.Vtbl.GetXamlType__STUB),
-				pfnGetXamlTypeByFullName_Windows_UI_Xaml_Markup__IXamlMetadataProvider = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget101>(global::Windows.UI.Xaml.Markup.IXamlMetadataProvider__Impl.Vtbl.GetXamlTypeByFullName__STUB),
-				pfnGetXmlnsDefinitions_Windows_UI_Xaml_Markup__IXamlMetadataProvider = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget102>(global::Windows.UI.Xaml.Markup.IXamlMetadataProvider__Impl.Vtbl.GetXmlnsDefinitions__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnGetXamlType_Windows_UI_Xaml_Markup__IXamlMetadataProvider = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget103>(global::Windows.UI.Xaml.Markup.IXamlMetadataProvider__Impl.Vtbl.GetXamlType__STUB),
+				pfnGetXamlTypeByFullName_Windows_UI_Xaml_Markup__IXamlMetadataProvider = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget104>(global::Windows.UI.Xaml.Markup.IXamlMetadataProvider__Impl.Vtbl.GetXamlTypeByFullName__STUB),
+				pfnGetXmlnsDefinitions_Windows_UI_Xaml_Markup__IXamlMetadataProvider = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget105>(global::Windows.UI.Xaml.Markup.IXamlMetadataProvider__Impl.Vtbl.GetXmlnsDefinitions__STUB),
 			}
 			#endif
 			;
@@ -52196,27 +56564,27 @@ namespace Windows.UI.Xaml.Markup
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_BaseType_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget103>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_BaseType__STUB),
-				pfnget_ContentProperty_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget104>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_ContentProperty__STUB),
-				pfnget_FullName_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget56>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_FullName__STUB),
-				pfnget_IsArray_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget105>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_IsArray__STUB),
-				pfnget_IsCollection_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget105>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_IsCollection__STUB),
-				pfnget_IsConstructible_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget105>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_IsConstructible__STUB),
-				pfnget_IsDictionary_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget105>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_IsDictionary__STUB),
-				pfnget_IsMarkupExtension_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget105>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_IsMarkupExtension__STUB),
-				pfnget_IsBindable_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget105>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_IsBindable__STUB),
-				pfnget_ItemType_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget103>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_ItemType__STUB),
-				pfnget_KeyType_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget103>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_KeyType__STUB),
-				pfnget_UnderlyingType_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget106>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_UnderlyingType__STUB),
-				pfnActivateInstance_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget107>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.ActivateInstance__STUB),
-				pfnCreateFromString_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget108>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.CreateFromString__STUB),
-				pfnGetMember_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget109>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.GetMember__STUB),
-				pfnAddToVector_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget110>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.AddToVector__STUB),
-				pfnAddToMap_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget111>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.AddToMap__STUB),
-				pfnRunInitializer_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget112>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.RunInitializer__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_BaseType_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget106>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_BaseType__STUB),
+				pfnget_ContentProperty_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget107>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_ContentProperty__STUB),
+				pfnget_FullName_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget59>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_FullName__STUB),
+				pfnget_IsArray_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget108>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_IsArray__STUB),
+				pfnget_IsCollection_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget108>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_IsCollection__STUB),
+				pfnget_IsConstructible_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget108>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_IsConstructible__STUB),
+				pfnget_IsDictionary_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget108>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_IsDictionary__STUB),
+				pfnget_IsMarkupExtension_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget108>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_IsMarkupExtension__STUB),
+				pfnget_IsBindable_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget108>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_IsBindable__STUB),
+				pfnget_ItemType_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget106>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_ItemType__STUB),
+				pfnget_KeyType_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget106>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_KeyType__STUB),
+				pfnget_UnderlyingType_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget109>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.get_UnderlyingType__STUB),
+				pfnActivateInstance_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget110>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.ActivateInstance__STUB),
+				pfnCreateFromString_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget111>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.CreateFromString__STUB),
+				pfnGetMember_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget112>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.GetMember__STUB),
+				pfnAddToVector_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget113>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.AddToVector__STUB),
+				pfnAddToMap_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget114>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.AddToMap__STUB),
+				pfnRunInitializer_Windows_UI_Xaml_Markup__IXamlType = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget115>(global::Windows.UI.Xaml.Markup.IXamlType__Impl.Vtbl.RunInitializer__STUB),
 			}
 			#endif
 			;
@@ -53102,17 +57470,17 @@ namespace Windows.UI.Xaml.Markup
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_IsAttachable_Windows_UI_Xaml_Markup__IXamlMember = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget105>(global::Windows.UI.Xaml.Markup.IXamlMember__Impl.Vtbl.get_IsAttachable__STUB),
-				pfnget_IsDependencyProperty_Windows_UI_Xaml_Markup__IXamlMember = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget105>(global::Windows.UI.Xaml.Markup.IXamlMember__Impl.Vtbl.get_IsDependencyProperty__STUB),
-				pfnget_IsReadOnly_Windows_UI_Xaml_Markup__IXamlMember = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget105>(global::Windows.UI.Xaml.Markup.IXamlMember__Impl.Vtbl.get_IsReadOnly__STUB),
-				pfnget_Name_Windows_UI_Xaml_Markup__IXamlMember = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget56>(global::Windows.UI.Xaml.Markup.IXamlMember__Impl.Vtbl.get_Name__STUB),
-				pfnget_TargetType_Windows_UI_Xaml_Markup__IXamlMember = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget103>(global::Windows.UI.Xaml.Markup.IXamlMember__Impl.Vtbl.get_TargetType__STUB),
-				pfnget_Type_Windows_UI_Xaml_Markup__IXamlMember = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget103>(global::Windows.UI.Xaml.Markup.IXamlMember__Impl.Vtbl.get_Type__STUB),
-				pfnGetValue_Windows_UI_Xaml_Markup__IXamlMember = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget113>(global::Windows.UI.Xaml.Markup.IXamlMember__Impl.Vtbl.GetValue__STUB),
-				pfnSetValue_Windows_UI_Xaml_Markup__IXamlMember = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget110>(global::Windows.UI.Xaml.Markup.IXamlMember__Impl.Vtbl.SetValue__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnget_IsAttachable_Windows_UI_Xaml_Markup__IXamlMember = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget108>(global::Windows.UI.Xaml.Markup.IXamlMember__Impl.Vtbl.get_IsAttachable__STUB),
+				pfnget_IsDependencyProperty_Windows_UI_Xaml_Markup__IXamlMember = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget108>(global::Windows.UI.Xaml.Markup.IXamlMember__Impl.Vtbl.get_IsDependencyProperty__STUB),
+				pfnget_IsReadOnly_Windows_UI_Xaml_Markup__IXamlMember = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget108>(global::Windows.UI.Xaml.Markup.IXamlMember__Impl.Vtbl.get_IsReadOnly__STUB),
+				pfnget_Name_Windows_UI_Xaml_Markup__IXamlMember = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget59>(global::Windows.UI.Xaml.Markup.IXamlMember__Impl.Vtbl.get_Name__STUB),
+				pfnget_TargetType_Windows_UI_Xaml_Markup__IXamlMember = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget106>(global::Windows.UI.Xaml.Markup.IXamlMember__Impl.Vtbl.get_TargetType__STUB),
+				pfnget_Type_Windows_UI_Xaml_Markup__IXamlMember = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget106>(global::Windows.UI.Xaml.Markup.IXamlMember__Impl.Vtbl.get_Type__STUB),
+				pfnGetValue_Windows_UI_Xaml_Markup__IXamlMember = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget116>(global::Windows.UI.Xaml.Markup.IXamlMember__Impl.Vtbl.GetValue__STUB),
+				pfnSetValue_Windows_UI_Xaml_Markup__IXamlMember = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget113>(global::Windows.UI.Xaml.Markup.IXamlMember__Impl.Vtbl.SetValue__STUB),
 			}
 			#endif
 			;
@@ -53436,10 +57804,10 @@ namespace Windows.UI.Xaml.Markup
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnConnect_Windows_UI_Xaml_Markup__IComponentConnector = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget114>(global::Windows.UI.Xaml.Markup.IComponentConnector__Impl.Vtbl.Connect__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnConnect_Windows_UI_Xaml_Markup__IComponentConnector = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget117>(global::Windows.UI.Xaml.Markup.IComponentConnector__Impl.Vtbl.Connect__STUB),
 			}
 			#endif
 			;
@@ -53514,10 +57882,10 @@ namespace Windows.UI.Xaml.Markup
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget54>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget55>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnGetBindingConnector_Windows_UI_Xaml_Markup__IComponentConnector2 = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget115>(global::Windows.UI.Xaml.Markup.IComponentConnector2__Impl.Vtbl.GetBindingConnector__STUB),
+				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget57>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
+				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
+				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget58>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
+				pfnGetBindingConnector_Windows_UI_Xaml_Markup__IComponentConnector2 = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget118>(global::Windows.UI.Xaml.Markup.IComponentConnector2__Impl.Vtbl.GetBindingConnector__STUB),
 			}
 			#endif
 			;
@@ -53862,7 +58230,7 @@ namespace Windows.UI.Xaml.Navigation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml_Navigation__NavigatedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget151>(global::Windows.UI.Xaml.Navigation.NavigatedEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml_Navigation__NavigatedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget154>(global::Windows.UI.Xaml.Navigation.NavigatedEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -53952,7 +58320,7 @@ namespace Windows.UI.Xaml.Navigation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml_Navigation__NavigatingCancelEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget152>(global::Windows.UI.Xaml.Navigation.NavigatingCancelEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml_Navigation__NavigatingCancelEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget155>(global::Windows.UI.Xaml.Navigation.NavigatingCancelEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -54042,7 +58410,7 @@ namespace Windows.UI.Xaml.Navigation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml_Navigation__NavigationFailedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget153>(global::Windows.UI.Xaml.Navigation.NavigationFailedEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml_Navigation__NavigationFailedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget156>(global::Windows.UI.Xaml.Navigation.NavigationFailedEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -54132,7 +58500,7 @@ namespace Windows.UI.Xaml.Navigation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml_Navigation__NavigationStoppedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget151>(global::Windows.UI.Xaml.Navigation.NavigationStoppedEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml_Navigation__NavigationStoppedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget154>(global::Windows.UI.Xaml.Navigation.NavigationStoppedEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;

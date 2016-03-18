@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>0fc025b0-a5c0-4a6c-bd15-347db335f0f0</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\obj\x64\Release\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>C27697DBBBDFB099005BCD71BDBC730F87578A77F17AA9EE5F71918D18243BC6</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>4AFFBA7D30F11BC43D0AFA5986AD999EC7B1608B8336238836808AA087D30B23</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>0fc025b0-a5c0-4a6c-bd15-347db335f0f0_1.0.0.0_x64__nv5h0bq954q3c</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>0fc025b0-a5c0-4a6c-bd15-347db335f0f0_nv5h0bq954q3c!App</RegisteredUserModeAppID>
     <RegisteredPackageID>0fc025b0-a5c0-4a6c-bd15-347db335f0f0</RegisteredPackageID>
@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-03-06T01:53:58.964</Modified>
+      <Modified>2016-03-18T05:15:36.042</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -74,11 +74,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\BGChanger.dll">
       <PackagePath>BGChanger.dll</PackagePath>
-      <Modified>2016-03-06T01:53:58.534</Modified>
+      <Modified>2016-03-18T05:15:35.665</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\BGChanger.exe">
       <PackagePath>BGChanger.exe</PackagePath>
-      <Modified>2016-03-06T01:53:58.930</Modified>
+      <Modified>2016-03-18T05:15:36.008</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\bg\Humanizer.resources.dll">
       <PackagePath>bg\Humanizer.resources.dll</PackagePath>
@@ -174,7 +174,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-03-06T01:48:16.564</Modified>
+      <Modified>2016-03-18T05:15:03.416</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\ro\Humanizer.resources.dll">
       <PackagePath>ro\Humanizer.resources.dll</PackagePath>
@@ -238,11 +238,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\_Resources\0.rsrc">
       <PackagePath>_Resources\0.rsrc</PackagePath>
-      <Modified>2016-03-06T01:53:38.167</Modified>
+      <Modified>2016-03-18T05:15:19.729</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\bin\x64\Release\ilc\_Resources\index.txt">
       <PackagePath>_Resources\index.txt</PackagePath>
-      <Modified>2016-03-06T01:53:38.169</Modified>
+      <Modified>2016-03-18T05:15:19.732</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
