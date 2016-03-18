@@ -1,4 +1,0 @@
-C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger\BGChanger.csproj;x64
-C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger-Background\BGChanger-Background.csproj;x64
-C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger-Client\BGChanger-Client.csproj;x64
-C:\Users\vlad\documents\visual studio 2015\Projects\BGChanger\BGChanger-Client\BGChanger-Client.csproj;x64
