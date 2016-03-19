@@ -17,23 +17,23 @@ namespace Floodlight.Client
          */
         public static class UserDefined
         {
-            public static string ServerAddress
+            public static string ServiceAddress
             {
                 get
                 {
-                    if (!LocalSettings.Values.ContainsKey("URL"))
+                    if (!LocalSettings.Values.ContainsKey("ServiceAddress"))
                     {
                         // Default Service URL for Floodlight service
-                        LocalSettings.Values["URL"] = "http://floodlight.io/";
+                        LocalSettings.Values["ServiceAddress"] = "http://floodlight.io/";
                     }
 
                     // TODO: For Testing Purposes Only, Remove
-                    LocalSettings.Values["URL"] = "http://dev.floodlight.io/";
+                    LocalSettings.Values["ServiceAddress"] = "http://dev.floodlight.io/";
 
-                    return LocalSettings.Values["URL"].ToString();
+                    return LocalSettings.Values["ServiceAddress"].ToString();
                 }
 
-                set { LocalSettings.Values["URL"] = value; }
+                set { LocalSettings.Values["ServiceAddress"] = value; }
             }
 
             public static string UserId

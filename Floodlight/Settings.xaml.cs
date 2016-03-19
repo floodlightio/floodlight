@@ -26,7 +26,7 @@ namespace Floodlight
             var currentLockScreen = SettingsManager.Internal.CurrentLockScreen;
 
             // User Defined Settings
-            ServerAddress.Text = SettingsManager.UserDefined.ServerAddress;
+            ServiceAddress.Text = SettingsManager.UserDefined.ServiceAddress;
             UserId.Text = SettingsManager.UserDefined.UserId;
             UpdateWallpaper.IsOn = SettingsManager.UserDefined.UpdateWallpaper;
             UpdateLockScreen.IsOn = SettingsManager.UserDefined.UpdateLockScreen;
@@ -48,22 +48,29 @@ namespace Floodlight
             }
         }
 
+        private void ServiceAddress_OnTextChanged(object sender, TextChangedEventArgs e)
+        {
+            SettingsManager.UserDefined.ServiceAddress = ServiceAddress.Text;
+        }
+
+        private void UserId_OnTextChanged(object sender, TextChangedEventArgs e)
+        {
+            SettingsManager.UserDefined.UserId = UserId.Text;
+        }
+
         private void UpdateWallpaper_OnToggled(object sender, RoutedEventArgs e)
         {
-            var toggle = (ToggleSwitch)sender;
-            SettingsManager.UserDefined.UpdateWallpaper = toggle.IsOn;
+            SettingsManager.UserDefined.UpdateWallpaper = UpdateWallpaper.IsOn;
         }
 
         private void UpdateLockScreen_OnToggled(object sender, RoutedEventArgs e)
         {
-            var toggle = (ToggleSwitch)sender;
-            SettingsManager.UserDefined.UpdateLockScreen = toggle.IsOn;
+            SettingsManager.UserDefined.UpdateLockScreen = UpdateLockScreen.IsOn;
         }
 
         private void UseSameImage_OnToggled(object sender, RoutedEventArgs e)
         {
-            var toggle = (ToggleSwitch)sender;
-            SettingsManager.UserDefined.UseSameImage = toggle.IsOn;
+            SettingsManager.UserDefined.UseSameImage = UseSameImage.IsOn;
         }
     }
 }

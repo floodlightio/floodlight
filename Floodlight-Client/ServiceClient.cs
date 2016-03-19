@@ -18,7 +18,7 @@ namespace Floodlight.Client
 
         public static async Task<List<Background>> GetUserBackgrounds(bool onlyNew = true)
         {
-            var url = SettingsManager.UserDefined.ServerAddress +
+            var url = SettingsManager.UserDefined.ServiceAddress +
                       string.Format(SettingsManager.UserBackgroundsEndpoint, SettingsManager.UserDefined.UserId);
 
             using (var client = new HttpClient())
@@ -41,7 +41,7 @@ namespace Floodlight.Client
 
         public static async Task<Background> GetBackgroundDetails(string backgroundId)
         {
-            var url = SettingsManager.UserDefined.ServerAddress +
+            var url = SettingsManager.UserDefined.ServiceAddress +
                       string.Format(SettingsManager.BackgroundDetailsEndpoint, backgroundId);
 
             using (var client = new HttpClient())
@@ -60,7 +60,7 @@ namespace Floodlight.Client
 
         public static async Task<Stream> GetBackgroundImageStream(string backgroundId)
         {
-            var url = SettingsManager.UserDefined.ServerAddress +
+            var url = SettingsManager.UserDefined.ServiceAddress +
                       string.Format(SettingsManager.BackgroundImageEndpoint, backgroundId);
             var client = new HttpClient();
             var response = await client.GetAsync(url);

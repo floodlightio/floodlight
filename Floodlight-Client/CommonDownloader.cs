@@ -6,12 +6,20 @@ namespace Floodlight.Client
     {
         public static async void Execute()
         {
-            (await ServiceClient.GetUserBackgrounds()).ForEach(async background =>
+            try
             {
-                FileManager.SaveBackgroundToLocalFolder(background, await ServiceClient.GetBackgroundImageStream(background.Id));
-            });
+                (await ServiceClient.GetUserBackgrounds()).ForEach(async background =>
+                {
+                    FileManager.SaveBackgroundToLocalFolder(background,
+                        await ServiceClient.GetBackgroundImageStream(background.Id));
+                });
 
-            SettingsManager.Internal.LastRetrievedDate = DateTime.Now;
+                SettingsManager.Internal.LastRetrievedDate = DateTime.Now;
+            }
+            catch
+            {
+                // TODO: Have it do something here
+            }
         }
     }
 }

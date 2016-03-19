@@ -8,16 +8,16 @@
     mc:Ignorable="d">
 
     <ScrollViewer VerticalScrollMode="Enabled" HorizontalScrollMode="Disabled">
-        <StackPanel Orientation="Vertical" HorizontalAlignment="Left">
+        <StackPanel Orientation="Vertical" MaxWidth="600" HorizontalAlignment="Left">
             <TextBlock Style="{StaticResource HeaderTextBlockStyle}" Text="Settings" Margin="0,10,0,0" />
 
             <TextBlock Style="{StaticResource SubheaderTextBlockStyle}" Text="Server Information" Margin="20,20,0,0" />
 
-            <TextBlock Text="Server address" FontWeight="SemiBold" Margin="20,20,0,0" />
-            <TextBox Name="ServerAddress" MaxWidth="400"  Margin="20,10,20,0" />
+            <TextBlock Text="Service address" FontWeight="SemiBold" Margin="20,20,0,0" />
+            <TextBox Name="ServiceAddress" Margin="20,10,20,0" TextChanged="ServiceAddress_OnTextChanged" />
 
             <TextBlock Text="User ID" FontWeight="SemiBold" Margin="20,20,0,0" />
-            <TextBox Name="UserId" MaxWidth="400"  Margin="20,10,20,0" />
+            <TextBox Name="UserId"  Margin="20,10,20,0" TextChanged="UserId_OnTextChanged" />
 
             <TextBlock Style="{StaticResource SubheaderTextBlockStyle}" Text="App Behavior" Margin="20,40,0,0" />
 
@@ -39,10 +39,10 @@
             <TextBlock Name="LastUpdated" Margin="20,10,20,0" />
 
             <TextBlock Text="Wallpaper title" FontWeight="SemiBold" Margin="20,20,0,0" />
-            <TextBlock Name="WallpaperTitle" Margin="20,10,20,0" />
+            <TextBlock Name="WallpaperTitle" TextWrapping="WrapWholeWords" Margin="20,10,20,0" />
 
             <TextBlock Text="Lock screen title" FontWeight="SemiBold" Margin="20,20,0,0" />
-            <TextBlock Name="LockScreenTitle" Margin="20,10,20,20" />
+            <TextBlock Name="LockScreenTitle" TextWrapping="WrapWholeWords" Margin="20,10,20,20" />
         </StackPanel>
     </ScrollViewer>
 </Page>
