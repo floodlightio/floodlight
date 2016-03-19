@@ -15,7 +15,7 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Floodlight.App">
-      <uap:VisualElements DisplayName="Floodlight" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Floodlight" BackgroundColor="#00aeef">
+      <uap:VisualElements DisplayName="Floodlight" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Floodlight" BackgroundColor="#102857">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square71x71Logo="Assets\Square71x71Logo.png" ShortName="Floodlight" Square310x310Logo="Assets\Square310x310Logo.png">
           <uap:ShowNameOnTiles>
             <uap:ShowOn Tile="square150x150Logo" />
@@ -23,16 +23,16 @@
             <uap:ShowOn Tile="square310x310Logo" />
           </uap:ShowNameOnTiles>
         </uap:DefaultTile>
-        <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#00aeef" />
+        <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#102857" />
       </uap:VisualElements>
       <Extensions>
-        <Extension Category="windows.backgroundTasks" EntryPoint="Floodlight.Background.BackgroundDownloader">
+        <Extension Category="windows.backgroundTasks" EntryPoint="Floodlight.Background.BackgroundChanger">
           <BackgroundTasks>
             <Task Type="systemEvent" />
             <Task Type="timer" />
           </BackgroundTasks>
         </Extension>
-        <Extension Category="windows.backgroundTasks" EntryPoint="Floodlight.Background.BackgroundChanger">
+        <Extension Category="windows.backgroundTasks" EntryPoint="Floodlight.Background.BackgroundDownloader">
           <BackgroundTasks>
             <Task Type="systemEvent" />
             <Task Type="timer" />
