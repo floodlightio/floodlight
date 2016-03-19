@@ -26,6 +26,7 @@
         <CommandBar Grid.Row="1">
             <AppBarButton Name="Download" Icon="Download" Label="Update Images" Click="Download_OnClick" />
             <AppBarButton Name="Change" Icon="Sync" Label="Change Background" Click="Change_OnClick" />
+            <AppBarSeparator/>
             <AppBarButton Name="Settings" Icon="Setting" Label="Settings" Click="Settings_OnClick" />
         </CommandBar>
     </Grid>

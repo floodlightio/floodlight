@@ -87,6 +87,21 @@ namespace Floodlight.Client
 
                 set { LocalSettings.Values["UpdateLockScreen"] = value; }
             }
+
+            public static bool UseSameImage
+            {
+                get
+                {
+                    if (!LocalSettings.Values.ContainsKey("UseSameImage"))
+                    {
+                        LocalSettings.Values["UseSameImage"] = false;
+                    }
+
+                    return (bool)LocalSettings.Values["UseSameImage"];
+                }
+
+                set { LocalSettings.Values["UseSameImage"] = value; }
+            }
         }
 
         /**
@@ -112,6 +127,38 @@ namespace Floodlight.Client
                 }
 
                 set { LocalSettings.Values["LastUpdatedDate"] = value.ToString(CultureInfo.InvariantCulture); }
+            }
+
+            public static Background CurrentWallpaper
+            {
+                get
+                {
+                    if (!LocalSettings.Values.ContainsKey("CurrentWallpaper"))
+                    {
+                        return null;
+                    }
+
+                    var jsonObject = JsonObject.Parse((string)LocalSettings.Values["CurrentWallpaper"]);
+                    return ServiceClient.DeserializeBackground(jsonObject);
+                }
+
+                set { LocalSettings.Values["CurrentWallpaper"] = ServiceClient.SerializeBackground(value).Stringify(); }
+            }
+
+            public static Background CurrentLockScreen
+            {
+                get
+                {
+                    if (!LocalSettings.Values.ContainsKey("CurrentLockScreen"))
+                    {
+                        return null;
+                    }
+
+                    var jsonObject = JsonObject.Parse((string)LocalSettings.Values["CurrentLockScreen"]);
+                    return ServiceClient.DeserializeBackground(jsonObject);
+                }
+
+                set { LocalSettings.Values["CurrentLockScreen"] = ServiceClient.SerializeBackground(value).Stringify(); }
             }
 
             public static Dictionary<string, Background> GetBackgroundCache()

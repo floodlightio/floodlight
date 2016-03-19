@@ -7,31 +7,42 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <StackPanel Orientation="Vertical">
-        <StackPanel Orientation="Horizontal">
-            <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE722;"
-                        Width="50" Height="50" Padding="18" />
-            <TextBlock x:Uid="PhotoSettingsSection" Text="" FontWeight="SemiBold" FontSize="18" VerticalAlignment="Center" />
+    <ScrollViewer VerticalScrollMode="Enabled" HorizontalScrollMode="Disabled">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Left">
+            <TextBlock Style="{StaticResource HeaderTextBlockStyle}" Text="Settings" Margin="0,10,0,0" />
+
+            <TextBlock Style="{StaticResource SubheaderTextBlockStyle}" Text="Server Information" Margin="20,20,0,0" />
+
+            <TextBlock Text="Server address" FontWeight="SemiBold" Margin="20,20,0,0" />
+            <TextBox Name="ServerAddress" MaxWidth="400"  Margin="20,10,20,0" />
+
+            <TextBlock Text="User ID" FontWeight="SemiBold" Margin="20,20,0,0" />
+            <TextBox Name="UserId" MaxWidth="400"  Margin="20,10,20,0" />
+
+            <TextBlock Style="{StaticResource SubheaderTextBlockStyle}" Text="App Behavior" Margin="20,40,0,0" />
+
+            <TextBlock Text="Update wallpaper?" Margin="20,20,0,0" />
+            <ToggleSwitch Name="UpdateWallpaper" Margin="20,10,0,0" Toggled="UpdateWallpaper_OnToggled" />
+
+            <TextBlock Text="Update lock screen?" Margin="20,20,0,0" />
+            <ToggleSwitch Name="UpdateLockScreen" Margin="20,10,0,0" Toggled="UpdateLockScreen_OnToggled" />
+
+            <TextBlock Text="Use same image for wallpaper and lock screen?" Margin="20,20,0,0" />
+            <ToggleSwitch Name="UseSameImage" Margin="20,10,0,0" Toggled="UseSameImage_OnToggled" />
+
+            <TextBlock Style="{StaticResource SubheaderTextBlockStyle}" Text="App Status" Margin="20,40,0,0" />
+
+            <TextBlock Text="Photos last retrieved" FontWeight="SemiBold" Margin="20,20,0,0" />
+            <TextBlock Name="LastRetrieved" Margin="20,10,20,0" />
+
+            <TextBlock Text="Wallpaper and lock screen last updated" FontWeight="SemiBold" Margin="20,20,0,0" />
+            <TextBlock Name="LastUpdated" Margin="20,10,20,0" />
+
+            <TextBlock Text="Wallpaper title" FontWeight="SemiBold" Margin="20,20,0,0" />
+            <TextBlock Name="WallpaperTitle" Margin="20,10,20,0" />
+
+            <TextBlock Text="Lock screen title" FontWeight="SemiBold" Margin="20,20,0,0" />
+            <TextBlock Name="LockScreenTitle" Margin="20,10,20,20" />
         </StackPanel>
-        <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="300"></ColumnDefinition>
-                <ColumnDefinition Width="*"></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"></RowDefinition>
-                <RowDefinition Height="*"></RowDefinition>
-                <RowDefinition Height="*"></RowDefinition>
-                <RowDefinition Height="*"></RowDefinition>
-            </Grid.RowDefinitions>
-            <TextBlock Grid.Row="0" Grid.Column="0" Text="ServerAddress URL" FontWeight="SemiBold" Margin="50,0,0,0" />
-            <TextBlock Grid.Row="0" Grid.Column="1" Name="ServerUrl" />
-            <TextBlock Grid.Row="1" Grid.Column="0" Text="API Key" FontWeight="SemiBold" Margin="50,0,0,0" />
-            <TextBlock Grid.Row="1" Grid.Column="1" Name="ApiKey" />
-            <TextBlock Grid.Row="0" Grid.Column="0" Text="Update Wallpaper?" Padding="0,10,0,0" Margin="50,0,0,0" Grid.ColumnSpan="2" />
-            <ToggleSwitch Grid.Row="0" Grid.Column="1" Name="UpdateWallpaper" Toggled="UpdateWallpaper_OnToggled" />
-            <TextBlock Grid.Row="1" Grid.Column="0" Text="Update Lock Screen?" Padding="0,10,0,0" Margin="50,0,0,0" Grid.ColumnSpan="2" />
-            <ToggleSwitch Grid.Row="1" Grid.Column="1" Name="UpdateLockScreen" Toggled="UpdateLockScreen_OnToggled" />
-        </Grid>
-    </StackPanel>
+    </ScrollViewer>
 </Page>

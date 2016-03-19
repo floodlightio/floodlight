@@ -9,8 +9,9 @@ namespace Floodlight.Client
             (await ServiceClient.GetUserBackgrounds()).ForEach(async background =>
             {
                 FileManager.SaveBackgroundToLocalFolder(background, await ServiceClient.GetBackgroundImageStream(background.Id));
-                SettingsManager.Internal.LastRetrievedDate = DateTime.Now;
             });
+
+            SettingsManager.Internal.LastRetrievedDate = DateTime.Now;
         }
     }
 }

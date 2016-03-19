@@ -14,6 +14,8 @@ namespace Floodlight
         public MainPage()
         {
             InitializeComponent();
+            SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Collapsed;
+
             BackgroundManager.RegisterAllTasks();
             CommonDownloader.Execute();
         }
