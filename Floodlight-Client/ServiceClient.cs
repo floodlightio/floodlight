@@ -18,8 +18,8 @@ namespace Floodlight.Client
 
         public static async Task<List<Background>> GetUserBackgrounds(bool onlyNew = true)
         {
-            var url = SettingsHelper.ServerAddress +
-                      string.Format(SettingsHelper.UserBackgroundsEndpoint, SettingsHelper.UserId);
+            var url = SettingsManager.ServerAddress +
+                      string.Format(SettingsManager.UserBackgroundsEndpoint, SettingsManager.UserId);
 
             using (var client = new HttpClient())
             {
@@ -32,7 +32,7 @@ namespace Floodlight.Client
                             .Select(o => DeserializeBackground(o.GetObject()))
                             .ToList();
 
-                    var addedBackgrounds = SettingsHelper.AddToBackgroundCache(backgrounds);
+                    var addedBackgrounds = SettingsManager.AddToBackgroundCache(backgrounds);
 
                     return onlyNew ? addedBackgrounds : backgrounds;
                 }
@@ -41,8 +41,8 @@ namespace Floodlight.Client
 
         public static async Task<Background> GetBackgroundDetails(string backgroundId)
         {
-            var url = SettingsHelper.ServerAddress +
-                      string.Format(SettingsHelper.BackgroundDetailsEndpoint, backgroundId);
+            var url = SettingsManager.ServerAddress +
+                      string.Format(SettingsManager.BackgroundDetailsEndpoint, backgroundId);
 
             using (var client = new HttpClient())
             {
@@ -60,8 +60,8 @@ namespace Floodlight.Client
 
         public static async Task<Stream> GetBackgroundImageStream(string backgroundId)
         {
-            var url = SettingsHelper.ServerAddress +
-                      string.Format(SettingsHelper.BackgroundImageEndpoint, backgroundId);
+            var url = SettingsManager.ServerAddress +
+                      string.Format(SettingsManager.BackgroundImageEndpoint, backgroundId);
             var client = new HttpClient();
             var response = await client.GetAsync(url);
             response.EnsureSuccessStatusCode();
@@ -97,8 +97,8 @@ namespace Floodlight.Client
         {
             (await ServiceClient.GetUserBackgrounds()).ForEach(async background =>
             {
-                FileHelper.SaveBackgroundToLocalFolder(background, await ServiceClient.GetBackgroundImageStream(background.Id));
-                SettingsHelper.LastUpdatedDate = DateTime.UtcNow;
+                FileManager.SaveBackgroundToLocalFolder(background, await ServiceClient.GetBackgroundImageStream(background.Id));
+                SettingsManager.LastUpdatedDate = DateTime.UtcNow;
             });
         }
     }

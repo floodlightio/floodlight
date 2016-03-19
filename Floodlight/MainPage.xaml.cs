@@ -54,12 +54,12 @@ namespace Floodlight
 
         private void UpdateValues()
         {
-            ServerUrl.Text = SettingsHelper.ServerAddress;
-            ApiKey.Text = SettingsHelper.UserId;
-            LastUpdatedDate.Text = SettingsHelper.LastUpdatedDate.ToString(CultureInfo.InvariantCulture);
+            ServerUrl.Text = SettingsManager.ServerAddress;
+            ApiKey.Text = SettingsManager.UserId;
+            LastUpdatedDate.Text = SettingsManager.LastUpdatedDate.ToString(CultureInfo.InvariantCulture);
 
-            UpdateWallpaper.IsOn = SettingsHelper.UpdateWallpaper;
-            UpdateLockScreen.IsOn = SettingsHelper.UpdateLockScreen;
+            UpdateWallpaper.IsOn = SettingsManager.UpdateWallpaper;
+            UpdateLockScreen.IsOn = SettingsManager.UpdateLockScreen;
         }
 
         /**
@@ -73,13 +73,13 @@ namespace Floodlight
         private void UpdateWallpaper_OnToggled(object sender, RoutedEventArgs e)
         {
             var toggle = (ToggleSwitch)sender;
-            SettingsHelper.UpdateWallpaper = toggle.IsOn;
+            SettingsManager.UpdateWallpaper = toggle.IsOn;
         }
 
         private void UpdateLockScreen_OnToggled(object sender, RoutedEventArgs e)
         {
             var toggle = (ToggleSwitch)sender;
-            SettingsHelper.UpdateLockScreen = toggle.IsOn;
+            SettingsManager.UpdateLockScreen = toggle.IsOn;
         }
     }
 }

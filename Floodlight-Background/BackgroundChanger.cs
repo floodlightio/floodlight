@@ -11,10 +11,10 @@ namespace Floodlight.Background
         public async void Run(IBackgroundTaskInstance taskInstance)
         {
             var deferral = taskInstance.GetDeferral();
-            var cachedBackgrounds = SettingsHelper.GetBackgroundCache();
+            var cachedBackgrounds = SettingsManager.GetBackgroundCache();
             var bgIndex = new Random().Next(cachedBackgrounds.Count - 1);
             var background = cachedBackgrounds.Values.ElementAt(bgIndex);
-            var backgroundFile = await FileHelper.GetBackgroundFromLocalFolder(background);
+            var backgroundFile = await FileManager.GetBackgroundFromLocalFolder(background);
 
             await UserProfilePersonalizationSettings.Current.TrySetLockScreenImageAsync(backgroundFile);
             await UserProfilePersonalizationSettings.Current.TrySetWallpaperImageAsync(backgroundFile);
