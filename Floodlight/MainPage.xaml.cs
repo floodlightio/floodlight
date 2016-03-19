@@ -4,10 +4,9 @@ using System.Linq;
 using Windows.ApplicationModel.Background;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using BGChanger.Client;
-using BGChanger.Client.BackgroundTasks;
+using Floodlight.Client;
 
-namespace BGChanger
+namespace Floodlight
 {
     public sealed partial class MainPage
     {
@@ -34,7 +33,7 @@ namespace BGChanger
             var changerBuilder = new BackgroundTaskBuilder
             {
                 Name = changerTaskName,
-                TaskEntryPoint = "BGChanger.Client.BackgroundTasks.BackgroundChanger"
+                TaskEntryPoint = "Floodlight.Background.BackgroundChanger"
             };
 
             changerBuilder.SetTrigger(new TimeTrigger(30, false));
@@ -44,7 +43,7 @@ namespace BGChanger
             var updaterBuilder = new BackgroundTaskBuilder
             {
                 Name = updaterTaskName,
-                TaskEntryPoint = "BGChanger.Client.BackgroundTasks.BackgroundDownloader"
+                TaskEntryPoint = "Floodlight.Background.BackgroundDownloader"
             };
 
             updaterBuilder.SetTrigger(new TimeTrigger(15, false));

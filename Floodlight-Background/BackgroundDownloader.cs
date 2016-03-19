@@ -1,6 +1,7 @@
 ﻿using Windows.ApplicationModel.Background;
+using Floodlight.Client;
 
-namespace BGChanger.Client.BackgroundTasks
+namespace Floodlight.Background
 {
     public sealed class BackgroundDownloader : IBackgroundTask
     {

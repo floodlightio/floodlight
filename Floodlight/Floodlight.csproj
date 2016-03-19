@@ -7,8 +7,8 @@
     <ProjectGuid>{B1B563F1-C3D1-4DF4-A717-D269BB2DF1F6}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BGChanger</RootNamespace>
-    <AssemblyName>BGChanger</AssemblyName>
+    <RootNamespace>Floodlight</RootNamespace>
+    <AssemblyName>Floodlight</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.10586.0</TargetPlatformVersion>
@@ -16,7 +16,7 @@
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <PackageCertificateKeyFile>BGChanger_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>Floodlight_TemporaryKey.pfx</PackageCertificateKeyFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
@@ -108,7 +108,7 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <None Include="BGChanger_TemporaryKey.pfx" />
+    <None Include="Floodlight_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\Default.rd.xml" />
@@ -131,13 +131,13 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BGChanger-Background\BGChanger-Background.csproj">
+    <ProjectReference Include="..\Floodlight-Background\Floodlight Background.csproj">
       <Project>{0974f3e1-79c6-41f9-939c-d7d3db42e801}</Project>
-      <Name>BGChanger-Background</Name>
+      <Name>Floodlight Background</Name>
     </ProjectReference>
-    <ProjectReference Include="..\BGChanger-Client\BGChanger-Client.csproj">
+    <ProjectReference Include="..\Floodlight-Client\Floodlight Client.csproj">
       <Project>{6bebf846-cd1a-4b3e-bcb9-2b1681a1cb5e}</Project>
-      <Name>BGChanger-Client</Name>
+      <Name>Floodlight Client</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

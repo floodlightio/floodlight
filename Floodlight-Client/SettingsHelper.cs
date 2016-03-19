@@ -4,9 +4,9 @@ using System.Globalization;
 using System.Linq;
 using Windows.Data.Json;
 using Windows.Storage;
-using BGChanger.Client.Models;
+using Floodlight.Client.Models;
 
-namespace BGChanger.Client
+namespace Floodlight.Client
 {
     public static class SettingsHelper
     {
@@ -23,7 +23,7 @@ namespace BGChanger.Client
                 }
 
                 // For testing purposes only
-                LocalSettings.Values["URL"] = "http://bgchanger-dev.azurewebsites.net/";
+                LocalSettings.Values["URL"] = "http://Floodlight-dev.azurewebsites.net/";
 
                 return LocalSettings.Values["URL"].ToString();
             }

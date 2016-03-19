@@ -3,9 +3,9 @@ using System.IO;
 using System.Threading.Tasks;
 using Windows.Storage;
 using Windows.Storage.Streams;
-using BGChanger.Client.Models;
+using Floodlight.Client.Models;
 
-namespace BGChanger.Client
+namespace Floodlight.Client
 {
     public static class FileHelper
     {

@@ -5,9 +5,9 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Windows.Data.Json;
-using BGChanger.Client.Models;
+using Floodlight.Client.Models;
 
-namespace BGChanger.Client
+namespace Floodlight.Client
 {
     public static class ServiceClient
     {

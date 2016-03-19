@@ -2,8 +2,9 @@
 using System.Linq;
 using Windows.ApplicationModel.Background;
 using Windows.System.UserProfile;
+using Floodlight.Client;
 
-namespace BGChanger.Client.BackgroundTasks
+namespace Floodlight.Background
 {
     public sealed class BackgroundChanger : IBackgroundTask
     {

@@ -1,4 +1,4 @@
-﻿namespace BGChanger.Client.Models
+﻿namespace Floodlight.Client.Models
 {
     public class Background
     {

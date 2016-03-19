@@ -3,7 +3,7 @@
   <Identity Name="0fc025b0-a5c0-4a6c-bd15-347db335f0f0" Publisher="CN=vlad" Version="1.0.0.0" />
   <mp:PhoneIdentity PhoneProductId="0fc025b0-a5c0-4a6c-bd15-347db335f0f0" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>BGChanger</DisplayName>
+    <DisplayName>Floodlight</DisplayName>
     <PublisherDisplayName>vlad</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -14,20 +14,20 @@
     <Resource Language="x-generate" />
   </Resources>
   <Applications>
-    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="BGChanger.App">
-      <uap:VisualElements DisplayName="BGChanger" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="BGChanger" BackgroundColor="transparent">
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Floodlight.App">
+      <uap:VisualElements DisplayName="Floodlight" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Floodlight" BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png">
         </uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
       <Extensions>
-        <Extension Category="windows.backgroundTasks" EntryPoint="BGChanger.Client.BackgroundTasks.BackgroundDownloader">
+        <Extension Category="windows.backgroundTasks" EntryPoint="Floodlight.Background.BackgroundChanger">
           <BackgroundTasks>
             <Task Type="systemEvent" />
             <Task Type="timer" />
           </BackgroundTasks>
         </Extension>
-        <Extension Category="windows.backgroundTasks" EntryPoint="BGChanger.Client.BackgroundTasks.BackgroundChanger">
+        <Extension Category="windows.backgroundTasks" EntryPoint="Floodlight.Background.BackgroundDownloader">
           <BackgroundTasks>
             <Task Type="systemEvent" />
             <Task Type="timer" />
