@@ -1,11 +1,5 @@
-﻿using System;
-using System.Globalization;
-using Windows.ApplicationModel.Core;
-using Windows.UI.Core;
-using Windows.UI.ViewManagement;
+﻿using Windows.UI.Core;
 using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
-using Floodlight.Client;
 using Floodlight.Client.Common;
 using Floodlight.Client.Managers;
 using HockeyApp;
@@ -30,7 +24,7 @@ namespace Floodlight
 
         private void Change_OnClick(object sender, RoutedEventArgs e)
         {
-            BackgroundChanger.Execute();
+            Changer.Execute();
         }
 
         private void Settings_OnClick(object sender, RoutedEventArgs e)

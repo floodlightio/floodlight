@@ -7,7 +7,7 @@ using Floodlight.Client.Models;
 
 namespace Floodlight.Client.Common
 {
-    public static class BackgroundChanger
+    public static class Changer
     {
         public static void Execute()
         {

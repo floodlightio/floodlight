@@ -2,7 +2,6 @@
 using Windows.UI.Core;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Floodlight.Client;
 using Floodlight.Client.Managers;
 
 namespace Floodlight

@@ -1,6 +1,4 @@
 ﻿using Windows.ApplicationModel.Background;
-using Floodlight.Client;
-using Floodlight.Client.Common;
 
 namespace Floodlight.Background
 {
@@ -9,7 +7,7 @@ namespace Floodlight.Background
         public void Run(IBackgroundTaskInstance taskInstance)
         {
             var deferral = taskInstance.GetDeferral();
-            Client.Common.BackgroundChanger.Execute();
+            Client.Common.Changer.Execute();
             deferral.Complete();
         }
     }
