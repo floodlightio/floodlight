@@ -28,10 +28,12 @@ namespace Floodlight.Client
                     }
 
                     // TODO: For Testing Purposes Only, Remove
-                    LocalSettings.Values["URL"] = "http://bgchanger-dev.azurewebsites.net/";
+                    LocalSettings.Values["URL"] = "http://dev.floodlight.io/";
 
                     return LocalSettings.Values["URL"].ToString();
                 }
+
+                set { LocalSettings.Values["URL"] = value; }
             }
 
             public static string UserId
@@ -52,6 +54,8 @@ namespace Floodlight.Client
 
                     return LocalSettings.Values["UserId"].ToString();
                 }
+
+                set { LocalSettings.Values["UserId"] = value; }
             }
 
             public static bool UpdateWallpaper
