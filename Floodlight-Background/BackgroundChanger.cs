@@ -11,7 +11,7 @@ namespace Floodlight.Background
         public async void Run(IBackgroundTaskInstance taskInstance)
         {
             var deferral = taskInstance.GetDeferral();
-            var cachedBackgrounds = SettingsManager.GetBackgroundCache();
+            var cachedBackgrounds = SettingsManager.Internal.GetBackgroundCache();
             var bgIndex = new Random().Next(cachedBackgrounds.Count - 1);
             var background = cachedBackgrounds.Values.ElementAt(bgIndex);
             var backgroundFile = await FileManager.GetBackgroundFromLocalFolder(background);

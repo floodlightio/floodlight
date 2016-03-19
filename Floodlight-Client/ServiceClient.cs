@@ -18,8 +18,8 @@ namespace Floodlight.Client
 
         public static async Task<List<Background>> GetUserBackgrounds(bool onlyNew = true)
         {
-            var url = SettingsManager.ServerAddress +
-                      string.Format(SettingsManager.UserBackgroundsEndpoint, SettingsManager.UserId);
+            var url = SettingsManager.UserDefined.ServerAddress +
+                      string.Format(SettingsManager.UserBackgroundsEndpoint, SettingsManager.UserDefined.UserId);
 
             using (var client = new HttpClient())
             {
@@ -32,7 +32,7 @@ namespace Floodlight.Client
                             .Select(o => DeserializeBackground(o.GetObject()))
                             .ToList();
 
-                    var addedBackgrounds = SettingsManager.AddToBackgroundCache(backgrounds);
+                    var addedBackgrounds = SettingsManager.Internal.AddToBackgroundCache(backgrounds);
 
                     return onlyNew ? addedBackgrounds : backgrounds;
                 }
@@ -41,7 +41,7 @@ namespace Floodlight.Client
 
         public static async Task<Background> GetBackgroundDetails(string backgroundId)
         {
-            var url = SettingsManager.ServerAddress +
+            var url = SettingsManager.UserDefined.ServerAddress +
                       string.Format(SettingsManager.BackgroundDetailsEndpoint, backgroundId);
 
             using (var client = new HttpClient())
@@ -60,7 +60,7 @@ namespace Floodlight.Client
 
         public static async Task<Stream> GetBackgroundImageStream(string backgroundId)
         {
-            var url = SettingsManager.ServerAddress +
+            var url = SettingsManager.UserDefined.ServerAddress +
                       string.Format(SettingsManager.BackgroundImageEndpoint, backgroundId);
             var client = new HttpClient();
             var response = await client.GetAsync(url);
@@ -98,7 +98,7 @@ namespace Floodlight.Client
             (await ServiceClient.GetUserBackgrounds()).ForEach(async background =>
             {
                 FileManager.SaveBackgroundToLocalFolder(background, await ServiceClient.GetBackgroundImageStream(background.Id));
-                SettingsManager.LastUpdatedDate = DateTime.UtcNow;
+                SettingsManager.Internal.LastUpdatedDate = DateTime.UtcNow;
             });
         }
     }
