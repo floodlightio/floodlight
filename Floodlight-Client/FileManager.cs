@@ -14,7 +14,7 @@ namespace Floodlight.Client
             var fileName = GetFileNameFromBackground(bg);
             var file = await SettingsManager.LocalFolder.CreateFileAsync(fileName, CreationCollisionOption.ReplaceExisting);
 
-            using (IRandomAccessStream stream = await file.OpenAsync(FileAccessMode.ReadWrite))
+            using (var stream = await file.OpenAsync(FileAccessMode.ReadWrite))
             {
                 await imageStream.CopyToAsync(stream.AsStreamForWrite());
                 imageStream.Dispose();
@@ -26,7 +26,7 @@ namespace Floodlight.Client
             return await SettingsManager.LocalFolder.GetFileAsync(GetFileNameFromBackground(bg));
         }
 
-        public static string ConvertContentTypeToExtension(string contentType)
+        private static string ConvertContentTypeToExtension(string contentType)
         {
             if (contentType.Equals("image/jpeg", StringComparison.OrdinalIgnoreCase))
             {

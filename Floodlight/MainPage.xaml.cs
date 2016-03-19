@@ -13,43 +13,9 @@ namespace Floodlight
         public MainPage()
         {
             InitializeComponent();
-            InitializeBackgroundTasks();
-            UpdateValues();
+            BackgroundManager.RegisterAllTasks();
             CommonUpdater.GetAndSaveImages();
-        }
-
-        private async void InitializeBackgroundTasks()
-        {
-            const string changerTaskName = "Floodlight Background Changer";
-            const string updaterTaskName = "Floodlight Background Downloader";
-
-            await BackgroundExecutionManager.RequestAccessAsync();
-
-            foreach (var task in BackgroundTaskRegistration.AllTasks)
-            {
-                task.Value.Unregister(true);
-            }
-
-            var changerBuilder = new BackgroundTaskBuilder
-            {
-                Name = changerTaskName,
-                TaskEntryPoint = "Floodlight.Background.BackgroundChanger"
-            };
-
-            changerBuilder.SetTrigger(new TimeTrigger(30, false));
-            changerBuilder.SetTrigger(new MaintenanceTrigger(30, false));
-            changerBuilder.Register();
-            
-            var updaterBuilder = new BackgroundTaskBuilder
-            {
-                Name = updaterTaskName,
-                TaskEntryPoint = "Floodlight.Background.BackgroundDownloader"
-            };
-
-            updaterBuilder.SetTrigger(new TimeTrigger(15, false));
-            updaterBuilder.SetTrigger(new MaintenanceTrigger(15, false));
-            updaterBuilder.Register();
-            
+            UpdateValues();
         }
 
         private void UpdateValues()
