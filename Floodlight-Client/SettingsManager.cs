@@ -156,16 +156,20 @@ namespace Floodlight.Client
         /**
          * UWP Settings Containers
          */
+        #region UWP Settings
         public static readonly ApplicationDataContainer LocalSettings = ApplicationData.Current.LocalSettings;
         public static readonly StorageFolder LocalFolder = ApplicationData.Current.LocalFolder;
+        #endregion
 
         /**
          * Service API Endpoints
          */
+        #region API Endpoints
         public const string ApiEndpoint = "api/{0}";
         public static string UserDetailsEndpoint = string.Format(ApiEndpoint, "user/{0}");
         public static readonly string UserBackgroundsEndpoint = string.Format(ApiEndpoint, "user/{0}/backgrounds");
         public static readonly string BackgroundDetailsEndpoint = string.Format(ApiEndpoint, "background/{0}");
         public static readonly string BackgroundImageEndpoint = string.Format(ApiEndpoint, "background/{0}/image");
+        #endregion
     }
 }
