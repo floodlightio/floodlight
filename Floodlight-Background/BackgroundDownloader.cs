@@ -8,7 +8,7 @@ namespace Floodlight.Background
         public void Run(IBackgroundTaskInstance taskInstance)
         {
             var deferral = taskInstance.GetDeferral();
-            CommonUpdater.GetAndSaveImages();
+            CommonChanger.Execute();
             deferral.Complete();
         }
     }

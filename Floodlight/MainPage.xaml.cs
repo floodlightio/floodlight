@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Globalization;
-using System.Linq;
-using Windows.ApplicationModel.Background;
+using Windows.ApplicationModel.Core;
+using Windows.UI.Core;
+using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Floodlight.Client;
@@ -14,38 +15,22 @@ namespace Floodlight
         {
             InitializeComponent();
             BackgroundManager.RegisterAllTasks();
-            CommonUpdater.GetAndSaveImages();
-            UpdateValues();
+            CommonDownloader.Execute();
         }
 
-        private void UpdateValues()
+        private void Download_OnClick(object sender, RoutedEventArgs e)
         {
-            ServerUrl.Text = SettingsManager.UserDefined.ServerAddress;
-            ApiKey.Text = SettingsManager.UserDefined.UserId;
-            LastUpdatedDate.Text = SettingsManager.Internal.LastUpdatedDate.ToString(CultureInfo.InvariantCulture);
-
-            UpdateWallpaper.IsOn = SettingsManager.UserDefined.UpdateWallpaper;
-            UpdateLockScreen.IsOn = SettingsManager.UserDefined.UpdateLockScreen;
+            CommonDownloader.Execute();
         }
 
-        /**
-         * Event Handlers
-         */
-        private void HamburgerButton_Click(object sender, RoutedEventArgs e)
+        private void Change_OnClick(object sender, RoutedEventArgs e)
         {
-            MainContent.IsPaneOpen = !MainContent.IsPaneOpen;
+            CommonChanger.Execute();
         }
 
-        private void UpdateWallpaper_OnToggled(object sender, RoutedEventArgs e)
+        private void Settings_OnClick(object sender, RoutedEventArgs e)
         {
-            var toggle = (ToggleSwitch)sender;
-            SettingsManager.UserDefined.UpdateWallpaper = toggle.IsOn;
-        }
-
-        private void UpdateLockScreen_OnToggled(object sender, RoutedEventArgs e)
-        {
-            var toggle = (ToggleSwitch)sender;
-            SettingsManager.UserDefined.UpdateLockScreen = toggle.IsOn;
+            Frame.Navigate(typeof(Settings));
         }
     }
 }

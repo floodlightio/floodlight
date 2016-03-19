@@ -108,6 +108,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BackgroundManager.cs" />
+    <Compile Include="CommonChanger.cs" />
+    <Compile Include="CommonDownloader.cs" />
     <Compile Include="FileManager.cs" />
     <Compile Include="Models\Background.cs" />
     <Compile Include="Models\User.cs" />

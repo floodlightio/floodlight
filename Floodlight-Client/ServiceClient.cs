@@ -91,17 +91,5 @@ namespace Floodlight.Client
         }
     }
 
-    public static class CommonUpdater
-    {
-        public static async void GetAndSaveImages()
-        {
-            (await ServiceClient.GetUserBackgrounds()).ForEach(async background =>
-            {
-                FileManager.SaveBackgroundToLocalFolder(background, await ServiceClient.GetBackgroundImageStream(background.Id));
-                SettingsManager.Internal.LastUpdatedDate = DateTime.UtcNow;
-            });
-        }
-    }
-
     public class UnknownContentTypeException : Exception { }
 }

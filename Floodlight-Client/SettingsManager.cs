@@ -90,21 +90,25 @@ namespace Floodlight.Client
          */
         public static class Internal
         {
+            public static DateTime LastRetrievedDate
+            {
+                get
+                {
+                    return !LocalSettings.Values.ContainsKey("LastRetrievedDate") ? DateTime.MinValue : DateTime.Parse((string) LocalSettings.Values["LastRetrievedDate"]);
+                }
+
+                set { LocalSettings.Values["LastRetrievedDate"] = value.ToString(CultureInfo.InvariantCulture); }
+            }
+
             public static DateTime LastUpdatedDate
             {
                 get
                 {
-                    if (!LocalSettings.Values.ContainsKey("LastUpdatedDate"))
-                    {
-                        LocalSettings.Values["LastUpdatedDate"] = DateTime.UtcNow.ToString(CultureInfo.InvariantCulture);
-                    }
-
-                    return DateTime.Parse((string) LocalSettings.Values["LastUpdatedDate"]);
+                    return !LocalSettings.Values.ContainsKey("LastUpdatedDate") ? DateTime.MinValue : DateTime.Parse((string)LocalSettings.Values["LastUpdatedDate"]);
                 }
 
                 set { LocalSettings.Values["LastUpdatedDate"] = value.ToString(CultureInfo.InvariantCulture); }
             }
-
 
             public static Dictionary<string, Background> GetBackgroundCache()
             {

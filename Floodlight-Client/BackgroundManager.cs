@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Windows.ApplicationModel.Background;
 
 namespace Floodlight.Client
@@ -11,8 +8,8 @@ namespace Floodlight.Client
     {
         private const string ChangerTaskName = "Floodlight Background Changer";
         private const string ChangerTaskEntry = "Floodlight.Background.BackgroundChanger";
-        private const string UpdaterTaskName = "Floodlight Background Downloader";
-        private const string UpdaterTaskEntry = "Floodlight.Background.BackgroundDownloader";
+        private const string DownloaderTaskName = "Floodlight Background Downloader";
+        private const string DownloaderTaskEntry = "Floodlight.Background.BackgroundDownloader";
 
         public static async void RegisterAllTasks()
         {
@@ -20,11 +17,11 @@ namespace Floodlight.Client
 
             // Remove old tasks
             UnregisterTask(ChangerTaskName);
-            UnregisterTask(UpdaterTaskName);
+            UnregisterTask(DownloaderTaskName);
 
             // Add new tasks
             RegisterTask(ChangerTaskName, ChangerTaskEntry, 30);
-            RegisterTask(UpdaterTaskName, UpdaterTaskEntry, 15);
+            RegisterTask(DownloaderTaskName, DownloaderTaskEntry, 15);
         }
 
         private static IBackgroundTaskRegistration GetTask(string taskName)

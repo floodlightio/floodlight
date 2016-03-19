@@ -7,73 +7,26 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <SplitView x:Name="MainContent" DisplayMode="CompactOverlay"  IsPaneOpen="False" 
-               CompactPaneLength="50" OpenPaneLength="400">
-        <SplitView.Pane>
-            <StackPanel Background="#16171C" VerticalAlignment="Stretch" Height="Auto">
-                <Button x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE713;"
-                    Width="50" Height="50" Background="Transparent" Click="HamburgerButton_Click"/>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
 
-                <StackPanel Orientation="Vertical">
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE753;"
-                        Width="50" Height="50" Padding="18" />
-                        <TextBlock x:Uid="ServerAddressInfoSection" Text="" FontWeight="SemiBold" FontSize="18" VerticalAlignment="Center" />
+        <GridView Grid.Row="0" x:Name="ImagesAvailable">
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Padding="10">
+                        <Image Source="{Binding image.location}" Width="{Binding image.width}" Height="{Binding image.height}"></Image>
                     </StackPanel>
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="150"></ColumnDefinition>
-                            <ColumnDefinition Width="*"></ColumnDefinition>
-                        </Grid.ColumnDefinitions>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="*"></RowDefinition>
-                            <RowDefinition Height="*"></RowDefinition>
-                            <RowDefinition Height="*"></RowDefinition>
-                        </Grid.RowDefinitions>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
 
-                        <TextBlock Grid.Row="0" Grid.Column="0" Text="ServerAddress URL" FontWeight="SemiBold" Margin="50,0,0,0" />
-                        <TextBlock Grid.Row="0" Grid.Column="1" Name="ServerUrl" />
-                        <TextBlock Grid.Row="1" Grid.Column="0" Text="API Key" FontWeight="SemiBold" Margin="50,0,0,0" />
-                        <TextBlock Grid.Row="1" Grid.Column="1" Name="ApiKey" />
-                        <TextBlock Grid.Row="2" Grid.Column="0" Text="Last Updated" FontWeight="SemiBold" Margin="50,0,0,0" />
-                        <TextBlock Grid.Row="2" Grid.Column="1" Name="LastUpdatedDate" />
-                    </Grid>
-                </StackPanel>
-
-                <StackPanel Orientation="Vertical">
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE722;"
-                        Width="50" Height="50" Padding="18" />
-                        <TextBlock x:Uid="PhotoSettingsSection" Text="" FontWeight="SemiBold" FontSize="18" VerticalAlignment="Center" />
-                    </StackPanel>
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="300"></ColumnDefinition>
-                            <ColumnDefinition Width="*"></ColumnDefinition>
-                        </Grid.ColumnDefinitions>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="*"></RowDefinition>
-                            <RowDefinition Height="*"></RowDefinition>
-                        </Grid.RowDefinitions>
-
-                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Update Wallpaper?" Padding="0,10,0,0" Margin="50,0,0,0" Grid.ColumnSpan="2" />
-                        <ToggleSwitch Grid.Row="0" Grid.Column="1" Name="UpdateWallpaper" Toggled="UpdateWallpaper_OnToggled" />
-                        <TextBlock Grid.Row="1" Grid.Column="0" Text="Update Lock Screen?" Padding="0,10,0,0" Margin="50,0,0,0" Grid.ColumnSpan="2" />
-                        <ToggleSwitch Grid.Row="1" Grid.Column="1" Name="UpdateLockScreen" Toggled="UpdateLockScreen_OnToggled" />
-                    </Grid>
-                </StackPanel>
-            </StackPanel>
-        </SplitView.Pane>
-        <SplitView.Content>
-            <GridView x:Name="ImagesAvailable">
-                <GridView.ItemTemplate>
-                    <DataTemplate>
-                        <StackPanel Padding="10">
-                            <Image Source="{Binding image.location}" Width="{Binding image.width}" Height="{Binding image.height}"></Image>
-                        </StackPanel>
-                    </DataTemplate>
-                </GridView.ItemTemplate>
-            </GridView>
-        </SplitView.Content>
-    </SplitView>
+        <CommandBar Grid.Row="1">
+            <AppBarButton Name="Download" Icon="Download" Label="Update Images" Click="Download_OnClick" />
+            <AppBarButton Name="Change" Icon="Sync" Label="Change Background" Click="Change_OnClick" />
+            <AppBarButton Name="Settings" Icon="Setting" Label="Settings" Click="Settings_OnClick" />
+        </CommandBar>
+    </Grid>
 </Page>
