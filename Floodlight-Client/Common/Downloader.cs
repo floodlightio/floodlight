@@ -1,8 +1,9 @@
 ﻿using System;
+using Floodlight.Client.Managers;
 
-namespace Floodlight.Client
+namespace Floodlight.Client.Common
 {
-    public static class CommonDownloader
+    public static class Downloader
     {
         public static async void Execute()
         {

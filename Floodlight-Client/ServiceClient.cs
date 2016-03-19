@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Windows.Data.Json;
+using Floodlight.Client.Managers;
 using Floodlight.Client.Models;
 
 namespace Floodlight.Client

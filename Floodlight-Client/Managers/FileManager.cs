@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Windows.Storage;
 using Floodlight.Client.Models;
 
-namespace Floodlight.Client
+namespace Floodlight.Client.Managers
 {
     public static class FileManager
     {

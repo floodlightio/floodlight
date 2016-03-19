@@ -8,7 +8,7 @@ using Windows.Data.Json;
 using Windows.Storage;
 using Floodlight.Client.Models;
 
-namespace Floodlight.Client
+namespace Floodlight.Client.Managers
 {
     public static class SettingsManager
     {

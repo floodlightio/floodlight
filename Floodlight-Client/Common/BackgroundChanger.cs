@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using Windows.System.UserProfile;
+using Floodlight.Client.Managers;
 using Floodlight.Client.Models;
 
-namespace Floodlight.Client
+namespace Floodlight.Client.Common
 {
-    public static class CommonChanger
+    public static class BackgroundChanger
     {
         public static void Execute()
         {

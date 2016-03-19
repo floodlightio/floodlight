@@ -2,7 +2,7 @@
 using System.Linq;
 using Windows.ApplicationModel.Background;
 
-namespace Floodlight.Client
+namespace Floodlight.Client.Managers
 {
     public static class BackgroundManager
     {
@@ -44,12 +44,7 @@ namespace Floodlight.Client
 
         private static void UnregisterTask(string taskName)
         {
-            var task = GetTask(taskName);
-
-            if (task != null)
-            {
-                BackgroundTaskRegistration.AllTasks.First(pair => pair.Value.Name == taskName).Value.Unregister(true);
-            }
+            GetTask(taskName)?.Unregister(true);
         }
     }
 }

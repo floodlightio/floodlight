@@ -6,6 +6,8 @@ using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Floodlight.Client;
+using Floodlight.Client.Common;
+using Floodlight.Client.Managers;
 using HockeyApp;
 
 namespace Floodlight
@@ -18,17 +20,17 @@ namespace Floodlight
             SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Collapsed;
 
             BackgroundManager.RegisterAllTasks();
-            CommonDownloader.Execute();
+            Downloader.Execute();
         }
 
         private void Download_OnClick(object sender, RoutedEventArgs e)
         {
-            CommonDownloader.Execute();
+            Downloader.Execute();
         }
 
         private void Change_OnClick(object sender, RoutedEventArgs e)
         {
-            CommonChanger.Execute();
+            BackgroundChanger.Execute();
         }
 
         private void Settings_OnClick(object sender, RoutedEventArgs e)
