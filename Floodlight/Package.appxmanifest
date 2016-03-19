@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="0fc025b0-a5c0-4a6c-bd15-347db335f0f0" Publisher="CN=vlad" Version="1.0.0.0" />
+  <Identity Name="Floodlight" Publisher="CN=Vlad Andrei Zaharia, O=Vlad Andrei Zaharia, L=Seattle, S=WA, C=US" Version="1.0.0.0" />
   <mp:PhoneIdentity PhoneProductId="0fc025b0-a5c0-4a6c-bd15-347db335f0f0" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Floodlight</DisplayName>
-    <PublisherDisplayName>vlad</PublisherDisplayName>
+    <PublisherDisplayName>Vlad Zaharia</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
-    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
   </Dependencies>
   <Resources>
     <Resource Language="x-generate" />
@@ -26,13 +26,13 @@
         <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#102857" />
       </uap:VisualElements>
       <Extensions>
-        <Extension Category="windows.backgroundTasks" EntryPoint="Floodlight.Background.BackgroundChanger">
+        <Extension Category="windows.backgroundTasks" EntryPoint="Floodlight.Background.BackgroundDownloader">
           <BackgroundTasks>
             <Task Type="systemEvent" />
             <Task Type="timer" />
           </BackgroundTasks>
         </Extension>
-        <Extension Category="windows.backgroundTasks" EntryPoint="Floodlight.Background.BackgroundDownloader">
+        <Extension Category="windows.backgroundTasks" EntryPoint="Floodlight.Background.BackgroundChanger">
           <BackgroundTasks>
             <Task Type="systemEvent" />
             <Task Type="timer" />
