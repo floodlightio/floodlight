@@ -6,6 +6,7 @@ using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Floodlight.Client;
+using HockeyApp;
 
 namespace Floodlight
 {
@@ -33,6 +34,11 @@ namespace Floodlight
         private void Settings_OnClick(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(Settings));
+        }
+
+        private void Feedback_OnClick_OnClick(object sender, RoutedEventArgs e)
+        {
+            HockeyClient.Current.ShowFeedback();
         }
     }
 }

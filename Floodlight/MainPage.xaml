@@ -28,6 +28,7 @@
             <AppBarButton Name="Change" Icon="Sync" Label="Change Background" Click="Change_OnClick" />
             <AppBarSeparator/>
             <AppBarButton Name="Settings" Icon="Setting" Label="Settings" Click="Settings_OnClick" />
+            <AppBarButton Name="Feedback" Icon="LikeDislike" Label="Feedback" Click="Feedback_OnClick_OnClick" />
         </CommandBar>
     </Grid>
 </Page>

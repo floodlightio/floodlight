@@ -4,6 +4,7 @@ using Windows.ApplicationModel.Activation;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
+using HockeyApp;
 
 namespace Floodlight
 {
@@ -18,9 +19,12 @@ namespace Floodlight
         /// </summary>
         public App()
         {
+            // Telemetry
+            HockeyClient.Current.Configure("ad1f37a8bc9f41a182adaf006191b398");
             Microsoft.ApplicationInsights.WindowsAppInitializer.InitializeAsync(
                 Microsoft.ApplicationInsights.WindowsCollectors.Metadata |
                 Microsoft.ApplicationInsights.WindowsCollectors.Session);
+
             this.InitializeComponent();
             this.Suspending += OnSuspending;
         }
@@ -30,7 +34,7 @@ namespace Floodlight
         /// will be used such as when the application is launched to open a specific file.
         /// </summary>
         /// <param name="e">Details about the launch request and process.</param>
-        protected override void OnLaunched(LaunchActivatedEventArgs e)
+        protected override async void OnLaunched(LaunchActivatedEventArgs e)
         {
 
 #if DEBUG
@@ -69,6 +73,8 @@ namespace Floodlight
             }
             // Ensure the current window is active
             Window.Current.Activate();
+
+            await HockeyClient.Current.SendCrashesAsync(true);
         }
 
         /// <summary>
