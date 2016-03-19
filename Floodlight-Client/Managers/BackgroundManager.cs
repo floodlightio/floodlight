@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Threading.Tasks;
 using Windows.ApplicationModel.Background;
 
 namespace Floodlight.Client.Managers
@@ -11,7 +12,7 @@ namespace Floodlight.Client.Managers
         private const string DownloaderTaskName = "Floodlight Background Downloader";
         private const string DownloaderTaskEntry = "Floodlight.Background.BackgroundDownloader";
 
-        public static async void RegisterAllTasks()
+        public static async Task RegisterAllTasks()
         {
             await BackgroundExecutionManager.RequestAccessAsync();
 

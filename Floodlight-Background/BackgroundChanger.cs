@@ -5,10 +5,10 @@ namespace Floodlight.Background
 {
     public sealed class BackgroundChanger : IBackgroundTask
     {
-        public void Run(IBackgroundTaskInstance taskInstance)
+        public async void Run(IBackgroundTaskInstance taskInstance)
         {
             var deferral = taskInstance.GetDeferral();
-            Changer.Execute();
+            await Changer.Execute();
             deferral.Complete();
         }
     }

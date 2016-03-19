@@ -1,13 +1,14 @@
 ﻿using Windows.ApplicationModel.Background;
+using Floodlight.Client.Common;
 
 namespace Floodlight.Background
 {
     public sealed class BackgroundDownloader : IBackgroundTask
     {
-        public void Run(IBackgroundTaskInstance taskInstance)
+        public async void Run(IBackgroundTaskInstance taskInstance)
         {
             var deferral = taskInstance.GetDeferral();
-            Client.Common.Changer.Execute();
+            await Downloader.Execute();
             deferral.Complete();
         }
     }

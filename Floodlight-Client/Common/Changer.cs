@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using Windows.System.UserProfile;
 using Floodlight.Client.Managers;
 using Floodlight.Client.Models;
@@ -9,7 +10,7 @@ namespace Floodlight.Client.Common
 {
     public static class Changer
     {
-        public static void Execute()
+        public static async Task Execute()
         {
             var backgroundCache = SettingsManager.Internal.GetBackgroundCache();
             Background wallpaperBackground;
@@ -30,12 +31,12 @@ namespace Floodlight.Client.Common
 
             if (SettingsManager.UserDefined.UpdateWallpaper)
             {
-                ChangeWallpaper(wallpaperBackground);
+                await ChangeWallpaper(wallpaperBackground);
             }
 
             if (SettingsManager.UserDefined.UpdateLockScreen)
             {
-                ChangeLockScreen(lockScreenBackground);
+                await ChangeLockScreen(lockScreenBackground);
             }
 
             SettingsManager.Internal.LastUpdatedDate = DateTime.Now;
@@ -47,7 +48,7 @@ namespace Floodlight.Client.Common
             return backgroundCache.Values.ElementAt(bgIndex);
         }
 
-        private static async void ChangeWallpaper(Background background)
+        private static async Task ChangeWallpaper(Background background)
         {
             var backgroundFile = await FileManager.GetBackgroundFromLocalFolder(background);
             await UserProfilePersonalizationSettings.Current.TrySetWallpaperImageAsync(backgroundFile);
@@ -55,7 +56,7 @@ namespace Floodlight.Client.Common
             SettingsManager.Internal.CurrentWallpaper = background;
         }
 
-        private static async void ChangeLockScreen(Background background)
+        private static async Task ChangeLockScreen(Background background)
         {
             
             var backgroundFile = await FileManager.GetBackgroundFromLocalFolder(background);

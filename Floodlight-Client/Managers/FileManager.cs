@@ -8,14 +8,14 @@ namespace Floodlight.Client.Managers
 {
     public static class FileManager
     {
-        public static async void SaveBackgroundToLocalFolder(Background bg, Stream imageStream)
+        public static async Task SaveBackgroundToLocalFolder(Background bg, Stream imageStream)
         {
             var fileName = GetFileNameFromBackground(bg);
             var file = await SettingsManager.LocalFolder.CreateFileAsync(fileName, CreationCollisionOption.ReplaceExisting);
 
             using (var stream = await file.OpenAsync(FileAccessMode.ReadWrite))
             {
-                await imageStream.CopyToAsync(stream.AsStreamForWrite());
+                var task = imageStream.CopyToAsync(stream.AsStreamForWrite());
                 imageStream.Dispose();
             }
         }
