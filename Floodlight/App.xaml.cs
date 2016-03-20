@@ -4,7 +4,9 @@ using Windows.ApplicationModel.Activation;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
+using Floodlight.Client.Managers;
 using HockeyApp;
+using Microsoft.ApplicationInsights;
 
 namespace Floodlight
 {
@@ -20,13 +22,9 @@ namespace Floodlight
         public App()
         {
             // Telemetry
-            HockeyClient.Current.Configure("ad1f37a8bc9f41a182adaf006191b398");
-            Microsoft.ApplicationInsights.WindowsAppInitializer.InitializeAsync(
-                Microsoft.ApplicationInsights.WindowsCollectors.Metadata |
-                Microsoft.ApplicationInsights.WindowsCollectors.Session);
-
-            this.InitializeComponent();
-            this.Suspending += OnSuspending;
+            TelemetryManager.InitializeAppTelemetry();
+            InitializeComponent();
+            Suspending += OnSuspending;
         }
 
         /// <summary>
@@ -40,7 +38,7 @@ namespace Floodlight
 #if DEBUG
             if (System.Diagnostics.Debugger.IsAttached)
             {
-                this.DebugSettings.EnableFrameRateCounter = true;
+                DebugSettings.EnableFrameRateCounter = true;
             }
 #endif
 

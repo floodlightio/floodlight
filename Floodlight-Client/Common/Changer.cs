@@ -27,15 +27,18 @@ namespace Floodlight.Client.Common
                 wallpaperBackground = GetRandomBackground(backgroundCache);
                 lockScreenBackground = GetRandomBackground(backgroundCache);
             }
-            
 
             if (SettingsManager.UserDefined.UpdateWallpaper)
             {
+                TelemetryManager.TrackEvent("Updating Wallpaper...", 
+                    new Dictionary<string, string>() { { "backgroundId", wallpaperBackground.Id } });
                 await ChangeWallpaper(wallpaperBackground);
             }
 
             if (SettingsManager.UserDefined.UpdateLockScreen)
             {
+                TelemetryManager.TrackEvent("Updating Lock Screen...",
+                    new Dictionary<string, string>() { { "backgroundId", wallpaperBackground.Id } });
                 await ChangeLockScreen(lockScreenBackground);
             }
 

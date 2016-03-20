@@ -16,11 +16,6 @@ namespace Floodlight.Client.Managers
         {
             await BackgroundExecutionManager.RequestAccessAsync();
 
-            // Remove old tasks
-            UnregisterTask(ChangerTaskName);
-            UnregisterTask(DownloaderTaskName);
-
-            // Add new tasks
             RegisterTask(ChangerTaskName, ChangerTaskEntry, 30);
             RegisterTask(DownloaderTaskName, DownloaderTaskEntry, 15);
         }
@@ -32,15 +27,18 @@ namespace Floodlight.Client.Managers
 
         private static void RegisterTask(string taskName, string taskEntry, uint frequency)
         {
-            var taskBuilder = new BackgroundTaskBuilder
+            if (GetTask(taskName) == null)
             {
-                Name = taskName,
-                TaskEntryPoint = taskEntry
-            };
+                var taskBuilder = new BackgroundTaskBuilder
+                {
+                    Name = taskName,
+                    TaskEntryPoint = taskEntry
+                };
 
-            taskBuilder.SetTrigger(new TimeTrigger(frequency, false));
-            taskBuilder.SetTrigger(new MaintenanceTrigger(frequency, false));
-            taskBuilder.Register();
+                taskBuilder.SetTrigger(new TimeTrigger(frequency, false));
+                taskBuilder.SetTrigger(new MaintenanceTrigger(frequency, false));
+                taskBuilder.Register();
+            }
         }
 
         private static void UnregisterTask(string taskName)

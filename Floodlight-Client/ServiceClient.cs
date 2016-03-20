@@ -35,6 +35,13 @@ namespace Floodlight.Client
 
                     var addedBackgrounds = SettingsManager.Internal.AddToBackgroundCache(backgrounds);
 
+                    TelemetryManager.TrackEvent("Downloaded background metadata from server",
+                        new Dictionary<string, string>()
+                        {
+                            { "downloadedBackgrounds", backgrounds.Count().ToString() },
+                            { "addedBackgrounds", addedBackgrounds.Count().ToString() }
+                        });
+
                     return onlyNew ? addedBackgrounds : backgrounds;
                 }
             }

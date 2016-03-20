@@ -111,6 +111,7 @@
     <Compile Include="Common\Changer.cs" />
     <Compile Include="Common\Downloader.cs" />
     <Compile Include="Managers\FileManager.cs" />
+    <Compile Include="Managers\TelemetryManager.cs" />
     <Compile Include="Models\Background.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
