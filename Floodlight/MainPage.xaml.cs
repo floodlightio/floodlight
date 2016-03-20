@@ -83,8 +83,10 @@ namespace Floodlight
         /// </summary>
         private void AvailableImagesGrid_OnSelectionChanged(object sender, TappedRoutedEventArgs tappedRoutedEventArgs)
         {
+            if (!(tappedRoutedEventArgs.OriginalSource is Image)) return;
+
             var selectedImage = (GridImage)AvailableImagesGrid.SelectedItem;
-            if (SelectedImage == null)
+            if (SelectedImage == null || SelectedImage != selectedImage)
             {
                 CurrentSelectedImage.Source = new BitmapImage(new Uri(selectedImage.Path));
                 CurrentSelectedTitle.Text = selectedImage.Title;
@@ -97,6 +99,22 @@ namespace Floodlight
                 CurrentSelectedPanel.Visibility = Visibility.Collapsed;
                 SelectedImage = null;
             }
+        }
+
+        /// <summary>
+        /// Change wallpaper to currently selected image.
+        /// </summary>
+        private void CurrentWallpaper_OnClick(object sender, RoutedEventArgs e)
+        {
+            Changer.ChangeWallpaper(SelectedImage.Metadata);
+        }
+
+        /// <summary>
+        /// Change lock screen to currently selected image.
+        /// </summary>
+        private void CurrentLockScreen_OnClick(object sender, RoutedEventArgs e)
+        {
+            Changer.ChangeLockScreen(SelectedImage.Metadata);
         }
 
         /// <summary>
@@ -134,6 +152,7 @@ namespace Floodlight
 
     public class GridImage
     {
+        public Client.Models.Background Metadata;
         public string Path;
         public string Title;
 
@@ -141,7 +160,7 @@ namespace Floodlight
         {
             Path = FileManager.GetFullPathFromBackground(bg);
             Title = bg.Title;
-
+            Metadata = bg;
         }
     }
 }

@@ -17,14 +17,32 @@
         <GridView Grid.Row="0" ItemsSource="{x:Bind ImagesAvailable}" Name="AvailableImagesGrid" SelectionMode="Single"
                   SizeChanged="AvailableImagesGrid_OnSizeChanged" Tapped="AvailableImagesGrid_OnSelectionChanged">
             <GridView.Header>
-                <TextBlock Grid.Row="0" Style="{StaticResource SubheaderTextBlockStyle}" Text="Available Images" Margin="10,0,0,0"></TextBlock>
+                <TextBlock Grid.Row="0" Style="{StaticResource SubheaderTextBlockStyle}" Text="Available Images" Margin="10,0,0,0" />
             </GridView.Header>
             
             <GridView.Footer>
-                <StackPanel Name="CurrentSelectedPanel" Orientation="Horizontal" Height="200" Visibility="Collapsed">
-                    <Image Name="CurrentSelectedImage" Margin="10" />
-                    <TextBlock Name="CurrentSelectedTitle" Margin="10" Style="{StaticResource SubheaderTextBlockStyle}" />
-                </StackPanel>
+                <Grid Name="CurrentSelectedPanel" Height="200" Visibility="Collapsed" VerticalAlignment="Stretch">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="300"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Image Grid.Column="0" Name="CurrentSelectedImage" Margin="10" Width="300" Height="200" Stretch="UniformToFill" />
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        
+                        <TextBlock Grid.Row="0" Name="CurrentSelectedTitle" Margin="10, 5, 0, 0" Style="{StaticResource SubheaderTextBlockStyle}" />
+                        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+                            <AppBarButton Click="CurrentWallpaper_OnClick" Icon="OtherUser" Label="Set as wallpaper" 
+                                          IsCompact="False" Width="200" Margin="10" />
+                            <AppBarButton Click="CurrentLockScreen_OnClick" Icon="Admin" Label="Set as lock screen" 
+                                          IsCompact="False" Width="200" Margin="10" />
+                        </StackPanel>
+                    </Grid>
+                </Grid>
             </GridView.Footer>
 
             <GridView.ItemContainerStyle>

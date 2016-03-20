@@ -73,7 +73,7 @@ namespace Floodlight.Client.Common
         /// Change the wallpaper to the one specified in the provided metadata.
         /// </summary>
         /// <param name="background">The background metadata to use.</param>
-       private static async Task ChangeWallpaper(Background background)
+       public static async Task ChangeWallpaper(Background background)
         {
             var backgroundFile = await FileManager.GetBackgroundFromLocalFolder(background);
 
@@ -96,7 +96,7 @@ namespace Floodlight.Client.Common
         /// Change the lock screen to the one specified in the provided metadata.
         /// </summary>
         /// <param name="background">The background metadata to use.</param>
-        private static async Task ChangeLockScreen(Background background)
+        public static async Task ChangeLockScreen(Background background)
         {
             
             var backgroundFile = await FileManager.GetBackgroundFromLocalFolder(background);
