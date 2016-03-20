@@ -71,7 +71,7 @@ namespace Floodlight.Client.Common
         /// <param name="background">The background metadata to use.</param>
        public static async Task ChangeWallpaper(Background background, bool manuallyTriggered = false)
         {
-            TelemetryManager.TrackEvent("Updating wallpaperS...",
+            TelemetryManager.TrackEvent("Updating wallpaper...",
                     new Dictionary<string, string>()
                     {
                         { "backgroundId", background.Id },
