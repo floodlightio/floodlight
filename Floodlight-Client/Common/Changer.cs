@@ -62,7 +62,7 @@ namespace Floodlight.Client.Common
         /// Gets a random background from the background cache.
         /// </summary>
         /// <param name="backgroundCache">The background cache to use for this operation.</param>
-        /// <returns>A background from the cache, chosen at random.</returns>
+        /// <returns>A background metadata from the cache, chosen at random.</returns>
         private static Background GetRandomBackground(Dictionary<string, Background> backgroundCache)
         {
             var bgIndex = new Random().Next(backgroundCache.Count);
@@ -72,7 +72,7 @@ namespace Floodlight.Client.Common
         /// <summary>
         /// Change the wallpaper to the one specified in the provided metadata.
         /// </summary>
-        /// <param name="background">The background to use.</param>
+        /// <param name="background">The background metadata to use.</param>
        private static async Task ChangeWallpaper(Background background)
         {
             var backgroundFile = await FileManager.GetBackgroundFromLocalFolder(background);
@@ -95,7 +95,7 @@ namespace Floodlight.Client.Common
         /// <summary>
         /// Change the lock screen to the one specified in the provided metadata.
         /// </summary>
-        /// <param name="background">The background to use.</param>
+        /// <param name="background">The background metadata to use.</param>
         private static async Task ChangeLockScreen(Background background)
         {
             

@@ -12,8 +12,8 @@ namespace Floodlight.Client.Common
         /// <summary>
         /// Run a single iteration of the downloading cycle:
         ///  - Contact the service to retrieve the latest background metadata
-        ///  - Add any new backgrounds to the local cache
-        ///  - For any newly-added backgrounds, download the image and save it
+        ///  - Add any new background metadata to the local cache
+        ///  - For any newly-added metadata, download the image and save it
         /// </summary>
         public static async Task Execute(bool onlyNew = true)
         {

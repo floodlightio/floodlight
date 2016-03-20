@@ -26,12 +26,12 @@ namespace Floodlight.Client
         /// <summary>
         /// Get a user's backgrounds.
         /// </summary>
-        /// <param name="onlyNew">Whether to return only new backgrounds or all.</param>
-        /// <returns>If onlyNew is set to true, returns only backgrounds not found in the local cache. Otherwise, all retrieved.</returns>
+        /// <param name="onlyNew">Whether to return only new background metadatas or all.</param>
+        /// <returns>If onlyNew is set to true, returns only background metadatas not found in the local cache. Otherwise, all retrieved.</returns>
         public static async Task<List<Background>> GetUserBackgrounds(bool onlyNew = true)
         {
             var url = SettingsManager.UserDefined.ServiceAddress +
-                      string.Format(SettingsManager.UserBackgroundsEndpoint, SettingsManager.UserDefined.UserId);
+                      string.Format(SettingsManager.ApiEndpoints.UserBackgroundsEndpoint, SettingsManager.UserDefined.UserId);
 
             using (var client = new HttpClient())
             {
@@ -66,7 +66,7 @@ namespace Floodlight.Client
         public static async Task<Background> GetBackgroundDetails(string backgroundId)
         {
             var url = SettingsManager.UserDefined.ServiceAddress +
-                      string.Format(SettingsManager.BackgroundDetailsEndpoint, backgroundId);
+                      string.Format(SettingsManager.ApiEndpoints.BackgroundDetailsEndpoint, backgroundId);
 
             using (var client = new HttpClient())
             {
@@ -90,7 +90,7 @@ namespace Floodlight.Client
         public static async Task<Stream> GetBackgroundImageStream(string backgroundId)
         {
             var url = SettingsManager.UserDefined.ServiceAddress +
-                      string.Format(SettingsManager.BackgroundImageEndpoint, backgroundId);
+                      string.Format(SettingsManager.ApiEndpoints.BackgroundImageEndpoint, backgroundId);
             var client = new HttpClient();
             var response = await client.GetAsync(url);
             response.EnsureSuccessStatusCode();
@@ -98,10 +98,11 @@ namespace Floodlight.Client
         }
 
         /// <summary>
-        /// Serialize the background.
+        /// Serialize the background metadata.
         /// </summary>
-        /// <param name="bg">The background to serialise.</param>
+        /// <param name="bg">The background metadata to serialise.</param>
         /// <returns>A JsonObject representing the Background.</returns>
+        /// <remarks>TODO: Will be removed with JSON.net</remarks>
         public static JsonObject SerializeBackground(Background bg)
         {
             var jsonObject = new JsonObject
@@ -115,10 +116,12 @@ namespace Floodlight.Client
         }
 
         /// <summary>
-        /// Deserialize the Background.
+        /// Deserialize the background metadata.
         /// </summary>
-        /// <param name="jsonObject">A JsonObject representing the background.</param>
-        /// <returns>The deserialized Background object.</returns>
+        /// <param name="jsonObject">A JsonObject representing the background metadata.</param>
+        /// <returns>The deserialized background metadata.</returns>
+        /// <remarks>TODO: Will be removed with JSON.net</remarks>
+
         public static Background DeserializeBackground(JsonObject jsonObject)
         {
             return new Background()

@@ -24,8 +24,8 @@
         </GridView>
 
         <CommandBar Name="AppCommands" Grid.Row="1">
-            <AppBarButton Name="Download" Icon="Download" Label="Update Images" Click="Download_OnClick" />
-            <AppBarButton Name="Change" Icon="Sync" Label="Change Background" Click="Change_OnClick" />
+            <AppBarButton Name="Download" Icon="Download" Label="Download metadata" Click="Download_OnClick" />
+            <AppBarButton Name="Change" Icon="Sync" Label="Change background" Click="Change_OnClick" />
             <AppBarSeparator/>
             <AppBarButton Name="Settings" Icon="Setting" Label="Settings" Click="Settings_OnClick" />
             <AppBarButton Name="Feedback" Icon="LikeDislike" Label="Feedback" Click="Feedback_OnClick_OnClick" />

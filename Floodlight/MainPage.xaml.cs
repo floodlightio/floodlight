@@ -1,4 +1,6 @@
-﻿using Windows.UI.Core;
+﻿#pragma warning disable 4014 // Disabling async warnings
+
+using Windows.UI.Core;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Floodlight.Client.Common;

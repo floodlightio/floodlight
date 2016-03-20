@@ -28,19 +28,19 @@ namespace Floodlight.Client.Managers
             {
                 get
                 {
-                    if (!LocalSettings.Values.ContainsKey("ServiceAddress"))
+                    if (!SettingsContainers.LocalSettings.Values.ContainsKey("ServiceAddress"))
                     {
                         // Default Service URL for Floodlight service
-                        LocalSettings.Values["ServiceAddress"] = "https://floodlight.io/";
+                        SettingsContainers.LocalSettings.Values["ServiceAddress"] = "https://floodlight.io/";
                     }
 
                     // TODO: For Testing Purposes Only, Remove
-                    LocalSettings.Values["ServiceAddress"] = "https://dev.floodlight.io/";
+                    SettingsContainers.LocalSettings.Values["ServiceAddress"] = "https://dev.floodlight.io/";
 
-                    return LocalSettings.Values["ServiceAddress"].ToString();
+                    return SettingsContainers.LocalSettings.Values["ServiceAddress"].ToString();
                 }
 
-                set { LocalSettings.Values["ServiceAddress"] = value; }
+                set { SettingsContainers.LocalSettings.Values["ServiceAddress"] = value; }
             }
 
             /// <summary>
@@ -50,22 +50,22 @@ namespace Floodlight.Client.Managers
             {
                 get
                 {
-                    if (!LocalSettings.Values.ContainsKey("UserId"))
+                    if (!SettingsContainers.LocalSettings.Values.ContainsKey("UserId"))
                     {
                         // TODO: For Testing Purposes Only, Remove
                         Guid rawGuid = Guid.NewGuid();
-                        String base64Guid = Convert.ToBase64String(rawGuid.ToByteArray())
+                        string base64Guid = Convert.ToBase64String(rawGuid.ToByteArray())
                             .Substring(0, 22)
                             .Replace("/", "_")
                             .Replace("+", "-");
 
-                        LocalSettings.Values["UserId"] = base64Guid;
+                        SettingsContainers.LocalSettings.Values["UserId"] = base64Guid;
                     }
 
-                    return LocalSettings.Values["UserId"].ToString();
+                    return SettingsContainers.LocalSettings.Values["UserId"].ToString();
                 }
 
-                set { LocalSettings.Values["UserId"] = value; }
+                set { SettingsContainers.LocalSettings.Values["UserId"] = value; }
             }
 
             /// <summary>
@@ -75,15 +75,15 @@ namespace Floodlight.Client.Managers
             {
                 get
                 {
-                    if (!LocalSettings.Values.ContainsKey("UpdateWallpaper"))
+                    if (!SettingsContainers.LocalSettings.Values.ContainsKey("UpdateWallpaper"))
                     {
-                        LocalSettings.Values["UpdateWallpaper"] = true;
+                        SettingsContainers.LocalSettings.Values["UpdateWallpaper"] = true;
                     }
 
-                    return (bool) LocalSettings.Values["UpdateWallpaper"];
+                    return (bool) SettingsContainers.LocalSettings.Values["UpdateWallpaper"];
                 }
 
-                set { LocalSettings.Values["UpdateWallpaper"] = value; }
+                set { SettingsContainers.LocalSettings.Values["UpdateWallpaper"] = value; }
             }
 
             /// <summary>
@@ -93,15 +93,15 @@ namespace Floodlight.Client.Managers
             {
                 get
                 {
-                    if (!LocalSettings.Values.ContainsKey("UpdateLockScreen"))
+                    if (!SettingsContainers.LocalSettings.Values.ContainsKey("UpdateLockScreen"))
                     {
-                        LocalSettings.Values["UpdateLockScreen"] = true;
+                        SettingsContainers.LocalSettings.Values["UpdateLockScreen"] = true;
                     }
 
-                    return (bool) LocalSettings.Values["UpdateLockScreen"];
+                    return (bool) SettingsContainers.LocalSettings.Values["UpdateLockScreen"];
                 }
 
-                set { LocalSettings.Values["UpdateLockScreen"] = value; }
+                set { SettingsContainers.LocalSettings.Values["UpdateLockScreen"] = value; }
             }
 
             /// <summary>
@@ -111,15 +111,15 @@ namespace Floodlight.Client.Managers
             {
                 get
                 {
-                    if (!LocalSettings.Values.ContainsKey("UseSameImage"))
+                    if (!SettingsContainers.LocalSettings.Values.ContainsKey("UseSameImage"))
                     {
-                        LocalSettings.Values["UseSameImage"] = true;
+                        SettingsContainers.LocalSettings.Values["UseSameImage"] = true;
                     }
 
-                    return (bool)LocalSettings.Values["UseSameImage"];
+                    return (bool) SettingsContainers.LocalSettings.Values["UseSameImage"];
                 }
 
-                set { LocalSettings.Values["UseSameImage"] = value; }
+                set { SettingsContainers.LocalSettings.Values["UseSameImage"] = value; }
             }
         }
 
@@ -130,16 +130,16 @@ namespace Floodlight.Client.Managers
         public static class Internal
         {
             /// <summary>
-            /// The date the background metadata was last received.
+            /// The date the background metadata was last retrieved from the Floodlight service.
             /// </summary>
             public static DateTime LastRetrievedDate
             {
                 get
                 {
-                    return !LocalSettings.Values.ContainsKey("LastRetrievedDate") ? DateTime.MinValue : DateTime.Parse((string) LocalSettings.Values["LastRetrievedDate"]);
+                    return !SettingsContainers.LocalSettings.Values.ContainsKey("LastRetrievedDate") ? DateTime.MinValue : DateTime.Parse((string) SettingsContainers.LocalSettings.Values["LastRetrievedDate"]);
                 }
 
-                set { LocalSettings.Values["LastRetrievedDate"] = value.ToString(CultureInfo.InvariantCulture); }
+                set { SettingsContainers.LocalSettings.Values["LastRetrievedDate"] = value.ToString(CultureInfo.InvariantCulture); }
             }
 
             /// <summary>
@@ -149,10 +149,10 @@ namespace Floodlight.Client.Managers
             {
                 get
                 {
-                    return !LocalSettings.Values.ContainsKey("LastUpdatedDate") ? DateTime.MinValue : DateTime.Parse((string)LocalSettings.Values["LastUpdatedDate"]);
+                    return !SettingsContainers.LocalSettings.Values.ContainsKey("LastUpdatedDate") ? DateTime.MinValue : DateTime.Parse((string) SettingsContainers.LocalSettings.Values["LastUpdatedDate"]);
                 }
 
-                set { LocalSettings.Values["LastUpdatedDate"] = value.ToString(CultureInfo.InvariantCulture); }
+                set { SettingsContainers.LocalSettings.Values["LastUpdatedDate"] = value.ToString(CultureInfo.InvariantCulture); }
             }
 
             /// <summary>
@@ -162,16 +162,16 @@ namespace Floodlight.Client.Managers
             {
                 get
                 {
-                    if (!LocalSettings.Values.ContainsKey("CurrentWallpaper"))
+                    if (!SettingsContainers.LocalSettings.Values.ContainsKey("CurrentWallpaper"))
                     {
                         return null;
                     }
 
-                    var jsonObject = JsonObject.Parse((string)LocalSettings.Values["CurrentWallpaper"]);
+                    var jsonObject = JsonObject.Parse((string) SettingsContainers.LocalSettings.Values["CurrentWallpaper"]);
                     return ServiceClient.DeserializeBackground(jsonObject);
                 }
 
-                set { LocalSettings.Values["CurrentWallpaper"] = ServiceClient.SerializeBackground(value).Stringify(); }
+                set { SettingsContainers.LocalSettings.Values["CurrentWallpaper"] = ServiceClient.SerializeBackground(value).Stringify(); }
             }
 
             /// <summary>
@@ -181,16 +181,16 @@ namespace Floodlight.Client.Managers
             {
                 get
                 {
-                    if (!LocalSettings.Values.ContainsKey("CurrentLockScreen"))
+                    if (!SettingsContainers.LocalSettings.Values.ContainsKey("CurrentLockScreen"))
                     {
                         return null;
                     }
 
-                    var jsonObject = JsonObject.Parse((string)LocalSettings.Values["CurrentLockScreen"]);
+                    var jsonObject = JsonObject.Parse((string) SettingsContainers.LocalSettings.Values["CurrentLockScreen"]);
                     return ServiceClient.DeserializeBackground(jsonObject);
                 }
 
-                set { LocalSettings.Values["CurrentLockScreen"] = ServiceClient.SerializeBackground(value).Stringify(); }
+                set { SettingsContainers.LocalSettings.Values["CurrentLockScreen"] = ServiceClient.SerializeBackground(value).Stringify(); }
             }
 
             /// <summary>
@@ -199,9 +199,9 @@ namespace Floodlight.Client.Managers
             /// <returns>The local copy of background metadata available.</returns>
             public static Dictionary<string, Background> GetBackgroundCache()
             {
-                if (LocalSettings.Values.ContainsKey("BackgroundCache"))
+                if (SettingsContainers.LocalSettings.Values.ContainsKey("BackgroundCache"))
                 {
-                    var composite = (ApplicationDataCompositeValue) LocalSettings.Values["BackgroundCache"];
+                    var composite = (ApplicationDataCompositeValue) SettingsContainers.LocalSettings.Values["BackgroundCache"];
 
                     if (composite != null)
                     {
@@ -217,58 +217,61 @@ namespace Floodlight.Client.Managers
                     }
                 }
 
-                LocalSettings.Values["BackgroundCache"] = new ApplicationDataCompositeValue();
+                SettingsContainers.LocalSettings.Values["BackgroundCache"] = new ApplicationDataCompositeValue();
 
                 return new Dictionary<string, Background>();
             }
 
             /// <summary>
-            /// Add a list of backgrounds to the local cache.
+            /// Add a list of background metadatas to the local cache.
             /// </summary>
-            /// <param name="backgrounds">The backgrounds to add</param>
-            /// <returns>The list of backgrounds that did not already exist in the cache</returns>
+            /// <param name="backgrounds">The background metadatas to add</param>
+            /// <returns>The list of background metadatas that did not already exist in the cache</returns>
             public static List<Background> AddToBackgroundCache(List<Background> backgrounds)
             {
                 var cachedBackgrounds = GetBackgroundCache();
                 var uncachedBackgrounds = backgrounds.Where(bg => !cachedBackgrounds.ContainsKey(bg.Id)).ToList();
-                var cache = (ApplicationDataCompositeValue) LocalSettings.Values["BackgroundCache"];
+                var cache = (ApplicationDataCompositeValue) SettingsContainers.LocalSettings.Values["BackgroundCache"];
 
                 foreach (var bg in uncachedBackgrounds)
                 {
                     cache.Add(bg.Id, ServiceClient.SerializeBackground(bg).Stringify());
                 }
 
-                LocalSettings.Values["BackgroundCache"] = cache;
+                SettingsContainers.LocalSettings.Values["BackgroundCache"] = cache;
 
                 return uncachedBackgrounds;
             }
 
             /// <summary>
-            /// Clear out the locak background cache.
+            /// Clear out the local background metadata cache.
             /// </summary>
             public static void ClearBackgroundCache()
             {
-                LocalSettings.Values.Remove("BackgroundCache");
+                SettingsContainers.LocalSettings.Values.Remove("BackgroundCache");
             }
         }
 
-        /**
-         * UWP Settings Containers
-         */
-        #region UWP Settings
-        public static readonly ApplicationDataContainer LocalSettings = ApplicationData.Current.LocalSettings;
-        public static readonly StorageFolder LocalFolder = ApplicationData.Current.LocalFolder;
-        #endregion
+        /// <summary>
+        /// UWP Setting Containers
+        /// </summary>
 
-        /**
-         * Service API Endpoints
-         */
-        #region API Endpoints
-        public const string ApiEndpoint = "api/{0}";
-        public static string UserDetailsEndpoint = string.Format(ApiEndpoint, "user/{0}");
-        public static readonly string UserBackgroundsEndpoint = string.Format(ApiEndpoint, "user/{0}/backgrounds");
-        public static readonly string BackgroundDetailsEndpoint = string.Format(ApiEndpoint, "background/{0}");
-        public static readonly string BackgroundImageEndpoint = string.Format(ApiEndpoint, "background/{0}/image");
-        #endregion
+        public static class SettingsContainers
+        {
+            public static readonly ApplicationDataContainer LocalSettings = ApplicationData.Current.LocalSettings;
+            public static readonly StorageFolder LocalFolder = ApplicationData.Current.LocalFolder;
+        }
+
+        /// <summary>
+        /// API Endpoints
+        /// </summary>
+        public static class ApiEndpoints
+        {
+            public const string ApiEndpoint = "api/{0}";
+            public static string UserDetailsEndpoint = string.Format(ApiEndpoint, "user/{0}");
+            public static readonly string UserBackgroundsEndpoint = string.Format(ApiEndpoint, "user/{0}/backgrounds");
+            public static readonly string BackgroundDetailsEndpoint = string.Format(ApiEndpoint, "background/{0}");
+            public static readonly string BackgroundImageEndpoint = string.Format(ApiEndpoint, "background/{0}/image");
+        }
     }
 }

@@ -25,7 +25,7 @@ namespace Floodlight.Client.Managers
         public static async Task SaveBackgroundToLocalFolder(Background bg, Stream imageStream)
         {
             var fileName = GetFileNameFromBackground(bg);
-            var file = await SettingsManager.LocalFolder.CreateFileAsync(fileName, CreationCollisionOption.ReplaceExisting);
+            var file = await SettingsManager.SettingsContainers.LocalFolder.CreateFileAsync(fileName, CreationCollisionOption.ReplaceExisting);
 
             using (var stream = await file.OpenAsync(FileAccessMode.ReadWrite))
             {
@@ -48,7 +48,7 @@ namespace Floodlight.Client.Managers
         {
             try
             {
-                return await SettingsManager.LocalFolder.GetFileAsync(GetFileNameFromBackground(bg));
+                return await SettingsManager.SettingsContainers.LocalFolder.GetFileAsync(GetFileNameFromBackground(bg));
             }
             catch (FileNotFoundException)
             {
