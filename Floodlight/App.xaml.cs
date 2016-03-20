@@ -6,7 +6,6 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 using Floodlight.Client.Managers;
 using HockeyApp;
-using Microsoft.ApplicationInsights;
 
 namespace Floodlight
 {

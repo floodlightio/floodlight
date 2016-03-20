@@ -56,6 +56,21 @@ namespace Floodlight.Client.Managers
             }
         }
 
+        public static string GetFullPathFromBackground(Background bg)
+        {
+            return SettingsManager.SettingsContainers.LocalFolder.Path + "/" + GetFileNameFromBackground(bg);
+        }
+
+        /// <summary>
+        /// Construct the file name from the background metadata.
+        /// </summary>
+        /// <param name="bg">The background metadata to use.</param>
+        /// <returns>A filename in the form [Guid].[Extension]</returns>
+        private static string GetFileNameFromBackground(Background bg)
+        {
+            return string.Format("{0}.{1}", bg.Id, ConvertContentTypeToExtension(bg.ContentType));
+        }
+
         /// <summary>
         /// Convert from the given ContentType to an extension.
         /// </summary>
@@ -77,16 +92,6 @@ namespace Floodlight.Client.Managers
             }
 
             throw new UnknownContentTypeException();
-        }
-
-        /// <summary>
-        /// Construct the file name from the background metadata.
-        /// </summary>
-        /// <param name="bg">The background metadata to use.</param>
-        /// <returns>A filename in the form [Guid].[Extension]</returns>
-        private static string GetFileNameFromBackground(Background bg)
-        {
-            return string.Format("{0}.{1}", bg.Id, ConvertContentTypeToExtension(bg.ContentType));
         }
     }
 }

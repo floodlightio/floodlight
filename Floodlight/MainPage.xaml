@@ -5,20 +5,40 @@
     xmlns:local="using:Floodlight"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:system="using:System"
     mc:Ignorable="d">
 
-    <Grid>
+    <Grid Name="RootGrid">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="Auto"></RowDefinition>
         </Grid.RowDefinitions>
 
-        <GridView Grid.Row="0" x:Name="ImagesAvailable">
+        <GridView Grid.Row="0" ItemsSource="{x:Bind ImagesAvailable}" Name="AvailableImagesGrid" SelectionMode="Single"
+                  SizeChanged="AvailableImagesGrid_OnSizeChanged" Tapped="AvailableImagesGrid_OnSelectionChanged">
+            <GridView.Header>
+                <TextBlock Grid.Row="0" Style="{StaticResource SubheaderTextBlockStyle}" Text="Available Images" Margin="10,0,0,0"></TextBlock>
+            </GridView.Header>
+            
+            <GridView.Footer>
+                <StackPanel Name="CurrentSelectedPanel" Orientation="Horizontal" Height="200" Visibility="Collapsed">
+                    <Image Name="CurrentSelectedImage" Margin="10" />
+                    <TextBlock Name="CurrentSelectedTitle" Margin="10" Style="{StaticResource SubheaderTextBlockStyle}" />
+                </StackPanel>
+            </GridView.Footer>
+
+            <GridView.ItemContainerStyle>
+                <Style TargetType="GridViewItem">
+                    <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                    <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                    <Setter Property="VerticalContentAlignment" Value="Stretch"/>
+                    <Setter Property="VerticalAlignment" Value="Stretch"/>
+                </Style>
+            </GridView.ItemContainerStyle>
+
             <GridView.ItemTemplate>
-                <DataTemplate>
-                    <StackPanel Padding="10">
-                        <Image Source="{Binding image.location}" Width="{Binding image.width}" Height="{Binding image.height}"></Image>
-                    </StackPanel>
+                <DataTemplate x:DataType="local:GridImage">
+                    <Image Source="{x:Bind Path}" Margin="10" Stretch="UniformToFill" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
                 </DataTemplate>
             </GridView.ItemTemplate>
         </GridView>
