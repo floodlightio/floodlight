@@ -19,7 +19,7 @@ namespace Floodlight
     /// </summary>
     public sealed partial class MainPage
     {
-        public readonly List<GridImage> ImagesAvailable;
+        public List<GridImage> ImagesAvailable;
         public GridImage SelectedImage;
 
         /// <summary>
@@ -120,9 +120,10 @@ namespace Floodlight
         /// <summary>
         /// Force a download of the background metadata from the Floodlight service.
         /// </summary>
-        private void Download_OnClick(object sender, RoutedEventArgs e)
+        private async void Download_OnClick(object sender, RoutedEventArgs e)
         {
-            Downloader.Execute();
+            await Downloader.Execute();
+            ImagesAvailable = SettingsManager.Internal.GetBackgroundCache().Select(pair => new GridImage(pair.Value)).ToList();
         }
 
         /// <summary>

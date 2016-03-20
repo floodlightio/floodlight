@@ -62,11 +62,39 @@
         </GridView>
 
         <CommandBar Name="AppCommands" Grid.Row="1">
-            <AppBarButton Name="Download" Icon="Download" Label="Download metadata" Click="Download_OnClick" />
-            <AppBarButton Name="Change" Icon="Sync" Label="Change background" Click="Change_OnClick" />
+            <AppBarButton Name="Download" Icon="Download" Label="Download metadata" Click="Download_OnClick">
+                <ToolTipService.ToolTip>
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="Download metadata" FontWeight="SemiBold" />
+                        <TextBlock TextWrapping="WrapWholeWords" Text="Download new background metadata from the Floodlight service." />
+                    </StackPanel>
+                </ToolTipService.ToolTip>
+            </AppBarButton>
+            <AppBarButton Name="Change" Icon="Sync" Label="Update" Click="Change_OnClick">
+                <ToolTipService.ToolTip>
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="Update" FontWeight="SemiBold" />
+                        <TextBlock TextWrapping="WrapWholeWords" Text="Runs through a single Floodlight update cycle. This will respect your update settings." />
+                    </StackPanel>
+                </ToolTipService.ToolTip>
+            </AppBarButton>
             <AppBarSeparator/>
-            <AppBarButton Name="Settings" Icon="Setting" Label="Settings" Click="Settings_OnClick" />
-            <AppBarButton Name="Feedback" Icon="LikeDislike" Label="Feedback" Click="Feedback_OnClick_OnClick" />
+            <AppBarButton Name="Settings" Icon="Setting" Label="Settings" Click="Settings_OnClick">
+                <ToolTipService.ToolTip>
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="Settings" FontWeight="SemiBold" />
+                        <TextBlock TextWrapping="WrapWholeWords" Text="Change Floodlight settings." />
+                    </StackPanel>
+                </ToolTipService.ToolTip>
+            </AppBarButton>
+            <AppBarButton Name="Feedback" Icon="LikeDislike" Label="Feedback" Click="Feedback_OnClick_OnClick">
+                <ToolTipService.ToolTip>
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="Feedback" FontWeight="SemiBold" />
+                        <TextBlock TextWrapping="WrapWholeWords" Text="Like or dislike something? Let us know!" />
+                    </StackPanel>
+                </ToolTipService.ToolTip>
+            </AppBarButton>
         </CommandBar>
     </Grid>
 </Page>
