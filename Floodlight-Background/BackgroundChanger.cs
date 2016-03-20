@@ -4,6 +4,9 @@ using Floodlight.Client.Managers;
 
 namespace Floodlight.Background
 {
+    /// <summary>
+    /// Automatic task which runs in the background, downloading and updating backgrounds.
+    /// </summary>
     public sealed class BackgroundChanger : IBackgroundTask
     {
         public async void Run(IBackgroundTaskInstance taskInstance)
