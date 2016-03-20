@@ -106,7 +106,7 @@ namespace Floodlight
         /// </summary>
         private void CurrentWallpaper_OnClick(object sender, RoutedEventArgs e)
         {
-            Changer.ChangeWallpaper(SelectedImage.Metadata);
+            Changer.ChangeWallpaper(SelectedImage.Metadata, true);
         }
 
         /// <summary>
@@ -114,7 +114,7 @@ namespace Floodlight
         /// </summary>
         private void CurrentLockScreen_OnClick(object sender, RoutedEventArgs e)
         {
-            Changer.ChangeLockScreen(SelectedImage.Metadata);
+            Changer.ChangeLockScreen(SelectedImage.Metadata, true);
         }
 
         /// <summary>

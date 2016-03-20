@@ -39,15 +39,11 @@ namespace Floodlight.Client.Common
 
             if (SettingsManager.UserDefined.UpdateWallpaper)
             {
-                TelemetryManager.TrackEvent("Updating Wallpaper...", 
-                    new Dictionary<string, string>() { { "backgroundId", wallpaperBackground.Id } });
                 await ChangeWallpaper(wallpaperBackground);
             }
 
             if (SettingsManager.UserDefined.UpdateLockScreen)
             {
-                TelemetryManager.TrackEvent("Updating Lock Screen...",
-                    new Dictionary<string, string>() { { "backgroundId", wallpaperBackground.Id } });
                 await ChangeLockScreen(lockScreenBackground);
             }
 
@@ -73,8 +69,16 @@ namespace Floodlight.Client.Common
         /// Change the wallpaper to the one specified in the provided metadata.
         /// </summary>
         /// <param name="background">The background metadata to use.</param>
-       public static async Task ChangeWallpaper(Background background)
+       public static async Task ChangeWallpaper(Background background, bool manuallyTriggered = false)
         {
+            TelemetryManager.TrackEvent("Updating wallpaperS...",
+                    new Dictionary<string, string>()
+                    {
+                        { "backgroundId", background.Id },
+                        { "manuallyTriggered", manuallyTriggered.ToString() }
+                    
+                    });
+
             var backgroundFile = await FileManager.GetBackgroundFromLocalFolder(background);
 
             if (backgroundFile != null)
@@ -96,9 +100,16 @@ namespace Floodlight.Client.Common
         /// Change the lock screen to the one specified in the provided metadata.
         /// </summary>
         /// <param name="background">The background metadata to use.</param>
-        public static async Task ChangeLockScreen(Background background)
+        public static async Task ChangeLockScreen(Background background, bool manuallyTriggered = false)
         {
-            
+            TelemetryManager.TrackEvent("Updating lock screen...",
+                    new Dictionary<string, string>()
+                    {
+                        { "backgroundId", background.Id },
+                        { "manuallyTriggered", manuallyTriggered.ToString() }
+
+                    });
+
             var backgroundFile = await FileManager.GetBackgroundFromLocalFolder(background);
 
             if (backgroundFile != null)
