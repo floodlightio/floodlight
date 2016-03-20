@@ -13,9 +13,12 @@ namespace Floodlight.Background
             //Initialize Telemetry
             TelemetryManager.InitializeBackgroundTelemetry();
 
+            TelemetryManager.TrackEvent("Starting Background Downloader task...");
+            await Downloader.Execute();
+
             TelemetryManager.TrackEvent("Starting Background Changer task...");
             await Changer.Execute();
-            TelemetryManager.TrackEvent("Background Changer task finished!");
+            TelemetryManager.TrackEvent("Background tasks finished!");
 
             deferral.Complete();
         }

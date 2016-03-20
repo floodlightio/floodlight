@@ -10,13 +10,20 @@ using Floodlight.Client.Models;
 
 namespace Floodlight.Client.Managers
 {
+    /// <summary>
+    /// Manages saving/loading data from app settings.
+    /// </summary>
     public static class SettingsManager
     {
-        /**
-         * User-Changeable Settings
-         */
+        /// <summary>
+        /// User-Defined Settings
+        /// </summary>
         public static class UserDefined
         {
+            /// <summary>
+            /// The service address to connect to.
+            /// By default, this is https://floodlight.io
+            /// </summary>
             public static string ServiceAddress
             {
                 get
@@ -24,11 +31,11 @@ namespace Floodlight.Client.Managers
                     if (!LocalSettings.Values.ContainsKey("ServiceAddress"))
                     {
                         // Default Service URL for Floodlight service
-                        LocalSettings.Values["ServiceAddress"] = "http://floodlight.io/";
+                        LocalSettings.Values["ServiceAddress"] = "https://floodlight.io/";
                     }
 
                     // TODO: For Testing Purposes Only, Remove
-                    LocalSettings.Values["ServiceAddress"] = "http://dev.floodlight.io/";
+                    LocalSettings.Values["ServiceAddress"] = "https://dev.floodlight.io/";
 
                     return LocalSettings.Values["ServiceAddress"].ToString();
                 }
@@ -36,6 +43,9 @@ namespace Floodlight.Client.Managers
                 set { LocalSettings.Values["ServiceAddress"] = value; }
             }
 
+            /// <summary>
+            /// The ID of the user to query backgrounds for.
+            /// </summary>
             public static string UserId
             {
                 get
@@ -58,6 +68,9 @@ namespace Floodlight.Client.Managers
                 set { LocalSettings.Values["UserId"] = value; }
             }
 
+            /// <summary>
+            /// Whether the wallpaper should be updated.
+            /// </summary>
             public static bool UpdateWallpaper
             {
                 get
@@ -73,6 +86,9 @@ namespace Floodlight.Client.Managers
                 set { LocalSettings.Values["UpdateWallpaper"] = value; }
             }
 
+            /// <summary>
+            /// Whether the lock screen should be updated.
+            /// </summary>
             public static bool UpdateLockScreen
             {
                 get
@@ -88,6 +104,9 @@ namespace Floodlight.Client.Managers
                 set { LocalSettings.Values["UpdateLockScreen"] = value; }
             }
 
+            /// <summary>
+            /// Whether or not to use the same image for both wallpaper and lock screen updates.
+            /// </summary>
             public static bool UseSameImage
             {
                 get
@@ -104,11 +123,15 @@ namespace Floodlight.Client.Managers
             }
         }
 
-        /**
-         * Internal Settings
-         */
+        /// <summary>
+        /// Internal app state
+        /// </summary>
+        /// <remarks>These settings should not be user-changeable, they represent the internal state.</remarks>
         public static class Internal
         {
+            /// <summary>
+            /// The date the background metadata was last received.
+            /// </summary>
             public static DateTime LastRetrievedDate
             {
                 get
@@ -119,6 +142,9 @@ namespace Floodlight.Client.Managers
                 set { LocalSettings.Values["LastRetrievedDate"] = value.ToString(CultureInfo.InvariantCulture); }
             }
 
+            /// <summary>
+            /// The date the wallpaper and/or lock screen was last updated.
+            /// </summary>
             public static DateTime LastUpdatedDate
             {
                 get
@@ -129,6 +155,9 @@ namespace Floodlight.Client.Managers
                 set { LocalSettings.Values["LastUpdatedDate"] = value.ToString(CultureInfo.InvariantCulture); }
             }
 
+            /// <summary>
+            /// The title of the current wallpaper used.
+            /// </summary>
             public static Background CurrentWallpaper
             {
                 get
@@ -145,6 +174,9 @@ namespace Floodlight.Client.Managers
                 set { LocalSettings.Values["CurrentWallpaper"] = ServiceClient.SerializeBackground(value).Stringify(); }
             }
 
+            /// <summary>
+            /// The title of the current lock screen used.
+            /// </summary>
             public static Background CurrentLockScreen
             {
                 get
@@ -161,6 +193,10 @@ namespace Floodlight.Client.Managers
                 set { LocalSettings.Values["CurrentLockScreen"] = ServiceClient.SerializeBackground(value).Stringify(); }
             }
 
+            /// <summary>
+            /// Get the local background metadata cache from app settings.
+            /// </summary>
+            /// <returns>The local copy of background metadata available.</returns>
             public static Dictionary<string, Background> GetBackgroundCache()
             {
                 if (LocalSettings.Values.ContainsKey("BackgroundCache"))
@@ -186,6 +222,11 @@ namespace Floodlight.Client.Managers
                 return new Dictionary<string, Background>();
             }
 
+            /// <summary>
+            /// Add a list of backgrounds to the local cache.
+            /// </summary>
+            /// <param name="backgrounds">The backgrounds to add</param>
+            /// <returns>The list of backgrounds that did not already exist in the cache</returns>
             public static List<Background> AddToBackgroundCache(List<Background> backgrounds)
             {
                 var cachedBackgrounds = GetBackgroundCache();
@@ -202,6 +243,9 @@ namespace Floodlight.Client.Managers
                 return uncachedBackgrounds;
             }
 
+            /// <summary>
+            /// Clear out the locak background cache.
+            /// </summary>
             public static void ClearBackgroundCache()
             {
                 LocalSettings.Values.Remove("BackgroundCache");

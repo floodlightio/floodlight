@@ -23,7 +23,7 @@
             </GridView.ItemTemplate>
         </GridView>
 
-        <CommandBar Grid.Row="1">
+        <CommandBar Name="AppCommands" Grid.Row="1">
             <AppBarButton Name="Download" Icon="Download" Label="Update Images" Click="Download_OnClick" />
             <AppBarButton Name="Change" Icon="Sync" Label="Change Background" Click="Change_OnClick" />
             <AppBarSeparator/>

@@ -10,13 +10,24 @@ using Floodlight.Client.Models;
 
 namespace Floodlight.Client
 {
+    /// <summary>
+    /// The client that is responsible for connecting to the Floodlight service.
+    /// </summary>
     public static class ServiceClient
     {
+        /// <summary>
+        /// Get details about the currently logged in user.
+        /// </summary>
         public static void GetUserDetails()
         {
             // TODO: Do stuff here. Not sure what.   
         }
 
+        /// <summary>
+        /// Get a user's backgrounds.
+        /// </summary>
+        /// <param name="onlyNew">Whether to return only new backgrounds or all.</param>
+        /// <returns>If onlyNew is set to true, returns only backgrounds not found in the local cache. Otherwise, all retrieved.</returns>
         public static async Task<List<Background>> GetUserBackgrounds(bool onlyNew = true)
         {
             var url = SettingsManager.UserDefined.ServiceAddress +
@@ -47,6 +58,11 @@ namespace Floodlight.Client
             }
         }
 
+        /// <summary>
+        /// Get details of a particular background by ID.
+        /// </summary>
+        /// <param name="backgroundId">The ID of the background to get details for.</param>
+        /// <returns>The metadata requested.</returns>
         public static async Task<Background> GetBackgroundDetails(string backgroundId)
         {
             var url = SettingsManager.UserDefined.ServiceAddress +
@@ -66,6 +82,11 @@ namespace Floodlight.Client
             }
         }
 
+        /// <summary>
+        /// Get the background image from the service.
+        /// </summary>
+        /// <param name="backgroundId">The ID of the background to get.</param>
+        /// <returns>A Stream of the image retrieved from the server.</returns>
         public static async Task<Stream> GetBackgroundImageStream(string backgroundId)
         {
             var url = SettingsManager.UserDefined.ServiceAddress +
@@ -76,6 +97,11 @@ namespace Floodlight.Client
             return await response.Content.ReadAsStreamAsync();
         }
 
+        /// <summary>
+        /// Serialize the background.
+        /// </summary>
+        /// <param name="bg">The background to serialise.</param>
+        /// <returns>A JsonObject representing the Background.</returns>
         public static JsonObject SerializeBackground(Background bg)
         {
             var jsonObject = new JsonObject
@@ -88,6 +114,11 @@ namespace Floodlight.Client
             return jsonObject;
         }
 
+        /// <summary>
+        /// Deserialize the Background.
+        /// </summary>
+        /// <param name="jsonObject">A JsonObject representing the background.</param>
+        /// <returns>The deserialized Background object.</returns>
         public static Background DeserializeBackground(JsonObject jsonObject)
         {
             return new Background()

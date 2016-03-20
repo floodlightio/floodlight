@@ -110,7 +110,6 @@
   <ItemGroup>
     <Compile Include="BackgroundChanger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="BackgroundDownloader.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Floodlight-Client\Floodlight Client.csproj">

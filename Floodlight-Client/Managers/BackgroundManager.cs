@@ -5,26 +5,40 @@ using Windows.ApplicationModel.Background;
 
 namespace Floodlight.Client.Managers
 {
+    /// <summary>
+    /// Manages the background tasks for the app.
+    /// </summary>
     public static class BackgroundManager
     {
         private const string ChangerTaskName = "Floodlight Background Changer";
         private const string ChangerTaskEntry = "Floodlight.Background.BackgroundChanger";
-        private const string DownloaderTaskName = "Floodlight Background Downloader";
-        private const string DownloaderTaskEntry = "Floodlight.Background.BackgroundDownloader";
-
+        
+        /// <summary>
+        /// Register all background tasks for the app.
+        /// </summary>
         public static async Task RegisterAllTasks()
         {
             await BackgroundExecutionManager.RequestAccessAsync();
 
-            RegisterTask(ChangerTaskName, ChangerTaskEntry, 30);
-            RegisterTask(DownloaderTaskName, DownloaderTaskEntry, 15);
+            RegisterTask(ChangerTaskName, ChangerTaskEntry, 15);
         }
 
+        /// <summary>
+        /// Get the task registration from the registration list.
+        /// </summary>
+        /// <param name="taskName">The name of the task to get</param>
+        /// <returns>The task registration requested.</returns>
         private static IBackgroundTaskRegistration GetTask(string taskName)
         {
             return BackgroundTaskRegistration.AllTasks.FirstOrDefault(pair => pair.Value.Name == taskName).Value;
         }
 
+        /// <summary>
+        /// Register a new task with specified name, entry point and frequency.
+        /// </summary>
+        /// <param name="taskName">The name of the task to register.</param>
+        /// <param name="taskEntry">The entry point of the task, in the form [Namespace].[Class].</param>
+        /// <param name="frequency">The frequency that the task needs to run.</param>
         private static void RegisterTask(string taskName, string taskEntry, uint frequency)
         {
             if (GetTask(taskName) == null)
@@ -42,6 +56,10 @@ namespace Floodlight.Client.Managers
             }
         }
 
+        /// <summary>
+        /// Unregister the specified task.
+        /// </summary>
+        /// <param name="taskName">The name of the task to unregister.</param>
         private static void UnregisterTask(string taskName)
         {
             GetTask(taskName)?.Unregister(true);

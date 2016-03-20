@@ -8,8 +8,17 @@ using Floodlight.Client.Models;
 
 namespace Floodlight.Client.Common
 {
+    /// <summary>
+    /// Provides common functionality around changing the wallpaper and lock screen.
+    /// </summary>
     public static class Changer
     {
+        /// <summary>
+        /// Run a single iteration of the changing cycle:
+        ///  - Get list of cached backgrounds
+        ///  - Retrieve background from file for each of wallpaper and lock screen
+        ///  - Set the wallpaper and lock screen images
+        /// </summary>
         public static async Task Execute()
         {
             var backgroundCache = SettingsManager.Internal.GetBackgroundCache();
@@ -42,16 +51,29 @@ namespace Floodlight.Client.Common
                 await ChangeLockScreen(lockScreenBackground);
             }
 
-            SettingsManager.Internal.LastUpdatedDate = DateTime.Now;
+            // Update the last updated date if either was changed
+            if (SettingsManager.UserDefined.UpdateWallpaper || SettingsManager.UserDefined.UpdateLockScreen)
+            {
+                SettingsManager.Internal.LastUpdatedDate = DateTime.Now;
+            }
         }
 
+        /// <summary>
+        /// Gets a random background from the background cache.
+        /// </summary>
+        /// <param name="backgroundCache">The background cache to use for this operation.</param>
+        /// <returns>A background from the cache, chosen at random.</returns>
         private static Background GetRandomBackground(Dictionary<string, Background> backgroundCache)
         {
-            var bgIndex = new Random().Next(backgroundCache.Count - 1);
+            var bgIndex = new Random().Next(backgroundCache.Count);
             return backgroundCache.Values.ElementAt(bgIndex);
         }
 
-        private static async Task ChangeWallpaper(Background background)
+        /// <summary>
+        /// Change the wallpaper to the one specified in the provided metadata.
+        /// </summary>
+        /// <param name="background">The background to use.</param>
+       private static async Task ChangeWallpaper(Background background)
         {
             var backgroundFile = await FileManager.GetBackgroundFromLocalFolder(background);
 
@@ -70,6 +92,10 @@ namespace Floodlight.Client.Common
             SettingsManager.Internal.CurrentWallpaper = background;
         }
 
+        /// <summary>
+        /// Change the lock screen to the one specified in the provided metadata.
+        /// </summary>
+        /// <param name="background">The background to use.</param>
         private static async Task ChangeLockScreen(Background background)
         {
             
