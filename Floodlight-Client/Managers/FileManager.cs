@@ -22,7 +22,14 @@ namespace Floodlight.Client.Managers
 
         public static async Task<StorageFile> GetBackgroundFromLocalFolder(Background bg)
         {
-            return await SettingsManager.LocalFolder.GetFileAsync(GetFileNameFromBackground(bg));
+            try
+            {
+                return await SettingsManager.LocalFolder.GetFileAsync(GetFileNameFromBackground(bg));
+            }
+            catch (FileNotFoundException)
+            {
+                return null;
+            }
         }
 
         private static string ConvertContentTypeToExtension(string contentType)

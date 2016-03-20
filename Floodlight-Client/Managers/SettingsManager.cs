@@ -64,7 +64,7 @@ namespace Floodlight.Client.Managers
                 {
                     if (!LocalSettings.Values.ContainsKey("UpdateWallpaper"))
                     {
-                        LocalSettings.Values["UpdateWallpaper"] = false;
+                        LocalSettings.Values["UpdateWallpaper"] = true;
                     }
 
                     return (bool) LocalSettings.Values["UpdateWallpaper"];
@@ -79,7 +79,7 @@ namespace Floodlight.Client.Managers
                 {
                     if (!LocalSettings.Values.ContainsKey("UpdateLockScreen"))
                     {
-                        LocalSettings.Values["UpdateLockScreen"] = false;
+                        LocalSettings.Values["UpdateLockScreen"] = true;
                     }
 
                     return (bool) LocalSettings.Values["UpdateLockScreen"];
@@ -94,7 +94,7 @@ namespace Floodlight.Client.Managers
                 {
                     if (!LocalSettings.Values.ContainsKey("UseSameImage"))
                     {
-                        LocalSettings.Values["UseSameImage"] = false;
+                        LocalSettings.Values["UseSameImage"] = true;
                     }
 
                     return (bool)LocalSettings.Values["UseSameImage"];

@@ -36,7 +36,8 @@ namespace Floodlight.Client.Managers
                 };
 
                 taskBuilder.SetTrigger(new TimeTrigger(frequency, false));
-                taskBuilder.SetTrigger(new MaintenanceTrigger(frequency, false));
+                taskBuilder.AddCondition(new SystemCondition(SystemConditionType.InternetAvailable));
+                taskBuilder.AddCondition(new SystemCondition(SystemConditionType.SessionConnected));
                 taskBuilder.Register();
             }
         }

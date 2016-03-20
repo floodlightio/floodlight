@@ -54,7 +54,18 @@ namespace Floodlight.Client.Common
         private static async Task ChangeWallpaper(Background background)
         {
             var backgroundFile = await FileManager.GetBackgroundFromLocalFolder(background);
-            await UserProfilePersonalizationSettings.Current.TrySetWallpaperImageAsync(backgroundFile);
+
+            if (backgroundFile != null)
+            {
+                await UserProfilePersonalizationSettings.Current.TrySetWallpaperImageAsync(backgroundFile);
+            }
+            else
+            {
+                TelemetryManager.TrackEvent("Background could not be found in file cache!", new Dictionary<string, string>()
+                {
+                    { "backgroundId", background.Id }
+                });
+            }
 
             SettingsManager.Internal.CurrentWallpaper = background;
         }
@@ -63,7 +74,18 @@ namespace Floodlight.Client.Common
         {
             
             var backgroundFile = await FileManager.GetBackgroundFromLocalFolder(background);
-            await UserProfilePersonalizationSettings.Current.TrySetLockScreenImageAsync(backgroundFile);
+
+            if (backgroundFile != null)
+            {
+                await UserProfilePersonalizationSettings.Current.TrySetLockScreenImageAsync(backgroundFile);
+            }
+            else
+            {
+                TelemetryManager.TrackEvent("Background could not be found in file cache!", new Dictionary<string, string>()
+                {
+                    { "backgroundId", background.Id }
+                });
+            }
 
             SettingsManager.Internal.CurrentLockScreen = background;
         }

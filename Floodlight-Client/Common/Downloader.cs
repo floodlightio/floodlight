@@ -20,7 +20,7 @@ namespace Floodlight.Client.Common
             }
             catch
             {
-                // TODO: Have it do something here
+                TelemetryManager.TrackEvent("Could not download metadata cache!");
             }
         }
     }
