@@ -69,6 +69,24 @@ namespace Floodlight.Client.Managers
             }
 
             /// <summary>
+            /// How often to run the background tasks to download metadata and update the images.
+            /// </summary>
+            public static int UpdateFrequency
+            {
+                get
+                {
+                    if (!SettingsContainers.LocalSettings.Values.ContainsKey("UpdateFrequency"))
+                    {
+                        SettingsContainers.LocalSettings.Values["UpdateFrequency"] = 15;
+                    }
+
+                    return (int)SettingsContainers.LocalSettings.Values["UpdateFrequency"];
+                }
+
+                set { SettingsContainers.LocalSettings.Values["UpdateFrequency"] = value; }
+            }
+
+            /// <summary>
             /// Whether the wallpaper should be updated.
             /// </summary>
             public static bool UpdateWallpaper

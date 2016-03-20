@@ -16,11 +16,16 @@ namespace Floodlight.Client.Managers
         /// <summary>
         /// Register all background tasks for the app.
         /// </summary>
-        public static async Task RegisterAllTasks()
+        public static async Task RegisterAllTasks(bool unregisterFirst = false)
         {
             await BackgroundExecutionManager.RequestAccessAsync();
 
-            RegisterTask(ChangerTaskName, ChangerTaskEntry, 15);
+            if (unregisterFirst)
+            {
+                UnregisterTask(ChangerTaskName);
+            }
+
+            RegisterTask(ChangerTaskName, ChangerTaskEntry, (uint) SettingsManager.UserDefined.UpdateFrequency);
         }
 
         /// <summary>
