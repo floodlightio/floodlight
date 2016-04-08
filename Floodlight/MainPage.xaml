@@ -17,7 +17,7 @@
         <GridView Grid.Row="0" ItemsSource="{x:Bind ImagesAvailable}" Name="AvailableImagesGrid" SelectionMode="Single"
                   SizeChanged="AvailableImagesGrid_OnSizeChanged" Tapped="AvailableImagesGrid_OnSelectionChanged">
             <GridView.Header>
-                <TextBlock Grid.Row="0" Style="{StaticResource SubheaderTextBlockStyle}" Text="Available Images" Margin="10,0,0,0" />
+                <TextBlock Grid.Row="0" Style="{ThemeResource SubheaderTextBlockStyle}" Text="Available Images" Margin="10,0,0,0" />
             </GridView.Header>
             
             <GridView.Footer>
@@ -33,8 +33,8 @@
                             <RowDefinition Height="*"></RowDefinition>
                             <RowDefinition Height="*"></RowDefinition>
                         </Grid.RowDefinitions>
-                        
-                        <TextBlock Grid.Row="0" Name="CurrentSelectedTitle" Margin="10, 5, 0, 0" Style="{StaticResource SubheaderTextBlockStyle}" />
+
+                        <TextBlock Grid.Row="0" Name="CurrentSelectedTitle" Margin="10, 5, 0, 0" Style="{ThemeResource SubheaderTextBlockStyle}" />
                         <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
                             <AppBarButton Click="CurrentWallpaper_OnClick" Icon="OtherUser" Label="Set as wallpaper" 
                                           IsCompact="False" Width="200" Margin="10" />
