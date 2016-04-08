@@ -8,7 +8,7 @@
     xmlns:system="using:System"
     mc:Ignorable="d">
 
-    <Grid Name="RootGrid">
+    <Grid Name="RootGrid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="Auto"></RowDefinition>

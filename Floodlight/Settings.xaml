@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <ScrollViewer VerticalScrollMode="Enabled" HorizontalScrollMode="Disabled">
+    <ScrollViewer VerticalScrollMode="Enabled" HorizontalScrollMode="Disabled" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <StackPanel Orientation="Vertical" MaxWidth="600" HorizontalAlignment="Left">
             <TextBlock Style="{ThemeResource HeaderTextBlockStyle}" Text="Settings" Margin="15,0,0,0" />
 
